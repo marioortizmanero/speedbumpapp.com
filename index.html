@@ -10,11 +10,19 @@
   <link rel="manifest" href="/site.webmanifest">
 
   <style>
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&display=swap');
 
 :root {
-  --accent-yellow: #f6fa41;
-  --cream-bg: #FFF8E7;
+  --accent: #f6fa41;
+  --foreground: #000;
+  --background: #fcf9f0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #2e2d2a;
+    --foreground: #fff;
+  }
 }
 
 * {
@@ -25,10 +33,12 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: var(--background);
 }
 
 body {
   font-family: 'Londrina Solid', sans-serif;
+  letter-spacing: .08rem;
   line-height: 1.6;
 }
 
@@ -94,12 +104,13 @@ mark {
 
 .button-container {
   display: flex;
+  justify-content: center;
   gap: 1rem;
   margin: 2rem 0;
 }
 
 .button {
-  background-color: var(--accent-yellow);
+  background-color: var(--accent);
   color: black;
   padding: 1rem 2rem;
   border-radius: 8px;
@@ -127,7 +138,7 @@ mark {
   transform: translateX(-50%);
   width: 40px;
   height: 40px;
-  fill: var(--accent-yellow);
+  fill: var(--accent);
   animation: bounce 2s infinite;
   cursor: pointer;
 }
@@ -144,34 +155,41 @@ mark {
   }
 }
 
+/* TODO: background color, themes */
 .content {
   padding: 4rem 2rem;
-  text-align: center;
-  font-weight: 300;
-  background-color: white;
-}
+  max-width: 1200px;
+  margin: 0 auto;
 
-.content h2 {
-  margin-bottom: 1rem;
+  color: var(--foreground);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
 }
 
 .screenshots {
-  max-width: 1200px;
-  margin: 3rem auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 5rem;
-  padding: 0 1rem;
+  flex: 1 1 300px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 600px;
 }
 
 .screenshot {
   position: relative;
-  width: fit-content;
-  margin: 30px;
+  width: calc(50% - 1rem); /* Half the space minus the gap */
+  min-width: 280px;
+  max-width: 280px;
 }
 
-.screenshot .image img {
+/* TODO: remove?? */
+.screenshot .image {
   width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Super hardcoded, I sure hope the code police doesn't see this */
@@ -182,6 +200,40 @@ mark {
   width: 106.5%;
   height: 104%;
   pointer-events: none;
+}
+
+.description {
+  flex: 1 1 300px;
+  text-align: left;
+  font-weight: 300;
+}
+.description a {
+  color: var(--foreground);
+}
+.description dl,
+.description ol,
+.description p,
+.description figure,
+.description ul {
+  margin-bottom: 20px;
+}
+.description h2 {
+  margin-bottom: 1rem;
+}
+.description ol,
+.description ul {
+  padding-inline-start: 20px;
+}
+.description li {
+  margin-top: 5px;
+}
+.description li p {
+  margin-bottom: 0;
+}
+.description li > p,
+.description li > ul {
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 768px) {
@@ -199,6 +251,50 @@ mark {
 
   .button-container {
     flex-direction: column;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .screenshots {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .scroll-arrow {
+    width: 30px;
+    height: 30px;
+    bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .screenshots {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screenshot {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media (max-height: 600px) {
+  .scroll-arrow {
+    left: 95%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-arrow {
+    transform: none !important;
   }
 }
   </style>
@@ -230,10 +326,13 @@ dashcam.webm
       <source src="dashcam.webm" type="video/webm">
       <source src="dashcam.mp4" type="video/mp4">
     </video>
+
     <div class="hero-overlay"></div>
+
     <h1>Do you know how a speed bump feels?</h1>
     <h2>Annoying, but it sure slows you down.</h2>
-    <h3>Meet the speed bump for <mark>your social media habits</mark>.</h3>
+    <h3>Meet the speed bump for <mark>your&nbsp;social&nbsp;media&nbsp;habits</mark>.</h3>
+
     <div class="button-container">
       <a href="#" class="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 59.49v393a4.33 4.33 0 0 0 7.37 3.07L260 256 55.37 56.42A4.33 4.33 0 0 0 48 59.49M345.8 174 89.22 32.64l-.16-.09c-4.42-2.4-8.62 3.58-5 7.06l201.13 192.32ZM84.08 472.39c-3.64 3.48.56 9.46 5 7.06l.16-.09L345.8 338l-60.61-57.95ZM449.38 231l-71.65-39.46L310.36 256l67.37 64.43L449.38 281c19.49-10.77 19.49-39.23 0-50"/></svg> Get it on Play Store</a>
       <a href="#" class="button"><svg style="margin-bottom: 3px" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 22.773 22.773"><path d="M15.769 0h.162c.13 1.606-.483 2.806-1.228 3.675-.731.863-1.732 1.7-3.351 1.573-.108-1.583.506-2.694 1.25-3.561C13.292.879 14.557.16 15.769 0M20.67 16.716v.045c-.455 1.378-1.104 2.559-1.896 3.655-.723.995-1.609 2.334-3.191 2.334-1.367 0-2.275-.879-3.676-.903-1.482-.024-2.297.735-3.652.926h-.462c-.995-.144-1.798-.932-2.383-1.642-1.725-2.098-3.058-4.808-3.306-8.276v-1.019c.105-2.482 1.311-4.5 2.914-5.478.846-.52 2.009-.963 3.304-.765.555.086 1.122.276 1.619.464.471.181 1.06.502 1.618.485.378-.011.754-.208 1.135-.347 1.116-.403 2.21-.865 3.652-.648 1.733.262 2.963 1.032 3.723 2.22-1.466.933-2.625 2.339-2.427 4.74.176 2.181 1.444 3.457 3.028 4.209"/></svg> Join iOS Waitlist</a>
@@ -243,7 +342,25 @@ dashcam.webm
   </section>
 
   <section id="content" class="content">
-        <!--
+    <div class="description">
+      <h2>5 different annoyances, more coming soon.</h2>
+
+
+      <p>Integer ac quam ut nulla egestas luctus. Nam laoreet eget risus finibus tristique. Phasellus facilisis molestie odio quis fringilla. Proin quis mattis tortor. Proin pretium ac lorem vel volutpat. Vivamus lacinia nisl risus, a suscipit arcu vulputate in. Nullam vel ullamcorper leo. Quisque pulvinar mi enim, eget aliquet dui tempus imperdiet. Nullam felis sem, lobortis vel pretium ut, aliquam id nulla.</p>
+
+      <p>Aenean finibus condimentum est et rutrum. Duis non consequat felis, in faucibus enim. Nunc pulvinar eu enim vitae molestie. Phasellus lacinia luctus ex, mattis auctor arcu tincidunt ut. Quisque eget ligula eros. Praesent tempus tincidunt nisl, sed tristique quam venenatis nec. Morbi arcu quam, laoreet ac pulvinar at, porttitor ac dui. Vivamus faucibus bibendum dolor ut dapibus. Sed finibus tincidunt sollicitudin. Curabitur maximus semper justo nec egestas. Pellentesque cursus felis non enim congue accumsan. Pellentesque ante purus, dignissim quis dignissim placerat, rutrum vel dui. Suspendisse potenti. Aenean vel metus ut ex condimentum dictum eget a ligula. Morbi eleifend ac mauris nec blandit. Sed ut enim vel lorem porttitor gravida vitae ut diam.</p>
+
+      <p>Vestibulum rhoncus bibendum turpis non ultricies. Nullam at orci nisl. Cras sit amet sem sed lectus bibendum tempus. Ut velit magna, accumsan quis lobortis ut, ultrices sit amet ante. Cras et maximus lectus, at pharetra eros. Ut vitae ante purus. Fusce condimentum sem tellus, eu lacinia lacus cursus sed. Cras sit amet nunc ipsum. Duis aliquet nisl a justo maximus, non condimentum ipsum hendrerit. Nulla eu nunc vehicula, ultricies sem ut, sodales quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla efficitur ligula nec orci congue imperdiet. Sed porttitor eu odio ut dapibus. Cras egestas enim sed orci rhoncus cursus. Donec euismod varius metus at ultricies. </p>
+
+      <div class="button-container">
+        <a href="#" class="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 59.49v393a4.33 4.33 0 0 0 7.37 3.07L260 256 55.37 56.42A4.33 4.33 0 0 0 48 59.49M345.8 174 89.22 32.64l-.16-.09c-4.42-2.4-8.62 3.58-5 7.06l201.13 192.32ZM84.08 472.39c-3.64 3.48.56 9.46 5 7.06l.16-.09L345.8 338l-60.61-57.95ZM449.38 231l-71.65-39.46L310.36 256l67.37 64.43L449.38 281c19.49-10.77 19.49-39.23 0-50"/></svg> Get it on Play Store</a>
+        <a href="#" class="button"><svg style="margin-bottom: 3px" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 22.773 22.773"><path d="M15.769 0h.162c.13 1.606-.483 2.806-1.228 3.675-.731.863-1.732 1.7-3.351 1.573-.108-1.583.506-2.694 1.25-3.561C13.292.879 14.557.16 15.769 0M20.67 16.716v.045c-.455 1.378-1.104 2.559-1.896 3.655-.723.995-1.609 2.334-3.191 2.334-1.367 0-2.275-.879-3.676-.903-1.482-.024-2.297.735-3.652.926h-.462c-.995-.144-1.798-.932-2.383-1.642-1.725-2.098-3.058-4.808-3.306-8.276v-1.019c.105-2.482 1.311-4.5 2.914-5.478.846-.52 2.009-.963 3.304-.765.555.086 1.122.276 1.619.464.471.181 1.06.502 1.618.485.378-.011.754-.208 1.135-.347 1.116-.403 2.21-.865 3.652-.648 1.733.262 2.963 1.032 3.723 2.22-1.466.933-2.625 2.339-2.427 4.74.176 2.181 1.444 3.457 3.028 4.209"/></svg> Join iOS Waitlist</a>
+      </div>
+
+      <p>Created by <a href="https://nullderef.com" target="_blank">Mario Ortiz Manero</a>.</p>
+    </div>
+
+    <!--
 Images optimized with the following commands:
 
 export NAME=screenshot-config
@@ -260,14 +377,14 @@ convert $NAME.png -resize 'x800>' -strip -quality 85 $NEW_NAME.png
 
 Phone frame taken from:
 https://pixabay.com/illustrations/phone-frame-smartphone-android-6064855/
-        -->
+    -->
 
     <div class="screenshots">
-      <div class="screenshot" style="float: left;">
+      <div class="screenshot">
         <picture>
           <source srcset="screenshot-popups.avif" type="image/avif">
           <source srcset="screenshot-popups.webp" type="image/webp">
-          <img loading="lazy" src="screenshot-popups.jpg" alt="A screenshot of a social media app covered by annoying pop-ups. One at the top asks the user to subscribe to a recipes newsletter, another in the center asks the user to disable their ad blocker, and the one at the bottom requires accepting all the cookies one by one before continuing.">
+          <img loading="lazy" class="image" src="screenshot-popups.jpg" alt="A screenshot of a social media app covered by annoying pop-ups. One at the top asks the user to subscribe to a recipes newsletter, another in the center asks the user to disable their ad blocker, and the one at the bottom requires accepting all the cookies one by one before continuing.">
         </picture>
         <picture>
           <source srcset="phone-frame.avif" type="image/avif">
@@ -276,34 +393,17 @@ https://pixabay.com/illustrations/phone-frame-smartphone-android-6064855/
         </picture>
       </div>
 
-      <div class="screenshot" style="float: right;">
+      <div class="screenshot">
         <picture>
           <source srcset="screenshot-config.avif" type="image/avif">
           <source srcset="screenshot-config.webp" type="image/webp">
-          <img loading="lazy" src="screenshot-config.jpg" alt="A screenshot of the app in its homepage. It features an on/off toggle, and a way to configure what apps it's enabled on.">
+          <img loading="lazy" class="image" src="screenshot-config.jpg" alt="A screenshot of the app in its homepage. It features an on/off toggle, and a way to configure what apps it's enabled on.">
         </picture>
         <picture>
           <source srcset="phone-frame.avif" type="image/avif">
           <source srcset="phone-frame.webp" type="image/webp">
           <img loading="lazy" class="frame" src="phone-frame.png" alt="The frame of the phone">
         </picture>
-      </div>
-    </div>
-
-    <div class="description">
-      <h2>5 different annoyances, more coming soon.</h2>
-
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non enim id nunc aliquet imperdiet. Maecenas auctor velit ut elit hendrerit dapibus. Sed nec lectus ex. Praesent gravida, tortor eu convallis tempor, elit neque facilisis mi, nec efficitur justo erat in ipsum. Vestibulum pretium ante id elit fermentum, et scelerisque lorem interdum. Vestibulum ac orci vitae dui viverra suscipit at ut dui. Praesent suscipit metus tellus, nec accumsan quam accumsan a. Nunc metus dui, elementum eget velit sed, porta tristique libero. Donec at leo odio. Fusce consectetur at dui non cursus. Mauris vitae eros elementum, ullamcorper lorem a, blandit lorem. In vulputate, elit sit amet commodo venenatis, sem lacus aliquam elit, quis blandit purus lacus sed neque. Ut a ligula pharetra, commodo est quis, tristique dui.</p>
-
-      <p>Integer ac quam ut nulla egestas luctus. Nam laoreet eget risus finibus tristique. Phasellus facilisis molestie odio quis fringilla. Proin quis mattis tortor. Proin pretium ac lorem vel volutpat. Vivamus lacinia nisl risus, a suscipit arcu vulputate in. Nullam vel ullamcorper leo. Quisque pulvinar mi enim, eget aliquet dui tempus imperdiet. Nullam felis sem, lobortis vel pretium ut, aliquam id nulla.</p>
-
-      <p>Aenean finibus condimentum est et rutrum. Duis non consequat felis, in faucibus enim. Nunc pulvinar eu enim vitae molestie. Phasellus lacinia luctus ex, mattis auctor arcu tincidunt ut. Quisque eget ligula eros. Praesent tempus tincidunt nisl, sed tristique quam venenatis nec. Morbi arcu quam, laoreet ac pulvinar at, porttitor ac dui. Vivamus faucibus bibendum dolor ut dapibus. Sed finibus tincidunt sollicitudin. Curabitur maximus semper justo nec egestas. Pellentesque cursus felis non enim congue accumsan. Pellentesque ante purus, dignissim quis dignissim placerat, rutrum vel dui. Suspendisse potenti. Aenean vel metus ut ex condimentum dictum eget a ligula. Morbi eleifend ac mauris nec blandit. Sed ut enim vel lorem porttitor gravida vitae ut diam.</p>
-
-      <p>Vestibulum rhoncus bibendum turpis non ultricies. Nullam at orci nisl. Cras sit amet sem sed lectus bibendum tempus. Ut velit magna, accumsan quis lobortis ut, ultrices sit amet ante. Cras et maximus lectus, at pharetra eros. Ut vitae ante purus. Fusce condimentum sem tellus, eu lacinia lacus cursus sed. Cras sit amet nunc ipsum. Duis aliquet nisl a justo maximus, non condimentum ipsum hendrerit. Nulla eu nunc vehicula, ultricies sem ut, sodales quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla efficitur ligula nec orci congue imperdiet. Sed porttitor eu odio ut dapibus. Cras egestas enim sed orci rhoncus cursus. Donec euismod varius metus at ultricies. </p>
-
-      <div class="button-container">
-          <a href="#" class="button">Get it on Play Store</a>
-          <a href="#" class="button">Join iOS Waitlist</a>
       </div>
     </div>
   </section>
