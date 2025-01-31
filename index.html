@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Speed Bump</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent-yellow: #f6fa41;
+            --cream-bg: #FFF8E7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            overflow: hidden;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            padding: 0 1rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero h3 {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .button {
+            background-color: var(--accent-yellow);
+            color: black;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .content {
+            padding: 4rem 2rem;
+            text-align: center;
+            background-color: white;
+        }
+
+        .screenshots {
+            max-width: 1200px;
+            margin: 3rem auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 0 1rem;
+        }
+
+        .screenshots img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+
+            .hero h3 {
+                font-size: 1.25rem;
+            }
+
+            .button-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="/api/placeholder/1920/1080" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <h1>Do you know how a speed bump feels?</h1>
+        <h2>Annoying, but it works.</h2>
+        <h3>Meet the speed bump for your social media habits.</h3>
+        <div class="button-container">
+            <a href="#" class="button">Get it on Play Store</a>
+            <a href="#" class="button">Join iOS Waitlist</a>
+        </div>
+    </section>
+
+    <section class="content">
+        <h2>5 different annoyances, more coming soon.</h2>
+        <div class="screenshots">
+            <img src="/api/placeholder/400/800" alt="Screenshot 1">
+            <img src="/api/placeholder/400/800" alt="Screenshot 2">
+            <img src="/api/placeholder/400/800" alt="Screenshot 3">
+        </div>
+        <div class="button-container">
+            <a href="#" class="button">Get it on Play Store</a>
+            <a href="#" class="button">Join iOS Waitlist</a>
+        </div>
+    </section>
+</body>
+</html>
