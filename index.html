@@ -120,7 +120,7 @@ body {
   margin-bottom: 2rem;
 }
 .hero h3 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   padding: 0 1rem;
   margin-bottom: 3rem;
 }
@@ -327,23 +327,32 @@ mark {
     <!--
 Optimized original video with the following commands:
 
-ffmpeg -i input.mp4 \
--t 10 \
--vf "scale=1280:-1,fps=15" \
--c:v libx264 \
--crf 28 \
--preset veryslow \
--movflags +faststart \
--an \
-dashcam.mp4
+ffmpeg -i 20250204_142815.mp4 -vf vidstabdetect -f null -
+ffmpeg \
+  -i 20250204_142815.mp4 \
+  -vf "vidstabtransform" \
+  -an \
+  /tmp/dashcam-stabilized.mp4
 
-ffmpeg -i input.mp4 \
--t 10 \
--vf "scale=1280:-1,fps=15" \
--c:v libvpx-vp9 \
--b:v 600K \
--an \
-dashcam.webm
+ffmpeg \
+  -sseof -14 \
+  -i /tmp/dashcam-stabilized.mp4 \
+  -vf "crop=1440:1080:467:0,scale=1000:-1,fps=15,boxblur=8" \
+  -vcodec libx265 \
+  -crf 28 \
+  -preset veryslow \
+  -movflags +faststart \
+  dashcam.mp4
+
+ffmpeg \
+  -sseof -14 \
+  -i /tmp/dashcam-stabilized.mp4 \
+  -vf "crop=1440:1080:467:0,scale=1000:-1,fps=15,boxblur=8" \
+  -c:v libvpx-vp9 \
+  -b:v 600K \
+  dashcam.webm
+
+rm transforms.trf 20250204_142815.mp4
     -->
     <video class="hero-video" autoplay loop muted playsinline>
       <source src="dashcam.webm" type="video/webm">
