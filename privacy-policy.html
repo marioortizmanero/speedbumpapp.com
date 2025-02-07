@@ -120,6 +120,20 @@ header .logo {
   margin: 15px auto;
   height: 3rem;
 }
+header .logo-light {
+  display: block;
+}
+header .logo-dark {
+  display: none;
+}
+@media (prefers-color-scheme: dark) {
+  header .logo-light {
+    display: none;
+  }
+  header .logo-dark {
+    display: block;
+  }
+}
 
 body {
   max-width: 768px;
@@ -250,7 +264,8 @@ body hr {
 <body>
   <header>
     <a href="/">
-      <img class="logo" src="/logo.svg" alt="SpeedBump">
+      <img class="logo logo-light" src="/logo.svg" alt="SpeedBump">
+      <img class="logo logo-dark" src="/logo-dark.svg" alt="SpeedBump">
     </a>
   </header>
 
