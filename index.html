@@ -47,7 +47,7 @@
   <!-- TODO: translations -->
 
   <style>
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
   --accent: #f6fa41;
@@ -76,9 +76,10 @@ html {
 }
 
 body {
-  font-family: 'Londrina Solid', sans-serif;
-  letter-spacing: .08rem;
+  color: var(--foreground);
   line-height: 1.6;
+  font-family: 'Rubik', sans-serif;
+  font-optical-sizing: auto;
 }
 body a {
   color: var(--foreground);
@@ -88,6 +89,60 @@ body hr {
   margin-bottom: var(--gap);
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.button {
+  background-color: var(--accent);
+  color: black;
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: 2px solid black;
+  font-size: 1.3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.footer {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.social-icons {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  gap: calc(var(--gap) / 2);
+}
+.social-icons a svg {
+  height: 26px;
+  width: 26px;
+  color: var(--foreground);
+}
+
+
+/*
+ * START - Specific to home page
+ */
+h1,
+h2,
+h3 {
+  font-family: 'Londrina Solid', sans-serif;
+  letter-spacing: .08rem;
+}
 .hero {
   position: relative;
   height: 100vh; /* Fallback */
@@ -142,33 +197,6 @@ mark {
   /* Generated with: https://unused-css.com/tools/clip-path-generator */
   clip-path: polygon(2.25% 14.31%, 19.62% 2.8%, 47.74% 0%, 73.25% 4.5%, 98.5% 16.31%, 98.5% 94.8%, 78.34% 91.27%, 50.86% 88.77%, 25.62% 91.98%, 0% 98.3%, 0.61% 81.95%);
   transform: rotate(-1deg);
-}
-
-.button-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin: 2rem 0;
-}
-.button {
-  background-color: var(--accent);
-  color: black;
-  padding: 1rem 2rem;
-  border-radius: var(--radius);
-  text-decoration: none;
-  font-weight: 300;
-  text-transform: uppercase;
-  border: 2px solid black;
-  font-size: 1.3rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-.button svg {
-  width: 1.5rem;
-  height: 1.5rem;
 }
 
 .scroll-arrow {
@@ -240,7 +268,6 @@ mark {
 .description {
   flex: 1 1 300px;
   text-align: left;
-  font-weight: 300;
 }
 .description dl,
 .description ol,
@@ -269,23 +296,7 @@ mark {
 }
 
 .footer {
-  font-family: 'Merriweather', 'Lora', 'PT Serif', 'Noto Serif', serif;
-  letter-spacing: initial;
-  font-size: 0.8rem;
-  text-align: center;
   padding: 14px;
-}
-.social-icons {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-  justify-content: center;
-  gap: calc(var(--gap) / 2);
-}
-.social-icons a svg {
-  height: 26px;
-  width: 26px;
-  color: black;
 }
 
 @media (max-width: 768px) {
@@ -347,6 +358,9 @@ mark {
     transform: none !important;
   }
 }
+/*
+ * END - Specific to home page
+ */
   </style>
 </head>
 <body>

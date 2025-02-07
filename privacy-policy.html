@@ -85,6 +85,20 @@ html {
   background-color: var(--background);
 }
 
+body {
+  color: var(--foreground);
+  line-height: 1.6;
+  font-family: 'Rubik', sans-serif;
+  font-optical-sizing: auto;
+}
+body a {
+  color: var(--foreground);
+}
+body hr {
+  margin-top: var(--gap);
+  margin-bottom: var(--gap);
+}
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -112,6 +126,26 @@ html {
   height: 1.5rem;
 }
 
+.footer {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.social-icons {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  gap: calc(var(--gap) / 2);
+}
+.social-icons a svg {
+  height: 26px;
+  width: 26px;
+  color: var(--foreground);
+}
+
+/*
+ * START - Specific to posts
+ */
 header a {
   display: block;
   text-align: center;
@@ -139,12 +173,6 @@ body {
   max-width: 768px;
   padding: 14px;
   margin: 0 auto;
-
-  color: var(--foreground);
-  line-height: 1.6;
-
-  font-family: 'Rubik', sans-serif;
-  font-optical-sizing: auto;
 }
 
 .post-single {
@@ -191,9 +219,6 @@ body {
   border-radius: var(--radius);
 }
 
-body a {
-  color: var(--foreground);
-}
 body code {
   font-size: 1.1rem;
 }
@@ -229,33 +254,14 @@ body li > ul {
   margin-bottom: 0px;
 }
 
-body hr {
-  margin-top: var(--gap);
-  margin-bottom: var(--gap);
-}
-
-.footer {
-  font-size: 0.8rem;
-  text-align: center;
-}
-.social-icons {
-  display: flex;
-  margin-bottom: 5px;
-  align-items: center;
-  justify-content: center;
-  gap: calc(var(--gap) / 2);
-}
-.social-icons a svg {
-  height: 26px;
-  width: 26px;
-  color: var(--foreground);
-}
-
 @media (max-width: 768px) {
   .button-container {
     flex-direction: column;
   }
 }
+/*
+ * END - Specific to posts
+ */
   </style>
 </head>
 
@@ -356,8 +362,6 @@ body hr {
       <p>For GDPR compliance purposes, you can contact our Data Protection Officer at: <a href="mailto:speedbumpapp@gmail.com">speedbumpapp@gmail.com</a></p>
     </div>
   </article>
-
-  TODO: add this to Play Store metadata
 
   <footer class="footer">
     <div class="social-icons">
