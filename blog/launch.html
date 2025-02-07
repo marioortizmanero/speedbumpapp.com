@@ -57,7 +57,7 @@
   <!-- TODO: translations -->
 
   <style>
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
   --accent: #f6fa41;
@@ -142,8 +142,9 @@ body {
 
   color: var(--foreground);
   line-height: 1.6;
-  text-align: justify;
-  word-break: break-word;
+
+  font-family: 'Rubik', sans-serif;
+  font-optical-sizing: auto;
 }
 
 .post-single {
@@ -182,9 +183,6 @@ body {
   font-family: 'Londrina Solid', sans-serif;
   letter-spacing: .08rem;
 }
-.post-single p {
-  font-family: 'Merriweather', 'Lora', 'PT Serif', 'Noto Serif', serif;
-}
 .post-single img {
   width: 100%;
   display: block;
@@ -210,7 +208,7 @@ body blockquote {
 body blockquote {
   margin: 20px 0;
   padding: 0 14px;
-  border-inline-start: 3px solid black;
+  border-inline-start: 3px solid var(--foreground);
 }
 body h2 {
   margin-bottom: 1rem;
@@ -250,7 +248,7 @@ body hr {
 .social-icons a svg {
   height: 26px;
   width: 26px;
-  color: black;
+  color: var(--foreground);
 }
 
 @media (max-width: 768px) {
