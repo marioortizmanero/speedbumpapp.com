@@ -254,9 +254,9 @@ mark {
 /* Super hardcoded, I sure hope the code police doesn't see this */
 .screenshot .frame {
   position: absolute;
-  top: -1.5%;
+  top: -2%;
   left: -3%;
-  width: 106.5%;
+  width: 110.0%;
   height: 104%;
   pointer-events: none;
 }
@@ -280,7 +280,7 @@ mark {
   padding-inline-start: 20px;
 }
 .description li {
-  margin-top: 5px;
+  margin-top: 0;
 }
 .description li p {
   margin-bottom: 0;
@@ -375,9 +375,12 @@ ffmpeg \
   -sseof -14 \
   -i /tmp/dashcam-stabilized.mp4 \
   -vf "crop=1440:1080:467:0,scale=1000:-1,fps=15,boxblur=8" \
-  -vcodec libx265 \
-  -crf 28 \
+  -c:v libx264 \
+  -crf 34 \
   -preset veryslow \
+  -profile:v high \
+  -level:v 4.1 \
+  -pix_fmt yuv420p \
   -movflags +faststart \
   dashcam.mp4
 
@@ -386,7 +389,15 @@ ffmpeg \
   -i /tmp/dashcam-stabilized.mp4 \
   -vf "crop=1440:1080:467:0,scale=1000:-1,fps=15,boxblur=8" \
   -c:v libvpx-vp9 \
-  -b:v 600K \
+  -b:v 0 \
+  -crf 50 \
+  -deadline best \
+  -cpu-used 0 \
+  -row-mt 1 \
+  -pix_fmt yuv420p \
+  -quality good \
+  -tile-columns 2 \
+  -auto-alt-ref 1 \
   dashcam.webm
 
 rm transforms.trf 20250204_142815.mp4
@@ -412,9 +423,18 @@ rm transforms.trf 20250204_142815.mp4
 
   <section id="content" class="content">
     <div class="description">
-      <h2>5 different annoyances, more coming soon.</h2>
+      <h2>7 different annoyances, more coming soon.</h2>
 
-      <p>Every minute in an addictive app, something will appear in the middle of your screen. It could be as dumb as a pop-up, rain, someone hanging clothes, or even the screen time police!</p>
+      <p>First tell SpeedBump how long you'll spend on addictive apps. After your time's up, get ready to be annoyed out of it:</p>
+
+      <ul>
+        <li>A cookie banner that makes you accept all the cookies one by one</li>
+        <li>Cats on your screen</li>
+        <li>The screen time police arresting you</li>
+        <li>Rain</li>
+        <li>Someone hanging clothes in your screen</li>
+        <li>And more!</li>
+      </ul>
 
       <p>Apps like social media are designed to get you hooked. SpeedBump gets in the way, helping you break free. Because gentle reminders don't work anymore. Neither do screen time limits or motivation quotes. Sometimes, you need something more… direct.</p>
 
@@ -433,13 +453,38 @@ rm transforms.trf 20250204_142815.mp4
     </div>
 
     <!--
-Images optimized with the following commands:
+Video optimized with the following commands:
 
-export NAME=screenshot-config.jpg
-export NEW_NAME=screenshot-config
-convert $NAME -resize 'x300>' -strip -quality 85 $NEW_NAME.webp
-convert $NAME -resize 'x300>' -strip -quality 85 $NEW_NAME.avif
-convert $NAME -resize 'x300>' -strip -quality 85 $NEW_NAME.jpg
+ffmpeg \
+  -i output.mp4 \
+  -t 16 \
+  -an \
+  -vf "fps=10,scale=-1:640" \
+  -c:v libx264 \
+  -crf 32 \
+  -preset veryslow \
+  -profile:v high \
+  -level:v 4.1 \
+  -pix_fmt yuv420p \
+  -movflags +faststart \
+  demo.mp4
+
+ffmpeg \
+  -i output.mp4 \
+  -t 16 \
+  -an \
+  -vf "fps=10,scale=-1:640" \
+  -c:v libvpx-vp9 \
+  -b:v 0 \
+  -crf 50 \
+  -deadline best \
+  -cpu-used 0 \
+  -row-mt 1 \
+  -pix_fmt yuv420p \
+  -quality good \
+  -tile-columns 2 \
+  -auto-alt-ref 1 \
+  demo.webm
 
 The frame needs to use png instead for transparency
 
@@ -453,11 +498,10 @@ https://pixabay.com/illustrations/phone-frame-smartphone-android-6064855/
 
     <div class="screenshots">
       <div class="screenshot">
-        <picture>
-          <source srcset="screenshot-popups.avif" type="image/avif">
-          <source srcset="screenshot-popups.webp" type="image/webp">
-          <img loading="lazy" class="image" src="screenshot-popups.jpg" alt="A screenshot of a social media app covered by annoying pop-ups. One at the top asks the user to subscribe to a recipes newsletter, another in the center asks the user to disable their ad blocker, and the one at the bottom requires accepting all the cookies one by one before continuing.">
-        </picture>
+        <video autoplay loop muted playsinline>
+          <source src="demo.webm" type="video/webm">
+          <source src="demo.mp4" type="video/mp4">
+        </video>
         <picture>
           <source srcset="phone-frame.avif" type="image/avif">
           <source srcset="phone-frame.webp" type="image/webp">
