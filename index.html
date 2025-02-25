@@ -205,6 +205,47 @@ mark {
   transform: rotate(-1deg);
 }
 
+.hero h1 {
+  animation: text-shake-rotate 0.5s ease-in forwards;
+  animation-delay: 4.4s;
+  transform-origin: center;
+}
+
+@keyframes text-shake-rotate {
+  0% { transform: rotate(0deg) translateX(0); }
+  20% { transform: rotate(-0.5deg) translateX(-5px); }
+  40% { transform: rotate(0.3deg) translateX(5px); }
+  60% { transform: rotate(-0.8deg) translateX(-3px); }
+  80% { transform: rotate(0.4deg) translateX(3px); }
+  100% { transform: rotate(-1deg) translateX(0); }
+}
+
+.hero-fall-animation {
+  display: inline-block;
+  position: relative;
+  animation: rotate-and-fall 2s ease-in;
+  animation-delay: 4.4s;
+  animation-fill-mode: forwards;
+  transform-origin: center 80%;
+}
+
+@keyframes rotate-and-fall {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(200deg);
+  }
+  20% {
+    transform: rotate(160deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(800px);
+    opacity: 0;
+  }
+}
+
 .scroll-arrow {
   position: absolute;
   bottom: 2rem;
@@ -214,6 +255,7 @@ mark {
   height: 40px;
   fill: var(--accent);
   animation: bounce 2s infinite;
+  animation-delay: 4.4s;
   cursor: pointer;
   padding: 30px 10px 10px 10px;
   box-sizing: content-box;
@@ -380,7 +422,7 @@ rm transforms.trf 20250204_142815.mp4
 
     <div class="hero-overlay"></div>
 
-    <h1>Do you know how a speed bump feels?</h1>
+    <h1>Do you know how a speed bump feels<span class="hero-fall-animation">?</span></h1>
     <h2>Annoying, but it sure slows you down.</h2>
     <h3>Meet the speed bump for <mark>addictive&nbsp;apps</mark>.</h3>
 
