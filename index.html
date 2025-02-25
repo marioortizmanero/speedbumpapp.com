@@ -690,18 +690,26 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
   width: 300px;
   aspect-ratio: 1/1;
   flex-shrink: 0;
-  border-radius: var(--radius);
   overflow: hidden;
   position: relative;
   display: flex;
   flex-direction: column;
 }
 
+.annoyance picture {
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+}
+
 .annoyance img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  background-color: var(--background-alt);
+  flex-shrink: 1;
   flex-grow: 1;
 }
 
@@ -709,7 +717,6 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
   padding: 0.5rem;
   margin: 0;
   text-align: center;
-  background-color: var(--background-alt);
 }
 
 @keyframes scroll {
@@ -757,6 +764,25 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
 
     <hr>
 
+<!--
+Optimized with:
+
+export NAME=police
+export NEW_NAME=annoyance_police
+convert $NAME.gif -coalesce -resize '300x300>' -layers optimize -strip $NEW_NAME.gif
+convert $NAME.gif -coalesce -resize '300x300>' -set loop 0 -quality 75 $NEW_NAME.webp
+
+export NAME=dancing_cat
+export NEW_NAME=annoyance_dancing_cat
+convert $NAME.webp -coalesce -resize '300x300>' -layers optimize -strip $NEW_NAME.gif
+convert $NAME.webp -coalesce -resize '300x300>' -set loop 0 -quality 75 $NEW_NAME.webp
+
+export NAME=cookies
+export NEW_NAME=annoyance_cookies
+convert $NAME.png -resize '300x300>' -strip -quality 90 -define png:compression-level=9 $NEW_NAME.png
+convert $NAME.png -resize '300x300>' -strip -quality 90 $NEW_NAME.avif
+convert $NAME.png -resize '300x300>' -strip -quality 90 $NEW_NAME.webp
+-->
     <div class="section-carousel">
       <h2>We're the best at getting you off the phone</h2>
       <p>7 annoyances so far - more coming soon!</p>
@@ -766,12 +792,19 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
           <div class="carousel-content">
             <div class="carousel-group">
               <div class="card annoyance">
-                <img src="/annoyances/police.gif" alt="Screen Time Police annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_police.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_police.gif" alt="The Screen Time Police annoyance effect">
+                </picture>
                 <h3>The Screen Time Police</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/cookies.png" alt="Cookie banner annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_cookies.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_cookies.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_cookies.png" alt="The Cookie Banner annoyance">
+                </picture>
                 <h3>Cookie Banners</h3>
               </div>
 
@@ -783,32 +816,55 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/bot.png" alt="Customer support bot annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_bot.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_bot.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_bot.png" alt="The Customer Support annoyance">
+                </picture>
                 <h3>Customer Support</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/dancing_cat.webp" alt="Dancing cat annoyance effect">
-                <h3>Cats (lots of them)</h3>
+                <picture>
+                  <source srcset="/annoyances/annoyance_dancing_cat.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_dancing_cat.gif" alt="The Dancing Cat annoyance effect">
+                </picture>
+                <h3>Cats</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/privacy_policy.png" alt="Privacy policy annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_privacy_policy.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_privacy_policy.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_privacy_policy.png" alt="The Endless Privacy Policy annoyance">
+                </picture>
                 <h3>Endless Privacy Policy</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/nyan.webp" alt="Nyan cat annoyance effect">
-                <h3>Nyan cat</h3>
+                <picture>
+                  <source srcset="/annoyances/annoyance_nyan.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_nyan.gif" alt="The Nyan Cat annoyance effect">
+                </picture>
+                <h3>More cats</h3>
               </div>
 
               <div class="card annoyance">
+                <picture>
+                  <source srcset="/annoyances/annoyance_adblocker.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_adblocker.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_adblocker.png" alt="The Disable AdBlocker annoyance">
+                </picture>
                 <img src="/annoyances/adblocker.png" alt="Customer support bot annoyance effect">
                 <h3>Disable Your AdBlocker</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/newsletter.png" alt="Customer support bot annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_newsletter.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_newsletter.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_newsletter.png" alt="The Newsletter annoyance">
+                </picture>
                 <h3>Newsletter</h3>
               </div>
             </div>
@@ -816,12 +872,19 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
             <!-- We need to copy-paste the group for the carousel effect -->
             <div class="carousel-group">
               <div class="card annoyance">
-                <img src="/annoyances/police.gif" alt="Screen Time Police annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_police.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_police.gif" alt="The Screen Time Police annoyance effect">
+                </picture>
                 <h3>The Screen Time Police</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/cookies.png" alt="Cookie banner annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_cookies.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_cookies.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_cookies.png" alt="The Cookie Banner annoyance">
+                </picture>
                 <h3>Cookie Banners</h3>
               </div>
 
@@ -833,32 +896,54 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/bot.png" alt="Customer support bot annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_bot.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_bot.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_bot.png" alt="The Customer Support annoyance">
+                </picture>
                 <h3>Customer Support</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/dancing_cat.webp" alt="Dancing cat annoyance effect">
-                <h3>Cats (lots of them)</h3>
+                <picture>
+                  <source srcset="/annoyances/annoyance_dancing_cat.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_dancing_cat.gif" alt="The Dancing Cat annoyance effect">
+                </picture>
+                <h3>Cats</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/privacy_policy.png" alt="Privacy policy annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_privacy_policy.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_privacy_policy.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_privacy_policy.png" alt="The Endless Privacy Policy annoyance">
+                </picture>
                 <h3>Endless Privacy Policy</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/nyan.webp" alt="Nyan cat annoyance effect">
-                <h3>Nyan cat</h3>
+                <picture>
+                  <source srcset="/annoyances/annoyance_nyan.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_nyan.gif" alt="The Nyan Cat annoyance effect">
+                </picture>
+                <h3>More cats</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/adblocker.png" alt="Customer support bot annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_adblocker.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_adblocker.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_adblocker.png" alt="The Disable AdBlocker annoyance">
+                </picture>
                 <h3>Disable Your AdBlocker</h3>
               </div>
 
               <div class="card annoyance">
-                <img src="/annoyances/newsletter.png" alt="Customer support bot annoyance effect">
+                <picture>
+                  <source srcset="/annoyances/annoyance_newsletter.avif" type="image/avif">
+                  <source srcset="/annoyances/annoyance_newsletter.webp" type="image/webp">
+                  <img loading="lazy" src="/annoyances/annoyance_newsletter.png" alt="The Newsletter annoyance">
+                </picture>
                 <h3>Newsletter</h3>
               </div>
             </div>
