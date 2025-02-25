@@ -289,6 +289,9 @@ mark {
 .content h2 {
   margin-bottom: 1rem;
 }
+.content h3 {
+  margin-bottom: 0.6rem;
+}
 .content ol,
 .content ul {
   padding-inline-start: 20px;
@@ -616,7 +619,7 @@ rm transforms.trf 20250204_142815.mp4
 
         <p>Because gentle reminders don't work anymore. Neither do fixed screen time limits or motivation quotes. Sometimes, you need something more… direct.</p>
 
-        <p>Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)</p>
+        <p><i>Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)</i></p>
 
         <div class="button-container">
           <a href="https://play.google.com/store/apps/details?id=com.capyapps.speedbump&utm_source=speedbumpapp.com" class="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 59.49v393a4.33 4.33 0 0 0 7.37 3.07L260 256 55.37 56.42A4.33 4.33 0 0 0 48 59.49M345.8 174 89.22 32.64l-.16-.09c-4.42-2.4-8.62 3.58-5 7.06l201.13 192.32ZM84.08 472.39c-3.64 3.48.56 9.46 5 7.06l.16-.09L345.8 338l-60.61-57.95ZM449.38 231l-71.65-39.46L310.36 256l67.37 64.43L449.38 281c19.49-10.77 19.49-39.23 0-50"/></svg> Play Store</a>
@@ -648,9 +651,6 @@ rm transforms.trf 20250204_142815.mp4
   margin-bottom: 0;
 }
 
-.section-features .feature-header {
-  margin-bottom: 0.5rem;
-}
 .section-features .feature-header img {
   width: 60px;
   height: 60px;
@@ -728,11 +728,16 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
     </div>
 
 <style>
-.section-carousel {
+.section-carousel .carousel-description {
+  margin: 0 auto;
   text-align: center;
+  max-width: 70%;
 }
-.section-carousel h2 {
-  margin-bottom: 0;
+
+@media (max-width: 768px) {
+  .section-carousel .carousel-description {
+    max-width: 100%;
+  }
 }
 
 .carousel-wrapper {
@@ -862,8 +867,10 @@ convert $NAME.png -resize '300x300>' -strip -quality 90 $NEW_NAME.avif
 convert $NAME.png -resize '300x300>' -strip -quality 90 $NEW_NAME.webp
 -->
     <div class="section-carousel">
-      <h2>We're the best at getting you off the phone</h2>
-      <p>7 annoyances so far - more coming soon!</p>
+      <div class="carousel-description">
+        <h2>We're the best at getting you off the phone</h2>
+        <p>7 annoyances so far - more coming soon!<br>They are displayed on top of addictive apps after your time is up. Trust me, you won't want to stay for long.</p>
+      </div>
 
       <div class="carousel-wrapper">
         <div class="carousel-track">
