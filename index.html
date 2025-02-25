@@ -48,6 +48,7 @@
   --accent: #f6fa41;
   --foreground: #000;
   --background: #fcf9f0;
+  --background-alt: #F2F2F2;
   --radius: 8px;
   --gap: 2rem;
 }
@@ -55,6 +56,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #2e2d2a;
+    --background-alt: #504E48;
     --foreground: #fff;
   }
 }
@@ -223,72 +225,56 @@ mark {
   padding: 4rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
-
   color: var(--foreground);
-
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: flex-start;
 }
-
-.screenshots {
-  flex: 1 1 300px;
-  flex-wrap: wrap;
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  max-width: 600px;
-}
-.screenshot {
-  position: relative;
-  width: calc(50% - 1rem); /* Half the space minus the gap */
-  min-width: 280px;
-  max-width: 280px;
-}
-.screenshot .image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-/* Super hardcoded, I sure hope the code police doesn't see this */
-.screenshot .frame {
-  position: absolute;
-  top: -2%;
-  left: -3%;
-  width: 110.0%;
-  height: 104%;
-  pointer-events: none;
-}
-
-.description {
-  flex: 1 1 300px;
-  text-align: left;
-}
-.description dl,
-.description ol,
-.description p,
-.description figure,
-.description ul {
+.content dl,
+.content ol,
+.content p,
+.content figure,
+.content ul {
   margin-bottom: 20px;
 }
-.description h2 {
+.content h2 {
   margin-bottom: 1rem;
 }
-.description ol,
-.description ul {
+.content ol,
+.content ul {
   padding-inline-start: 20px;
 }
-.description li {
+.content li {
   margin-top: 0;
 }
-.description li p {
+.content li p {
   margin-bottom: 0;
 }
-.description li > p,
-.description li > ul {
+.content li > p,
+.content li > ul {
   margin-top: 5px;
   margin-bottom: 0px;
+}
+.content h2 {
+  font-size: 2rem;
+}
+.content h3 {
+  font-size: 1.4rem;
+}
+.content hr {
+  margin-top: calc(var(--gap) * 2);
+  margin-bottom: calc(var(--gap) * 2);
+  opacity: 0.1;
+}
+
+.card {
+  flex: 1;
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: 2px solid black;
+  background: var(--background-alt);
+}
+.card p:last-child,
+.card ul:last-child,
+.card ol:last-child {
+  margin-bottom: 0;
 }
 
 .footer {
@@ -299,29 +285,17 @@ mark {
   .hero h1 {
     font-size: 2.5rem;
   }
-  .hero h2 {
+  .hero h2,
+  .content h2 {
     font-size: 1.5rem;
   }
-  .hero h3 {
+  .hero h3,
+  .content h3 {
     font-size: 1.25rem;
   }
 
   .button-container {
     flex-direction: column;
-  }
-
-  .content {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .screenshots {
-    width: 100%;
-    max-width: 500px;
-  }
-
-  .description {
-    width: 100%;
   }
 
   .scroll-arrow {
@@ -422,108 +396,513 @@ rm transforms.trf 20250204_142815.mp4
   </section>
 
   <section id="content" class="content">
-    <div class="description">
-      <h2>7 different annoyances, more coming soon.</h2>
 
-      <p>First tell SpeedBump how long you'll spend on addictive apps. After your time's up, get ready to be annoyed out of it:</p>
+<style>
+.section-demo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
 
-      <ul>
-        <li>A cookie banner that makes you accept all the cookies one by one</li>
-        <li>Cats on your screen</li>
-        <li>The screen time police arresting you</li>
-        <li>Rain</li>
-        <li>Someone hanging clothes in your screen</li>
-        <li>And more! <i>(many are work in progress)</i></li>
-      </ul>
+.screenshot {
+  position: relative;
+  width: calc(50% - 1rem); /* Half the space minus the gap */
+  min-width: 280px;
+  max-width: 280px;
+  /* Fixes the hardcoded frame */
+  margin-bottom: 3rem;
+}
+.screenshot .image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Super hardcoded, I sure hope the code police doesn't see this */
+.screenshot .frame {
+  position: absolute;
+  top: -2%;
+  left: -3.1%;
+  width: 110.0%;
+  height: 104%;
+  pointer-events: none;
+}
 
-      <p>Apps like social media are designed to get you hooked. SpeedBump gets in the way, helping you break free. Because gentle reminders don't work anymore. Neither do screen time limits or motivation quotes. Sometimes, you need something more… direct.</p>
+.description {
+  padding-left: 6%;
+  flex: 1 1 300px;
+  text-align: left;
+}
 
-      <p>Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)</p>
+.description .description-steps {
+  margin-bottom: 1rem;
+}
+.description .description-steps h2 {
+  margin-bottom: 0;
+}
+.description .description-steps h2 svg {
+  vertical-align: -0.15em;
+  width: 2rem;
+  height: 2rem;
+}
 
-      <div class="button-container">
-        <a href="https://play.google.com/store/apps/details?id=com.capyapps.speedbump" class="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 59.49v393a4.33 4.33 0 0 0 7.37 3.07L260 256 55.37 56.42A4.33 4.33 0 0 0 48 59.49M345.8 174 89.22 32.64l-.16-.09c-4.42-2.4-8.62 3.58-5 7.06l201.13 192.32ZM84.08 472.39c-3.64 3.48.56 9.46 5 7.06l.16-.09L345.8 338l-60.61-57.95ZM449.38 231l-71.65-39.46L310.36 256l67.37 64.43L449.38 281c19.49-10.77 19.49-39.23 0-50"/></svg> Play Store</a>
-        <a href="https://forms.gle/HoBqN2URBBnBpva46" class="button"><svg style="margin-bottom: 3px" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 22.773 22.773"><path d="M15.769 0h.162c.13 1.606-.483 2.806-1.228 3.675-.731.863-1.732 1.7-3.351 1.573-.108-1.583.506-2.694 1.25-3.561C13.292.879 14.557.16 15.769 0M20.67 16.716v.045c-.455 1.378-1.104 2.559-1.896 3.655-.723.995-1.609 2.334-3.191 2.334-1.367 0-2.275-.879-3.676-.903-1.482-.024-2.297.735-3.652.926h-.462c-.995-.144-1.798-.932-2.383-1.642-1.725-2.098-3.058-4.808-3.306-8.276v-1.019c.105-2.482 1.311-4.5 2.914-5.478.846-.52 2.009-.963 3.304-.765.555.086 1.122.276 1.619.464.471.181 1.06.502 1.618.485.378-.011.754-.208 1.135-.347 1.116-.403 2.21-.865 3.652-.648 1.733.262 2.963 1.032 3.723 2.22-1.466.933-2.625 2.339-2.427 4.74.176 2.181 1.444 3.457 3.028 4.209"/></svg> App Store</a>
+@media (max-width: 768px) {
+  .section-demo {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .screenshots {
+    width: 100%;
+    max-width: 500px;
+  }
+  .screenshot {
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    width: 100%;
+    padding-left: 0%;
+  }
+}
+</style>
+
+    <div class="section-demo">
+      <!--
+  Video optimized with the following commands:
+
+  ffmpeg \
+    -i output.mp4 \
+    -t 16 \
+    -an \
+    -vf "fps=10,scale=-1:640" \
+    -c:v libx264 \
+    -crf 32 \
+    -preset veryslow \
+    -profile:v high \
+    -level:v 4.1 \
+    -pix_fmt yuv420p \
+    -movflags +faststart \
+    demo.mp4
+
+  ffmpeg \
+    -i output.mp4 \
+    -t 16 \
+    -an \
+    -vf "fps=10,scale=-1:640" \
+    -c:v libvpx-vp9 \
+    -b:v 0 \
+    -crf 50 \
+    -deadline best \
+    -cpu-used 0 \
+    -row-mt 1 \
+    -pix_fmt yuv420p \
+    -quality good \
+    -tile-columns 2 \
+    -auto-alt-ref 1 \
+    demo.webm
+
+  The frame needs to use png instead for transparency
+
+  export NAME=phone-frame-original
+  export NEW_NAME=phone-frame
+  convert $NAME.png -resize 'x800>' -strip -quality 85 $NEW_NAME.png
+
+  Phone frame taken from:
+  https://pixabay.com/illustrations/phone-frame-smartphone-android-6064855/
+      -->
+
+      <div class="screenshots">
+        <div class="screenshot">
+          <!-- TODO: poster="demo-poster.jpg" -->
+          <video autoplay loop muted playsinline loading="lazy">
+            <source src="demo.webm" type="video/webm">
+            <source src="demo.mp4" type="video/mp4">
+          </video>
+          <picture>
+            <source srcset="phone-frame.avif" type="image/avif">
+            <source srcset="phone-frame.webp" type="image/webp">
+            <img loading="lazy" class="frame" src="phone-frame.png" alt="The frame of the phone">
+          </picture>
+        </div>
+
+        <!--
+        <div class="screenshot">
+          <picture>
+            <source srcset="screenshot-config.avif" type="image/avif">
+            <source srcset="screenshot-config.webp" type="image/webp">
+            <img loading="lazy" class="image" src="screenshot-config.jpg" alt="A screenshot of the app in its homepage. It features an on/off toggle, and a way to configure what apps it's enabled on.">
+          </picture>
+          <picture>
+            <source srcset="phone-frame.avif" type="image/avif">
+            <source srcset="phone-frame.webp" type="image/webp">
+            <img loading="lazy" class="frame" src="phone-frame.png" alt="The frame of the phone">
+          </picture>
+        </div>
+        -->
       </div>
 
+      <div class="description">
+        <div class="description-steps">
+          <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm-20 200h80v-400H380v80h80v320Z"/></svg>&nbsp;Set your time limit when opening an addictive app.</h2>
+          <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h240v-80H440v-80h80q33 0 56.5-23.5T600-520v-80q0-33-23.5-56.5T520-680H360v80h160v80h-80q-33 0-56.5 23.5T360-440v160Z"/></svg>&nbsp;Get annoyed out of it when time's up.</h2>
+          <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h160q33 0 56.5-23.5T600-360v-60q0-26-17-43t-43-17q26 0 43-17t17-43v-60q0-33-23.5-56.5T520-680H360v80h160v80h-80v80h80v80H360v80Z"/></svg>&nbsp;Take a 15-minute break before next use.</h2>
+        </div>
+
+        <p>Because gentle reminders don't work anymore. Neither do fixed screen time limits or motivation quotes. Sometimes, you need something more… direct.</p>
+
+        <p>Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)</p>
+
+        <div class="button-container">
+          <a href="https://play.google.com/store/apps/details?id=com.capyapps.speedbump" class="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 59.49v393a4.33 4.33 0 0 0 7.37 3.07L260 256 55.37 56.42A4.33 4.33 0 0 0 48 59.49M345.8 174 89.22 32.64l-.16-.09c-4.42-2.4-8.62 3.58-5 7.06l201.13 192.32ZM84.08 472.39c-3.64 3.48.56 9.46 5 7.06l.16-.09L345.8 338l-60.61-57.95ZM449.38 231l-71.65-39.46L310.36 256l67.37 64.43L449.38 281c19.49-10.77 19.49-39.23 0-50"/></svg> Play Store</a>
+          <a href="https://forms.gle/HoBqN2URBBnBpva46" class="button"><svg style="margin-bottom: 3px" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 22.773 22.773"><path d="M15.769 0h.162c.13 1.606-.483 2.806-1.228 3.675-.731.863-1.732 1.7-3.351 1.573-.108-1.583.506-2.694 1.25-3.561C13.292.879 14.557.16 15.769 0M20.67 16.716v.045c-.455 1.378-1.104 2.559-1.896 3.655-.723.995-1.609 2.334-3.191 2.334-1.367 0-2.275-.879-3.676-.903-1.482-.024-2.297.735-3.652.926h-.462c-.995-.144-1.798-.932-2.383-1.642-1.725-2.098-3.058-4.808-3.306-8.276v-1.019c.105-2.482 1.311-4.5 2.914-5.478.846-.52 2.009-.963 3.304-.765.555.086 1.122.276 1.619.464.471.181 1.06.502 1.618.485.378-.011.754-.208 1.135-.347 1.116-.403 2.21-.865 3.652-.648 1.733.262 2.963 1.032 3.723 2.22-1.466.933-2.625 2.339-2.427 4.74.176 2.181 1.444 3.457 3.028 4.209"/></svg> App Store</a>
+        </div>
+      </div>
+
+    </div>
+
+<style>
+.section-features {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap);
+}
+
+.feature {
+  flex: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+.feature p {
+  margin-bottom: 0.25rem;
+}
+.feature p:last-child,
+.feature ul:last-child,
+.feature ol:last-child {
+  margin-bottom: 0;
+}
+
+.section-features .feature-header {
+  margin-bottom: 0.5rem;
+}
+.section-features .feature-header img {
+  width: 60px;
+  height: 60px;
+  vertical-align: -0.25em;
+  color: var(--foreground);
+}
+
+@media (max-width: 768px) {
+  .section-features {
+    flex-direction: column;
+  }
+  .section-features .feature-header img {
+    width: 50px;
+    height: 50px;
+  }
+}
+</style>
+
+    <hr>
+
+    <div class="section-features">
+      <div class="feature">
+        <div class="feature-header">
+          <img alt="TODO" src="/icons/decrease.png">
+          <h3>Limit any app</h3>
+        </div>
+        <p>
+          <span>TikTok</span><br>
+          <span>Instagram</span><br>
+          <!--<li>Instagram Reels</li>-->
+          <!--<li>YouTube Shorts</li>-->
+          <span>Duolingo (why tho?)</span>
+        </p>
+
+        <p><i>Websites support coming soon</i></p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-header">
+          <img alt="TODO" src="/icons/hug.png">
+          <h3>Won't get in your way</h3>
+        </div>
+        <p>Social media can be great!</p>
+        <p>Connect with friends without doomscrolling for hours.</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-header">
+          <img alt="TODO" src="/icons/money.png">
+          <h3>Free</h3>
+        </div>
+        <p>We don't have to “maximize shareholder value”.</p>
+      </div>
+    </div>
+
+<style>
+.section-carousel {
+  text-align: center;
+}
+.section-carousel h2 {
+  margin-bottom: 0;
+}
+
+.carousel-wrapper {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  overflow: hidden;
+  margin-bottom: var(--gap);
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-content {
+  display: flex;
+  animation: scroll 60s linear infinite;
+}
+
+.carousel-wrapper:hover .carousel-content {
+  animation-play-state: paused;
+}
+
+.carousel-group {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+
+.card.annoyance {
+  width: 300px;
+  aspect-ratio: 1/1;
+  flex-shrink: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.annoyance img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: var(--background-alt);
+  flex-grow: 1;
+}
+
+.annoyance h3 {
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+  background-color: var(--background-alt);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* Move exactly one group width for perfect looping */
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-content {
+    animation: none;
+  }
+}
+
+.rain-content {
+  position: relative;
+  z-index: 1; /* Places text above the gif */
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+
+.rain-content h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.rain-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2; /* Places gif under the text */
+  background-image: url('/annoyances/rain.gif');
+  background-size: cover;
+  background-position: center;
+}
+</style>
+
+    <hr>
+
+    <div class="section-carousel">
+      <h2>We're the best at getting you off the phone</h2>
+      <p>7 annoyances so far - more coming soon!</p>
+
+      <div class="carousel-wrapper">
+        <div class="carousel-track">
+          <div class="carousel-content">
+            <div class="carousel-group">
+              <div class="card annoyance">
+                <img src="/annoyances/police.gif" alt="Screen Time Police annoyance effect">
+                <h3>The Screen Time Police</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/cookies.png" alt="Cookie banner annoyance effect">
+                <h3>Cookie Banners</h3>
+              </div>
+
+              <div class="card annoyance">
+                <div class="rain-content">
+                  <h3>Rain</h3>
+                </div>
+                <div class="rain-overlay"></div>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/bot.png" alt="Customer support bot annoyance effect">
+                <h3>Customer Support</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/dancing_cat.webp" alt="Dancing cat annoyance effect">
+                <h3>Cats (lots of them)</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/privacy_policy.png" alt="Privacy policy annoyance effect">
+                <h3>Endless Privacy Policy</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/nyan.webp" alt="Nyan cat annoyance effect">
+                <h3>Nyan cat</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/adblocker.png" alt="Customer support bot annoyance effect">
+                <h3>Disable Your AdBlocker</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/newsletter.png" alt="Customer support bot annoyance effect">
+                <h3>Newsletter</h3>
+              </div>
+            </div>
+
+            <!-- We need to copy-paste the group for the carousel effect -->
+            <div class="carousel-group">
+              <div class="card annoyance">
+                <img src="/annoyances/police.gif" alt="Screen Time Police annoyance effect">
+                <h3>The Screen Time Police</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/cookies.png" alt="Cookie banner annoyance effect">
+                <h3>Cookie Banners</h3>
+              </div>
+
+              <div class="card annoyance">
+                <div class="rain-content">
+                  <h3>Rain</h3>
+                </div>
+                <div class="rain-overlay"></div>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/bot.png" alt="Customer support bot annoyance effect">
+                <h3>Customer Support</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/dancing_cat.webp" alt="Dancing cat annoyance effect">
+                <h3>Cats (lots of them)</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/privacy_policy.png" alt="Privacy policy annoyance effect">
+                <h3>Endless Privacy Policy</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/nyan.webp" alt="Nyan cat annoyance effect">
+                <h3>Nyan cat</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/adblocker.png" alt="Customer support bot annoyance effect">
+                <h3>Disable Your AdBlocker</h3>
+              </div>
+
+              <div class="card annoyance">
+                <img src="/annoyances/newsletter.png" alt="Customer support bot annoyance effect">
+                <h3>Newsletter</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<style>
+.section-testimonials {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.section-testimonials .testimonials-header img {
+  width: 50px;
+  height: 50px;
+  vertical-align: -0.3em;
+  color: var(--foreground);
+}
+.section-testimonials .testimonial-quote {
+  font-weight: bold;
+}
+.section-testimonials i {
+  font-size: 0.9rem;
+}
+</style>
+
+    <hr>
+
+    <div class="section-testimonials">
+      <div class="testimonials">
+        <div class="testimonials-header">
+          <img alt="TODO" src="/icons/microphone.png">
+          <h2>Our testimonials</h2>
+        </div>
+        <p><span class="testimonial-quote">“</span>I don't know how this works but it looks cool<span class="testimonial-quote">”</span><br><i>— my mom</i></p>
+        <p><span class="testimonial-quote">“</span>The cat one is funny<span class="testimonial-quote">”</span><br><i>— my girlfriend</i></p>
+        <p><span class="testimonial-quote">“</span>Can you let go of my arm and stop talking about screen time apps?<span class="testimonial-quote">”</span><br><i>— some boring guy in the supermarket</i></p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="blog">
       <h2>Read more in our blog</h2>
 
       <ul>
         <li><a href="/blog/launch/">I blasted over a speed bump to create my landing page</a> <i>(Feb 2025)</i></li>
       </ul>
-    </div>
-
-    <!--
-Video optimized with the following commands:
-
-ffmpeg \
-  -i output.mp4 \
-  -t 16 \
-  -an \
-  -vf "fps=10,scale=-1:640" \
-  -c:v libx264 \
-  -crf 32 \
-  -preset veryslow \
-  -profile:v high \
-  -level:v 4.1 \
-  -pix_fmt yuv420p \
-  -movflags +faststart \
-  demo.mp4
-
-ffmpeg \
-  -i output.mp4 \
-  -t 16 \
-  -an \
-  -vf "fps=10,scale=-1:640" \
-  -c:v libvpx-vp9 \
-  -b:v 0 \
-  -crf 50 \
-  -deadline best \
-  -cpu-used 0 \
-  -row-mt 1 \
-  -pix_fmt yuv420p \
-  -quality good \
-  -tile-columns 2 \
-  -auto-alt-ref 1 \
-  demo.webm
-
-The frame needs to use png instead for transparency
-
-export NAME=phone-frame-original
-export NEW_NAME=phone-frame
-convert $NAME.png -resize 'x800>' -strip -quality 85 $NEW_NAME.png
-
-Phone frame taken from:
-https://pixabay.com/illustrations/phone-frame-smartphone-android-6064855/
-    -->
-
-    <div class="screenshots">
-      <div class="screenshot">
-        <!-- TODO: poster="demo-poster.jpg" -->
-        <video autoplay loop muted playsinline loading="lazy">
-          <source src="demo.webm" type="video/webm">
-          <source src="demo.mp4" type="video/mp4">
-        </video>
-        <picture>
-          <source srcset="phone-frame.avif" type="image/avif">
-          <source srcset="phone-frame.webp" type="image/webp">
-          <img loading="lazy" class="frame" src="phone-frame.png" alt="The frame of the phone">
-        </picture>
-      </div>
-
-      <!--
-      <div class="screenshot">
-        <picture>
-          <source srcset="screenshot-config.avif" type="image/avif">
-          <source srcset="screenshot-config.webp" type="image/webp">
-          <img loading="lazy" class="image" src="screenshot-config.jpg" alt="A screenshot of the app in its homepage. It features an on/off toggle, and a way to configure what apps it's enabled on.">
-        </picture>
-        <picture>
-          <source srcset="phone-frame.avif" type="image/avif">
-          <source srcset="phone-frame.webp" type="image/webp">
-          <img loading="lazy" class="frame" src="phone-frame.png" alt="The frame of the phone">
-        </picture>
-      </div>
-      -->
     </div>
   </section>
 
