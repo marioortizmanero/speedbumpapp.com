@@ -135,11 +135,11 @@ html, body {
   width: 26px;
   color: var(--foreground);
 }
+  </style>
+</head>
+<body>
 
-
-/*
- * START - Specific to home page
- */
+<style>
 h1,
 h2,
 h3 {
@@ -289,14 +289,17 @@ mark {
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.5rem;
+    margin-bottom: 0.5rem;
   }
   .hero h2,
   .content h2 {
     font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
   .hero h3,
   .content h3 {
     font-size: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .button-container {
@@ -307,18 +310,6 @@ mark {
     width: 30px;
     height: 30px;
     bottom: 0.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .screenshots {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .screenshot {
-    width: 100%;
-    max-width: 250px;
   }
 }
 
@@ -333,12 +324,8 @@ mark {
     transform: none !important;
   }
 }
-/*
- * END - Specific to home page
- */
-  </style>
-</head>
-<body>
+</style>
+
   <section class="hero">
     <!--
 Optimized original video with the following commands:
@@ -416,6 +403,8 @@ rm transforms.trf 20250204_142815.mp4
   width: calc(50% - 1rem); /* Half the space minus the gap */
   min-width: 280px;
   max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
   /* Fixes the hardcoded frame */
   margin-bottom: 3rem;
 }
@@ -485,6 +474,18 @@ rm transforms.trf 20250204_142815.mp4
     margin-top: 0.2rem;
     width: 1.5rem;
     height: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .screenshots {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screenshot {
+    width: 100%;
+    max-width: 250px;
   }
 }
 </style>
