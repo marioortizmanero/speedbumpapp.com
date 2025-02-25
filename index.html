@@ -527,21 +527,6 @@ rm transforms.trf 20250204_142815.mp4
             <img loading="lazy" class="frame" src="phone-frame.png" alt="The frame of the phone">
           </picture>
         </div>
-
-        <!--
-        <div class="screenshot">
-          <picture>
-            <source srcset="screenshot-config.avif" type="image/avif">
-            <source srcset="screenshot-config.webp" type="image/webp">
-            <img loading="lazy" class="image" src="screenshot-config.jpg" alt="A screenshot of the app in its homepage. It features an on/off toggle, and a way to configure what apps it's enabled on.">
-          </picture>
-          <picture>
-            <source srcset="phone-frame.avif" type="image/avif">
-            <source srcset="phone-frame.webp" type="image/webp">
-            <img loading="lazy" class="frame" src="phone-frame.png" alt="The frame of the phone">
-          </picture>
-        </div>
-        -->
       </div>
 
       <div class="description">
@@ -608,10 +593,23 @@ rm transforms.trf 20250204_142815.mp4
 
     <hr>
 
+<!--
+Icons taken from Google Noto Emojis. Optimized with:
+
+export NAME=decrease
+export NEW_NAME=icon_decrease
+convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.png
+convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.avif
+convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
+-->
     <div class="section-features">
       <div class="feature">
         <div class="feature-header">
-          <img alt="TODO" src="/icons/decrease.png">
+          <picture>
+            <source srcset="/icons/icon_decrease.avif" type="image/avif">
+            <source srcset="/icons/icon_decrease.webp" type="image/webp">
+            <img loading="lazy" src="/icons/icon_decrease.png" alt="A chart whose line is rapidly decreasing">
+          </picture>
           <h3>Limit any app</h3>
         </div>
         <p>
@@ -627,7 +625,11 @@ rm transforms.trf 20250204_142815.mp4
 
       <div class="feature">
         <div class="feature-header">
-          <img alt="TODO" src="/icons/hug.png">
+          <picture>
+            <source srcset="/icons/icon_hug.avif" type="image/avif">
+            <source srcset="/icons/icon_hug.webp" type="image/webp">
+            <img loading="lazy" src="/icons/icon_hug.png" alt="Two people hugging each other">
+          </picture>
           <h3>Won't get in your way</h3>
         </div>
         <p>Social media can be great!</p>
@@ -636,7 +638,11 @@ rm transforms.trf 20250204_142815.mp4
 
       <div class="feature">
         <div class="feature-header">
-          <img alt="TODO" src="/icons/money.png">
+          <picture>
+            <source srcset="/icons/icon_money.avif" type="image/avif">
+            <source srcset="/icons/icon_money.webp" type="image/webp">
+            <img loading="lazy" src="/icons/icon_money.png" alt="A stash of dollar bills with wings">
+          </picture>
           <h3>Free</h3>
         </div>
         <p>We don't have to “maximize shareholder value”.</p>
@@ -886,7 +892,11 @@ rm transforms.trf 20250204_142815.mp4
     <div class="section-testimonials">
       <div class="testimonials">
         <div class="testimonials-header">
-          <img alt="TODO" src="/icons/microphone.png">
+          <picture>
+            <source srcset="/icons/icon_microphone.avif" type="image/avif">
+            <source srcset="/icons/icon_microphone.webp" type="image/webp">
+            <img loading="lazy" src="/icons/icon_microphone.png" alt="A microphone">
+          </picture>
           <h2>Our testimonials</h2>
         </div>
         <p><span class="testimonial-quote">“</span>I don't know how this works but it looks cool<span class="testimonial-quote">”</span><br><i>— my mom</i></p>
