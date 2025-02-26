@@ -643,12 +643,17 @@ rm transforms.trf 20250204_142815.mp4
   text-align: center;
 }
 .feature p {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 .feature p:last-child,
 .feature ul:last-child,
 .feature ol:last-child {
   margin-bottom: 0;
+}
+.feature .feature-clarification {
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.1;
 }
 
 .section-features .feature-header img {
@@ -691,14 +696,14 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
           <h3>Limit any app</h3>
         </div>
         <p>
-          <span>TikTok</span><br>
-          <span>Instagram</span><br>
+          TikTok<br>
+          Instagram<br>
           <!--<li>Instagram Reels</li>-->
           <!--<li>YouTube Shorts</li>-->
-          <span>Duolingo (why tho?)</span>
+          Duolingo (why tho?)
         </p>
 
-        <p><i>Limiting websites will be added soon</i></p>
+        <p class="feature-clarification">Limiting Shorts, Reels, and other in-app features will be added soon. Websites, too.</p>
       </div>
 
       <div class="feature">
