@@ -1,0 +1,58 @@
+{%- comment %}
+Metadata and optimizations
+{%- endcomment %}
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<meta name="generator" content="{{ eleventy.generator }}">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+{%- comment %}
+Website information
+TODO: language-specific metadata
+TODO: if it's not the root, add '| SpeedBump'
+{%- endcomment %}
+<title>{{ title }}</title>
+<meta name="keywords" content="{{ keywords | join: "," }}">
+<meta name="description" content="{{ description | markdownify | plainifyHtml | escape }}">
+<meta name="author" content="Mario Ortiz Manero">
+<link rel="canonical" href="{{ page.url | absUrl }}">
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="SpeedBump" />
+<link rel="manifest" href="/site.webmanifest" />
+
+{%- if env.ELEVENTY_RUN_MODE == "build" %}
+  {% render "partials/analytics.liquid" metadata: metadata %}
+{%- endif %}
+{% render "partials/opengraph.liquid"
+    author: author
+    collections: collections
+    date: date
+    description: description
+    image: image
+    layout: layout
+    metadata: metadata
+    page: page
+    series: series
+    tags: tags
+    title: title %}
+{% render "partials/twitter_cards.liquid"
+    description: description
+    image: image
+    imageAlt: imageAlt
+    metadata: metadata
+    title: title %}
+
+<style>
+{% render "css/common.css" %}
+{% render "css/home.css" %}
+{% render "css/post.css" %}
+</style>
+
+{%- block head %}
+{%- endblock %}
