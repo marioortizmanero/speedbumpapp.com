@@ -419,7 +419,7 @@ ffmpeg \
 rm transforms.trf 20250204_142815.mp4
     -->
     <video class="hero-video" autoplay loop muted playsinline>
-      <source src="dashcam.webm" type="video/webm">
+      <!-- <source src="dashcam.webm" type="video/webm"> -->
       <source src="dashcam.mp4" type="video/mp4">
     </video>
 
@@ -590,7 +590,7 @@ rm transforms.trf 20250204_142815.mp4
         <div class="screenshot">
           <!-- TODO: poster="demo-poster.jpg" -->
           <video autoplay loop muted playsinline loading="lazy">
-            <source src="demo.webm" type="video/webm">
+            <!-- <source src="demo.webm" type="video/webm"> -->
             <source src="demo.mp4" type="video/mp4">
           </video>
           <picture>
@@ -739,12 +739,6 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
   max-width: 70%;
 }
 
-@media (max-width: 768px) {
-  .section-carousel .carousel-description {
-    max-width: 100%;
-  }
-}
-
 .carousel-wrapper {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -763,7 +757,8 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
   animation: scroll 60s linear infinite;
 }
 
-.carousel-wrapper:hover .carousel-content {
+.carousel-wrapper:hover .carousel-content,
+.carousel-wrapper:active .carousel-content {
   animation-play-state: paused;
 }
 
@@ -814,6 +809,15 @@ convert $NAME.png -resize '60x60>' -strip -quality 90 $NEW_NAME.webp
   to {
     /* Move exactly one group width for perfect looping */
     transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-carousel .carousel-description {
+    max-width: 100%;
+  }
+  .carousel-content {
+    animation: scroll 40s linear infinite;
   }
 }
 
