@@ -1,70 +1,79 @@
 export default {
   reading_dir: "ltr",
   index: {
-    hero_1: "Do you know how a speed bump feels",
-    hero_2: "Annoying, but it sure slows you down.",
-    hero_3: "Meet the speed bump for <mark>addictive&nbsp;apps</mark>.",
+    hero_1: "¿Conoces los badenes",
+    hero_2: "Molestos, pero sin duda te ralentizan.",
+    hero_3: "Conoce el badén para <mark>apps&nbsp;adictivas</mark>.",
     section_demo: {
-      step_1: "Set your time limit when opening an addictive app.",
-      step_2: "Get annoyed out of it when time's up.",
-      step_3: "Take a 15-minute break before next use.",
-      description: "Because gentle reminders don't work anymore. Neither do fixed screen time limits or motivation quotes. Sometimes, you need something more… direct.",
-      note: "Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)",
+      step_1: "Establece tu límite de tiempo al abrir una app adictiva.",
+      step_2: "Te sacará de quicio cuando se acabe el tiempo.",
+      step_3: "Tómate un descanso de 15 minutos antes del siguiente uso.",
+      description: "Porque los recordatorios ya no funcionan. Tampoco los temporizadores fijos o las frases motivacionales. A veces, necesitas algo más... directo.",
+      note: "Acceso anticipado - el desarrolldor sigue programando sin parar. Pero oye, ¡eso solo aumenta el factor de molestia! ;)",
     },
     section_features: {
       feature_1: {
-        title: "Limit any app",
-        // TODO: reels, shorts
+        title: "Limita cualquier app",
         content: `<p>
         TikTok<br>
         Instagram<br>
-        Duolingo (why tho?)
+        Duolingo (¿por qué, en serio?)
       </p>
 
-      <p class="feature-clarification">Limiting Shorts, Reels, and other in-app features will be added soon. Websites, too.</p>`,
+      <p class="feature-clarification">Pronto podrás limitar Shorts, Reels y otras funciones dentro de apps. También para webs.</p>`,
       },
       feature_2: {
-        title: "Won't get in your way",
-        content: `<p>Social media can be great!</p>
-      <p>Connect with friends without doomscrolling for hours.</p>`,
+        title: "Adaptado a ti",
+        content: `<p>¡Las redes sociales pueden ser geniales!</p>
+      <p>Conéctate con amigos sin pasar horas haciendo scroll infinito.</p>`,
       },
       feature_3: {
-        title: "Free",
-        content: "<p>We don't have to “maximize shareholder value”.</p>"
+        title: "Gratis",
+        content: "<p>No tenemos que “maximizar el valor para los accionistas”.</p>"
       }
     },
     section_annoyances: {
-      title: "We're the best at getting you off the phone",
-      description: "9 annoyances so far - more coming soon!<br>They are displayed on top of addictive apps after your time is up. Trust me, you won't want to stay for long."
+      title: "Somos los mejores sacándote del móvil",
+      description: "9 molestias hasta ahora - ¡más en camino!<br>Se muestran sobre las apps adictivas cuando se acaba tu tiempo. Créeme, no querrás quedarte mucho tiempo.",
+      annoyance_1: "La Policía de la Pantallita",
+      annoyance_2: "Banners Agresivos de Cookies",
+      annoyance_3: "Lluvia",
+      annoyance_4: "Atención al Cliente",
+      annoyance_5: "Gatos",
+      annoyance_6: "Política de Privacidad Interminable",
+      annoyance_7: "Más gatos",
+      annoyance_8: "Desactiva tu Bloqueador de Anuncios",
+      annoyance_9: "Boletines",
     },
     section_testimonials: {
-      title: "Our testimonials",
-      content: `<p><span class="testimonial-quote">“</span>I don't know how this works but it looks cool<span class="testimonial-quote">”</span><br><i>— my mom</i></p>
-      <p><span class="testimonial-quote">“</span>The cat one is funny<span class="testimonial-quote">”</span><br><i>— my girlfriend</i></p>
-      <p><span class="testimonial-quote">“</span>Can you let go of my arm and stop talking about screen time apps?<span class="testimonial-quote">”</span><br><i>— some boring guy in the supermarket</i></p>`,
+      title: "Nuestros testimonios",
+      content: `<p><span class="testimonial-quote">"</span>No sé cómo funciona, pero mola<span class="testimonial-quote">"</span><br><i>— mi madre</i></p>
+      <p><span class="testimonial-quote">"</span>El del gato tiene gracia<span class="testimonial-quote">"</span><br><i>— mi novia</i></p>
+      <p><span class="testimonial-quote">"</span>¿Puedes soltarme el brazo y dejar de hablar de apps para controlar el tiempo de pantalla?<span class="testimonial-quote">"</span><br><i>— un tipo aburrido en el supermercado</i></p>`,
     },
     section_downloads: {
-      title: "Stop wasting your time now:",
-      comment: "Send this to a friend who needs to stop doomscrolling!",
+      title: "Deja de perder el tiempo:",
+      comment: "¡Envíaselo a un amigo que necesite dejar el scroll!",
     },
     section_blog: {
-      title: "Read more in our blog",
+      title: "Lee más en nuestro blog",
     },
   },
   post: {
     header: {
-      written: "Written by",
-      written_on: "on",
+      written: "Escrito por",
+      written_on: "el",
     },
     footer: {
-      download_prompt: "Get SpeedBump now:",
-      about: "What's SpeedBump?",
+      download_prompt: "Consigue SpeedBump ahora:",
+      about: "¿Qué es SpeedBump?",
     }
   },
   footer: {
-    subscribe_or: "or",
-    subscribe_or: "subscribe",
-    privacy_policy: "Privacy Policy",
-    about: "Who We Are",
+    subscribe_or: "o",
+    subscribe: "suscríbete",
+    privacy_policy: "Política de Privacidad",
+    about: "Quiénes Somos",
+    language: "Seleccionar idioma",
   }
 }

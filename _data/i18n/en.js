@@ -1,14 +1,14 @@
 export default {
   reading_dir: "ltr",
   index: {
-    hero_1: "Do you know how a speed bump feels",
-    hero_2: "Annoying, but it sure slows you down.",
+    hero_1: "Do you know speed bumps",
+    hero_2: "Annoying, but they sure slow you down.",
     hero_3: "Meet the speed bump for <mark>addictive&nbsp;apps</mark>.",
     section_demo: {
       step_1: "Set your time limit when opening an addictive app.",
       step_2: "Get annoyed out of it when time's up.",
       step_3: "Take a 15-minute break before next use.",
-      description: "Because gentle reminders don't work anymore. Neither do fixed screen time limits or motivation quotes. Sometimes, you need something more… direct.",
+      description: "Because gentle reminders don't work anymore. Neither do fixed timers or motivation quotes. Sometimes, you need something more… direct.",
       note: "Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)",
     },
     section_features: {
@@ -24,7 +24,7 @@ export default {
       <p class="feature-clarification">Limiting Shorts, Reels, and other in-app features will be added soon. Websites, too.</p>`,
       },
       feature_2: {
-        title: "Won't get in your way",
+        title: "Adapts to you",
         content: `<p>Social media can be great!</p>
       <p>Connect with friends without doomscrolling for hours.</p>`,
       },
@@ -35,7 +35,16 @@ export default {
     },
     section_annoyances: {
       title: "We're the best at getting you off the phone",
-      description: "9 annoyances so far - more coming soon!<br>They are displayed on top of addictive apps after your time is up. Trust me, you won't want to stay for long."
+      description: "9 annoyances so far - more coming soon!<br>They are displayed on top of addictive apps after your time is up. Trust me, you won't want to stay for long.",
+      annoyance_1: "The Screen Time Police",
+      annoyance_2: "Aggressive Cookie Banners",
+      annoyance_3: "Rain",
+      annoyance_4: "Customer Support",
+      annoyance_5: "Cats",
+      annoyance_6: "Endless Privacy Policy",
+      annoyance_7: "More cats",
+      annoyance_8: "Disable Your AdBlocker",
+      annoyance_9: "Newsletters",
     },
     section_testimonials: {
       title: "Our testimonials",
