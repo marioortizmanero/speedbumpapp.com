@@ -3,12 +3,17 @@ import { fromZodError } from 'zod-validation-error';
 
 export default {
   eleventyDataSchema: function(data) {
+    if (data.page.fileSlug === "sitemap.xml") {
+      return
+    }
+
     let result = z.object({
       title: z.string(),
       description: z.string(),
       keywords: z.array(z.string()),
-      // TODO: make mandatory? or handle well
-      image: z.string().optional(),
+      image: z.string(),
+      imageAlt: z.string(),
+      eleventyExcludeFromCollections: z.boolean().or(z.undefined())
     }).safeParse(data);
 
     if (result.error) {

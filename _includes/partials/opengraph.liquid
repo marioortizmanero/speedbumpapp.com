@@ -23,4 +23,7 @@
   <meta property="og:image" content="{{ image | absUrl }}">
 {%- endif %}
 <meta property="og:description" content="{{ description | default: metadata.description | markdownify | plainifyHtml | escape }}">
-<meta property="og:locale" content="{{ post.lang }}">
+<meta property="og:locale" content="{{ page.lang }}">
+{% comment %}
+og:locale:alternate isn't supported. Facebook adds a query parameter to the URL, which we can't quite use with a static website.
+{% endcomment %}

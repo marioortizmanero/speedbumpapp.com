@@ -47,6 +47,13 @@ html, body {
   width: 100%;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Londrina Solid', sans-serif;
+  letter-spacing: .08rem;
+}
+
 .button-container {
   font-family: 'Londrina Solid', sans-serif;
   display: flex;
@@ -75,9 +82,16 @@ html, body {
   height: 1.5rem;
 }
 
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+  }
+}
+
 .footer {
   font-size: 0.8rem;
   text-align: center;
+  padding: 14px;
 }
 .social-icons {
   display: flex;

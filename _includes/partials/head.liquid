@@ -16,17 +16,21 @@ Translations
 {%- for link in links %}
     <link rel="alternate" hreflang="{{ link.lang }}" href="{{ link.url | absUrl }}">
 {%- endfor -%}
+<link rel="alternate" hreflang="x-default" href="https://speedbumpapp.com{{ page.url | locale_url: "en" }}">
 
 {%- comment %}
 Website information
-TODO: language-specific metadata
-TODO: if it's not the root, add '| SpeedBump'
 {%- endcomment %}
-<title>{{ title }}</title>
+{%- assign localeRoot = '/' | locale_url %}
+<title>{{ title }}{% if page.url != '/' and page.url != localeRoot %} | SpeedBump{% endif %}</title>
 <meta name="keywords" content="{{ keywords | join: "," }}">
 <meta name="description" content="{{ description | markdownify | plainifyHtml | escape }}">
 <meta name="author" content="Mario Ortiz Manero">
-<link rel="canonical" href="{{ page.url | absUrl }}">
+{%- if page.lang == "en" %}
+<link rel="canonical" href="{{ page.url | replace_first: '/en/', '/' | absUrl }}">
+{%- else %}
+<link rel="canonical" href="{{ page.url | locale_url | absUrl }}">
+{%- endif %}
 
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
@@ -59,7 +63,6 @@ TODO: if it's not the root, add '| SpeedBump'
 
 <style>
 {% render "css/common.css" %}
+{% render "css/home.css" %}
+{% render "css/post.css" %}
 </style>
-
-{%- block head %}
-{%- endblock %}

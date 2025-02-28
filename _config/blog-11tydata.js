@@ -7,8 +7,12 @@ export default {
   ],
   layout: "layouts/post.liquid",
   eleventyDataSchema: function(data) {
-    // TODO: does this inherit from the other one to also require title?
     let result = z.object({
+      title: z.string(),
+      description: z.string(),
+      keywords: z.array(z.string()),
+      image: z.string(),
+      imageAlt: z.string(),
       date: z.date(),
       draft: z.boolean().or(z.undefined()),
       eleventyExcludeFromCollections: z.boolean().or(z.undefined())

@@ -4,10 +4,6 @@ layout: layouts/base.liquid
 
 {% assign t = i18n[page.lang] %}
 
-<style>
-{% render "css/home.css" %}
-</style>
-
 <section class="hero">
 {% comment %}
 Optimized original video with the following commands:
@@ -227,9 +223,3 @@ ffmpeg \
   </div>
   {% endif %}
 </section>
-
-{% block head %}
-<style>
-{% render "css/home.css" %}
-</style>
-{% endblock %}
