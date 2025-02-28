@@ -1,0 +1,225 @@
+---
+layout: layouts/base.liquid
+---
+
+{% assign t = i18n[page.lang] %}
+
+<section class="hero">
+{% comment %}
+Optimized original video with the following commands:
+
+ffmpeg -i 20250204_142815.mp4 -vf vidstabdetect -f null -
+ffmpeg \
+  -i 20250204_142815.mp4 \
+  -vf "vidstabtransform" \
+  -an \
+  /tmp/dashcam-stabilized.mp4
+
+ffmpeg \
+  -sseof -14 \
+  -i /tmp/dashcam-stabilized.mp4 \
+  -vf "crop=1440:1080:467:0,scale=1000:-1,fps=15,boxblur=8" \
+  -c:v libx264 \
+  -crf 34 \
+  -preset veryslow \
+  -profile:v high \
+  -level:v 4.1 \
+  -pix_fmt yuv420p \
+  -movflags +faststart \
+  dashcam.mp4
+
+ffmpeg \
+  -sseof -14 \
+  -i /tmp/dashcam-stabilized.mp4 \
+  -vf "crop=1440:1080:467:0,scale=1000:-1,fps=15,boxblur=8" \
+  -c:v libvpx-vp9 \
+  -b:v 0 \
+  -crf 50 \
+  -deadline best \
+  -cpu-used 0 \
+  -row-mt 1 \
+  -pix_fmt yuv420p \
+  -quality good \
+  -tile-columns 2 \
+  -auto-alt-ref 1 \
+  dashcam.webm
+
+rm transforms.trf 20250204_142815.mp4
+{% endcomment %}
+  <video class="hero-video" autoplay loop muted playsinline>
+    <!-- <source src="/assets/dashcam.webm" type="video/webm"> -->
+    <source src="/assets/dashcam.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-overlay"></div>
+
+  <h1>{{ t.index.hero_1 }}<span class="hero-fall-animation">?</span></h1>
+  <h2>{{ t.index.hero_2 }}</h2>
+  <h3>{{ t.index.hero_3 }}</h3>
+
+  {% render "partials/downloads.liquid" %}
+
+  <a href="#content"><svg class="scroll-arrow" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 122.88 120.64"><path d="M108.91 54.03a8.3 8.3 0 0 1 5.85-2.28c2.11.03 4.2.84 5.79 2.44l.12.12c1.5 1.58 2.23 3.6 2.2 5.61a7.95 7.95 0 0 1-2.37 5.55c-17.66 17.66-35.61 35.13-53.4 52.68-.05.07-.1.13-.16.19a8.34 8.34 0 0 1-5.87 2.28 8.32 8.32 0 0 1-5.8-2.45l-.26-.27C37.47 100.43 19.87 82.98 2.36 65.46A7.96 7.96 0 0 1 0 59.92c-.03-2.01.7-4.03 2.21-5.61l.15-.15a8.32 8.32 0 0 1 5.76-2.41c2.1-.03 4.22.73 5.85 2.28l47.27 47.22zm-2-51.77A8.27 8.27 0 0 1 112.74 0c2.11.03 4.2.84 5.79 2.44l.12.12c1.5 1.57 2.23 3.6 2.21 5.61a7.95 7.95 0 0 1-2.37 5.55C101.2 31.01 84.2 48.87 67.12 66.39c-.05.07-.11.14-.17.21a8.34 8.34 0 0 1-5.87 2.28 8.32 8.32 0 0 1-5.8-2.45C38.33 48.94 21.44 31.36 4.51 13.83l-.13-.12a7.95 7.95 0 0 1-2.35-5.54c-.03-2.01.7-4.03 2.2-5.61l.15-.15A8.34 8.34 0 0 1 10.14 0c2.1-.03 4.22.73 5.85 2.28l45.24 47.18z"/></svg></a>
+</section>
+
+<section id="content" class="content">
+  <div class="section-demo">
+{% comment %}
+Video optimized with the following commands:
+
+ffmpeg \
+  -i output.mp4 \
+  -t 16 \
+  -an \
+  -vf "fps=10,scale=-1:640" \
+  -c:v libx264 \
+  -crf 32 \
+  -preset veryslow \
+  -profile:v high \
+  -level:v 4.1 \
+  -pix_fmt yuv420p \
+  -movflags +faststart \
+  demo.mp4
+
+ffmpeg \
+  -i output.mp4 \
+  -t 16 \
+  -an \
+  -vf "fps=10,scale=-1:640" \
+  -c:v libvpx-vp9 \
+  -b:v 0 \
+  -crf 50 \
+  -deadline best \
+  -cpu-used 0 \
+  -row-mt 1 \
+  -pix_fmt yuv420p \
+  -quality good \
+  -tile-columns 2 \
+  -auto-alt-ref 1 \
+  demo.webm
+{% endcomment %}
+
+    <div class="screenshots">
+      <div class="screenshot">
+        <!-- TODO: poster="/demo-poster.jpg" -->
+        <video autoplay loop muted playsinline loading="lazy">
+          <!-- <source src="/assets/demo.webm" type="video/webm"> -->
+          <source src="/assets/demo.mp4" type="video/mp4">
+        </video>
+        <!--
+          Taken from:
+          https://pixabay.com/illustrations/phone-frame-smartphone-android-6064855/
+        -->
+        <img class="frame" src="/assets/phone-frame.png" alt="The frame of the phone">
+      </div>
+    </div>
+
+    <div class="description">
+      <div class="description-steps">
+        <div class="description-step">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm-20 200h80v-400H380v80h80v320Z"/></svg>
+          <h2>{{ t.index.section_demo.step_1 }}</h2>
+        </div>
+        <div class="description-step">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h240v-80H440v-80h80q33 0 56.5-23.5T600-520v-80q0-33-23.5-56.5T520-680H360v80h160v80h-80q-33 0-56.5 23.5T360-440v160Z"/></svg>
+          <h2>{{ t.index.section_demo.step_2 }}</h2>
+        </div>
+        <div class="description-step">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h160q33 0 56.5-23.5T600-360v-60q0-26-17-43t-43-17q26 0 43-17t17-43v-60q0-33-23.5-56.5T520-680H360v80h160v80h-80v80h80v80H360v80Z"/></svg>
+          <h2>{{ t.index.section_demo.step_3 }}</h2>
+        </div>
+      </div>
+
+      <p>{{ t.index.section_demo.description }}</p>
+
+      <p><i>{{ t.index.section_demo.note }}</i></p>
+
+      {% render "partials/downloads.liquid" %}
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="section-features">
+    <div class="feature">
+      <div class="feature-header">
+        <img src="/assets/icons/icon_decrease.png" alt="A chart whose line is rapidly decreasing">
+        <h3>{{ t.index.section_features.feature_1.title }}</h3>
+      </div>
+      {{ t.index.section_features.feature_1.content }}
+    </div>
+
+    <div class="feature">
+      <div class="feature-header">
+        <img src="/assets/icons/icon_hug.png" alt="Two people hugging each other">
+        <h3>{{ t.index.section_features.feature_2.title }}</h3>
+      </div>
+      {{ t.index.section_features.feature_2.content }}
+    </div>
+
+    <div class="feature">
+      <div class="feature-header">
+        <img src="/assets/icons/icon_money.png" alt="A stash of dollar bills with wings">
+        <h3>{{ t.index.section_features.feature_3.title }}</h3>
+      </div>
+      {{ t.index.section_features.feature_3.content }}
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section-carousel">
+    <div class="carousel-description">
+      <h2>{{ t.index.section_carousel.title }}</h2>
+      <p>{{ t.index.section_carousel.description }}</p>
+    </div>
+
+    <div class="carousel-wrapper">
+      <div class="carousel-track">
+        <div class="carousel-content">
+          {% render "partials/annoyances.liquid" i18n: i18n, page: page %}
+          <!-- We need to copy-paste the group for the carousel effect -->
+          {% render "partials/annoyances.liquid" i18n: i18n, page: page %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section-testimonials">
+    <div class="testimonials">
+      <div class="testimonials-header">
+        <img src="/assets/icons/icon_microphone.png" alt="A microphone">
+        <h2>{{ t.index.section_testimonials.title }}</h2>
+      </div>
+      {{ t.index.section_testimonials.content }}
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section-downloads">
+    <h2>{{ t.index.section_downloads.title }}</h2>
+
+    {% render "partials/downloads.liquid" %}
+
+    <p>{{ t.index.section_downloads.comment }}</p>
+  </div>
+
+  {%- assign recentPosts = collections.posts | where: "data.lang", page.lang | recentPosts %}
+  {%- if recentPosts.size > 0 %}
+  <hr>
+
+  <div class="section-blog">
+    <h2>{{ t.index.section_blog.title }}</h2>
+
+    <ul>
+      {%- for post in recentPosts %}
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a> <i>({{ post.date | readableDateShort: page.lang }})</i></li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {% endif %}
+</section>

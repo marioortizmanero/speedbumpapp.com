@@ -1,0 +1,110 @@
+.post-main header a {
+  display: block;
+  text-align: center;
+}
+.post-main header .logo {
+  margin: 15px auto;
+  height: 3.5rem;
+}
+.post-main header .logo-light {
+  display: block;
+}
+.post-main header .logo-dark {
+  display: none;
+}
+@media (prefers-color-scheme: dark) {
+  .post-main header .logo-light {
+    display: none;
+  }
+  .post-main header .logo-dark {
+    display: block;
+  }
+}
+
+.post-main {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.post-main code {
+  font-size: 1.1rem;
+}
+.post-main dl,
+.post-main ol,
+.post-main p,
+.post-main figure,
+.post-main ul,
+.post-main blockquote {
+  margin-bottom: 20px;
+}
+.post-main blockquote {
+  margin: 20px 0;
+  padding: 0 14px;
+  border-inline-start: 3px solid var(--foreground);
+}
+.post-main h2 {
+  margin-bottom: 1rem;
+}
+.post-main ol,
+.post-main ul {
+  padding-inline-start: 20px;
+}
+.post-main li {
+  margin-top: 5px;
+}
+.post-main li p {
+  margin-bottom: 0;
+}
+.post-main li > p,
+.post-main li > ul {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+/* The post */
+.post-single {
+  margin-top: calc(var(--gap) * 2);
+  margin-bottom: calc(var(--gap) * 2);
+}
+
+.post-single .post-header {
+  margin-bottom: var(--gap);
+  text-align: center;
+}
+.post-single .post-header .post-title {
+  margin-bottom: 5px;
+}
+.post-single .post-header .post-meta {
+  width: 100%;
+  font-style: italic;
+}
+
+.post-single h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+.post-single h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.post-single h3 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.post-single img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: var(--radius);
+}
+
+/* The `#` anchors next to the headers */
+.header-anchor {
+  font-weight: normal;
+  opacity: 0.3;
+}
+.header-anchor:hover,
+.header-anchor:active {
+  opacity: 1;
+}

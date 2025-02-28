@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}" dir="{{ i18n[page.lang].reading_dir }}">
+  <head>
+    {% render "partials/head.liquid"
+        author: author
+        collections: collections
+        date: date
+        description: description
+        eleventy: eleventy
+        env: env
+        image: image
+        imageAlt: imageAlt
+        keywords: keywords
+        layout: layout
+        metadata: metadata
+        page: page
+        series: series
+        tags: tags
+        title: title %}
+  </head>
+
+  <body>
+    <main class="main">
+        {{ content }}
+    </main>
+
+    {% render "partials/footer.liquid"
+        metadata: metadata
+        i18n: i18n
+        page: page %}
+  </body>
+</html>
