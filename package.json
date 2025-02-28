@@ -15,7 +15,7 @@
   "author": {
     "name": "Mario Ortiz Manero",
     "email": "speedbumpapp@gmail.com",
-    "url": "https://speedbumpapp.com/"
+    "url": "https://speedbumpapp.com"
   },
   "license": "GPLv3",
   "engines": {
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/marioortizmanero/speedbumpapp.com/issues"
   },
-  "homepage": "https://speedbumpapp.com/",
+  "homepage": "https://speedbumpapp.com",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^5.0.0",
