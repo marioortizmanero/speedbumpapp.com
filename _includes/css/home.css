@@ -1,6 +1,5 @@
 /* HERO SECTION */
 
-/* TODO: remove this one */
 .hero {
   position: relative;
   height: 100vh; /* Fallback */
@@ -489,7 +488,7 @@
   width: 100%;
   height: 100%;
   z-index: 2; /* Places gif under the text */
-  background-image: url('/annoyances/rain.gif');
+  background-image: url('/assets/annoyances/rain.gif');
   background-size: cover;
   background-position: center;
 }
