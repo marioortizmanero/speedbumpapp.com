@@ -4,28 +4,30 @@ layout: layouts/base.liquid
 
 {% assign t = i18n[page.lang] %}
 
-<header>
-  <a href="{{ '/' | locale_url }}">
-    <img eleventy:ignore class="logo logo-light" src="/logo.svg" alt="SpeedBump">
-    <img eleventy:ignore class="logo logo-dark" src="/logo-dark.svg" alt="SpeedBump">
-  </a>
-</header>
+<div class="post-main">
+  <header>
+    <a href="{{ '/' | locale_url }}">
+      <img eleventy:ignore class="logo logo-light" src="/logo.svg" alt="SpeedBump">
+      <img eleventy:ignore class="logo logo-dark" src="/logo-dark.svg" alt="SpeedBump">
+    </a>
+  </header>
 
-<article class="post-single">
-  <div class="post-header">
-    <h1 class="post-title">{{ title }}</h1>
-  </div>
-  <div class="post-content">
-    {{ content }}
-  </div>
+  <article class="post-single">
+    <div class="post-header">
+      <h1 class="post-title">{{ title }}</h1>
+    </div>
+    <div class="post-content">
+      {{ content }}
+    </div>
 
-  <hr>
+    <hr>
 
-  <footer class="post-footer">
-    <h2 style="text-align: center">{{ t.post.footer.download_prompt }}</h2>
+    <footer class="post-footer">
+      <h2 style="text-align: center">{{ t.post.footer.download_prompt }}</h2>
 
-    {% render "partials/downloads.liquid" %}
+      {% render "partials/downloads.liquid" %}
 
-    <h3 style="text-align: center"><a href="{{ '/' | locale_url }}">{{ t.post.footer.about }}</a></h2>
-  </footer>
-</article>
+      <h3 style="text-align: center"><a href="{{ '/' | locale_url }}">{{ t.post.footer.about }}</a></h2>
+    </footer>
+  </article>
+</div>
