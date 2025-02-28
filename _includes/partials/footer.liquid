@@ -23,5 +23,5 @@
     <span class="subscribe-msg">{{ t.footer.subscribe_or }} <a class="subscribe-word" href="https://nullderef.com/subscribe">{{ t.footer.subscribe }}</a></span>
   </div>
 
-  <span><a href="/privacy-policy">{{ t.footer.privacy_policy }}</a>&nbsp; · &nbsp;<a href="https://nullderef.com/about" target="_blank">{{ t.footer.about }}</a></span>
+  <span><a href="{{ '/privacy-policy' | locale_url }}">{{ t.footer.privacy_policy }}</a>&nbsp; · &nbsp;<a href="https://nullderef.com/about" target="_blank">{{ t.footer.about }}</a>&nbsp; · &nbsp;{% render "partials/lang-picker.liquid" page: page, t: t %}</span>
 </footer>

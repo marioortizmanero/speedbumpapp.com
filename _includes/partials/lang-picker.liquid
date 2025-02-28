@@ -1,0 +1,9 @@
+<div class="language-selector">
+  <select id="language-dropdown" onchange="window.location.href=this.value" aria-label="{{ t.footer.language }}">
+    <option value="" disabled selected>{{ t.footer.language }}</option>
+    {% assign links = page.url | locale_links %}
+    {%- for link in links %}
+    <option value="{{ link.url }}" lang="{{ link.lang }}" data-hreflang="{{ link.lang }}">{{ link.label }}</option>
+    {%- endfor -%}
+  </select>
+</div>

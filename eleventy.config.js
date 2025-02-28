@@ -20,7 +20,8 @@ export default async function(eleventyConfig) {
 
   // The `public` directory is passed through to the output directory.
   eleventyConfig
-    .addPassthroughCopy("./content/**/*.{svg,png,jpg,jpeg,webp}") // Images
+    .addPassthroughCopy({"./public/": "/"})
+    .addPassthroughCopy("./content/**/*.{svg,png,jpg,jpeg,webp,gif}") // Images
     .addPassthroughCopy("./content/**/*.{webm,mp4}") // Videos
     .addPassthroughCopy("./content/**/*.{pdf,pptx}") // Documents
   eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg,avif,webp}");
@@ -33,6 +34,9 @@ export default async function(eleventyConfig) {
     defaultAttributes: {
       loading: "lazy",
       decoding: "async",
+    },
+    sharpOptions: {
+      animated: true,
     }
   });
   // Internationalization

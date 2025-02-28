@@ -212,16 +212,20 @@ ffmpeg \
     <p>{{ t.index.section_downloads.comment }}</p>
   </div>
 
+  {%- assign recentPosts = collections.posts | where: "data.lang", page.lang | recentPosts %}
+  {%- if recentPosts.size > 0 %}
   <hr>
 
   <div class="section-blog">
     <h2>{{ t.index.section_blog.title }}</h2>
 
     <ul>
-      <li><a href="/blog/v1/">My app sucked (but it's okay)</a> <i>(Feb 2025)</i></li>
-      <li><a href="/blog/launch/">I blasted over a speed bump to create my landing page</a> <i>(Feb 2025)</i></li>
+      {%- for post in recentPosts %}
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a> <i>({{ post.date | readableDateShort: page.lang }})</i></li>
+      {%- endfor %}
     </ul>
   </div>
+  {% endif %}
 </section>
 
 {% block head %}

@@ -1,11 +1,11 @@
 <div class="carousel-group">
   <div class="card annoyance">
-    <img src="/annoyances/annoyance_police.gif" alt="The Screen Time Police annoyance effect">
+    <img eleventy:formats="webp,gif" src="/annoyances/annoyance_police.gif" alt="The Screen Time Police annoyance effect">
     <h3>The Screen Time Police</h3>
   </div>
 
   <div class="card annoyance">
-    <img src="/annoyances/annoyance_cookies.png" alt="The Cookie Banner annoyance">
+    <img eleventy:formats="webp,gif" src="/annoyances/annoyance_cookies.png" alt="The Cookie Banner annoyance">
     <h3>Cookie Banners</h3>
   </div>
 
@@ -17,32 +17,38 @@
   </div>
 
   <div class="card annoyance">
-    <img src="/annoyances/annoyance_bot.png" alt="The Customer Support annoyance">
+    <img eleventy:formats="webp,gif" src="/annoyances/annoyance_bot.png" alt="The Customer Support annoyance">
     <h3>Customer Support</h3>
   </div>
 
   <div class="card annoyance">
-    <img src="/annoyances/annoyance_dancing_cat.gif" alt="The Dancing Cat annoyance effect">
+    {%- comment %}
+    Eleventy's plugin creates artifacts with this one, for some reason.
+    {%- endcomment %}
+    <picture>
+      <source srcset="/annoyances/annoyance_dancing_cat.webp" type="image/webp">
+      <img eleventy:ignore loading="lazy" src="/annoyances/annoyance_dancing_cat.gif" alt="The Dancing Cat annoyance effect">
+    </picture>
     <h3>Cats</h3>
   </div>
 
   <div class="card annoyance">
-    <img src="/annoyances/annoyance_privacy_policy.png" alt="The Endless Privacy Policy annoyance">
+    <img eleventy:formats="webp,gif" src="/annoyances/annoyance_privacy_policy.png" alt="The Endless Privacy Policy annoyance">
     <h3>Endless Privacy Policy</h3>
   </div>
 
   <div class="card annoyance">
-    <img src="/annoyances/annoyance_nyan.gif" alt="The Nyan Cat annoyance effect">
+    <img eleventy:formats="webp,gif" src="/annoyances/annoyance_nyan.gif" alt="The Nyan Cat annoyance effect">
     <h3>More cats</h3>
   </div>
 
   <div class="card annoyance">
-    <img src="/annoyances/annoyance_adblocker.png" alt="The Disable AdBlocker annoyance">
+    <img eleventy:formats="webp,gif" src="/annoyances/annoyance_adblocker.png" alt="The Disable AdBlocker annoyance">
     <h3>Disable Your AdBlocker</h3>
   </div>
 
   <div class="card annoyance">
-    <img src="/annoyances/annoyance_newsletter.png" alt="The Newsletter annoyance">
+    <img eleventy:formats="webp,gif" src="/annoyances/annoyance_newsletter.png" alt="The Newsletter annoyance">
     <h3>Newsletter</h3>
   </div>
 </div>

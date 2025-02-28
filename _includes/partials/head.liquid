@@ -8,6 +8,15 @@ Metadata and optimizations
 <meta name="generator" content="{{ eleventy.generator }}">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
+{% comment %}
+Translations
+{% endcomment %}
+<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absUrl }}">
+{% assign links = page.url | locale_links %}
+{%- for link in links %}
+    <link rel="alternate" hreflang="{{ link.lang }}" href="{{ link.url | absUrl }}">
+{%- endfor -%}
+
 {%- comment %}
 Website information
 TODO: language-specific metadata

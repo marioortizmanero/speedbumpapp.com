@@ -1,5 +1,5 @@
 export default {
-  dir: "",
+  reading_dir: "ltr",
   index: {
     hero_1: "Do you know how a speed bump feels",
     hero_2: "Annoying, but it sure slows you down.",
@@ -66,5 +66,6 @@ export default {
     subscribe: "subscribe",
     privacy_policy: "Privacy Policy",
     about: "Who We Are",
+    language: "Select language",
   }
 }

@@ -91,3 +91,34 @@ html, body {
   width: 26px;
   color: var(--foreground);
 }
+
+.language-selector {
+  display: inline-block;
+  position: relative;
+}
+#language-dropdown {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  color: var(--foreground);
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+  border: 1px solid var(--foreground);
+  border-radius: var(--radius);
+  background-color: var(--background-alt);
+  /* Custom dropdown arrow */
+  appearance: none;
+  cursor: pointer;
+}
+.language-selector::after {
+  content: "";
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  /* Trick to create a triangle with CSS */
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--foreground);
+}
