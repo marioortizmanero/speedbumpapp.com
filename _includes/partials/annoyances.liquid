@@ -1,11 +1,13 @@
+{% assign t = i18n[page.lang] %}
+
 <div class="carousel-group">
   <div class="card annoyance">
-    <img eleventy:formats="webp,gif" src="/annoyances/police.gif" alt="The Screen Time Police annoyance effect">
+    <img eleventy:formats="webp,gif" src="/annoyances/police.gif" alt="{{ t.index.section_annoyances.annoyance_1 }}">
     <h3>{{ t.index.section_annoyances.annoyance_1 }}</h3>
   </div>
 
   <div class="card annoyance">
-    <img eleventy:formats="webp,gif" src="/annoyances/cookies.png" alt="The Cookie Banner annoyance">
+    <img eleventy:formats="webp,gif" src="/{{ page.lang }}/annoyances/cookies.png" alt="{{ t.index.section_annoyances.annoyance_2 }}">
     <h3>{{ t.index.section_annoyances.annoyance_2 }}</h3>
   </div>
 
@@ -17,7 +19,7 @@
   </div>
 
   <div class="card annoyance">
-    <img eleventy:formats="webp,gif" src="/annoyances/bot.png" alt="The Customer Support annoyance">
+    <img eleventy:formats="webp,gif" src="/{{ page.lang }}/annoyances/bot.png" alt="{{ t.index.section_annoyances.annoyance_4 }}">
     <h3>{{ t.index.section_annoyances.annoyance_4 }}</h3>
   </div>
 
@@ -27,28 +29,28 @@
     {%- endcomment %}
     <picture>
       <source srcset="/annoyances/dancing_cat.webp" type="image/webp">
-      <img eleventy:ignore loading="lazy" src="/annoyances/dancing_cat.gif" alt="The Dancing Cat annoyance effect">
+      <img eleventy:ignore loading="lazy" src="/annoyances/dancing_cat.gif" alt="{{ t.index.section_annoyances.annoyance_5 }}">
     </picture>
     <h3>{{ t.index.section_annoyances.annoyance_5 }}</h3>
   </div>
 
   <div class="card annoyance">
-    <img eleventy:formats="webp,gif" src="/annoyances/privacy_policy.png" alt="The Endless Privacy Policy annoyance">
+    <img eleventy:formats="webp,gif" src="/{{ page.lang }}/annoyances/privacy_policy.png" alt="{{ t.index.section_annoyances.annoyance_6 }}">
     <h3>{{ t.index.section_annoyances.annoyance_6 }}</h3>
   </div>
 
   <div class="card annoyance">
-    <img eleventy:formats="webp,gif" src="/annoyances/nyan.gif" alt="The Nyan Cat annoyance effect">
+    <img eleventy:formats="webp,gif" src="/annoyances/nyan.gif" alt="{{ t.index.section_annoyances.annoyance_7 }}">
     <h3>{{ t.index.section_annoyances.annoyance_7 }}</h3>
   </div>
 
   <div class="card annoyance">
-    <img eleventy:formats="webp,gif" src="/annoyances/adblocker.png" alt="The Disable AdBlocker annoyance">
+    <img eleventy:formats="webp,gif" src="/{{ page.lang }}/annoyances/adblocker.png" alt="{{ t.index.section_annoyances.annoyance_8 }}">
     <h3>{{ t.index.section_annoyances.annoyance_8 }}</h3>
   </div>
 
   <div class="card annoyance">
-    <img eleventy:formats="webp,gif" src="/annoyances/newsletter.png" alt="The Newsletter annoyance">
+    <img eleventy:formats="webp,gif" src="/{{ page.lang }}/annoyances/newsletter.png" alt="{{ t.index.section_annoyances.annoyance_9 }}">
     <h3>{{ t.index.section_annoyances.annoyance_9 }}</h3>
   </div>
 </div>
