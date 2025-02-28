@@ -24,7 +24,9 @@
         {{ content }}
     </main>
 
-    {% render "partials/footer.liquid" metadata: metadata %}
+    {% render "partials/footer.liquid"
+        metadata: metadata
+        i18n: i18n
+        page: page %}
   </body>
-
 </html>

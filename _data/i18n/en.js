@@ -63,7 +63,7 @@ export default {
   },
   footer: {
     subscribe_or: "or",
-    subscribe_or: "subscribe",
+    subscribe: "subscribe",
     privacy_policy: "Privacy Policy",
     about: "Who We Are",
   }

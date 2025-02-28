@@ -1,4 +1,5 @@
 import MarkdownIt from "markdown-it";
+import fs from "fs";
 import * as cheerio from "cheerio";
 import memoize from "memoize";
 
@@ -28,6 +29,23 @@ export default function(eleventyConfig) {
     }).format(date);
   });
 
+  eleventyConfig.addFilter("iso8601Date", (dateString) => {
+    const date = new Date(dateString);
+    return date.toISOString();
+  });
+
+  eleventyConfig.addFilter("lastModified", (filePath) => {
+    const stats = fs.statSync(filePath);
+    return stats.mtime;
+  });
+
+  eleventyConfig.addFilter("recentPosts", function (posts) {
+    return posts
+      .filter(p => p.url !== this.page.url)
+      .sort((p1, p2) => p2.data.date - p1.data.date)  // Descending
+      .slice(0, 5);
+  });
+
   eleventyConfig.addFilter("assertLengthUnder", (str, maxLength) => {
     if (typeof str !== "string" || !Number.isInteger(maxLength)) {
       throw new Error("assertLengthUnder filter expects a string and integer");
@@ -36,12 +54,6 @@ export default function(eleventyConfig) {
       throw new Error(`String has length of ${str.length}, which is above the expected maximum of ${maxLength}: ${str}`);
     }
     return str;
-  });
-
-  eleventyConfig.addFilter("assertNotEmpty", (x) => {
-    if (!x) {
-      throw new Error(`Expected non-empty variable but got: ${x}`);
-    }
   });
 
   eleventyConfig.addFilter("raiseError", (str) => {
@@ -87,4 +99,4 @@ export default function(eleventyConfig) {
     console.log(obj);
     console.log("------------------------");
   });
-}
+};

@@ -1,5 +1,5 @@
 ---
-# layout: layouts/post.liquid
+layout: layouts/post.liquid
 lang: en
 date: 2025-01-16
 title: SpeedBump's Privacy Policy
@@ -92,3 +92,4 @@ imageAlt: The background is a rainbow, with 'Make social media annoying' in the 
 <p>If you have any questions about this Privacy Policy or our practices, please contact us at: <a href="mailto:speedbumpapp@gmail.com">speedbumpapp@gmail.com</a></p>
 <h2 id="data-protection-officer" tabindex="-1">Data Protection Officer</h2>
 <p>For GDPR compliance purposes, you can contact our Data Protection Officer at: <a href="mailto:speedbumpapp@gmail.com">speedbumpapp@gmail.com</a></p>
+

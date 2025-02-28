@@ -30,3 +30,32 @@ layout: layouts/base.liquid
     <h3 style="text-align: center"><a href="/">{{ t.post.footer.about }}</a></h2>
   </footer>
 </article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "name": "{{ title | escape }}",
+  "image": "{{ image | absUrl }}",
+  "author": "{{ author | default: metadata.author.name }}",
+  "url": "{{ page.url }}",
+  "datePublished": "{{ date | iso8601Date }}",
+  "dateModified": "{{ page.inputPath | lastModified | iso8601Date }}",
+  "mainEntityOfPage": "{{ page.url }}",
+  "description": "{{ description | markdownify | plainifyHtml | escape }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ metadata.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ 'favicon.ico' | absUrl }}"
+    }
+  }
+}
+</script>
+
+{% block head %}
+<style>
+{% render "css/post.css" %}
+</style>
+{% endblock %}
