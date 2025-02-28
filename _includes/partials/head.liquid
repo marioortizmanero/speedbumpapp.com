@@ -26,11 +26,7 @@ Website information
 <meta name="keywords" content="{{ keywords | join: "," }}">
 <meta name="description" content="{{ description | markdownify | plainifyHtml | escape }}">
 <meta name="author" content="Mario Ortiz Manero">
-{%- if page.lang == "en" %}
-<link rel="canonical" href="{{ page.url | replace_first: '/en/', '/' | absUrl }}">
-{%- else %}
 <link rel="canonical" href="{{ page.url | locale_url | absUrl }}">
-{%- endif %}
 
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
