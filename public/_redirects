@@ -15,3 +15,5 @@
 # For SEO; trailing slashes are better to avoid duplicates.
 /es   /es/ 301
 /de   /de/ 301
+
+/en/something /en 301
