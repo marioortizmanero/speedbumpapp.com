@@ -1,5 +1,5 @@
 ---
-layout: layouts/index.liquid
+# layout: layouts/index.liquid
 lang: en
 title: TODO
 keywords: ["TODO"]

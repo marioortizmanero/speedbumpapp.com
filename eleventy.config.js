@@ -78,23 +78,8 @@ export default async function(eleventyConfig) {
   };
   eleventyConfig.setLibrary("md", markdown);
 
-  // Replicates `_redirects` when running locally
-  eleventyConfig.setServerOptions({
-    middleware: function(req, res, next) {
-      if (req.url === '/') {
-        const userLang = req.headers["accept-language"]
-          ? req.headers["accept-language"].split(',')[0].substring(0, 2)
-          : 'en';
-
-        if (['es', 'de'].includes(userLang)) {
-          res.writeHead(302, { Location: `/${userLang}/` });
-          res.end();
-          return;
-        }
-      }
-      next();
-    }
-  });
+  // Note that _redirects won't work when running locally:
+  //   https://github.com/11ty/eleventy-dev-server/issues/16
 };
 
 export const config = {

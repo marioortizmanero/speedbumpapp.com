@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.liquid
+# layout: layouts/post.liquid
 lang: en
 date: 2025-01-16
 title: SpeedBump's Privacy Policy

@@ -5,7 +5,7 @@ export default {
   tags: [
     "posts",
   ],
-  layout: "layouts/post.liquid",
+  //layout: "layouts/post.liquid",
   eleventyDataSchema: function(data) {
     // TODO: does this inherit from the other one to also require title?
     let result = z.object({

@@ -2,6 +2,8 @@ import MarkdownIt from "markdown-it";
 import * as cheerio from "cheerio";
 import memoize from "memoize";
 
+import metadata from "../_data/metadata.js";
+
 const markdownIt = new MarkdownIt();
 
 export default function(eleventyConfig) {

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.liquid
+# layout: layouts/post.liquid
 lang: es
 title: TODO
 date: 2025-01-16
