@@ -108,3 +108,7 @@
 .header-anchor:active {
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .post-main { margin: 10px; }
+}
