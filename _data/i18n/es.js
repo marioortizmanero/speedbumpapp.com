@@ -65,7 +65,7 @@ export default {
       written_on: "el",
     },
     footer: {
-      download_prompt: "Consigue SpeedBump ahora:",
+      download_prompt: "Ponle freno a las apps adictivas con SpeedBump:",
       about: "¿Qué es SpeedBump?",
     }
   },
