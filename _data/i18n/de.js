@@ -65,7 +65,7 @@ export default {
       written_on: "am",
     },
     footer: {
-      download_prompt: "Hol dir SpeedBump jetzt:",
+      download_prompt: "Brich Sucht-Apps mit SpeedBump:",
       about: "Was ist SpeedBump?",
     }
   },
