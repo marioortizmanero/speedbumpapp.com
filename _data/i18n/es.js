@@ -5,7 +5,7 @@ export default {
     hero_2: "Molestos, pero sin duda te ralentizan.",
     hero_3: "Conoce el badén para <mark>apps&nbsp;adictivas</mark>.",
     section_demo: {
-      step_1: "Establece tu límite de tiempo al abrir apps adictivas.",
+      step_1: "Ponte un tiempo límite al abrir apps adictivas.",
       step_2: "Te sacará de quicio cuando se acabe el tiempo.",
       step_3: "Tómate un descanso de 15 minutos antes del siguiente uso.",
       description: "Porque los recordatorios ya no funcionan. Tampoco los temporizadores fijos o las frases motivacionales. A veces, necesitas algo más... directo.",
