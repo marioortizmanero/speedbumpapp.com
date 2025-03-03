@@ -25,7 +25,7 @@ layout: layouts/base.liquid
     <footer class="post-footer">
       <h2 style="text-align: center">{{ t.post.footer.download_prompt }}</h2>
 
-      {% render "partials/downloads.liquid" %}
+      {% render "partials/downloads.liquid" page: page %}
 
       <h3 style="text-align: center"><a href="{{ '/' | locale_url }}">{{ t.post.footer.about }}</a></h2>
     </footer>
