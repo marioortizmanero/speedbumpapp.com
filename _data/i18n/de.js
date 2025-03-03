@@ -3,9 +3,9 @@ export default {
   index: {
     hero_1: "Kennst du Bodenschwellen",
     hero_2: "Nervig, aber sie bremsen dich definitiv aus.",
-    hero_3: "Entdecke die Bodenschwelle für <mark>Sucht-Apps</mark>.",
+    hero_3: "Entdecke die Bodenschwelle für <mark>App-Sucht</mark>.",
     section_demo: {
-      step_1: "Du legst dein Zeitlimit für die Sucht-Apps fest.",
+      step_1: "Du legst dein Zeitlimit für süchtigmachende Apps fest.",
       step_2: "Wenn die Zeit um ist, wirst du von Apps rausgenervt.",
       step_3: "Mach 15 Minuten Pause vor der nächsten Nutzung.",
       description: "Weil sanfte Erinnerungen, feste Timer oder Motivationszitate nicht mehr helfen. Manchmal brauchst du etwas... Direkteres.",
@@ -34,7 +34,7 @@ export default {
     },
     section_annoyances: {
       title: "Wir sind die Besten darin, dich vom Handy zu holen",
-      description: "Bisher 9 Nervfaktoren - mehr kommen bald!<br>Sie werden über Sucht-Apps angezeigt, wenn deine Zeit abgelaufen ist. Glaub mir, du wirst nicht lange bleiben wollen.",
+      description: "Bisher 9 Nervfaktoren - mehr kommen bald!<br>Sie werden über süchtigmachende Apps angezeigt, wenn deine Zeit abgelaufen ist. Glaub mir, du wirst nicht lange bleiben wollen.",
       annoyance_1: "Die Bildschirmzeit-Polizei",
       annoyance_2: "Aggressive Cookie-Banner",
       annoyance_3: "Regen",
@@ -65,7 +65,7 @@ export default {
       written_on: "am",
     },
     footer: {
-      download_prompt: "Brich Sucht-Apps mit SpeedBump:",
+      download_prompt: "Brich App-Sucht mit SpeedBump:",
       about: "Was ist SpeedBump?",
     }
   },

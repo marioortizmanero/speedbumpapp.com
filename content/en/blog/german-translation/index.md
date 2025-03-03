@@ -13,8 +13,15 @@ draft: true
 
 Here are all the different translations I came across:
 
-* Geschwindigkeitsbegrenzung: suggested by Google Translate. It's actually wrong and means "speed limit".
-* Bodenschwelle: suggested by Claude AI. It means ground bump.
-* Temposchwelle: suggested on [Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrlgf2/). It means speed/rate bump.
-* Bremsschwelle: sugested on [Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrl7jo/).
-* Rüttelschwelle: suggested on [Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrl7jo/).
+1. Geschwindigkeitsbegrenzung: suggested by Google Translate. It's completely wrong and means "speed limit".
+2. Bodenschwelle: suggested by Claude AI. It means "ground bump" and is not used, according to locals.
+3. Fahrbahnschwelle: suggested by DeepL. It means "roadway swell" and is also not that popular.
+4. Temposchwelle: suggested on [Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrlgf2/). It means speed/rate bump.
+5. Bremsschwelle: sugested on [Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrl7jo/). According to Wikipedia, this is a broader term.
+6. Rüttelschwelle: suggested on [Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrl7jo/). This is what appears in dictionaries (["Duden"](https://en.wikipedia.org/wiki/Duden)).
+7. Bremsbückel: suggested on [Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrli58/).
+8. Schwelle: suggested on Wikipedia as the most popular term in Austria.
+
+Lesson learned: get a proper translation service -- even AI doesn't work well enough. Or without budget, try asking a friend.
+
+Even with proper translation, the country's culture might make it irrelevant, though. It turns out speed bumps aren't all that popular in Germany -- in Munich, they were
