@@ -1,7 +1,7 @@
 export default {
   title: "SpeedBump",
   url: "https://speedbumpapp.com",
-  domain: "speedbump.com",
+  domain: "speedbumpapp.com",
   social: {
     GitHub:  "https://github.com/marioortizmanero/",
     LinkedIn: "https://www.linkedin.com/in/marioortizmanero/",
