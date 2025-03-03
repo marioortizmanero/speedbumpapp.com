@@ -5,10 +5,10 @@ export default {
     hero_2: "Nervig, aber sie bremsen dich definitiv aus.",
     hero_3: "Entdecke die Bodenschwelle für <mark>Sucht-Apps</mark>.",
     section_demo: {
-      step_1: "Lege dein Zeitlimit fest, wenn du eine Sucht-App öffnest.",
-      step_2: "Lass dich rausnerven, wenn die Zeit um ist.",
+      step_1: "Du legst dein Zeitlimit für die Sucht-Apps fest.",
+      step_2: "Wenn die Zeit um ist, wirst du von Apps rausgenervt.",
       step_3: "Mach 15 Minuten Pause vor der nächsten Nutzung.",
-      description: "Weil sanfte Erinnerungen nicht mehr funktionieren. Auch feste Timer oder Motivationszitate helfen nicht mehr. Manchmal brauchst du etwas... Direkteres.",
+      description: "Weil sanfte Erinnerungen, feste Timer oder Motivationszitate nicht mehr helfen. Manchmal brauchst du etwas... Direkteres.",
       note: "Early Access - erwarte Ecken und Kanten sowie zufällige Abstürze. Aber hey, das erhöht nur den Nervfaktor! ;)",
     },
     section_features: {
@@ -20,11 +20,11 @@ export default {
         Duolingo (warum eigentlich?)
       </p>
 
-      <p class="feature-clarification">Bald kannst du Shorts, Reels und andere In-App-Funktionen begrenzen. Websites auch.</p>`,
+      <p class="feature-clarification">Bald kannst du auch Shorts, Reels und andere In-App-Funktionen begrenzen. Websites auch.</p>`,
       },
       feature_2: {
         title: "Für dich angepasst",
-        content: `<p>Soziale Medien können toll sein!</p>
+        content: `<p>Soziale Medien können auch toll sein!</p>
       <p>Bleib mit Freunden in Kontakt, ohne stundenlang zu scrollen.</p>`,
       },
       feature_3: {
@@ -47,9 +47,9 @@ export default {
     },
     section_testimonials: {
       title: "Unsere Testimonials",
-      content: `<p><span class="testimonial-quote">"</span>Ich weiß nicht, wie das funktioniert, aber es sieht cool aus<span class="testimonial-quote">"</span><br><i>— meine Mutter</i></p>
-      <p><span class="testimonial-quote">"</span>Das mit der Katze ist lustig<span class="testimonial-quote">"</span><br><i>— meine Freundin</i></p>
-      <p><span class="testimonial-quote">"</span>Kannst du meinen Arm loslassen und aufhören, über Bildschirmzeit-Apps zu reden?<span class="testimonial-quote">"</span><br><i>— irgendein langweiliger Typ im Supermarkt</i></p>`,
+      content: `<p><span class="testimonial-quote">"</span>Ich weiß nicht, wie das funktioniert, aber es sieht cool aus<span class="testimonial-quote">"</span><br><i>— Meine Mutter</i></p>
+      <p><span class="testimonial-quote">"</span>Das mit der Katze ist lustig<span class="testimonial-quote">"</span><br><i>— Meine Freundin</i></p>
+      <p><span class="testimonial-quote">"</span>Kannst du meinen Arm loslassen und aufhören, über Bildschirmzeit-Apps zu reden?<span class="testimonial-quote">"</span><br><i>— Irgendein langweiliger Typ im Supermarkt</i></p>`,
     },
     section_downloads: {
       title: "Hör jetzt auf, deine Zeit zu verschwenden:",

@@ -5,8 +5,8 @@ export default {
     hero_2: "Annoying, but they sure slow you down.",
     hero_3: "Meet the speed bump for <mark>addictive&nbsp;apps</mark>.",
     section_demo: {
-      step_1: "Set your time limit when opening an addictive app.",
-      step_2: "Get annoyed out of it when time's up.",
+      step_1: "Set your time limit when opening addictive apps.",
+      step_2: "Get annoyed out of them when time's up.",
       step_3: "Take a 15-minute break before next use.",
       description: "Because gentle reminders don't work anymore. Neither do fixed timers or motivation quotes. Sometimes, you need something more… direct.",
       note: "Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)",
