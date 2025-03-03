@@ -9,7 +9,7 @@ export default {
       step_2: "Te sacará de quicio cuando se acabe el tiempo.",
       step_3: "Tómate un descanso de 15 minutos antes del siguiente uso.",
       description: "Porque los recordatorios ya no funcionan. Tampoco los temporizadores fijos o las frases motivacionales. A veces, necesitas algo más... directo.",
-      note: "Acceso anticipado - el desarrolldor sigue programando sin parar. Pero oye, ¡eso solo aumenta el factor de molestia! ;)",
+      note: "Acceso anticipado - el desarrollador sigue programando sin parar. Pero oye, ¡eso solo aumenta el factor de molestia! ;)",
     },
     section_features: {
       feature_1: {
