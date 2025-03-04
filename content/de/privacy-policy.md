@@ -5,7 +5,7 @@ date: 2025-01-16
 title: Datenschutzerklärung von SpeedBump
 keywords: ["speedbump app", "datenschutzerklärung", "bildschirmzeit", "dsgvo"]
 description: Datenschutzerklärung von SpeedBump
-image: /assets/banner.jpg
+image: /de/assets/banner.jpg
 imageAlt: Der Hintergrund ist ein Regenbogen, mit 'Mach soziale Medien nervig' in der Mitte in der Schriftart Comic Sans und einer schlecht gezeichneten Katze in der oberen rechten Ecke. Es nimmt Bezug auf das Internet-Meme 'graphic design is my passion'.
 ---
 

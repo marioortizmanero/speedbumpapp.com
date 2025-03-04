@@ -5,7 +5,7 @@ date: 2025-01-16
 title: Política de Privacidad de SpeedBump
 keywords: ["speedbump app", "política de privacidad", "tiempo de pantalla", "rgpd"]
 description: Política de Privacidad de SpeedBump
-image: /assets/banner.jpg
+image: /es/assets/banner.jpg
 imageAlt: El fondo es un arcoíris, con 'Hacer molestas las redes sociales' en el centro usando la fuente Comic Sans, y un gato mal dibujado en la esquina superior derecha. Hace referencia al meme de internet 'graphic design is my passion'.
 ---
 

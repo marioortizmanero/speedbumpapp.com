@@ -5,7 +5,7 @@ date: 2025-01-16
 title: SpeedBump's Privacy Policy
 keywords: ["speedbump app", "privacy policy", "screen time", "gdpr"]
 description: SpeedBump's Privacy Policy
-image: /assets/banner.jpg
+image: /en/assets/banner.jpg
 imageAlt: The background is a rainbow, with 'Make social media annoying' in the middle using the font Comic Sans, and a badly drawn cat in the top right corner. It references the internet meme 'graphic design is my passion'.
 ---
 
