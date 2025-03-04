@@ -70,5 +70,3 @@ He recolectado todos los términos porque ¿por qué no? -- avísame si conoces 
 20. **Huckel**: sugerido [en Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/), similar a Hubbel. Es jerga.
 
 Lección aprendida: trabaja con un servicio de traducción en condiciones -- incluso la IA no funciona lo suficientemente bien. O sin presupuesto, intenta preguntar a un amigo. Aunque incluso con una traducción adecuada, la cultura podría hacerla irrelevante. Resulta que los badenes no son tan populares en Alemania. Múnich dejó de construirlos hace veinte años porque eran un peligro para ciclistas y vehículos de rescate ([según Reddit](https://www.reddit.com/r/Munich/comments/1ieicbg/comment/mac76xe/)).
-
-También - ¡hoy SpeedBump se lanzó en Product Hunt! Puedes darle un voto [aquí](https://www.producthunt.com/posts/speedbump) :)
