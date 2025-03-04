@@ -75,5 +75,6 @@ export default {
     privacy_policy: "Política de Privacidad",
     about: "Quiénes Somos",
     language: "Seleccionar idioma",
-  }
+  },
+  also_available_in: "Esta página también está disponible en:",
 }

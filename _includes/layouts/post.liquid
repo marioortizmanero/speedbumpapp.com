@@ -15,7 +15,7 @@ layout: layouts/base.liquid
   <article class="post-single">
     <div class="post-header">
       <h1 class="post-title">{{ title }}</h1>
-      <span class="post-meta">{{ t.post.header.written }} <a href="https://nullderef.com/about/" target="_blank">Mario Ortiz Manero</a> {{ t.post.header.written_on }} {{ date | readableDateLong: page.lang }}</span>
+      <span class="post-meta">{{ t.post.header.written }} <a href="https://nullderef.com/about/" target="_blank">Mario Ortiz Manero</a> {{ t.post.header.written_on }} {{ date | readableDateLong: page.lang }}<br>{% render "partials/in-other-langs.liquid" page: page, i18n: i18n %}</span>
     </div>
     <div class="post-content">
       {{ content }}

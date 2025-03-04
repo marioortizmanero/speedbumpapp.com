@@ -3,9 +3,9 @@ lang: en
 title: The German language broke my website
 date: 2025-03-04
 description: Did you know that Germans have 18 variations for "speed bump"?
-keywords: ["speedbump app", "screen time", "social media addiction", "startup journey", "android", "iphone", "productivity app"]
-image: /assets/blog/launch/preview.jpg
-imageAlt: TODO
+keywords: ["speedbump app", "languages", "german", "startup journey", "productivity app"]
+image: /assets/blog/german-translation/preview.jpg
+imageAlt: A broken speed bump over the German flag
 draft: true
 ---
 
@@ -62,8 +62,8 @@ I've collected all the terms here because why not -- let me know if you know mor
 11. **Moabiter Kissen**: in Moabit, Germany (Wikipedia). It's a neighbourhood of Berlin. Kissen means cushion, so it'd be "Moabit Cushion".
 12. **Krefelder Kissen**: the equivalent for Krefeld, Germany (Wikipedia).
 13. **Berliner Kissen**: the equivalent for Berlin, Germany (Wikipedia).
-14. **Kölner Teller**: the equivalent for Cologne, Germany (Wikipedia).
-15. **Delfter Hügel**: the equivalent for Delft, Netherlands (Wikipedia).
+14. **Kölner Teller**: a similar one for Cologne, Germany (Wikipedia). Teller means "dish" (???).
+15. **Delfter Hügel**: a similar one for Delft, Netherlands (Wikipedia). Hügel stands for "hill" (presumably, it's so flat that a speed bump there is already considered a hill?).
 16. **schlafender/liegender Polizist**: a joke with Italian origin referring to speed bumps being sleeping or laying-down policemen. This is also used in languages such as English (sleeping policemen) or Spanish (policía tumbado).
 17. **Ralentisseur**: taken from French, so probably more common in the borders of Germany.
 18. **Speedbump**: taken from English; most young people are familiar with it.
@@ -71,3 +71,5 @@ I've collected all the terms here because why not -- let me know if you know mor
 20. **Huckel**: suggested [on Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/), similar to Hubbel. It's slang.
 
 Lesson learned: get a proper translation service -- even AI doesn't work well enough. Or without budget, try asking a friend. Though even with proper translation, culture might make it irrelevant. It turns out speed bumps aren't all that popular in Germany. Munich stopped building them twenty years ago because they were a danger to cyclists and rescue vehicles ([according to Reddit](https://www.reddit.com/r/Munich/comments/1ieicbg/comment/mac76xe/)).
+
+Also -- today SpeedBump launched on Product Hunt! You can give it a vote [here](https://www.producthunt.com/posts/speedbump) :)

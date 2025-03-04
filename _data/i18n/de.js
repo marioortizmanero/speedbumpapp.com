@@ -75,5 +75,6 @@ export default {
     privacy_policy: "Datenschutzerklärung",
     about: "Über uns",
     language: "Sprache auswählen",
-  }
+  },
+  also_available_in: "Diese Seite ist auch verfügbar in:"
 }
