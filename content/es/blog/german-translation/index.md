@@ -6,7 +6,6 @@ description: ¿Sabías que los alemanes tienen 18 variaciones de la palabra 'bad
 keywords: ["speedbump app", "idiomas", "alemán", "emprendimiento", "app para productividad"]
 image: /assets/blog/german-translation/preview.jpg
 imageAlt: Un badén roto sobre la bandera alemana
-draft: true
 ---
 
 Estoy desarrollando una app para ayudar a la gente a usar menos el móvil. Como metáfora uso los badenes -- son molestos pero realmente funcionan. Esto funcionó bastante bien como frase pegadiza en [la página de inicio](/), y le dio algo de personalidad al proyecto.

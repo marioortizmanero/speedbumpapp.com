@@ -6,7 +6,6 @@ description: Did you know that Germans have 18 variations for "speed bump"?
 keywords: ["speedbump app", "languages", "german", "startup journey", "productivity app"]
 image: /assets/blog/german-translation/preview.jpg
 imageAlt: A broken speed bump over the German flag
-draft: true
 ---
 
 I'm building an app to help people use their phones less. As a metaphor I use speed bumps -- they're annoying but actually work. This worked well enough as a catchy phrase in [the landing page](/), and it gave the project some personality.
