@@ -1,6 +1,6 @@
 ---
 lang: es
-title: El lenguaje alemán rompió mi página web
+title: El idioma alemán rompió mi página web
 date: 2025-03-04
 description: ¿Sabías que los alemanes tienen 18 variaciones de la palabra 'badén'?
 keywords: ["speedbump app", "idiomas", "alemán", "emprendimiento", "app para productividad"]
