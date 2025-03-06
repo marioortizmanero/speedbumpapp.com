@@ -17,10 +17,16 @@ So I pivoted to targeting Germany and Spain. Android has [a 61% and 76% ratio](h
 
 It's been interesting to discover how different each social media is:
 
+## Success
+
 * TikTok is awesome for new companies. You don't even need followers to get some initial views. If the video is liked by enough people during a random trial, it will get more and more shared. It also seems pretty common to promote products even if it's not an ad.
-* On Twitter and Instagram, you need some initial followers to get traction. I haven't found out how to do it properly on Instagram yet, but Communities on Twitter have helped me go from 0 likes to 1.
-* LinkedIn has been useful since the beginning because I had a decent following. But they are people I personally know, who aren't necessarily the best target for my product.
+* LinkedIn has been useful since the beginning because I had a decent following. But they are people I personally know, who aren't necessarily the best target for my product. Haven't tried their new video format.
+* Product Hunt: unexpectedly, SpeedBump ended up seventh on March 4! Very stressful, but no regrets. I did expect more traffic on the site and less spam in my inbox. Maybe top 5 would have been better for that. It's also very US-focused, but I guess it helps with the SEO and to get some validation. It added ~1 point in domain ranking.
+* YouTube Shorts has worked pretty well. It just takes much more time than TikTok to get some views.
+
+## Failure
+
 * Reddit users are incredibly skeptical of promotions, even if they're in the subreddit's interest.
-* Hacker News is hard because your post is given only a couple minutes to gain traction. It's also strictly English-speaking and US-centered.
-* Product Hunt
 * Is anyone actually using IndieHackers? I'll consider myself lucky if I get more than 3 votes.
+* On Twitter and Instagram, you need some initial followers to get traction. I haven't found out how to do it properly on Instagram yet, but Communities on Twitter have helped me go from 0 likes to 1.
+* Hacker News is hard because your post is given only a couple minutes to gain traction. It's also strictly English-speaking and US-centered. So far, they're too serious for this app.

@@ -2,7 +2,7 @@
 lang: en
 title: The German language broke my website
 date: 2025-03-04
-description: Did you know that Germans have 18 variations for "speed bump"?
+description: 'Did you know that Germans have 18 variations for "speed bump"?'
 keywords: ["speedbump app", "languages", "german", "startup journey", "productivity app"]
 image: /assets/blog/german-translation/preview.jpg
 imageAlt: A broken speed bump over the German flag
