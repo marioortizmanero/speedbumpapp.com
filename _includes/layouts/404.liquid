@@ -18,6 +18,7 @@ layout: layouts/base.liquid
     </div>
     <div class="post-content">
       {{ content }}
+      <script>document.addEventListener('DOMContentLoaded', function () { plausible('404', { props: { path: document.location.pathname } }); });</script>
     </div>
 
     <hr>
