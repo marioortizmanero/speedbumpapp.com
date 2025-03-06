@@ -28,5 +28,5 @@ It's been interesting to discover how different each social media is:
 
 * Reddit users are incredibly skeptical of promotions, even if they're in the subreddit's interest.
 * Is anyone actually using IndieHackers? I'll consider myself lucky if I get more than 3 votes.
-* On Twitter and Instagram, you need some initial followers to get traction. I haven't found out how to do it properly on Instagram yet, but Communities on Twitter have helped me go from 0 likes to 1.
+* On X, Mastodon, BlueSky, and Instagram, you need some initial followers to get traction. I haven't found out how to do it properly on Instagram yet, but Communities on Twitter have helped me go from 0 likes to 1.
 * Hacker News is hard because your post is given only a couple minutes to gain traction. It's also strictly English-speaking and US-centered. So far, they're too serious for this app.
