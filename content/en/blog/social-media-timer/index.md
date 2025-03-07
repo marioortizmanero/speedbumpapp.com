@@ -3,10 +3,9 @@ lang: en
 title: How to add a timer to social media
 date: 2025-03-07
 description: 'Learn how to effectively limit time on Instagram, TikTok, and other social media apps with built-in features and specialized timer apps for better productivity.'
-keywords: ["social media timer", "block social media", "timer for tiktok", "digital detox", "productivity"]
+keywords: ["social media timer", "block social media", "timer for tiktok", "digital detox", "productivity", "screen time management", "instagram timer", "youtube time limit"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: An hourglass over screenshots of addictive apps, such as TikTok, Instagram, or games.
-draft: true
 ---
 
 ## Why You Need a Social Media Timer in 2025
