@@ -11,7 +11,7 @@ draft: true
 
 ## Why You Need a Social Media Timer in 2025
 
-Being on social media for too long can be frustrating and counterproductive. While standard timers exist, they often lack effectiveness. This guide will walk you through how to actually limit time on Instagram, TikTok, YouTube, and other social platforms to reclaim your productivity and mental wellbeing.
+Being on social media for too long can be frustrating and counterproductive. This guide will walk you through how to actually limit time on Instagram, TikTok, YouTube, and other social platforms to reclaim your productivity and mental wellbeing.
 
 ## Built-in Screen Time Features
 
@@ -32,7 +32,7 @@ You might not know it, but both Android and iOS come with powerful features to r
 * Tap "Dashboard" to see your app usage
 * Set timers for specific apps by tapping on them and selecting "Timer"
 
-Built-in timers are convenient since they require no additional installations. However, many users find them too easy to bypass. The button to extend the timer is just so easy to tap! This might help, but additional options like Focus Mode, Bedtime Mode, grayscale display, or notification management can enhance effectiveness. Experiment with these features to discover what works best for your usage patterns.
+Built-in timers are convenient since they require no additional installations. However, many users find them too easy to bypass. The button to extend the timer is just so easy to tap! Built-in blocking might help, but additional options like Focus Mode, Bedtime Mode, grayscale display, or notification management can enhance effectiveness. Experiment with these features to discover what works best for your usage patterns.
 
 ## Advanced Built-In Configuration Options
 
