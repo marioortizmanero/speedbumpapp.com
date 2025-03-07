@@ -1,3 +1,5 @@
 {%- assign t = i18n[page.lang] %}
 {%- assign links = page.url | locale_links %}
+{%- if links.size > 0 %}
 <i>{{ t.also_available_in }} {% for link in links %}<a href="{{ link.url }}" data-hreflang="{{ link.lang }}">{{ link.label }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</i>
+{%- endif %}

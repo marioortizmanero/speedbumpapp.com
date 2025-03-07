@@ -24,9 +24,13 @@ It's been interesting to discover how different each social media is:
 * Product Hunt: unexpectedly, SpeedBump ended up seventh on March 4! Very stressful, but no regrets. I did expect more traffic on the site and less spam in my inbox. Maybe top 5 would have been better for that. It's also very US-focused, but I guess it helps with the SEO and to get some validation. It added ~1 point in domain ranking.
 * YouTube Shorts has worked pretty well. It just takes much more time than TikTok to get some views.
 
+I've gone from "website authority" of 0.7 to 2.4.
+
 ## Failure
 
 * Reddit users are incredibly skeptical of promotions, even if they're in the subreddit's interest.
 * Is anyone actually using IndieHackers? I'll consider myself lucky if I get more than 3 votes.
-* On X, Mastodon, BlueSky, and Instagram, you need some initial followers to get traction. I haven't found out how to do it properly on Instagram yet, but Communities on Twitter have helped me go from 0 likes to 1.
+* On X, Mastodon, BlueSky, and Instagram, you need some initial followers to get traction. I haven't found out how to do it properly on Instagram yet, but Communities on Twitter have helped me go from 0 likes to 1 (I had to get the app instead of the browser).
 * Hacker News is hard because your post is given only a couple minutes to gain traction. It's also strictly English-speaking and US-centered. So far, they're too serious for this app.
+
+Does anyone even use hashtags anymore?

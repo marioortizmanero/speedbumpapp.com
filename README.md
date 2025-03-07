@@ -4,17 +4,17 @@ This repository contains the source code needed to build [SpeedBump's website](h
 
 ## Redirects
 
-Using Cloudflare ("rules"):
+Using Cloudflare ("rules"); order matters:
 
-* Name: English
-  * Match against: (expression) `(http.request.uri.path eq "/") and starts_with(http.request.accepted_languages[0],"en")`
-  * Action: (301 dynamic redirect) `concat("https://",http.host,"/en/")`
 * Name: Spanish
   * Match against: (expression) `(http.request.uri.path eq "/") and starts_with(http.request.accepted_languages[0],"es")`
   * Action: (301 dynamic redirect) `concat("https://",http.host,"/es",http.request.uri.path)`
 * Name: German
   * Match against: (expression) `(http.request.uri.path eq "/") and starts_with(http.request.accepted_languages[0],"de")`
   * Action: (301 dynamic redirect) `concat("https://",http.host,"/de",http.request.uri.path)`
+* Name: English
+  * Match against: (expression) `http.request.uri.path eq "/"`
+  * Action: (301 dynamic redirect) `concat("https://",http.host,"/en/")`
 * /blog/v1/ (before i18n)
   * Match against: (expression) `(http.request.uri eq "/blog/v1/") or (http.request.uri eq "/blog/v1")`
   * Action: (301 static redirect) `/en/blog/v1/`
