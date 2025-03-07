@@ -66,7 +66,7 @@ export default {
       written_on: "on",
     },
     footer: {
-      download_prompt: "Stop doom scrolling with SpeedBump now:",
+      download_prompt: "Stop doomscrolling with SpeedBump now:",
       about: "What's SpeedBump?",
     }
   },
