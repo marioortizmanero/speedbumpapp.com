@@ -3,7 +3,7 @@ export default {
   index: {
     hero_1: "Kennst du Bremsschwellen",
     hero_2: "Nervig, aber sie bremsen dich definitiv aus.",
-    hero_3: "Entdecke die Bremsschwellen für <mark>App-Sucht</mark>.",
+    hero_3: "Entdecke die Bremsschwellen für <mark>Handysucht</mark>.",
     section_demo: {
       step_1: "Du legst dein Zeitlimit für süchtigmachende Apps fest.",
       step_2: "Wenn die Zeit um ist, wirst du von Apps rausgenervt.",

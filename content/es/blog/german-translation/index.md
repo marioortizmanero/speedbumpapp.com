@@ -66,7 +66,8 @@ He recolectado todos los términos porque ¿por qué no? -- avísame si conoces 
 16. **schlafender/liegender Polizist**: una broma de origen italiano que se refiere a los badenes como policías dormidos o tumbados. Esto también se usa en idiomas como el inglés (sleeping policemen) o el español (policía tumbado).
 17. **Ralentisseur**: tomado del francés, así que probablemente más común en las fronteras de Alemania.
 18. **Speedbump**: tomado del inglés; la mayoría de los jóvenes están familiarizados con él.
-19. **Hubbel**: sugerido [en Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/). Es algo que sobresale. También puede usarse como Geschwindigkeitshubbel ([por ejemplo en esta noticia](https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/erste-hilfe-nach-e-scooter-unfall-in-koblenz-108.html)).
-20. **Huckel**: sugerido [en Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/), similar a Hubbel. Es jerga.
+19. **Hubbel**: sugerido [en Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/). Es algo que sobresale. También puede usarse como Geschwindigkeitshubbel ([por ejemplo en esta noticia](https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/erste-hilfe-nach-e-scooter-unfall-in-koblenz-108.html)). Es [dialecto](https://www.dwds.de/wb/Hubbel).
+20. **Huckel**: sugerido [en Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/), similar a Hubbel.
+21. **Tempohemmschwelle"**: "umbral de inhibición de velocidad", por ejemplo usado en [esta tienda](https://www.seton.at/tempohemmschwellen-elastisch.html#3809051000) (¡puedes comprarte tu propio badén por 430€!)
 
 Lección aprendida: trabaja con un servicio de traducción en condiciones -- incluso la IA no funciona lo suficientemente bien. O sin presupuesto, intenta preguntar a un amigo. Aunque incluso con una traducción adecuada, la cultura podría hacerla irrelevante. Resulta que los badenes no son tan populares en Alemania. Múnich dejó de construirlos hace veinte años porque eran un peligro para ciclistas y vehículos de rescate ([según Reddit](https://www.reddit.com/r/Munich/comments/1ieicbg/comment/mac76xe/)).

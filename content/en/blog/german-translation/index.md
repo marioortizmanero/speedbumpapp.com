@@ -66,8 +66,9 @@ I've collected all the terms here because why not -- let me know if you know mor
 16. **schlafender/liegender Polizist**: a joke with Italian origin referring to speed bumps being sleeping or laying-down policemen. This is also used in languages such as English (sleeping policemen) or Spanish (policía tumbado).
 17. **Ralentisseur**: taken from French, so probably more common in the borders of Germany.
 18. **Speedbump**: taken from English; most young people are familiar with it.
-19. **Hubbel**: suggested [on Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/). It's something that bulges out. It may also be used as Geschwindigkeitshubbel ([for example in this news piece](https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/erste-hilfe-nach-e-scooter-unfall-in-koblenz-108.html)).
-20. **Huckel**: suggested [on Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/), similar to Hubbel. It's slang.
+19. **Hubbel**: suggested [on Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/). It's something that bulges out. It may also be used as Geschwindigkeitshubbel ([for example in this news piece](https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/erste-hilfe-nach-e-scooter-unfall-in-koblenz-108.html)). It's [dialect](https://www.dwds.de/wb/Hubbel).
+20. **Huckel**: suggested [on Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/), similar to Hubbel.
+21. **Tempohemmschwelle"**: "speed inhibition threshold", for example used on [this store](https://www.seton.at/tempohemmschwellen-elastisch.html#3809051000) (you can yourself a speed bump for 430€!)
 
 Lesson learned: get a proper translation service -- even AI doesn't work well enough. Or without budget, try asking a friend. Though even with proper translation, culture might make it irrelevant. It turns out speed bumps aren't all that popular in Germany. Munich stopped building them twenty years ago because they were a danger to cyclists and rescue vehicles ([according to Reddit](https://www.reddit.com/r/Munich/comments/1ieicbg/comment/mac76xe/)).
 
