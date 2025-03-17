@@ -10,9 +10,9 @@ imageAlt: An hourglass over screenshots of addictive apps, such as TikTok, Insta
 
 ## Why You Need a Social Media Timer
 
-Being on social media for too long can be frustrating. For younger generations, it may be unfeasible to quit completely. To be fair, social media helps you connect with others -- as long as you don't overuse it.
+Being on social media for too long can be frustrating. For younger generations, completely quitting may not be realistic. To be fair, social media helps you connect with others -- as long as you don't overuse it.
 
-So how can we find a middle point? It turns out that taking action isn't that hard. This guide shares over 30 ideas to limit time on addictive platforms and reclaim your productivity. After having spent countless hours fighting this, let me save you some time:
+So how can we find a middle ground? It turns out that taking action isn't that hard. This guide shares over 30 ideas to limit time on addictive platforms and reclaim your productivity. After having spent countless hours fighting this, let me save you some time:
 
 ## Built-in Screen Time Features
 
@@ -21,11 +21,11 @@ You might not know it, but both Android and iOS come with powerful features to r
 * **iOS Screen Time** (available since iOS 12 in 2018):
   1. Open the Settings app on your iPhone, iPad, or MacBook
   2. Tap on "Screen Time" and enable it if not already active
-  3. Analyze your usage patterns, set focus time (downtime), add app limits. Advanced features include "always allowed" or "screen distance".
+  3. Ideas: analyze your usage patterns, set focus time (downtime), add app limits. Advanced features include "always allowed" apps or "screen distance".
 * **Android Digital Wellbeing** (available since 2018):
   1. Navigate to Settings on your Android phone or tablet
   2. Look for "Digital Wellbeing & Parental Controls"
-  3. Analyze your usage patterns, set timers for apps, or specify a screen time goal. It has advanced features like "screen time while walking" or "driving monitor", but they increase battery usage and don't work that well in my experience.
+  3. Ideas: analyze your usage patterns, set timers for apps, or specify a screen time goal. It has advanced features like "screen time while walking" or "driving monitor", but they increase battery usage and don't work very well in my experience.
 
 Built-in timers are convenient because you don't need to install anything. But they can be too tempting to bypass -- the button to extend the timer is so easy to tap! Additional built-in options like Focus Mode, Bedtime or Sleep Mode, Do Not Disturb, or managing your notifications can enhance effectiveness. Experiment with these features to discover what works best for your usage patterns.
 
@@ -36,11 +36,11 @@ For those seeking more robust solutions, both operating systems offer advanced c
 * **iOS Shortcuts** for social media control:
   * Launch the "Shortcuts" app on your iOS device
   * Tap the "+" icon to create a new automation
-  * Ideas: sending a notification after 10 minutes of usage, or toggle focus mode in the library
+  * Ideas: send a notification after 10 minutes of usage, or toggle focus mode in the library
 * **Samsung's Modes and Routines**:
   * Go to Settings > "Modes and Routines" > "Routines"
   * Tap the "+" icon to create a new routine
-  * Ideas: enable do not disturb at night, or always close YouTube or Netflix during work hours
+  * Ideas: enable Do Not Disturb at night, or always close YouTube or Netflix during work hours
 
 Unfortunately, they can be tricky to configure, and are limited to certain manufacturers. If you switch from Samsung to another Android phone, you will lose all your routines (alternatively, you can try the Tasker app, which is paid). These features aren't specific to screen time, so your experience may not be the smoothest.
 
@@ -52,7 +52,7 @@ The App Store and Play Store offer lots of specialized solutions for more effect
 |----------|--------------|----------|
 | **One Sec** | Forces you to take a **deep breath before opening addictive apps**. 15€/year subscription required for blocking more than one app. | Flexibility (reminder instead of blocking). Adult content detox. |
 | **Opal** (iOS only) | **Unlock shiny gems with streaks**, add friends, detailed statistics, deep focus mode. 21€/month subscription for pro features. | Data-driven users. Scheduled app blocking. |
-| **SpeedBump** | **Easiest to use**. When opening addictive apps, indicate a maximum session time, and get kicked out after time's up. Free. | Flexibility (limiting instead of blocking). Customizable screens (like dancing cats, or the screen time police). |
+| **SpeedBump** | **Easiest to use**. When opening addictive apps, indicate a maximum session time, and get kicked out after time is up. Free. | Flexibility (limiting instead of blocking). Customizable screens (like dancing cats, or the screen time police). |
 | **Clearspace** (iOS&nbsp;only) | Streaks, add friends, **screen time challenges**. 60€/year subscription required for blocking more than one app. | Data-driven users. Fitness goals (do push ups to earn screen time). |
 | **ScreenZen** | Block specific features on Android like Reels or Shorts. **Many advanced features**. Free for now. | In-app feature blocking. Scheduled app blocking. |
 | **Focus Plant** (Android) and **Forest** (iOS) | **Virtual garden grows with focus time**. Focus Plant has a 35€/year subscription for removing ads and pro features. Forest has a one-time 5€ payment. | Complete focus during study or work. Pomodoro method. Gamification. |
@@ -61,7 +61,7 @@ While these apps offer powerful features, some require significant setup time an
 
 ## Digital Detox Tips Beyond Timers
 
-Setting timers is just one aspect of a healthy digital lifestyle. Most importantly, change your perspective from "using your phone less" to "doing something else more". What would you rather do than scrolling on social media? Make a list with 10 items, and focus on how to do them more often. Try joining a sports club, meeting with friends every Tuesday, or exploring new hobbies.
+Setting timers is just one aspect of a healthy digital lifestyle. Most importantly, change your perspective from "using your phone less" to "doing something else more". What would you rather do than scroll on social media? Make a list of 10 items, and focus on how to do them more often. Try joining a sports club, meeting with friends every Tuesday, or exploring new hobbies.
 
 Consider these additional strategies:
 
@@ -69,12 +69,12 @@ Consider these additional strategies:
 2. **App layout organization**: move social apps off your home screen, hide them in folders, or install a minimal launcher.
 3. **Grayscale mode**: enable during evening hours to reduce visual stimulation.
 4. **Physical boundaries**: create phone-free zones in your home. Can you leave your phone outside your room before going to bed? Take a walk leaving your phone at home -- how does it feel? Embrace the discomfort and get used to it.
-5. **Newsletters**: there are services that aggregate what happened over the week in your favorite websites. Instead of checking every few minutes, subscribe to one of them to receive a weekly summary. You'll realize that you aren't missing out on much.
+5. **Newsletters**: there are services that aggregate what happened over the week on your favorite websites. Instead of checking every few minutes, subscribe to one of them to receive a weekly summary. You'll realize that you aren't missing out on much.
 6. **Do less on your phone**: print documents or read them on your ebook, buy a newspaper (yes, in 2025!) instead of using the news app, replace your notes app with a real notepad, spend money on a vinyl player instead of Spotify, or uninstall Amazon and visit a store next time.
 7. **App-specific settings**: did you know that TikTok and Instagram have built-in Screen Time options? They aren't the best, but you can give them a try. Hacker News has a "noprocrast" option (i.e., "no procrastination") in your profile, too.
 8. **Use the browser instead of the app**: the sub-optimal experience might frustrate you enough to scroll less.
 9. **Get used to being bored**: it's actually good for you -- your creativity will increase. Can you manage to stare at your wall for a measly 15 minutes?
-10. **Going nuclear**: I'm of the opinion that social media is (1) inevitable in younger generations and (2) beneficial as long as you don't overuse. But if you need a break, try uninstalling or getting a dumbphone. A less known alternative to dumbphones is a smartwatch with SIM card.
+10. **Going nuclear**: if you really need a break, try uninstalling -- even if temporarily -- or getting a dumbphone. A less well-known alternative to dumbphones is a smartwatch with a SIM card.
 
 Many users report significant reductions in phone usage when combining multiple strategies consistently over time. The first two weeks are typically the most challenging, but continuing for 3-4 weeks can help develop habits to keep it under control. Habit formation takes persistence, but the benefits to your productivity and wellbeing are worth the initial effort!
 
@@ -83,22 +83,22 @@ Many users report significant reductions in phone usage when combining multiple 
 Different solutions work for different people based on usage patterns and personal preferences:
 
 * **For built-in convenience**: leverage your phone's native screen time features.
-* **For flexibility**: try [SpeedBump](/)'s free app.
+* **For flexibility**: try SpeedBump's free app.
 * **For advanced customization**: explore feature-rich apps like Opal, ScreenZen, or Clearspace.
 
 Remember that platforms like Instagram, TikTok, Twitter/X, and Reddit employ thousands of engineers specifically to maximize your engagement. Feeling challenged when limiting usage is normal - these apps are designed to be addictive. Implementing timers and boundaries will help you regain control and focus on what truly matters in your life.
 
-This article lists over 30 ideas! It's on you to take action. Write a list of what you want to try, place it in your bathroom's mirror, and track how well they're working for you.
+This article lists over 30 ideas! Now it's up to you to take action. Write a list of what you want to try, place it on your bathroom's mirror, and track how well they're working for you.
 
 ## Frequently Asked Questions
 
 ### Q: Can I completely block social media apps instead of just timing them?
 
-A: Yes, both built-in features and third-party apps offer complete blocking options. Look for "App Block" in iOS Screen Time or "Focus Mode" in Android Digital Wellbeing.
+A: Yes, both built-in features and third-party apps offer complete blocking options. For example, you can block them during your working hours. Look for "App Block" in iOS' Screen Time or "Focus Mode" in Android's Digital Wellbeing.
 
 ### Q: Do social media timers work for desktop usage too?
 
-A: Most third-party solutions offer browser extensions for desktop. Browser-specific extensions like StayFocusd (Chrome) or LeechBlock (Firefox) are also effective. Opal or ScreenZen work across your Apple devices, including macOS, iPad, and iPhone.
+A: iOS's Screen Time, Opal, or ScreenZen share your data across Apple devices by default, including macOS, iPad, and iPhone. Most third-party solutions offer browser extensions for desktop. Browser-specific extensions like StayFocusd (Chrome) or LeechBlock (Firefox) are also effective.
 
 ### Q: Will using timers affect my notifications?
 
@@ -106,7 +106,7 @@ A: It depends on the solution. Most timers will block notifications during restr
 
 ### Q: What's the recommended daily limit for social media?
 
-A: Digital wellness experts suggest being mindful of your social media time, with many recommending around 30 minutes per day for better mental wellbeing, though individual needs may vary based on personal and professional requirements
+A: It largely depends on personal and professional requirements. Digital wellness experts suggest 30 to 60 minutes per day for better mental wellbeing. Ideally, they should be broken into shorter sections rather than continuous scrolling.
 
 ### Q: Can I set different limits for weekdays versus weekends?
 
