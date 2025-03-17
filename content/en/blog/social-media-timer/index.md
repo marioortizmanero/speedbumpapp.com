@@ -52,6 +52,8 @@ Unfortunately, they can be tricky to configure, and are limited to certain manuf
 
 The App Store and Play Store offer lots of specialized solutions for more effective app timers and blockers. Some may have subscription costs, but many offer free versions with basic functionality:
 
+TODO: this is broken on mobile
+
 | App Name | Key Features | Best For |
 |----------|--------------|----------|
 | **One Sec** | Forces you to take a **deep breath before opening addictive apps**. 15€/year subscription required for blocking more than one app. | Flexibility (reminder instead of blocking). Adult content detox. |
@@ -82,6 +84,8 @@ Many users report significant reductions in phone usage when combining multiple 
 
 TODO: better title for this
 ## Conclusion: Choosing the Right Social Media Timer
+
+TODO: less #ad
 
 Different solutions work for different people based on usage patterns and personal preferences:
 
