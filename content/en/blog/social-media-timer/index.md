@@ -84,7 +84,7 @@ Tools are a useful band-aid while you tackle the root cause. Especially because 
 
 ### Built-in Screen Time Features
 
-You might not know it, but both Android and iOS come with powerful features to reduce phone usage:
+In case you don't know it, Android and iOS include powerful features to reduce phone usage:
 
 * **iOS Screen Time** (available since iOS 12):
   1. Open Settings on your iPhone, iPad, or MacBook
@@ -140,7 +140,7 @@ Consider these additional strategies:
 4. **Physical boundaries**: create phone-free zones in your home. Can you leave your phone outside your room before going to bed? Take a walk leaving your phone at home -- how does it feel? Embrace the discomfort and get used to it.
 5. **Newsletters**: there are services that aggregate what happened over the week on your favorite websites. Instead of checking every few minutes, subscribe to one of them for a weekly summary. You'll realize that you aren't missing out on much.
 6. **Do less on your phone**: print documents or read them on your ebook. Buy a newspaper (yes, in 2025!) instead of using the news app. Replace your notes app with a real notepad, spend money on a vinyl player instead of Spotify, or uninstall Amazon and visit a store next time.
-7. **App-specific settings**: did you know that TikTok and Instagram have built-in Screen Time options? They aren't the best, but you can give them a try. Even the tech forum "Hacker News" has a "noprocrast" option (i.e., "no procrastination") in your profile.
+7. **App-specific settings**: did you know that TikTok and Instagram have built-in Screen Time options? They aren't the best, but you can give them a try. Even the tech forum "Hacker News" has a "noprocrast" option (i.e., "no procrastination") in your profile. Investigate your most used websites.
 8. **Use the browser instead of the app**: the sub-optimal experience might prevent mindless scrolling.
 9. **Get used to being bored**: it's actually good for you -- your creativity will increase. Can you manage to stare at your wall for a measly 15 minutes?
 10. **Going nuclear**: if you really need a break, try uninstalling -- even if temporarily -- or getting a dumbphone. A less well-known alternative to dumbphones is a smartwatch with a SIM card.

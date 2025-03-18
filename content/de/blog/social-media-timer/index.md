@@ -47,9 +47,9 @@ third_party_apps:
 
 ## Warum du 2025 Soziale Medien einschränken solltest
 
-Soziale Medien komplett aufzugeben ist für viele unrealistisch – besonders für jüngere Generationen. Plattformen wie Instagram oder TikTok können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Wir alle kennen das: Ein Freund teilt ein Reel oder YouTube-Video, und plötzlich befindest du dich in einem stundenlangen Kaninchenbau tanzender Katzen zu Shakira-Musik. Können wir eine Balance zwischen "chronisch online" und einem buddhistischen Mönch finden?
+Soziale Medien komplett aufzugeben ist für viele unrealistisch – besonders für jüngere Generationen. Plattformen wie Instagram oder TikTok können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Jeder kennt das: Ein Freund zeigt ein Reel oder ein YouTube-Video und man verbringt eine Stunde damit, Katzen beim Tanzen zu Shakira-Songs zuzusehen.. Können wir eine Balance zwischen "chronisch online" und einem buddhistischen Mönch finden?
 
-Es stellt sich heraus, dass Maßnahmen zu ergreifen gar nicht so schwer ist. Nach unzähligen Stunden der Recherche habe ich über 40 Ideen gesammelt, um deine Bildschirmzeit zu reduzieren.
+Es ist gar nicht so schwer, Maßnahmen zu ergreifen. Nach unzähligen Stunden der Recherche habe ich über 40 Ideen gesammelt, um deine Bildschirmzeit zu reduzieren.
 
 ## Verstehe das Warum
 
@@ -70,9 +70,9 @@ Am wichtigsten ist es, **deine Perspektive von "weniger Handy nutzen" zu "mehr e
 
 * Sport: Tritt einem Laufclub bei
 * Mit Freunden abhängen: Trefft euch regelmäßig jeden Dienstag
-* Lesen: Erstelle eine Wunschliste
+* Lesen: Erstelle eine Wunschzettel
 * Geliebte Menschen anrufen: Stelle wiederkehrende Alarme ein
-* Neue Hobbys erkunden: Besorge dir ein Töpferset, lerne Videobearbeitung oder entstaubbe diese Retro-Kamera im Regal
+* Neue Hobbys erkunden: kaufe ein Töpferset, lerne Videobearbeitung oder entstaubbe diese Retro-Kamera im Regal
 
 Fange nicht an, alles auf einmal zu tun oder unrealistische Erwartungen aufzubauen. Beginne mit kleinen Zielen, wie einfach bei einer Aktivität zu erscheinen, und gehe von dort aus weiter.
 
@@ -82,18 +82,18 @@ Tools sind ein nützliches Pflaster, während du die Ursache bekämpfst. Besonde
 
 ### Integrierte Bildschirmzeit-Funktionen
 
-Vielleicht weißt du es nicht, aber sowohl Android als auch iOS kommen mit leistungsstarken Funktionen zur Reduzierung der Handynutzung:
+Falls du es noch nicht weißt: Android und iOS verfügen über leistungsstarke Funktionen zur Reduzierung der Handynutzung:
 
 * **iOS Bildschirmzeit** (verfügbar seit iOS 12):
   1. Öffne Einstellungen auf deinem iPhone, iPad oder MacBook
   2. Suche nach "Bildschirmzeit"
-  3. Funktionen: Analysiere deine Nutzungsmuster, stelle Fokuszeit (Auszeit) ein, füge App-Limits hinzu. Erweiterte Funktionen umfassen "immer erlaubte" Apps oder "Bildschirmabstand".
+  3. Funktionen: Analysiere deine Nutzungsmuster, stelle Fokuszeit ein, füge App-Limits hinzu. Erweiterte Funktionen umfassen "immer erlaubte" Apps oder "Bildschirmabstand".
 * **Android Digital Wellbeing** (verfügbar seit 2018):
   1. Öffne Einstellungen auf deinem Smartphone oder Tablet
   2. Suche nach "Digitales Wohlbefinden & Kindersicherung"
   3. Funktionen: Analysiere deine Nutzungsmuster, stelle Timer für Apps ein oder gib ein Bildschirmzeit-Ziel an. Meiner Erfahrung nach verbrauchen erweiterte Funktionen wie "Bildschirmzeit beim Gehen" oder "Fahrmonitor" Akku, funktionieren aber nicht besonders gut.
 
-Integrierte Timer sind praktisch, können aber leicht umgangen werden; der Knopf zum Verlängern des Timers ist so leicht zu tippen! Zusätzliche Optionen wie Fokusmodus, Schlafenszeit oder Schlafmodus oder Nicht stören können die Wirksamkeit verbessern. Experimentiere mit ihnen, um zu sehen, was am besten für deine Nutzungsmuster funktioniert: ADHS, Doomscrolling, zu häufiges Entsperren deines Handys oder Prokrastination.
+Integrierte Timer sind praktisch, können aber leicht umgangen werden; der Knopf zum Verlängern des Timers ist so leicht zu tippen! Zusätzliche Optionen wie Fokusmodus, Schlafenszeit oder Schlafmodus oder Nicht Stören können die Wirksamkeit verbessern. Experimentiere mit ihnen, um zu sehen, was am besten für deine Nutzungsmuster funktioniert: ADHS, Doomscrolling, zu häufiges Entsperren deines Handys oder Prokrastination.
 
 ### Erweiterte integrierte Bildschirmzeit-Funktionen
 
@@ -103,14 +103,14 @@ Für diejenigen, die robustere Lösungen suchen, bieten beide Betriebssysteme er
   * Starte die "Kurzbefehle"-App auf deinem iOS-Gerät
   * Tippe auf das "+"-Symbol, um eine neue Automatisierung zu erstellen
   * Ideen: Sende eine Benachrichtigung nach 10 Minuten Nutzung oder schalte im Büro den Fokusmodus ein
-* **Samsung's Modi und Routinen** (für andere Android-Marken die Drittanbieter-App Tasker, die kostenpflichtig ist):
+* **Samsung's Modi und Routinen** (für andere Android-Marken die App Tasker, die kostenpflichtig ist):
   * Gehe zu Einstellungen > "Modi und Routinen" > "Routinen"
   * Tippe auf das "+"-Symbol, um eine neue Routine zu erstellen
   * Ideen: Aktiviere Nicht stören in der Nacht oder schließe YouTube oder Netflix immer während der Arbeitszeit
 
 Leider können diese Funktionen schwierig zu konfigurieren sein und sind auf bestimmte Hersteller beschränkt. Sie sind nicht spezifisch für die Bildschirmzeit, daher ist deine Erfahrung möglicherweise nicht die reibungsloseste.
 
-### Drittanbieter-Timer-Apps
+### Timer-Apps
 
 Der App Store und Play Store bieten viele effektive App-Timer und Blocker:
 
@@ -138,7 +138,7 @@ Ziehe diese zusätzlichen Strategien in Betracht:
 4. **Physische Grenzen**: Schaffe handyfreie Zonen in deinem Zuhause. Kannst du dein Handy außerhalb deines Zimmers lassen, bevor du ins Bett gehst? Mache einen Spaziergang und lasse dein Handy zu Hause – wie fühlt sich das an? Umarme das Unbehagen und gewöhne dich daran.
 5. **Newsletter**: Es gibt Dienste, die zusammenfassen, was über die Woche auf deinen Lieblingswebseiten passiert ist. Anstatt alle paar Minuten nachzuschauen, abonniere einen von ihnen für eine wöchentliche Zusammenfassung. Du wirst merken, dass du nicht viel verpasst.
 6. **Mache weniger auf deinem Handy**: Drucke Dokumente aus oder lies sie auf deinem E-Book-Reader. Kaufe eine Zeitung (ja, in 2025!) anstatt die News-App zu nutzen. Ersetze deine Notizen-App durch einen echten Notizblock, gib Geld für einen Plattenspieler aus anstatt für Spotify, oder deinstalliere Amazon und besuche nächstes Mal einen Laden.
-7. **App-spezifische Einstellungen**: Wusstest du, dass TikTok und Instagram eingebaute Bildschirmzeit-Optionen haben? Sie sind nicht die besten, aber du kannst sie ausprobieren. Sogar das Tech-Forum "Hacker News" hat eine "noprocrast"-Option (d.h. "keine Prokrastination") in deinem Profil.
+7. **App-spezifische Einstellungen**: Wusstest du, dass TikTok und Instagram eingebaute Bildschirmzeit-Optionen haben? Sie sind nicht die besten, aber du kannst sie ausprobieren. Sogar das Tech-Forum "Hacker News" hat eine "noprocrast"-Option (d.h. "keine Prokrastination") in deinem Profil. Recherchiere deine Lieblingswebseiten.
 8. **Nutze den Browser anstatt der App**: Die suboptimale Erfahrung könnte gedankenloses Scrollen verhindern.
 9. **Gewöhne dich daran, gelangweilt zu sein**: Es ist tatsächlich gut für dich – deine Kreativität wird zunehmen. Kannst du es schaffen, für läppische 15 Minuten auf deine Wand zu starren?
 10. **Radikale Maßnahmen**: Wenn du wirklich eine Pause brauchst, versuche zu deinstallieren – auch wenn nur vorübergehend – oder besorge dir ein Dumbphone. Eine weniger bekannte Alternative zu Dumbphones ist eine Smartwatch mit SIM-Karte.
@@ -155,7 +155,7 @@ Dieser Artikel listet genügend Ideen auf – jetzt liegt es an dir, Maßnahmen 
 
 ### F: Kann ich soziale Medien-Apps komplett blockieren, anstatt sie nur zu timen?
 
-A: Ja, sowohl integrierte Funktionen als auch Drittanbieter-Apps bieten vollständige Blockierungsoptionen an. Du kannst sie beispielsweise während deiner Arbeitszeiten blockieren. Suche nach "App-Blockierung" in iOS' Bildschirmzeit oder "Fokusmodus" in Androids Digitalem Wohlbefinden.
+A: Ja, sowohl integrierte Funktionen als auch Apps bieten vollständige Blockierungsoptionen an. Du kannst sie beispielsweise während deiner Arbeitszeiten blockieren. Suche nach "App-Blockierung" in iOS' Bildschirmzeit oder "Fokusmodus" in Androids Digitalem Wohlbefinden.
 
 ### F: Funktionieren Timer für soziale Medien auch für Desktop-Nutzung?
 
@@ -171,8 +171,4 @@ A: Es hängt weitgehend von persönlichen und beruflichen Anforderungen ab. Expe
 
 ### F: Kann ich unterschiedliche Limits für Wochentage gegenüber Wochenenden einstellen?
 
-A: Ja, die meisten Lösungen, einschließlich iOS Bildschirmzeit, Android Digital Wellbeing und Drittanbieter-Apps, bieten tagesspezifische Planung an.
-
-### F: Was bedeutet 'chronisch online' oder 'terminal online'?
-
-A: Jemand, der chronisch online ist, ist eine Person, die aufgrund übermäßiger Internetnutzung isoliert ist. Sie könnte den Bezug zur Realität verloren haben und der Internetkultur große Bedeutung beimessen.
+A: Ja, die meisten Lösungen, einschließlich iOS Bildschirmzeit, Android Digital Wellbeing und Apps, bieten tagesspezifische Planung an.
