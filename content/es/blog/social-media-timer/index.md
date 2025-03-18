@@ -1,9 +1,9 @@
 ---
 lang: es
-title: TODO
+title: Cura tu adicción al móvil con estas 40 ideas
 date: 2025-03-07
-description: 'TODO'
-keywords: ["temporizador redes sociales", "bloquear redes sociales", "temporizador para tiktok", "desintoxicación digital", "productividad", "gestión tiempo de pantalla", "temporizador instagram", "límite de tiempo youtube"]
+description: 'Aprende a usar menos el móvil y las redes sociales con esta guía exensiva'
+keywords: ["productividad", "adicción al móvil", "adicción al celular", "adicción al teléfono", "dependencia al móvil", "adicto a internet", "ciberadicción", "bienestar digital"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: Un reloj de arena sobre capturas de pantalla de apps adictivas, como TikTok, Instagram o juegos.
 third_party_apps:
@@ -47,7 +47,7 @@ third_party_apps:
 
 ## Por Qué Limitar las Redes Sociales en 2025
 
-Abandonar completamente las redes sociales es poco realista para muchos, especialmente para las generaciones más jóvenes. Plataformas como Instagram o TikTok pueden ser realmente útiles para conectar con otros, pero es fácil engancharse. A todos nos ha pasado: un amigo comparte un Reel o un vídeo de YouTube y acabas gastando una hora viendo gatos bailando canciones de Shakira. ¿Se puede encontrar un equilibrio entre estar "crónicamente conectados" y convertirnos en monjes budistas?
+Abandonar completamente las redes sociales es poco realista para muchos, especialmente para las generaciones más jóvenes. Plataformas como Instagram o TikTok pueden ser realmente útiles para conectar con otros, pero es fácil engancharse. A todos nos ha pasado: un amigo comparte un Reel o un vídeo de YouTube y acabas gastando una hora viendo gatos bailando canciones de Shakira. ¿Se puede encontrar un equilibrio entre estar pegados a la pantalla y convertirnos en monjes budistas?
 
 Tomar medidas no es tan difícil. Tras pasar innumerables horas investigando el tema, he recopilado más de 40 ideas para reducir tu tiempo de pantalla.
 
@@ -60,7 +60,7 @@ Comienza por entender **por qué** usas el móvil aunque no quieras:
 * Procrastinación
 * Memoria muscular
 
-¡Pasar tiempo en redes sociales está bien! No solo para conectar, sino también como mecanismo de afrontamiento. Somos humanos, y distraer nuestra mente de un problema puede aliviar el estrés para abordarlo más tarde. En un estudio sobre cómo los directos de Twitch ayudan a las personas en momentos difíciles, el 82% los encontró al menos algo útiles.
+¡Pasar tiempo en el móvil está bien! No solo para conectar, sino también como mecanismo de afrontamiento. Somos humanos, y distraer nuestra mente de un problema puede aliviar el estrés para abordarlo más tarde. En un estudio sobre cómo los directos de Twitch ayudan a las personas en momentos difíciles, el 82% los encontró al menos algo útiles.
 
 Teniendo esto en cuenta, todos llegamos a un punto donde estar en línea resulta contraproducente. Depende de cada uno, pero en el fondo sabrás cuándo ocurre.
 
@@ -145,7 +145,7 @@ Considera estas estrategias adicionales:
 
 ## Conclusión: Tómatelo con Calma y Experimenta
 
-Combinar múltiples estrategias de forma consistente a lo largo del tiempo funciona mejor. Las primeras dos semanas son típicamente las más difíciles, pero seguir durante 3-4 semanas desarrollará tus hábitos sostenibles. Requiere persistencia, pero los beneficios para tu productividad y bienestar valen el esfuerzo inicial.
+Combinar múltiples estrategias de forma consistente a lo largo del tiempo funciona mejor. Las primeras dos semanas son típicamente las más difíciles, pero seguir durante 3-4 semanas reducirá tu dependencia al móvil. Requiere persistencia, pero los beneficios para tu concentración y bienestar valen el esfuerzo inicial.
 
 Recuerda que plataformas como Instagram, TikTok, Twitter/X y Reddit emplean a miles de ingenieros específicamente para maximizar tu compromiso. Sentirse desafiado al limitar el uso es normal -- estas apps están diseñadas para ser adictivas. Cambiar tu perspectiva y establecer límites te ayudará a centrarte en lo que realmente importa en tu vida.
 

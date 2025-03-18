@@ -1,9 +1,9 @@
 ---
 lang: de
-title: TODO
+title: 'Handysucht bekämpfen: Der ultimative Guide mit über 40 Tipps'
 date: 2025-03-07
-description: 'TODO'
-keywords: [TODO]
+description: 'Schluss mit endlosem Scrollen: So reduzierst du deine Bildschirmzeit'
+keywords: ["productivität", ]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: Eine Sanduhr über Screenshots von süchtig machenden Apps wie TikTok, Instagram oder Spielen.
 third_party_apps:
@@ -45,9 +45,9 @@ third_party_apps:
     best_for: Volle Konzentration während des Studiums oder der Arbeit & Gamification.
 ---
 
-## Warum du 2025 Soziale Medien einschränken solltest
+## Dopamin Detox: Dein Guide für weniger Social Media 2025
 
-Soziale Medien komplett aufzugeben ist für viele unrealistisch – besonders für jüngere Generationen. Plattformen wie Instagram oder TikTok können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Jeder kennt das: Ein Freund zeigt ein Reel oder ein YouTube-Video und man verbringt eine Stunde damit, Katzen beim Tanzen zu Shakira-Songs zuzusehen.. Können wir eine Balance zwischen "chronisch online" und einem buddhistischen Mönch finden?
+Soziale Medien komplett aufzugeben ist für viele unrealistisch – besonders für jüngere Generationen. Plattformen wie Instagram oder TikTok können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Jeder kennt das: Ein Freund zeigt ein Reel oder ein YouTube-Video und man verbringt eine Stunde damit, Katzen beim Tanzen zu Shakira-Songs zuzusehen. Können wir eine Balance zwischen Handysucht und einem buddhistischen Mönch finden?
 
 Es ist gar nicht so schwer, Maßnahmen zu ergreifen. Nach unzähligen Stunden der Recherche habe ich über 40 Ideen gesammelt, um deine Bildschirmzeit zu reduzieren.
 
@@ -145,8 +145,7 @@ Ziehe diese zusätzlichen Strategien in Betracht:
 
 ## Fazit: Nimm es langsam und experimentiere
 
-Die Kombination mehrerer Strategien über einen längeren Zeitraum funktioniert am besten. Die ersten zwei Wochen sind typischerweise die herausforderndsten, aber das Fortsetzen für 3-4 Wochen hilft, nachhaltige Gewohnheiten zu entwickeln. Es erfordert Ausdauer, aber die Vorteile für deine Produktivität und dein Wohlbefinden sind die anfängliche Anstrengung wert!
-
+Die Kombination mehrerer Strategien über einen längeren Zeitraum funktioniert am besten. Die ersten zwei Wochen sind typischerweise die herausforderndsten, aber das Fortsetzen für 3-4 Wochen hilft, nachhaltige Gewohnheiten zu entwickeln. Es erfordert Ausdauer, aber die Möglichkeit, deine Konzentration zu steigern und dein Wohlbefinden zu verbessern, ist die anfängliche Anstrengung wert!
 Denke daran, dass Plattformen wie Instagram, TikTok, Twitter/X und Reddit Tausende von Ingenieuren beschäftigen, die speziell daran arbeiten, dein Engagement zu maximieren. Es ist normal, dass es eine Herausforderung ist, die Nutzung zu begrenzen – diese Apps sind darauf ausgelegt, süchtig zu machen. Das Ändern deiner Perspektive und das Setzen von Grenzen wird dir helfen, dich auf das zu konzentrieren, was wirklich wichtig ist in deinem Leben.
 
 Dieser Artikel listet genügend Ideen auf – jetzt liegt es an dir, Maßnahmen zu ergreifen. Speichere nicht nur einen Link oder lasse es für später. Schreibe eine Liste mit einigen, die du ausprobieren möchtest, platziere sie auf dem Spiegel deines Badezimmers und verfolge, wie gut sie für dich funktionieren. Wenn du jemanden mit ähnlichen Problemen kennst, teile diesen Artikel mit ihnen!

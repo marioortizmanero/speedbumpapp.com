@@ -1,8 +1,8 @@
 ---
 lang: en
-title: 'Chronically Online: How to Set Limits on Social Media'
+title: 'Chronically Online: How to Limit your Social Media Usage'
 date: 2025-03-07
-description: 'Extensive guide to limit your screen time with over 40 ideas.'
+description: 'An extensive guide with over 40 ideas to spend less time on social media.'
 keywords: ["productivity", "chronically online", "terminally online", "social media addiction", "doomscrolling", "limit social media", "screen time iphone", "screen time android", "mindless scrolling", "tiktok timer"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: An hourglass over screenshots of addictive apps, such as TikTok, Instagram, or games.
@@ -44,8 +44,6 @@ third_party_apps:
     pricing: Focus Plant has a 35€/year for pro features. Forest has a one-time 5€ payment.
     best_for: Full focus during study or work & gamification.
 ---
-
-# Chronically Online: How to Set Limits on Social Media
 
 ## Why You Need to Limit Social Media in 2025
 
