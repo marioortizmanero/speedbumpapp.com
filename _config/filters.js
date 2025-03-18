@@ -5,7 +5,7 @@ import memoize from "memoize";
 
 import metadata from "../_data/metadata.js";
 
-const markdownIt = new MarkdownIt();
+const markdownIt = new MarkdownIt({ html: true });
 
 export default function(eleventyConfig) {
   eleventyConfig.addFilter("absUrl", (relUrl) => {
