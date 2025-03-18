@@ -3,7 +3,7 @@ lang: en
 title: 'Chronically Online: How to Set Limits on Social Media'
 date: 2025-03-07
 description: 'Extensive guide to limit your screen time with over 40 ideas.'
-keywords: ["productivity", "chronically online", "terminally online", "social media addiction", "doomscrolling", "limit social media", "screen time iphone", "screen time android", "mindless scrolling"]
+keywords: ["productivity", "chronically online", "terminally online", "social media addiction", "doomscrolling", "limit social media", "screen time iphone", "screen time android", "mindless scrolling", "tiktok timer"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: An hourglass over screenshots of addictive apps, such as TikTok, Instagram, or games.
 third_party_apps:
@@ -45,6 +45,8 @@ third_party_apps:
     best_for: Full focus during study or work & gamification.
 ---
 
+# Chronically Online: How to Set Limits on Social Media
+
 ## Why You Need to Limit Social Media in 2025
 
 Completely quitting social media is unrealistic for many -- especially younger generations. Platforms like Instagram or TikTok can be genuinely useful to connect with others, but it's easy to get hooked. We've all been there: a friend shares a Reel or YouTube video, taking you into an hour-long rabbit hole of cats dancing to Shakira. Can we find balance between being "chronically online" and becoming a buddhist monk?
@@ -57,10 +59,10 @@ Start by understanding **why** you use your phone even though you don't want to:
 
 * Boredom
 * Anxiety
-* Procrastination: a task at work is intimidating, and you put it off with your phone.
+* Procrastination
 * Muscle memory
 
-Spending time on social media is okay! Not just to connect, but also for coping. We're human, and getting our mind off a problem can help relieve stress to tackle it later. In a study on Twitch livestreams helping people through tough times, 82% found them at least somewhat helpful.
+Spending time on social media is okay! Not just to connect, but also for coping. We're human, and getting our mind off a problem can relieve stress to tackle it later. In a study on Twitch livestreams helping people through tough times, 82% found them at least somewhat helpful.
 
 Having that in mind, we all reach a point where being online is counterproductive. It depends, but deep inside you'll know when that happens.
 
