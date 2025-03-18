@@ -2,8 +2,8 @@
 lang: en
 title: 'Chronically Online: How to Set Limits on Social Media'
 date: 2025-03-07
-description: 'Learn how to effectively limit time on Instagram, TikTok, and other social media apps with built-in features and specialized timer apps.'
-keywords: ["social media timer", "block social media", "timer for tiktok", "digital detox", "productivity", "screen time management", "instagram timer", "youtube time limit"]
+description: 'Extensive guide to limit your screen time with over 40 ideas.'
+keywords: ["productivity", "chronically online", "terminally online", "social media addiction", "doomscrolling", "limit social media", "screen time iphone", "screen time android", "mindless scrolling"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: An hourglass over screenshots of addictive apps, such as TikTok, Instagram, or games.
 third_party_apps:
@@ -172,3 +172,7 @@ A: It largely depends on personal and professional requirements. Digital wellnes
 ### Q: Can I set different limits for weekdays versus weekends?
 
 A: Yes, most solutions including iOS Screen Time, Android Digital Wellbeing, and third-party apps offer day-specific scheduling.
+
+### Q: What is 'chronically online' or 'terminally online'?
+
+A: Someone chronically online is a person who is isolated due to excessive internet use. They may be out of touch with reality and give major importance to Internet culture.
