@@ -2,12 +2,13 @@ export default {
   reading_dir: "ltr",
   index: {
     hero_1: "Do you know speed bumps",
-    hero_2: "Annoying, but they sure slow you down.",
-    hero_3: "Meet the speed bump to <mark>stop&nbsp;doomscrolling</mark> on your phone.",
+    hero_2: "Annoying, but they sure slow you down",
+    hero_3: "Meet the speed bump for <mark>social&nbsp;media&nbsp;apps</mark>",
     section_demo: {
-      step_1: "Set your time limit when opening addictive apps.",
-      step_2: "Get annoyed out of them when time's up.",
-      step_3: "Take a 15-minute break before next use.",
+      h1: "Stop doomscrolling by installing SpeedBump",
+      step_1: "Set a time limit when opening addictive apps",
+      step_2: "Get annoyed out of them when time's up",
+      step_3: "Take a 15-minute break before next use",
       description: "Because gentle reminders don't work anymore. Neither do fixed timers or motivation quotes. Sometimes, you need something more… direct.",
       note: "Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)",
     },
@@ -28,8 +29,8 @@ export default {
       <p>Connect with friends without doomscrolling for hours.</p>`,
       },
       feature_3: {
-        title: "Free",
-        content: "<p>We don't have to “maximize shareholder value”.</p>"
+        title: "Affordable",
+        content: "<p>Currently free. We don't have to “maximize shareholder value”.</p>"
       }
     },
     section_annoyances: {

@@ -30,21 +30,24 @@
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
-.hero h1 {
+.hero .lines {
+  font-family: 'Londrina Solid', sans-serif;
+  letter-spacing: .08rem;
+}
+.hero .lines .line1 {
   font-size: 4rem;
   line-height: 1.1;
-  font-weight: 900;
   margin-bottom: 1rem;
   padding: 0 2rem;
 }
-.hero h2 {
+.hero .lines .line2 {
   font-size: 2rem;
   line-height: 1.1;
   padding: 0 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
-.hero h3 {
-  font-size: 1.8rem;
+.hero .lines .line3 {
+  font-size: 2rem;
   line-height: 1.4;
   padding: 0 2rem;
   margin-bottom: 3rem;
@@ -142,10 +145,17 @@
 .content ul {
   margin-bottom: 20px;
 }
+.content h1 {
+  line-height: 1.1;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
 .content h2 {
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 .content h3 {
+  font-size: 1.4rem;
   margin-bottom: 0.6rem;
 }
 .content ol,
@@ -162,12 +172,6 @@
 .content li > ul {
   margin-top: 5px;
   margin-bottom: 0px;
-}
-.content h2 {
-  font-size: 2rem;
-}
-.content h3 {
-  font-size: 1.4rem;
 }
 .content hr {
   margin-top: calc(var(--gap) * 2);
@@ -189,16 +193,17 @@
 }
 
 @media (max-width: 768px) {
-  .hero h1 {
+  .hero .lines .line1,
+  .content h1 {
     font-size: 2.5rem;
     margin-bottom: 0.7rem;
   }
-  .hero h2,
+  .hero .lines .line2,
   .content h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
-  .hero h3,
+  .hero .lines .line3,
   .content h3 {
     font-size: 1.25rem;
     margin-bottom: 1rem;

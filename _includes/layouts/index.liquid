@@ -53,9 +53,11 @@ rm transforms.trf 20250204_142815.mp4
 
   <div class="hero-overlay"></div>
 
-  <h1>{{ t.index.hero_1 }}<span class="hero-fall-animation">?</span></h1>
-  <h2>{{ t.index.hero_2 }}</h2>
-  <h3>{{ t.index.hero_3 }}</h3>
+  <div class="lines">
+    <p class="line1">{{ t.index.hero_1 }}<span class="hero-fall-animation">?</span></p>
+    <p class="line2">{{ t.index.hero_2 }}</p>
+    <p class="line3">{{ t.index.hero_3 }}</p>
+  </div>
 
   {% render "partials/downloads.liquid" page: page %}
 
@@ -115,6 +117,8 @@ ffmpeg \
     </div>
 
     <div class="description">
+      <h1>{{ t.index.section_demo.h1 }}</h1>
+
       <div class="description-steps">
         <div class="description-step">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm-20 200h80v-400H380v80h80v320Z"/></svg>

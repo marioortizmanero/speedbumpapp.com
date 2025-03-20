@@ -2,12 +2,13 @@ export default {
   reading_dir: "ltr",
   index: {
     hero_1: "Kennst du Bremsschwellen",
-    hero_2: "Nervig, aber sie bremsen dich definitiv aus.",
-    hero_3: "Entdecke die Bremsschwellen für <mark>Handysucht</mark>.",
+    hero_2: "Nervig, aber sie bremsen dich definitiv aus",
+    hero_3: "Entdecke die Bremsschwellen für <mark>Handysucht</mark>",
     section_demo: {
-      step_1: "Du legst dein Zeitlimit für süchtigmachende Apps fest.",
-      step_2: "Wenn die Zeit um ist, wirst du von Apps rausgenervt.",
-      step_3: "Mach 15 Minuten Pause vor der nächsten Nutzung.",
+      h1: "Mit SpeedBump kannst du deine Konzentrazion steigern",
+      step_1: "Du legst ein Zeitlimit für süchtigmachende Apps fest",
+      step_2: "Wenn die Zeit um ist, wirst du von Apps rausgenervt",
+      step_3: "Mach 15 Minuten Pause vor der nächsten Nutzung",
       description: "Weil sanfte Erinnerungen, feste Timer oder Motivationszitate nicht mehr helfen. Manchmal brauchst du etwas... Direkteres.",
       note: "Early Access - erwarte Ecken und Kanten sowie zufällige Abstürze. Aber hey, das erhöht nur den Nervfaktor! ;)",
     },
@@ -28,8 +29,8 @@ export default {
       <p>Bleib mit Freunden in Kontakt, ohne stundenlang zu scrollen.</p>`,
       },
       feature_3: {
-        title: "Kostenlos",
-        content: "<p>Wir müssen keinen „Shareholder Value maximieren”.</p>"
+        title: "Erschwinglich",
+        content: "<p>Derzeit kostenlos. Wir müssen keinen „Shareholder Value maximieren”.</p>"
       }
     },
     section_annoyances: {
