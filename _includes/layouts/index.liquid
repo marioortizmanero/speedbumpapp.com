@@ -223,3 +223,29 @@ ffmpeg \
   </div>
   {% endif %}
 </section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SpeedBump",
+  "operatingSystem": "Android, iOS",
+  "applicationCategory": "ProductivityApplication",
+  "description": "{{ description }}",
+  "url": "{{ '/' | locale_url }}",
+  "image": "https://speedbumpapp.com/assets/logo_small.png",
+  "creator": {
+    "@type": "Organization",
+    "name": "SpeedBump Inc.",
+    "url": "{{ '/' | locale_url | absUrl }}"
+  },
+  "downloadUrl": "{{ '/' | locale_url | absUrl }}",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "softwareVersion": "1.0",
+  "datePublished": "2025-02-17"
+}
+</script>
