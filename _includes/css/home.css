@@ -193,10 +193,14 @@
 }
 
 @media (max-width: 768px) {
-  .hero .lines .line1,
-  .content h1 {
+  .hero .lines .line1 {
     font-size: 2.5rem;
     margin-bottom: 0.7rem;
+  }
+  .content h1 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+
   }
   .hero .lines .line2,
   .content h2 {
