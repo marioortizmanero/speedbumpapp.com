@@ -22,9 +22,9 @@ Translations
 Website information
 {%- endcomment %}
 {%- assign localeRoot = '/' | locale_url %}
-<title>{{ title }}{% if page.url != '/' and page.url != localeRoot %} | SpeedBump{% endif %}</title>
+<title>{{ title | assertLengthUnder: 60 }}{% if page.url != '/' and page.url != localeRoot %} | SpeedBump{% endif %}</title>
 <meta name="keywords" content="{{ keywords | join: "," }}">
-<meta name="description" content="{{ description | markdownify | plainifyHtml | escape }}">
+<meta name="description" content="{{ description | markdownify | plainifyHtml | escape | assertLengthUnder: 160 }}">
 <meta name="author" content="Mario Ortiz Manero">
 <link rel="canonical" href="{{ page.url | locale_url | absUrl }}">
 
