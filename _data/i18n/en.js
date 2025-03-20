@@ -3,7 +3,7 @@ export default {
   index: {
     hero_1: "Do you know speed bumps",
     hero_2: "Annoying, but they sure slow you down.",
-    hero_3: "Meet the speed bump for <mark>addictive&nbsp;apps</mark>.",
+    hero_3: "Meet the speed bump to <mark>stop&nbsp;doomscrolling</mark> on your phone.",
     section_demo: {
       step_1: "Set your time limit when opening addictive apps.",
       step_2: "Get annoyed out of them when time's up.",
@@ -14,7 +14,6 @@ export default {
     section_features: {
       feature_1: {
         title: "Limit any app",
-        // TODO: reels, shorts
         content: `<p>
         TikTok<br>
         Instagram<br>

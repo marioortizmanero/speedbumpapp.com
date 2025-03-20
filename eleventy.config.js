@@ -82,8 +82,19 @@ export default async function(eleventyConfig) {
   };
   eleventyConfig.setLibrary("md", markdown);
 
-  // Note that _redirects won't work when running locally:
-  //   https://github.com/11ty/eleventy-dev-server/issues/16
+  // When running locally, we simply redirect / to /en
+  eleventyConfig.setServerOptions({
+    onRequest: {
+      "/": function() {
+        return {
+          status: 301,
+          headers: {
+            "Location": "/en"
+          }
+        }
+      },
+    }
+  });
 };
 
 export const config = {
