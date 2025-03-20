@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'Chronically Online: How to Limit your Social Media Usage'
+title: 'How to Reduce Screen Time: The Ultimate Guide'
 date: 2025-03-07
 description: 'An extensive guide with over 40 ideas to spend less time on social media.'
 keywords: ["productivity", "chronically online", "terminally online", "social media addiction", "doomscrolling", "limit social media", "screen time iphone", "screen time android", "mindless scrolling", "tiktok timer"]
