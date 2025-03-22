@@ -77,3 +77,7 @@ Side question: does anyone use hashtags anymore?
 No regrets about learning marketing (it's insane how much I've learned -- I love it), but it hasn't helped me know whether to continue working on SpeedBump. But I've realized I was asking myself the wrong thing.
 
 It should be: "does this make for a good enough business?". Even if that wasn't the case, I'd keep SpeedBump as a side project just because it's so fun and useful. But my goal after all is to make a living. Coming next: how to do that. Might take another while.
+
+sources:
+- money mind unfiltered for tiktoks
+- seoroast for seo
