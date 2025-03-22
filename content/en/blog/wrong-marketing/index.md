@@ -15,7 +15,7 @@ I'm building SpeedBump, an app to get you off the phone. After two months of wor
 
 I tried to find an answer by spreading the word. If I show the app and people like it enough, that's a good signal! I think.
 
-My first mistake was not defining a clear market. By default, I assumed that was the US because it seemed easier. It's a fast track:
+My major mistake was not defining a clear market. By default, I assumed that was the US because it seemed easier. It's a fast track:
 
 - 300M people speaking the same language and with a very similar culture.
 - There's basically an iPhone monopoly, which is easier to develop for than Android.
@@ -32,11 +32,17 @@ I quickly realized you can't just "quickly dip your toes in marketing", though. 
 
 ### SEO
 
-SEO -- the art of making your website appear first in Google -- is well established, so it was easy to do the basics. But it's not just Google that I need to focus: also the Play Store and social media like TikTok. The concepts are similar, but the tools vary and people search very different things on each platform.
+SEO -- the art of making your website appear first in Google -- is well established, so it was easy to do the basics. But it's not just Google that I need to focus on: also the Play Store and social media like TikTok. The concepts are similar, but the tools vary and people search very different things on each platform.
+
+Being bootstrapped, I'm also very stingy to pay for many tools. And holy crap is SEO expensive!
+
+ahrefs offers some free tools for keyword research, i.e., what words people use when they Google, so that you can use them too. I was doing this but it was a bad idea because paying gives you an amazing amount of resources. It's crazy how advanced SEO is.
+
+My joy lasted for a short time until I ran out of the 50 credits I paid 30 euros for, though. In a single afternoon.
 
 ### Viral marketing
 
-This was a huge rabbit hole
+This was a huge rabbit hole! Ironically, I've never used social media more than when building an app to reduce social media usage. There's a lot of irony in this project.
 
 ## Success
 
