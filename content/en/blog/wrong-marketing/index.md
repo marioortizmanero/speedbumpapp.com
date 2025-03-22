@@ -74,6 +74,6 @@ Side question: does anyone use hashtags anymore?
 
 ## What's next
 
-No regrets about learning marketing. But it's probably not the best way to know whether I should continue working on SpeedBump.
+No regrets about learning marketing, but it hasn't helped me know whether to continue working on SpeedBump. But I've realized I was asking myself the wrong thing.
 
-For what it's worth, even if that wasn't the case, I'd keep the app as a side project just because it's so fun and useful. But maybe a better way to phrase my question 
+It should be: "does this make for a good enough business?". Even if that wasn't the case, I'd keep SpeedBump as a side project just because it's so fun and useful. But my goal after all is to make a living. Coming next: how to do that. Might take another while.
