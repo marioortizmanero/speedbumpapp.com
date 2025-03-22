@@ -62,7 +62,7 @@
   transform: rotate(-1deg);
 }
 
-.hero h1 {
+.hero .lines .line1 {
   animation: text-shake-rotate 0.5s ease-in forwards;
   animation-delay: 4.4s;
   transform-origin: center;
