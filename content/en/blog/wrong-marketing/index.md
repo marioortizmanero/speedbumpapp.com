@@ -28,10 +28,15 @@ In reality, targeting the US brought me major headaches:
 
 So I pivoted to targeting Germany, where I live, and Spain, where I'm from. These countries have an [Android market share of 61% and 76%, respectively](https://gs.statcounter.com/os-market-share/mobile/). Unlike US' 38%, I'd have a higher chance that users actually download the app.
 
-I quickly realized you can't just "quickly dip your toes in marketing", though. It's time consuming -- especially as a solo founder -- and a new skill for me. My learnings are:
+I quickly realized you can't just "quickly dip your toes in marketing", though. It's time consuming -- especially as a solo founder -- and a new skill for me.
 
-- SEO (i.e., the art of making your website appear first in Google) is well established, so it was easy to do the basics. But it's not just Google that I need to focus: also the Play Store and social media like TikTok. The concepts are similar, but the tools vary and people search very different things on each platform.
-- 
+### SEO
+
+SEO -- the art of making your website appear first in Google -- is well established, so it was easy to do the basics. But it's not just Google that I need to focus: also the Play Store and social media like TikTok. The concepts are similar, but the tools vary and people search very different things on each platform.
+
+### Viral marketing
+
+This was a huge rabbit hole
 
 ## Success
 
