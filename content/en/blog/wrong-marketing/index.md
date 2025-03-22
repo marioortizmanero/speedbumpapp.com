@@ -64,7 +64,7 @@ My strategy is heavily influenced by the fact that SpeedBump has no followers an
 
 So I ended up using TikTok a lot, where you don't need followers at all. A new account can easily get a viral video. It's incredibly common to promote your products on TikTok -- on the opposite end of Reddit, where I struggled to share anything, even if it was in the interest of the community.
 
-YouTube Shorts is similar; it's just longer-term. Which is what I love about YouTube. Today, my feed suggested me a 17-year old 1-minute-lont video titled "world's fastest smoker". Pure gold, honestly.
+YouTube Shorts is similar; it's just longer-term. Which is what I love about YouTube. Today, my feed suggested me a 17-year old 1-minute-lont video titled "world's fastest smoker". Pure gold, honestly. This is what I come to the Internet for.
 
 Posting to all these platforms was a huge mess without a specialized tool. For now, I've simplified my life and dropped Facebook, Reddit, Twitter, and Instagram. I just post on TikTok, and repost it on YouTube Shorts. When I get more traction (and money), I can consider other platforms.
 
