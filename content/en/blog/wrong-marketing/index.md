@@ -9,13 +9,29 @@ imageAlt: TODO
 draft: true
 ---
 
-SpeedBump is in a decent enough state after [its second version](/en/blog/v1/). It's an app to help reduce phone usage. But after two months of work, I'm still not sure it's a good idea. Before polishing the new user experience, it should go through a bit of validation. So I got started with marketing:
+I'm building SpeedBump, an app to get you off the phone. After two months of work, I haven't found a definitive answer to "should I continue working on this?".
 
-My first mistake had to do with localization. By default, I was targeting English-speakers, most likely from the US. Just because it was easier and I'm familiar with the culture. In reality, this didn't make sense because my app is Android-only, and you seemingly need to buy an iPhone to be a US citizen. Another big mistake was that I tried to target US while living in Germany. This resulted in, for example, my English-speaking TikToks only being shown to Germans, which is suboptimal.
+## Marketing
 
-So I pivoted to targeting Germany and Spain. Android has [a 61% and 76% ratio](https://gs.statcounter.com/os-market-share/mobile/), which unlike US' 38% gives me higher chances at users actually downloading the app. I know well how these countries work, and can speak the language (well, German kind of). And I didn't see other big companies doing this kind of product in Spanish or German.
+I tried to find an answer by spreading the word. If I show the app and people like it enough, that's a good signal! I think.
 
-It's been interesting to discover how different each social media is:
+My first mistake was not defining a clear market. By default, I assumed that was the US because it seemed easier. It's a fast track:
+
+- 300M people speaking the same language and with a very similar culture.
+- There's basically an iPhone monopoly, which is easier to develop for than Android.
+- iPhone users tend to spend more money on apps than Android.
+
+In reality, targeting the US brought me major headaches:
+
+* There's basically an Apple monopoly in the US, but the first version of my app is for Android.
+* I live in Germany, so my TikToks aren't seen in the US. Even they understand English here, most prefer German for day-to-day content.
+
+So I pivoted to targeting Germany, where I live, and Spain, where I'm from. These countries have an [Android market share of 61% and 76%, respectively](https://gs.statcounter.com/os-market-share/mobile/). Unlike US' 38%, I'd have a higher chance that users actually download the app.
+
+I quickly realized you can't just "quickly dip your toes in marketing", though. It's time consuming -- especially as a solo founder -- and a new skill for me. My learnings are:
+
+- SEO (i.e., the art of making your website appear first in Google) is well established, so it was easy to do the basics. But it's not just Google that I need to focus: also the Play Store and social media like TikTok. The concepts are similar, but the tools vary and people search very different things on each platform.
+- 
 
 ## Success
 
