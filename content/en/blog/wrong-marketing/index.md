@@ -30,6 +30,22 @@ So I pivoted to targeting Germany, where I live, and Spain, where I'm from. Thes
 
 I quickly realized you can't just "quickly dip your toes in marketing", though. It's time consuming -- especially as a solo founder -- and a new skill for me.
 
+### Launching
+
+An easy way to get some first eyes on your product is to launch on Product Hunt. Each day, this platform lists new products, and people get to vote on which ones they like most.
+
+It was pretty crazy to compete with people who developed super cool AR glasses. All while the banner I used for the launch looked like it was done by a kid on MS Paint from 2003. For real, look at it:
+
+TODO: image
+
+But impressively, SpeedBump managed to get 7th on a random Tuesday of March! The site didn't get *that* much traffic, so I stressed out unnecessarily. Even if I knew that it's a mostly-US platform -- which I'm not targeting -- I guess it's a signal that people do like the project.
+
+Their Twitter account also highlighted SpeedBump, with a quote I liked:
+
+TODO: quote
+
+I tried IndieHackers to no avail -- is anyone actually using that site? At some point I'll also use Hacker News, but it's the same story with being US centered.
+
 ### SEO
 
 SEO -- the art of making your website appear first in Google -- is well established, so it was easy to do the basics. But it's not just Google that I need to focus on: also the Play Store and social media like TikTok. The concepts are similar, but the tools vary and people search very different things on each platform.
@@ -44,20 +60,20 @@ My joy lasted for a short time until I ran out of the 50 credits I paid 30 euros
 
 This was a huge rabbit hole! Ironically, I've never used social media more than when building an app to reduce social media usage. There's a lot of irony in this project.
 
-## Success
+My strategy is heavily influenced by the fact that SpeedBump has no followers anywhere. I'd upload a Reel to Instagram and literally get 0 views. My personal account helped a bit, along with my LinkedIn followers. But they aren't necessarily the perfect user for SpeedBump.
 
-* TikTok is awesome for new companies. You don't even need followers to get some initial views. If the video is liked by enough people during a random trial, it will get more and more shared. It also seems pretty common to promote products even if it's not an ad.
-* LinkedIn has been useful since the beginning because I had a decent following. But they are people I personally know, who aren't necessarily the best target for my product. Haven't tried their new video format.
-* Product Hunt: unexpectedly, SpeedBump ended up seventh on March 4! Very stressful, but no regrets. I did expect more traffic on the site and less spam in my inbox. Maybe top 5 would have been better for that. It's also very US-focused, but I guess it helps with the SEO and to get some validation. It added ~1 point in domain ranking.
-* YouTube Shorts has worked pretty well. It just takes much more time than TikTok to get some views.
+So I ended up using TikTok a lot, where you don't need followers at all. A new account can easily get a viral video. It's incredibly common to promote your products on TikTok -- on the opposite end of Reddit, where I struggled to share anything, even if it was in the interest of the community.
 
-I've gone from "website authority" of 0.7 to 2.4.
+YouTube Shorts is similar; it's just longer-term. Which I like -- it's funny to see videos on my YouTube feed that are years old but still good.
 
-## Failure
+Posting to all these platforms was a huge mess without a specialized tool. For now, I've simplified my life and dropped Facebook, Reddit, Twitter, and Instagram. I just post on TikTok, and repost it on YouTube Shorts. When I get more traction (and money), I can consider other platforms.
 
-* Reddit users are incredibly skeptical of promotions, even if they're in the subreddit's interest.
-* Is anyone actually using IndieHackers? I'll consider myself lucky if I get more than 3 votes.
-* On X, Mastodon, BlueSky, and Instagram, you need some initial followers to get traction. I haven't found out how to do it properly on Instagram yet, but Communities on Twitter have helped me go from 0 likes to 1 (I had to get the app instead of the browser).
-* Hacker News is hard because your post is given only a couple minutes to gain traction. It's also strictly English-speaking and US-centered. So far, they're too serious for this app.
+By the way, it's insane that even LinkedIn has now a TikTok-like feed. Like feverish-dream kind of insane.
 
-Does anyone even use hashtags anymore?
+Side question: does anyone use hashtags anymore?
+
+## What's next
+
+No regrets about learning marketing. But it's probably not the best way to know whether I should continue working on SpeedBump.
+
+For what it's worth, even if that wasn't the case, I'd keep the app as a side project just because it's so fun and useful. But maybe a better way to phrase my question 
