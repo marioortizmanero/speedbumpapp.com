@@ -38,8 +38,10 @@ body a {
   color: var(--foreground);
 }
 body hr {
+  color: var(--foreground);
   margin-top: var(--gap);
   margin-bottom: var(--gap);
+  opacity: 0.4;
 }
 
 html, body {
