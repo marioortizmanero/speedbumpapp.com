@@ -10,7 +10,7 @@ export default {
     Mastodon: "https://mstdn.social/@nullderef",
     "PGP Keys": "/pgp_keys.asc",
     "E-mail": "mailto:marioortizmanero@gmail.com",
-    RSS: "/index.xml"
+    //RSS: "/index.xml"
   },
   github: "https://github.com/marioortizmanero/speedbumpapp.com",
 }
