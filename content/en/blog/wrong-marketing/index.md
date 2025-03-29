@@ -56,6 +56,8 @@ ahrefs offers some free tools for keyword research, i.e., what words people use 
 
 My joy lasted for a short time until I ran out of the 50 credits I paid 30 euros for, though. In a single afternoon.
 
+I know SEO is important from nullderef. Sure, launching an article will get you a spike of views. But what keeps the blog alive is the keyword "rust plugin system". It's also "do once and forget".
+
 ### Viral marketing
 
 This was a huge rabbit hole! Ironically, I've never used social media more than when building an app to reduce social media usage. There's a lot of irony in this project.
