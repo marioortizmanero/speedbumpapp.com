@@ -78,4 +78,14 @@ export default {
     language: "Seleccionar idioma",
   },
   also_available_in: "Esta página también está disponible en:",
+  life_calculator: {
+    title: "Calculadora de Tiempo de Pantalla",
+    daily_screen_time: "Tiempo promedio diario de pantalla (horas)",
+    your_age: "Tu edad actual",
+    calculate_button: "Calcular",
+    result_intro: "Según tus hábitos actuales de tiempo de pantalla, pasarás aproximadamente",
+    years: "años",
+    result_explanation: "de tu vida restante mirando pantallas.",
+    life_expectancy_note: "Suponiendo una esperanza de vida de 75 años, y que estás despierto 16 horas al día.",
+  },
 }

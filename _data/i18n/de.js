@@ -77,5 +77,15 @@ export default {
     about: "Über uns",
     language: "Sprache auswählen",
   },
-  also_available_in: "Diese Seite ist auch verfügbar in:"
+  also_available_in: "Diese Seite ist auch verfügbar in:",
+  life_calculator: {
+    title: "Bildschirmzeit-Rechner",
+    daily_screen_time: "Durchschnittliche tägliche Bildschirmzeit (Stunden)",
+    your_age: "Dein aktuelles Alter",
+    calculate_button: "Berechnen",
+    result_intro: "Basierend auf deinen aktuellen Bildschirmgewohnheiten wirst du ungefähr",
+    years: "Jahre",
+    result_explanation: "deines verbleibenden Lebens auf Bildschirme starrend verbringen.",
+    life_expectancy_note: "Angenommen, du hast eine Lebenserwartung von 75 Jahren und bist 16 Stunden am Tag wach.",
+  },
 }

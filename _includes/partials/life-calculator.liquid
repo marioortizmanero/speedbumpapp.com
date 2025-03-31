@@ -1,0 +1,128 @@
+{% assign t = i18n[page.lang] %}
+
+<div class="screen-time-calculator">
+  <div class="calculator-container">
+    <h2>{{ t.life_calculator.title }}</h2>
+    <div class="form-group">
+      <label for="daily-screen-time">{{ t.life_calculator.daily_screen_time }}</label>
+      <input type="number" id="daily-screen-time" min="0" max="24" step="0.5" placeholder="5.5">
+    </div>
+    <div class="form-group">
+      <label for="age">{{ t.life_calculator.your_age }}</label>
+      <input type="number" id="age" min="0" max="120" placeholder="25">
+    </div>
+    <button id="calculate-btn">{{ t.life_calculator.calculate_button }}</button>
+    <div class="results" id="results">
+      <p>{{ t.life_calculator.result_intro }}</p>
+      <div class="highlight" id="years-result">0 {{ t.life_calculator.years }}</div>
+      <p>{{ t.life_calculator.result_explanation }}</p>
+      <div class="explanation">
+        <p>{{ t.life_calculator.life_expectancy_note }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .screen-time-calculator {
+    margin: 2rem 0;
+  }
+
+  .screen-time-calculator p {
+    margin-bottom: calc(var(--gap) / 3);
+  }
+
+  .calculator-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: var(--background-alt);
+    border-radius: var(--radius);
+    border: 2px solid var(--foreground);
+  }
+
+  .screen-time-calculator h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  .screen-time-calculator input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--foreground);
+    border-radius: var(--radius);
+    background-color: var(--background);
+    color: var(--foreground);
+    font-size: 16px;
+  }
+
+  .screen-time-calculator button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--accent);
+    color: black;
+    border: 2px solid black;
+    border-radius: var(--radius);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px 0;
+  }
+
+  .results {
+    display: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .results.active {
+    display: block;
+  }
+
+  .highlight {
+    font-size: 46px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: var(--foreground);
+  }
+
+  .explanation {
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.8;
+  }
+</style>
+
+<script>
+  document.getElementById('calculate-btn').addEventListener('click', function() {
+    // Get input values
+    const dailyScreenTime = parseFloat(document.getElementById('daily-screen-time').value) || 0;
+    const age = parseInt(document.getElementById('age').value) || 0;
+    const lifeExpectancy = 75; // Fixed life expectancy
+
+    // Calculate remaining years
+    const remainingYears = Math.max(0, lifeExpectancy - age);
+
+    // Calculate screen time in remaining years (assuming 16 waking hours per day)
+    const screenTimeYears = (dailyScreenTime / 16) * remainingYears;
+    const screenTimeDays = screenTimeYears * 365;
+
+    // Display results
+    document.getElementById('years-result').textContent = screenTimeYears.toFixed(1) + ' {{ t.life_calculator.years }}';
+
+    // Show results section
+    document.getElementById('results').classList.add('active');
+  });
+</script>

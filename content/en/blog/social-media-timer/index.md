@@ -48,9 +48,11 @@ third_party_apps:
 
 ## Why You Need to Limit Social Media in 2025
 
-Completely quitting social media is getting less and less realistic. Platforms like Instagram or TikTok can be essential to connect with friends, but it's easy to get hooked. We've all been there: someone shares a Reel, taking you into an hour-long rabbit hole of cats dancing to Shakira. Can we find balance between being "chronically online" and becoming a buddhist monk?
+Completely quitting social media is getting less and less realistic. Platforms like Instagram or TikTok can be essential to connect with friends, but it's easy to get hooked. We've all been there: someone shares a Reel, taking you into an hour-long rabbit hole of cats dancing to Shakira.
 
-It turns out that taking action isn't that hard. Having spent countless hours on the topic, I've collected over 40 ideas to reduce your screen time.
+Can we find balance between being "chronically online" and becoming a buddhist monk?
+
+It turns out that taking action isn't that hard. Having spent countless hours as a student and later working, I've collected over 40 tips to reduce your screen time.
 
 ## Understand the Why
 
@@ -75,13 +77,13 @@ Most importantly, **change your perspective from "using your phone less" to "doi
 
 Don't start doing them all at once or build unrealistic expectations. Start with small goals like simply showing up to an activity, and take it from there.
 
-## Tools to Reduce Screen Time
+## Tools to Cut Down on Screen Time
 
-Tools are a useful band-aid while you tackle the root cause. Especially because "tackling the root cause" might be an endless task, so every bit helps. The following ideas will add friction to addictive apps, remind you that maybe it's been too long, and keep you accountable.
+Tools are a useful band-aid while you tackle the root cause. Especially because "tackling the root cause" might be an endless task. The following ideas will add friction to addictive apps, remind you that maybe it's been too long, and keep you accountable.
 
 ### Built-in Screen Time Features
 
-In case you don't know it, Android and iOS include powerful features to reduce phone usage:
+In case you don't know it, Android and iOS include powerful features to reduce phone time:
 
 * **iOS Screen Time** (available since iOS 12):
   1. Open Settings on your iPhone, iPad, or MacBook
@@ -118,6 +120,10 @@ In case you don't know it, Android and iOS include powerful features to reduce p
   </div>
 </p>
 
+Before you continue, use this data to learn how many years of your life will be spent on your phone:
+
+{% render "partials/life-calculator.liquid" i18n: i18n, page: page %}
+
 Built-in timers are convenient but can be easy to bypass; the button to extend the timer is so easy to tap! Additional options like Focus Mode, Bedtime or Sleep Mode, or Do Not Disturb can enhance effectiveness. Experiment with them to see what works best for your usage patterns: ADHD, doomscrolling, unlocking your phone too frequently, or procrastinating.
 
 ### Advanced Built-In Screen Time Features
@@ -144,7 +150,7 @@ Unfortunately, these features can be tricky to configure, and are limited to cer
 
 ### Third-Party Timer Apps
 
-After testing more than 20 apps in the App Store and Play Store, here are the most recommended ones:
+We tested more than 20 apps in the App Store and Play Store to limit screen time. Here are the most recommended ones:
 
 <div class="third-party-apps">
 {%- for app in third_party_apps %}
@@ -167,10 +173,10 @@ Consider these additional strategies:
 1. **Notification management** 💬: disable non-essential notifications. Try changing from notifications to emails; that way, you can check them later, possibly from your computer at home.
 2. **App layout organization** 🗂️: move social apps off your home screen, hide them in folders, or install a minimal launcher.
 3. **Grayscale mode** 🖤: enable during evening hours to reduce visual stimulation.
-4. **Physical boundaries** 🏠: create phone-free zones in your home. Can you leave your phone outside your room before going to bed? Take a walk leaving your phone at home -- how does it feel? Embrace the discomfort and get used to it.
+4. **Physical boundaries** 🏠: create phone-free zones in your home. Can you leave your phone outside your room before going to bed? Take a walk leaving your phone at home -- how does it feel? This sensation of fear is called *nomophobia*. Embrace the discomfort and get used to it.
 5. **Newsletters** ✉️: there are services that aggregate what happened over the week on your favorite websites. Instead of checking every few minutes, subscribe to one of them for a weekly summary. You'll realize that you aren't missing out on much.
 6. **Do less on your phone** 📵: print documents or read them on your ebook. Buy a newspaper (yes, in 2025!) instead of using the news app. Replace your notes app with a real notepad, spend money on a vinyl player instead of Spotify, or uninstall Amazon and visit a store next time.
-7. **App-specific settings** ⚙️: did you know that TikTok and Instagram have built-in Screen Time options? They aren't the best, but you can give them a try. Even the tech forum "Hacker News" has a "noprocrast" option (i.e., "no procrastination") in your profile. Investigate your most used websites.
+7. **App-specific settings** ⚙️: did you know that TikTok and Instagram have built-in screen time options? They aren't the best, but you can give them a try. Even the tech forum "Hacker News" has a "noprocrast" option (i.e., "no procrastination") in your profile. Investigate your most used websites.
 8. **Use the browser instead of the app** 🌐: the sub-optimal experience might prevent mindless scrolling.
 9. **Get used to being bored** 🥱: it's actually good for you -- your creativity will increase. Can you manage to stare at your wall for a measly 15 minutes?
 10. **Going nuclear** ☢️: if you really need a break, try uninstalling -- even if temporarily -- or getting a dumbphone. A less well-known alternative to dumbphones is a smartwatch with a SIM card.
@@ -185,28 +191,14 @@ This article lists enough ideas -- now it's up to you to take action. Don't just
 
 ## Frequently Asked Questions
 
-### Q: Can I completely block social media apps instead of just timing them?
-
-A: Yes, both built-in features and third-party apps offer complete blocking options. For example, you can block them during your working hours. Look for "App Block" in iOS' Screen Time or "Focus Mode" in Android's Digital Wellbeing.
-
 ### Q: Do social media timers work for desktop usage too?
 
 A: iOS's Screen Time, Opal, or ScreenZen share your data across Apple devices by default, including macOS, iPad, and iPhone. Most third-party solutions offer browser extensions for desktop. Browser-specific extensions like StayFocusd (Chrome) or LeechBlock (Firefox) are also effective.
 
 ### Q: Will using timers affect my notifications?
 
-A: It depends on the solution. Most timers will block notifications during restricted periods, though emergency notifications typically remain active.
+A: It depends on the solution. Some timers will block notifications during restricted periods, though emergency notifications typically remain active.
 
-### Q: What's the recommended daily limit for social media?
+### Q: How much screen time is too much?
 
-A: It largely depends on personal and professional requirements. Digital wellness experts suggest 30 to 60 minutes per day for better mental wellbeing. Ideally, they should be broken into shorter sections rather than continuous scrolling.
-
-### Q: Can I set different limits for weekdays versus weekends?
-
-A: Yes, most solutions including iOS Screen Time, Android Digital Wellbeing, and third-party apps offer day-specific scheduling.
-
-### Q: What is "chronically online"?
-
-A: Someone chronically online is a person who is isolated due to excessive internet use. They may be out of touch with reality and give major importance to Internet culture.
-
-Other words for this term are "terminally online" (referring to "terminally ill patients") or "extremely online".
+A: It really depends on personal and professional requirements. For adults, experts suggest 30 to 60 minutes per day for better mental wellbeing. Ideally, they should be broken into shorter sections rather than continuous scrolling.

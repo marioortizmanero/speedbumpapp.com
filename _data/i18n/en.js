@@ -78,4 +78,14 @@ export default {
     language: "Select language",
   },
   also_available_in: "This page is also available in:",
+  life_calculator: {
+    title: "Screen Time Life Calculator",
+    daily_screen_time: "Average daily screen time (hours)",
+    your_age: "Your current age",
+    calculate_button: "Calculate",
+    result_intro: "Based on your current screen time habits, you'll spend approximately",
+    years: "years",
+    result_explanation: "of your remaining life staring at screens.",
+    life_expectancy_note: "Assuming a life expectancy of 75 years, and that you are awake 16 hours a day.",
+  },
 }

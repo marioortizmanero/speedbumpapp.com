@@ -48,9 +48,11 @@ third_party_apps:
 
 ## Por Qué Limitar las Redes Sociales en 2025
 
-Abandonar completamente las redes sociales es cada vez menos realista. Plataformas como Instagram o TikTok pueden ser indispensables para conectar con amigos, pero es fácil engancharse. A todos nos ha pasado: te envían un Reel y acabas viendo gatos bailando canciones de Shakira una hora. ¿Se puede encontrar un equilibrio entre estar pegados a la pantalla y convertirnos en monjes budistas?
+Abandonar completamente las redes sociales es cada vez menos realista. Plataformas como Instagram o TikTok pueden ser indispensables para conectar con amigos, pero es fácil engancharse. A todos nos ha pasado: te envían un Reel y acabas viendo gatos bailando canciones de Shakira una hora.
 
-Resulta que tomar medidas no es tan difícil. Tras pasar innumerables horas investigando el tema, he recopilado más de 40 ideas para reducir tu tiempo de pantalla.
+¿Se puede encontrar un equilibrio entre estar pegados a la pantalla y convertirnos en monjes budistas?
+
+Resulta que superarlo no es tan difícil. Tras pasar innumerables horas investigando el tema, he recopilado más de 40 consejos para reducir tu tiempo de pantalla.
 
 ## Entender el Por Qué
 
@@ -77,7 +79,7 @@ No hagas todas a la vez ni construyas expectativas irreales. Comienza con objeti
 
 ## Herramientas para Reducir el Tiempo de Pantalla
 
-Las herramientas son una ayuda temporal mientras abordas la causa principal. Especialmente porque "abordar la causa principal" puede ser una tarea interminable, así que cada pequeña ayuda cuenta. Las siguientes ideas añadirán fricción a las apps adictivas, te recordarán que quizás ha pasado demasiado tiempo y te mantendrán responsable.
+Las herramientas son una ayuda temporal mientras abordas la causa principal. Especialmente porque "abordar la causa principal" puede ser una tarea interminable. Las siguientes ideas añadirán fricción a las apps adictivas, te recordarán que quizás ha pasado demasiado tiempo y te mantendrán responsable.
 
 ### Funciones Integradas de Tiempo de Pantalla
 
@@ -112,6 +114,10 @@ Por si no lo sabías, Android e iOS incluyen potentes funciones para reducir el 
 }
 </style>
 
+Antes de continuar, utiliza estos datos para saber cuántos años de tu vida pasarás con el teléfono:
+
+{% render "partials/life-calculator.liquid" i18n: i18n, page: page %}
+
 <p>
   <div class="screenshots">
     <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/iPhone_tiempo_de_uso_captura_de_pantalla.PNG" alt="Una captura de pantalla en iPhone de la sección de Tiempo de Uso">
@@ -145,7 +151,7 @@ Por desgracia, estas funciones pueden ser difíciles de configurar y están limi
 
 ### Apps de Temporizador de Terceros
 
-Después de probar más de 20 apps en la App Store y Play Store, aquí están las más recomendadas:
+Hemos probado más de 20 aplicaciones en App Store y Play Store. Aquí están las más recomendadas:
 
 <div class="third-party-apps">
 {%- for app in third_party_apps %}
@@ -168,7 +174,7 @@ Considera estas estrategias adicionales:
 1. **Gestión de notificaciones** 💬: desactiva las notificaciones no esenciales. Intenta cambiar de notificaciones a correos electrónicos; de esa manera, puedes revisarlos más tarde, posiblemente desde tu ordenador en casa.
 2. **Organización de la disposición de apps** 🗂️: mueve las apps sociales fuera de tu pantalla de inicio, escóndelas en carpetas o instala un lanzador minimalista.
 3. **Modo escala de grises** 🖤: actívalo durante las horas de la tarde para reducir la estimulación visual.
-4. **Límites físicos** 🏠: crea zonas libres de móvil en tu hogar. ¿Puedes dejar tu móvil fuera de tu habitación antes de acostarte? Da un paseo dejando tu móvil en casa -- ¿cómo se siente? Acepta la incomodidad y acostúmbrate a ella.
+4. **Límites físicos** 🏠: crea zonas libres de móvil en tu hogar. ¿Puedes dejar tu móvil fuera de tu habitación antes de acostarte? Da un paseo dejando tu móvil en casa -- ¿cómo se siente? Esa sensación de miedo se llama *nomofobia*. Acepta la incomodidad y acostúmbrate a ella.
 5. **Boletines** ✉️: hay servicios que agregan lo que ocurrió durante la semana en tus webs favoritas. En lugar de comprobar cada pocos minutos, suscríbete a uno de ellos para obtener un resumen semanal. Te darás cuenta de que no te estás perdiendo mucho.
 6. **Haz menos cosas en tu móvil** 📵: imprime documentos o léelos en tu e-reader. Compra un periódico (¡sí, en 2025!) en vez de usar la app de noticias. Reemplaza tu app de notas con un bloc de notas real, gasta dinero en un tocadiscos en lugar de Spotify, o desinstala Amazon y visita una tienda la próxima vez.
 7. **Configuración específica de apps** ⚙️: ¿sabías que TikTok e Instagram tienen opciones de Tiempo de Pantalla integradas? No son las mejores, pero puedes probarlas. Investiga tus redes preferidas.
@@ -178,7 +184,7 @@ Considera estas estrategias adicionales:
 
 ## Conclusión: Tómatelo con Calma y Experimenta
 
-Combinar múltiples estrategias de forma consistente a lo largo del tiempo funciona mejor. Las primeras dos semanas son típicamente las más difíciles, pero seguir durante 3-4 semanas reducirá tu dependencia al móvil. Requiere persistencia, pero los beneficios para tu concentración y bienestar valen el esfuerzo inicial.
+Combinar múltiples tratamientos de forma consistente a lo largo del tiempo funciona mejor. Las primeras dos semanas suelen ser las más difíciles, pero seguir 3-4 reducirá la mayoría de síntomas. Requiere persistencia, pero los beneficios para tu concentración y bienestar valen el esfuerzo inicial.
 
 Recuerda que plataformas como Instagram, TikTok, Twitter/X y Reddit emplean a miles de ingenieros específicamente para maximizar tu compromiso. Sentirse desafiado al limitar el uso es normal -- estas apps están diseñadas para ser adictivas. Cambiar tu perspectiva y establecer límites te ayudará a centrarte en lo que realmente importa en tu vida.
 
@@ -186,22 +192,14 @@ Este artículo enumera suficientes ideas -- ahora te toca a ti actuar. No te lim
 
 ## Preguntas Frecuentes
 
-### P: ¿Puedo bloquear completamente las apps de redes sociales en lugar de solo temporizarlas?
-
-R: Sí, tanto las funciones integradas como las apps de terceros ofrecen opciones de bloqueo completo. Por ejemplo, puedes bloquearlas durante tus horas de trabajo. Busca "Bloqueo de Aplicaciones" en el Tiempo de Uso de iOS o "Modo Concentración" en el Bienestar Digital de Android.
-
 ### P: ¿Los temporizadores de redes sociales funcionan también para el uso en ordenadores?
 
 R: El Tiempo de Uso de iOS, Opal o ScreenZen comparten tus datos entre dispositivos Apple por defecto, incluyendo macOS, iPad y iPhone. La mayoría de las soluciones de terceros ofrecen extensiones de navegador para ordenadores. Las extensiones específicas de navegador como StayFocusd (Chrome) o LeechBlock (Firefox) también son efectivas.
 
 ### P: ¿El uso de temporizadores afectará a mis notificaciones?
 
-R: Depende de la solución. La mayoría de los temporizadores bloquearán las notificaciones durante los períodos restringidos, aunque las notificaciones de emergencia típicamente permanecen activas.
+R: Depende de la solución. Algunos temporizadores bloquearán las notificaciones durante los períodos restringidos, aunque las notificaciones de emergencia típicamente permanecen activas.
 
 ### P: ¿Cuál es el límite diario recomendado para las redes sociales?
 
-R: Depende en gran medida de los requisitos personales y profesionales. Los expertos en bienestar digital sugieren de 30 a 60 minutos al día para un mejor bienestar mental. Idealmente, deberían dividirse en secciones más cortas en lugar de un uso continuo.
-
-### P: ¿Puedo establecer diferentes límites para días laborables frente a fines de semana?
-
-R: Sí, la mayoría de las soluciones, incluyendo el Tiempo de Uso de iOS, el Bienestar Digital de Android y otras apps, ofrecen programación específica por día.
+R: Depende en gran medida de los requisitos personales y profesionales. Para adultos, los expertos sugieren de 30 a 60 minutos al día para un mejor bienestar mental. Idealmente, deberían dividirse en secciones más cortas en lugar de un uso continuo.
