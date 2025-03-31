@@ -120,7 +120,7 @@ Antes de continuar, utiliza estos datos para saber cuántos años de tu vida pas
 
 <p>
   <div class="screenshots">
-    <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/iPhone_tiempo_de_uso_captura_de_pantalla.PNG" alt="Una captura de pantalla en iPhone de la sección de Tiempo de Uso">
+    <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/iPhone_tiempo_de_uso_captura_de_pantalla.png" alt="Una captura de pantalla en iPhone de la sección de Tiempo de Uso">
     <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/Android_bienestar_digital_y_controles_parentales_captura_de_pantalla.png" alt="Una captura de pantalla en Android de la sección de Bienestar Digital y Controles Parentales">
   </div>
 </p>
@@ -142,7 +142,7 @@ Para los que buscan soluciones más robustas, ambos sistemas operativos ofrecen 
 
 <p>
   <div class="screenshots">
-    <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/iPhone_atajos_captura_de_pantalla.PNG" alt="Una captura de pantalla en iPhone de la aplciación Atajos">
+    <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/iPhone_atajos_captura_de_pantalla.png" alt="Una captura de pantalla en iPhone de la aplciación Atajos">
     <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/Android_modos_y_rutinas_captura_de_pantalla.png" alt="Una captura de pantalla en Android de la aplicación Modos y Rutinas">
   </div>
 </p>
