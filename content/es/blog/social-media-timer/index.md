@@ -1,8 +1,9 @@
 ---
 lang: es
 title: Cura tu adicción al móvil con estas 40 ideas
+permalink: /es/blog/addicion-al-movil/
 date: 2025-03-07
-description: 'Aprende a usar menos el móvil y las redes sociales con esta guía exensiva'
+description: 'Aprende a usar menos el móvil y las redes sociales con esta guía extensiva'
 keywords: ["productividad", "adicción al móvil", "adicción al celular", "adicción al teléfono", "dependencia al móvil", "adicto a internet", "ciberadicción", "bienestar digital"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: Un reloj de arena sobre capturas de pantalla de apps adictivas, como TikTok, Instagram o juegos.

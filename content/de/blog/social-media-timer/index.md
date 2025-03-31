@@ -1,6 +1,7 @@
 ---
 lang: de
 title: 'Handysucht bekämpfen: Der ultimative Guide mit über 40 Tipps'
+permalink: /de/blog/handysucht-bekaempfen/
 date: 2025-03-07
 description: 'Schluss mit endlosem Scrollen: So reduzierst du deine Bildschirmzeit'
 keywords: ["productivität", ]

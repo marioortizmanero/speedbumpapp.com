@@ -1,6 +1,7 @@
 ---
 lang: en
 title: 'How to Reduce Screen Time: The Ultimate Guide'
+permalink: /en/blog/how-to-reduce-screen-time/
 date: 2025-03-07
 description: "An extensive guide with over 40 ideas to learn how to reduce your screen time. Understand why, create new objectives, and leverage tools."
 keywords: ["productivity", "how to reduce screen time", "chronically online", "terminally online", "social media addiction", "stop doomscrolling", "limit social media", "screen time iphone", "screen time android", "mindless scrolling", "tiktok timer"]
