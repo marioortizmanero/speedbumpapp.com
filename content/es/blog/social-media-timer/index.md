@@ -48,9 +48,9 @@ third_party_apps:
 
 ## Por Qué Limitar las Redes Sociales en 2025
 
-Abandonar completamente las redes sociales es poco realista para muchos, especialmente para las generaciones más jóvenes. Plataformas como Instagram o TikTok pueden ser realmente útiles para conectar con otros, pero es fácil engancharse. A todos nos ha pasado: un amigo comparte un Reel o un vídeo de YouTube y acabas gastando una hora viendo gatos bailando canciones de Shakira. ¿Se puede encontrar un equilibrio entre estar pegados a la pantalla y convertirnos en monjes budistas?
+Abandonar completamente las redes sociales es cada vez menos realista. Plataformas como Instagram o TikTok pueden ser indispensables para conectar con amigos, pero es fácil engancharse. A todos nos ha pasado: te envían un Reel y acabas viendo gatos bailando canciones de Shakira una hora. ¿Se puede encontrar un equilibrio entre estar pegados a la pantalla y convertirnos en monjes budistas?
 
-Tomar medidas no es tan difícil. Tras pasar innumerables horas investigando el tema, he recopilado más de 40 ideas para reducir tu tiempo de pantalla.
+Resulta que tomar medidas no es tan difícil. Tras pasar innumerables horas investigando el tema, he recopilado más de 40 ideas para reducir tu tiempo de pantalla.
 
 ## Entender el Por Qué
 
