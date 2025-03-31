@@ -4,7 +4,7 @@ title: 'How to Reduce Screen Time: The Ultimate Guide with 40+ Tips'
 permalink: /en/blog/how-to-reduce-screen-time/
 date: 2025-03-07
 description: "An extensive guide with over 40 ideas to learn how to reduce your screen time. Understand why, create new objectives, and leverage tools."
-keywords: ["how to reduce screen time", "how to cut down on screen time", "how to limit my screen time", "how to reduce time on phone", "how to reduce phone time", "stop doomscrolling", "limit social media", "screen time iphone", "screen time android"]
+keywords: ["how to reduce screen time", "how to cut down on screen time", "how to limit my screen time", "how to reduce time on phone", "how to reduce phone time", "stop doomscrolling", "limit social media"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: "An hourglass over screenshots of addictive apps, such as TikTok, Instagram, or games."
 third_party_apps:
@@ -46,7 +46,7 @@ third_party_apps:
     best_for: Full focus during study or work & gamification.
 ---
 
-## Why You Need to Limit Social Media in 2025
+## Why you Should Cut Down Screen Time in 2025
 
 Completely quitting social media is getting less and less realistic. Platforms like Instagram or TikTok can be essential to connect with friends, but it's easy to get hooked. We've all been there: someone shares a Reel, taking you into an hour-long rabbit hole of cats dancing to Shakira. It's fun, but you feel frustrated and powerless.
 
@@ -83,7 +83,7 @@ Tools are a useful band-aid while you tackle the root cause. Especially because 
 
 ### Built-in Screen Time Features
 
-In case you don't know it, Android and iOS include powerful features to reduce phone time:
+In case you don't know it, Android and iOS include powerful features to lower your phone time:
 
 * **iOS Screen Time** (available since iOS 12):
   1. Open Settings on your iPhone, iPad, or MacBook
@@ -148,9 +148,9 @@ For those seeking more robust solutions, both operating systems offer advanced c
 
 Unfortunately, these features can be tricky to configure, and are limited to certain manufacturers. They aren't specific to screen time, so your experience may not be the smoothest.
 
-### Third-Party Timer Apps
+### Apps to Limit Your Screen Time
 
-We tested more than 20 apps in the App Store and Play Store to limit screen time. Here are the most recommended ones:
+We tested more than 20 apps in the App Store and Play Store to cut down screentime. Here are the most recommended ones:
 
 <div class="third-party-apps">
 {%- for app in third_party_apps %}
@@ -166,7 +166,7 @@ We tested more than 20 apps in the App Store and Play Store to limit screen time
 {%- endfor %}
 </div>
 
-### Digital Detox Tips Beyond Timers
+### More Tips to Decrease Screen Time
 
 Consider these additional strategies:
 
