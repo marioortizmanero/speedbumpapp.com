@@ -115,7 +115,7 @@ In case you don't know it, Android and iOS include powerful features to lower yo
 
 <p>
   <div class="screenshots">
-    <img class="screenshot" eleventy:widths="400" src="/en/blog/social-media-timer/iPhone_screen_time_screenshot.png" alt="An iPhone screenshot of the Screen Time section">
+    <img class="screenshot" eleventy:widths="400" src="/en/blog/social-media-timer/iPhone_screen_time_screenshot.PNG" alt="An iPhone screenshot of the Screen Time section">
     <img class="screenshot" eleventy:widths="400" src="/en/blog/social-media-timer/Android_digital_wellbeing_and_parental_controls_screenshot.png" alt="An Android screenshot of the Digital Wellbeing & Parental Controls section">
   </div>
 </p>

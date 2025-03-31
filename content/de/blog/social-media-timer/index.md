@@ -107,8 +107,8 @@ Falls du es noch nicht weißt: Android und iOS bieten leistungsstarke Funktionen
 
 <p>
   <div class="screenshots">
-    <img class="screenshot" eleventy:widths="400" src="/de/blog/social-media-timer/iPhone_Bildschirmzeit_Bildschirmfoto.png" alt="Ein Screenshot des Bereichs Bildschirmzeit auf einem iPhone">
-    <img class="screenshot" eleventy:widths="400" src="/de/blog/social-media-timer/Android_digital_wellbeing_und_jugendschutzeinstellungen.png" alt="Ein Screenshot des Digital Wellbeing und Jugendschutzeinstellungen auf einem Android">
+    <img class="screenshot" eleventy:widths="400" src="/de/blog/social-media-timer/iPhone_Bildschirmzeit_Bildschirmfoto.PNG" alt="Ein Screenshot des Bereichs Bildschirmzeit auf einem iPhone">
+    <img class="screenshot" eleventy:widths="400" src="/de/blog/social-media-timer/Android_digital_wellbeing_und_jugendschutzeinstellungen.PNG" alt="Ein Screenshot des Digital Wellbeing und Jugendschutzeinstellungen auf einem Android">
   </div>
 </p>
 
