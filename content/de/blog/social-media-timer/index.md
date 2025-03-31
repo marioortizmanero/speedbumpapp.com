@@ -61,7 +61,7 @@ Beginne damit zu verstehen, **warum** du dein Handy benutzt, obwohl du es eigent
 * Prokrastination
 * Muskelerinnerung
 
-Zeit in sozialen Medien zu verbringen ist in Ordnung! Nicht nur um in Kontakt zu bleiben, sondern auch zum Bewältigen von Situationen. Wir sind Menschen, und manchmal hilft es, den Kopf von einem Problem freizubekommen, um es später anzugehen. In einer Studie über Twitch-Livestreams, die Menschen in schwierigen Zeiten helfen, fanden 82% sie zumindest etwas hilfreich.
+Zeit in sozialen Medien zu verbringen ist in Ordnung! Nicht nur um in Kontakt zu bleiben, sondern auch zum Bewältigen von Situationen. Wir sind Menschen, und manchmal hilft es, den Kopf von einem Problem freizubekommen, um es später anzugehen. In [einer Studie](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.586975/full) über Twitch-Livestreams, die Menschen in schwierigen Zeiten helfen, fanden 82% sie zumindest etwas hilfreich.
 
 Das im Hinterkopf behaltend, erreichen wir alle einen Punkt, an dem das Online-Sein kontraproduktiv wird. Es hängt von verschiedenen Faktoren ab, aber tief im Inneren wirst du wissen, wann dieser Punkt erreicht ist.
 

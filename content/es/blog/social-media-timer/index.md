@@ -3,7 +3,7 @@ lang: es
 title: Cura tu adicción al móvil con estas 40 ideas
 permalink: /es/blog/addicion-al-movil/
 date: 2025-03-07
-description: 'Aprende a usar menos el móvil y las redes sociales con esta guía extensiva'
+description: 'Aprende a reducir tu adicción al móvil con esta guía extensiva. Entiende el por qué, ponte objetivos y usa herramientas.'
 keywords: ["productividad", "adicción al móvil", "adicción al celular", "adicción al teléfono", "dependencia al móvil", "adicto a internet", "ciberadicción", "bienestar digital"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: Un reloj de arena sobre capturas de pantalla de apps adictivas, como TikTok, Instagram o juegos.
@@ -61,7 +61,7 @@ Comienza por entender **por qué** usas el móvil aunque no quieras:
 * Procrastinación
 * Memoria muscular
 
-¡Pasar tiempo en el móvil está bien! No solo para conectar, sino también como mecanismo de afrontamiento. Somos humanos, y distraer nuestra mente de un problema puede aliviar el estrés para abordarlo más tarde. En un estudio sobre cómo los directos de Twitch ayudan a las personas en momentos difíciles, el 82% los encontró al menos algo útiles.
+¡Pasar tiempo en el móvil está bien! No solo para conectar, sino también como mecanismo de afrontamiento. Somos humanos, y distraer nuestra mente de un problema puede aliviar el estrés para abordarlo más tarde. En [un estudio](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.586975/full) sobre cómo los directos de Twitch ayudan a las personas en momentos difíciles, el 82% los encontró al menos algo útiles.
 
 Teniendo esto en cuenta, todos llegamos a un punto donde estar en línea resulta contraproducente. Depende de cada uno, pero en el fondo sabrás cuándo ocurre.
 

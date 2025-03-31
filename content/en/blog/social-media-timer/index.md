@@ -61,7 +61,7 @@ Start by understanding **why** you use your phone even though you don't want to:
 * Procrastination
 * Muscle memory
 
-Spending time on social media is okay! Not just to connect, but also for coping. We're human, and getting our mind off a problem can relieve stress to tackle it later. In a study on Twitch livestreams helping people through tough times, 82% found them at least somewhat helpful.
+Spending time on social media is okay! Not just to connect, but also for coping. We're human, and getting our mind off a problem can relieve stress to tackle it later. In [a study](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.586975/full) on Twitch livestreams helping people through tough times, 82% found them at least somewhat helpful.
 
 Having that in mind, we all reach a point where being online is counterproductive. It depends, but deep inside you'll know when that happens.
 
@@ -71,7 +71,7 @@ Most importantly, **change your perspective from "using your phone less" to "doi
 
 * Sports: join a running club
 * Hanging out with friends: meet regularly every Tuesday
-* Reading: make a whishlist
+* Reading: make a wishlist
 * Calling loved ones: set recurring alarms
 * Exploring new hobbies: get a pottery set, learn video editing, or dust off that retro camera on the shelf
 
