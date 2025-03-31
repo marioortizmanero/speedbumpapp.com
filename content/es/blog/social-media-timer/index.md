@@ -69,11 +69,9 @@ Teniendo esto en cuenta, todos llegamos a un punto donde estar en línea resulta
 
 Lo más importante es **cambiar tu perspectiva de "usar menos el móvil" a "hacer más otras cosas"**. ¿Qué preferirías hacer en lugar de pasar tiempo en redes? Haz una lista con 5 ideas:
 
-* Deporte: únete a un club de running
-* Salir con amigos: queda regularmente cada martes
-* Lectura: haz una lista de libros pendientes
-* Llamar a seres queridos: programa alarmas recurrentes
-* Explorar nuevas aficiones: compra un kit de cerámica, aprende edición de vídeo o desempolva esa cámara retro que tienes en la estantería
+<p>
+  <img eleventy:widths="800" alt="Deporte: únete a un club de running. Salir con amigos: queda regularmente cada martes. Lectura: haz una lista de libros pendientes. Llamar a seres queridos: programa alarmas recurrentes. Explorar nuevas aficiones: compra un kit de cerámica, aprende edición de vídeo o desempolva esa cámara retro que tienes en la estantería." src="/es/blog/social-media-timer/Lista_de_ideas_en_vez_del_movil.jpg">
+</p>
 
 No hagas todas a la vez ni construyas expectativas irreales. Comienza con objetivos sencillos como presentarte a una actividad y continúa desde ahí.
 
@@ -93,6 +91,32 @@ Por si no lo sabías, Android e iOS incluyen potentes funciones para reducir el 
   1. Abre Ajustes en tu smartphone o tablet
   2. Busca "Bienestar Digital y Control Parental"
   3. Funciones: analiza tus patrones de uso, establece temporizadores para apps o especifica un objetivo de tiempo de pantalla. En mi experiencia, las funciones avanzadas como "tiempo de pantalla mientras caminas" o "monitor de conducción" consumen batería pero no funcionan tan bien.
+
+<style>
+.screenshots {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.screenshot {
+  display: block;
+  max-width: 300px;
+  min-width: 200px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+</style>
+
+<p>
+  <div class="screenshots">
+    <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/iPhone_tiempo_de_uso_captura_de_pantalla.PNG" alt="Una captura de pantalla en iPhone de la sección de Tiempo de Uso">
+    <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/Android_bienestar_digital_y_controles_parentales_captura_de_pantalla.png" alt="Una captura de pantalla en Android de la sección de Bienestar Digital y Controles Parentales">
+  </div>
+</p>
 
 Los temporizadores integrados son convenientes, pero pueden ser fáciles de ignorar; ¡es tan fácil pulsar el botón para continuar en la app! Opciones adicionales como el Modo Concentración, Modo Hora de Dormir o No Molestar pueden mejorar la eficacia. Pruébalas para ver qué funciona mejor para tus patrones de uso: TDAH, doomscrolling, desbloquear el móvil con demasiada frecuencia o procrastinar.
 

@@ -69,11 +69,9 @@ Having that in mind, we all reach a point where being online is counterproductiv
 
 Most importantly, **change your perspective from "using your phone less" to "doing something else more"**. What would you rather do than scroll on social media? Make a list of 5 items:
 
-* Sports: join a running club
-* Hanging out with friends: meet regularly every Tuesday
-* Reading: make a wishlist
-* Calling loved ones: set recurring alarms
-* Exploring new hobbies: get a pottery set, learn video editing, or dust off that retro camera on the shelf
+<p>
+  <img eleventy:widths="800" alt="Sports: join a running club. Hanging out with friends: meet regularly every Tuesday. Reading: make a wishlist. Calling loved ones: set recurring alarms. Exploring new hobbies: get a pottery set, learn video editing, or dust off that retro camera on the shelf" src="/en/blog/social-media-timer/List_of_ideas_instead_of_phone.jpg">
+</p>
 
 Don't start doing them all at once or build unrealistic expectations. Start with small goals like simply showing up to an activity, and take it from there.
 
@@ -93,6 +91,32 @@ In case you don't know it, Android and iOS include powerful features to reduce p
   1. Open Settings on your smartphone or tablet
   2. Look for "Digital Wellbeing & Parental Controls"
   3. Features: analyze your usage patterns, set timers for apps, or specify a screen time goal. In my experience, advanced ones like "screen time while walking" or "driving monitor" consume battery but don't work that well.
+
+<style>
+.screenshots {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.screenshot {
+  display: block;
+  max-width: 300px;
+  min-width: 200px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+</style>
+
+<p>
+  <div class="screenshots">
+    <img class="screenshot" eleventy:widths="400" src="/en/blog/social-media-timer/iPhone_screen_time_screenshot.PNG" alt="An iPhone screenshot of the Screen Time section">
+    <img class="screenshot" eleventy:widths="400" src="/en/blog/social-media-timer/Android_digital_wellbeing_and_parental_controls_screenshot.png" alt="An Android screenshot of the Digital Wellbeing & Parental Controls section">
+  </div>
+</p>
 
 Built-in timers are convenient but can be easy to bypass; the button to extend the timer is so easy to tap! Additional options like Focus Mode, Bedtime or Sleep Mode, or Do Not Disturb can enhance effectiveness. Experiment with them to see what works best for your usage patterns: ADHD, doomscrolling, unlocking your phone too frequently, or procrastinating.
 

@@ -69,11 +69,10 @@ Das im Hinterkopf behaltend, erreichen wir alle einen Punkt, an dem das Online-S
 
 Am wichtigsten ist es, **deine Perspektive von "weniger Handy nutzen" zu "mehr etwas anderes tun" zu ändern**. Was würdest du lieber tun, als in sozialen Medien zu scrollen? Erstelle eine Liste mit 5 Punkten:
 
-* Sport: Tritt einem Laufclub bei
-* Mit Freunden abhängen: Trefft euch regelmäßig jeden Dienstag
-* Lesen: Erstelle eine Wunschzettel
-* Geliebte Menschen anrufen: Stelle wiederkehrende Alarme ein
-* Neue Hobbys erkunden: kaufe ein Töpferset, lerne Videobearbeitung oder entstaubbe diese Retro-Kamera im Regal
+<p>
+  <img eleventy:widths="800" alt="Sport: Tritt einem Laufclub bei. Mit Freunden abhängen: Trefft euch regelmäßig jeden Dienstag. Lesen: Erstelle eine Wunschzettel. Geliebte Menschen anrufen: Stelle wiederkehrende Alarme ein. Neue Hobbys erkunden: kaufe ein Töpferset, lerne Videobearbeitung oder entstaubbe diese Retro-Kamera im Regal." src="/de/blog/social-media-timer/Ideenliste_anstelle_des_Handys.jpg">
+</p>
+
 
 Fange nicht an, alles auf einmal zu tun oder unrealistische Erwartungen aufzubauen. Beginne mit kleinen Zielen, wie einfach bei einer Aktivität zu erscheinen, und gehe von dort aus weiter.
 
@@ -93,6 +92,32 @@ Falls du es noch nicht weißt: Android und iOS verfügen über leistungsstarke F
   1. Öffne Einstellungen auf deinem Smartphone oder Tablet
   2. Suche nach "Digitales Wohlbefinden & Kindersicherung"
   3. Funktionen: Analysiere deine Nutzungsmuster, stelle Timer für Apps ein oder gib ein Bildschirmzeit-Ziel an. Meiner Erfahrung nach verbrauchen erweiterte Funktionen wie "Bildschirmzeit beim Gehen" oder "Fahrmonitor" Akku, funktionieren aber nicht besonders gut.
+
+<style>
+.screenshots {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.screenshot {
+  display: block;
+  max-width: 300px;
+  min-width: 200px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+</style>
+
+<p>
+  <div class="screenshots">
+    <img class="screenshot" eleventy:widths="400" src="/de/blog/social-media-timer/iPhone_Bildschirmzeit_Bildschirmfoto.PNG" alt="Ein Screenshot des Bereichs Bildschirmzeit auf einem iPhone">
+    <img class="screenshot" eleventy:widths="400" src="/de/blog/social-media-timer/Android_digital_wellbeing_und_jugendschutzeinstellungen.png" alt="Ein Screenshot des Digital Wellbeing und Jugendschutzeinstellungen auf einem Android">
+  </div>
+</p>
 
 Integrierte Timer sind praktisch, können aber leicht umgangen werden; der Knopf zum Verlängern des Timers ist so leicht zu tippen! Zusätzliche Optionen wie Fokusmodus, Schlafenszeit oder Schlafmodus oder Nicht Stören können die Wirksamkeit verbessern. Experimentiere mit ihnen, um zu sehen, was am besten für deine Nutzungsmuster funktioniert: ADHS, Doomscrolling, zu häufiges Entsperren deines Handys oder Prokrastination.
 

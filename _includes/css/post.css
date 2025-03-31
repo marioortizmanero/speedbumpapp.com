@@ -98,11 +98,18 @@
 }
 
 .post-single img {
-  width: 100%;
+  width: 75%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: var(--radius);
+}
+
+@media (max-width: 768px) {
+  .post-single img {
+    width: 100%;
+  }
 }
 
 /* Taken from: https://max.hn/thoughts/how-to-create-a-highlighter-marker-effect-in-css */
