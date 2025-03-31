@@ -1,10 +1,10 @@
 ---
 lang: en
-title: 'How to Reduce Screen Time: The Ultimate Guide'
+title: 'How to Reduce Screen Time: The Ultimate Guide with 40+ Tips'
 permalink: /en/blog/how-to-reduce-screen-time/
 date: 2025-03-07
 description: "An extensive guide with over 40 ideas to learn how to reduce your screen time. Understand why, create new objectives, and leverage tools."
-keywords: ["productivity", "how to reduce screen time", "chronically online", "terminally online", "social media addiction", "stop doomscrolling", "limit social media", "screen time iphone", "screen time android", "mindless scrolling", "tiktok timer"]
+keywords: ["how to reduce screen time", "how to cut down on screen time", "how to limit my screen time", "how to reduce time on phone", "how to reduce phone time", "stop doomscrolling", "limit social media", "screen time iphone", "screen time android"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: "An hourglass over screenshots of addictive apps, such as TikTok, Instagram, or games."
 third_party_apps:
@@ -48,7 +48,7 @@ third_party_apps:
 
 ## Why You Need to Limit Social Media in 2025
 
-Completely quitting social media is getting less and less realistic. Platforms like Instagram or TikTok can be essential to connect with friends, but it's easy to get hooked. We've all been there: someone shares a Reel, taking you into an hour-long rabbit hole of cats dancing to Shakira.
+Completely quitting social media is getting less and less realistic. Platforms like Instagram or TikTok can be essential to connect with friends, but it's easy to get hooked. We've all been there: someone shares a Reel, taking you into an hour-long rabbit hole of cats dancing to Shakira. It's fun, but you feel frustrated and powerless.
 
 Can we find balance between being "chronically online" and becoming a buddhist monk?
 
@@ -173,7 +173,7 @@ Consider these additional strategies:
 1. **Notification management** 💬: disable non-essential notifications. Try changing from notifications to emails; that way, you can check them later, possibly from your computer at home.
 2. **App layout organization** 🗂️: move social apps off your home screen, hide them in folders, or install a minimal launcher.
 3. **Grayscale mode** 🖤: enable during evening hours to reduce visual stimulation.
-4. **Physical boundaries** 🏠: create phone-free zones in your home. Can you leave your phone outside your room before going to bed? Take a walk leaving your phone at home -- how does it feel? This sensation of fear is called *nomophobia*. Embrace the discomfort and get used to it.
+4. **Physical boundaries** 🏠: create screen-free zones in your home. Can you leave your phone outside your room before going to bed? Take a walk leaving your phone at home -- how does it feel? This sensation of fear is called *nomophobia*. Embrace the discomfort and get used to it.
 5. **Newsletters** ✉️: there are services that aggregate what happened over the week on your favorite websites. Instead of checking every few minutes, subscribe to one of them for a weekly summary. You'll realize that you aren't missing out on much.
 6. **Do less on your phone** 📵: print documents or read them on your ebook. Buy a newspaper (yes, in 2025!) instead of using the news app. Replace your notes app with a real notepad, spend money on a vinyl player instead of Spotify, or uninstall Amazon and visit a store next time.
 7. **App-specific settings** ⚙️: did you know that TikTok and Instagram have built-in screen time options? They aren't the best, but you can give them a try. Even the tech forum "Hacker News" has a "noprocrast" option (i.e., "no procrastination") in your profile. Investigate your most used websites.

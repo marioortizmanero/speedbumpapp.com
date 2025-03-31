@@ -1,6 +1,6 @@
 ---
 lang: es
-title: Cura tu adicción al móvil con estas 40 ideas
+title: "Adicción al Móvil: la Guía Definitiva con más de 40 consejos"
 permalink: /es/blog/addicion-al-movil/
 date: 2025-03-07
 description: 'Aprende a reducir tu adicción al móvil con esta guía extensiva. Entiende el por qué, ponte objetivos y usa herramientas.'

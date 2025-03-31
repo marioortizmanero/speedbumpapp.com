@@ -4,7 +4,7 @@ title: 'Handysucht bekämpfen: Der ultimative Guide mit über 40 Tipps'
 permalink: /de/blog/handysucht-bekaempfen/
 date: 2025-03-07
 description: 'Schluss mit endlosem Scrollen: So reduzierst du deine Bildschirmzeit'
-keywords: ["productivität", ]
+keywords: ["handysucht bekämpfen", "productivität", ]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: Eine Sanduhr über Screenshots von süchtig machenden Apps wie TikTok, Instagram oder Spielen.
 third_party_apps:
@@ -46,9 +46,9 @@ third_party_apps:
     best_for: Volle Konzentration während des Studiums oder der Arbeit & Gamification.
 ---
 
-## Dopamin Detox: Dein Guide für weniger Social Media 2025
+## Dein Guide für weniger Social Media 2025
 
-Soziale Medien komplett aufzugeben ist für viele unrealistisch – besonders für jüngere Generationen. Plattformen wie Instagram oder TikTok können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Jeder kennt das: Ein Freund zeigt ein Reel und man verbringt eine Stunde damit, Katzen beim Tanzen zu Shakira-Songs zuzusehen.
+Soziale Medien komplett aufzugeben ist für viele unrealistisch – besonders für jüngere Generationen. Plattformen wie Instagram oder TikTok können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Jeder kennt das: Ein Freund zeigt ein Reel und man verbringt eine Stunde damit, Katzen beim Tanzen zu Shakira-Songs zuzusehen. Es macht Spaß, aber man fühlt sich frustriert und machtlos.
 
 Können wir eine Balance zwischen Handysucht und einem buddhistischen Mönch finden?
 
