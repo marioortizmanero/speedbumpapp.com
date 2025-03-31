@@ -48,7 +48,7 @@ third_party_apps:
 
 ## Why You Need to Limit Social Media in 2025
 
-Completely quitting social media is unrealistic for many -- especially younger generations. Platforms like Instagram or TikTok can be genuinely useful to connect with others, but it's easy to get hooked. We've all been there: a friend shares a Reel or YouTube video, taking you into an hour-long rabbit hole of cats dancing to Shakira. Can we find balance between being "chronically online" and becoming a buddhist monk?
+Completely quitting social media is getting less and less realistic. Platforms like Instagram or TikTok can be essential to connect with friends, but it's easy to get hooked. We've all been there: someone shares a Reel, taking you into an hour-long rabbit hole of cats dancing to Shakira. Can we find balance between being "chronically online" and becoming a buddhist monk?
 
 It turns out that taking action isn't that hard. Having spent countless hours on the topic, I've collected over 40 ideas to reduce your screen time.
 
@@ -133,11 +133,18 @@ For those seeking more robust solutions, both operating systems offer advanced c
   * Tap the "+" icon to create a new routine
   * Ideas: enable Do Not Disturb at night, or always close YouTube or Netflix during work hours
 
+<p>
+  <div class="screenshots">
+    <img class="screenshot" eleventy:widths="400" src="/en/blog/social-media-timer/iPhone_shortcuts_screenshot.png" alt="An iPhone screenshot of the Shortcuts app">
+    <img class="screenshot" eleventy:widths="400" src="/en/blog/social-media-timer/Android_modes_and_routines_screenshot.png" alt="An Android screenshot of the Modes and Routines app">
+  </div>
+</p>
+
 Unfortunately, these features can be tricky to configure, and are limited to certain manufacturers. They aren't specific to screen time, so your experience may not be the smoothest.
 
 ### Third-Party Timer Apps
 
-The App Store and Play Store offer many effective app timers and blockers:
+After testing more than 20 apps in the App Store and Play Store, here are the most recommended ones:
 
 <div class="third-party-apps">
 {%- for app in third_party_apps %}
@@ -157,16 +164,16 @@ The App Store and Play Store offer many effective app timers and blockers:
 
 Consider these additional strategies:
 
-1. **Notification management**: disable non-essential notifications. Try changing from notifications to emails; that way, you can check them later, possibly from your computer at home.
-2. **App layout organization**: move social apps off your home screen, hide them in folders, or install a minimal launcher.
-3. **Grayscale mode**: enable during evening hours to reduce visual stimulation.
-4. **Physical boundaries**: create phone-free zones in your home. Can you leave your phone outside your room before going to bed? Take a walk leaving your phone at home -- how does it feel? Embrace the discomfort and get used to it.
-5. **Newsletters**: there are services that aggregate what happened over the week on your favorite websites. Instead of checking every few minutes, subscribe to one of them for a weekly summary. You'll realize that you aren't missing out on much.
-6. **Do less on your phone**: print documents or read them on your ebook. Buy a newspaper (yes, in 2025!) instead of using the news app. Replace your notes app with a real notepad, spend money on a vinyl player instead of Spotify, or uninstall Amazon and visit a store next time.
-7. **App-specific settings**: did you know that TikTok and Instagram have built-in Screen Time options? They aren't the best, but you can give them a try. Even the tech forum "Hacker News" has a "noprocrast" option (i.e., "no procrastination") in your profile. Investigate your most used websites.
-8. **Use the browser instead of the app**: the sub-optimal experience might prevent mindless scrolling.
-9. **Get used to being bored**: it's actually good for you -- your creativity will increase. Can you manage to stare at your wall for a measly 15 minutes?
-10. **Going nuclear**: if you really need a break, try uninstalling -- even if temporarily -- or getting a dumbphone. A less well-known alternative to dumbphones is a smartwatch with a SIM card.
+1. **Notification management** 💬: disable non-essential notifications. Try changing from notifications to emails; that way, you can check them later, possibly from your computer at home.
+2. **App layout organization** 🗂️: move social apps off your home screen, hide them in folders, or install a minimal launcher.
+3. **Grayscale mode** 🖤: enable during evening hours to reduce visual stimulation.
+4. **Physical boundaries** 🏠: create phone-free zones in your home. Can you leave your phone outside your room before going to bed? Take a walk leaving your phone at home -- how does it feel? Embrace the discomfort and get used to it.
+5. **Newsletters** ✉️: there are services that aggregate what happened over the week on your favorite websites. Instead of checking every few minutes, subscribe to one of them for a weekly summary. You'll realize that you aren't missing out on much.
+6. **Do less on your phone** 📵: print documents or read them on your ebook. Buy a newspaper (yes, in 2025!) instead of using the news app. Replace your notes app with a real notepad, spend money on a vinyl player instead of Spotify, or uninstall Amazon and visit a store next time.
+7. **App-specific settings** ⚙️: did you know that TikTok and Instagram have built-in Screen Time options? They aren't the best, but you can give them a try. Even the tech forum "Hacker News" has a "noprocrast" option (i.e., "no procrastination") in your profile. Investigate your most used websites.
+8. **Use the browser instead of the app** 🌐: the sub-optimal experience might prevent mindless scrolling.
+9. **Get used to being bored** 🥱: it's actually good for you -- your creativity will increase. Can you manage to stare at your wall for a measly 15 minutes?
+10. **Going nuclear** ☢️: if you really need a break, try uninstalling -- even if temporarily -- or getting a dumbphone. A less well-known alternative to dumbphones is a smartwatch with a SIM card.
 
 ## Conclusion: Take it Slow and Experiment
 

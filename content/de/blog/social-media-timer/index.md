@@ -48,7 +48,7 @@ third_party_apps:
 
 ## Dopamin Detox: Dein Guide für weniger Social Media 2025
 
-Soziale Medien komplett aufzugeben ist für viele unrealistisch – besonders für jüngere Generationen. Plattformen wie Instagram oder TikTok können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Jeder kennt das: Ein Freund zeigt ein Reel oder ein YouTube-Video und man verbringt eine Stunde damit, Katzen beim Tanzen zu Shakira-Songs zuzusehen. Können wir eine Balance zwischen Handysucht und einem buddhistischen Mönch finden?
+Soziale Medien komplett aufzugeben ist für viele unrealistisch – besonders für jüngere Generationen. Plattformen wie Instagram oder TikTok können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Jeder kennt das: Ein Freund zeigt ein Reel und man verbringt eine Stunde damit, Katzen beim Tanzen zu Shakira-Songs zuzusehen. Können wir eine Balance zwischen Handysucht und einem buddhistischen Mönch finden?
 
 Es ist gar nicht so schwer, Maßnahmen zu ergreifen. Nach unzähligen Stunden der Recherche habe ich über 40 Ideen gesammelt, um deine Bildschirmzeit zu reduzieren.
 
@@ -134,11 +134,18 @@ Für diejenigen, die robustere Lösungen suchen, bieten beide Betriebssysteme er
   * Tippe auf das "+"-Symbol, um eine neue Routine zu erstellen
   * Ideen: Aktiviere Nicht stören in der Nacht oder schließe YouTube oder Netflix immer während der Arbeitszeit
 
+<p>
+  <div class="screenshots">
+    <img class="screenshot" eleventy:widths="400" src="/de/blog/social-media-timer/iPhone_Kurzbefehle_Bildschirmfoto.png" alt="Ein Screenshot des Kurzbefehle auf einem iPhone">
+    <img class="screenshot" eleventy:widths="400" src="/de/blog/social-media-timer/Android_Modi_und_Routinen_Bildschirmfoto.PNG" alt="Ein Screenshot des Modi Und Routinen auf einem Android">
+  </div>
+</p>
+
 Leider können diese Funktionen schwierig zu konfigurieren sein und sind auf bestimmte Hersteller beschränkt. Sie sind nicht spezifisch für die Bildschirmzeit, daher ist deine Erfahrung möglicherweise nicht die reibungsloseste.
 
 ### Timer-Apps
 
-Der App Store und Play Store bieten viele effektive App-Timer und Blocker:
+Nachdem wir mehr als 20 Apps im App Store und Play Store getestet haben, sind hier die empfehlenswertesten:
 
 <div class="third-party-apps">
 {%- for app in third_party_apps %}
@@ -158,16 +165,16 @@ Der App Store und Play Store bieten viele effektive App-Timer und Blocker:
 
 Ziehe diese zusätzlichen Strategien in Betracht:
 
-1. **Benachrichtigungsmanagement**: Deaktiviere nicht wesentliche Benachrichtigungen. Versuche, von Benachrichtigungen zu E-Mails zu wechseln; so kannst du sie später prüfen, möglicherweise von deinem Computer zu Hause.
-2. **App-Layout-Organisation**: Verschiebe soziale Apps von deinem Startbildschirm, verstecke sie in Ordnern oder installiere einen minimalistischen Launcher.
-3. **Graustufenmodus**: Aktiviere ihn während der Abendstunden, um visuelle Stimulation zu reduzieren.
-4. **Physische Grenzen**: Schaffe handyfreie Zonen in deinem Zuhause. Kannst du dein Handy außerhalb deines Zimmers lassen, bevor du ins Bett gehst? Mache einen Spaziergang und lasse dein Handy zu Hause – wie fühlt sich das an? Umarme das Unbehagen und gewöhne dich daran.
-5. **Newsletter**: Es gibt Dienste, die zusammenfassen, was über die Woche auf deinen Lieblingswebseiten passiert ist. Anstatt alle paar Minuten nachzuschauen, abonniere einen von ihnen für eine wöchentliche Zusammenfassung. Du wirst merken, dass du nicht viel verpasst.
-6. **Mache weniger auf deinem Handy**: Drucke Dokumente aus oder lies sie auf deinem E-Book-Reader. Kaufe eine Zeitung (ja, in 2025!) anstatt die News-App zu nutzen. Ersetze deine Notizen-App durch einen echten Notizblock, gib Geld für einen Plattenspieler aus anstatt für Spotify, oder deinstalliere Amazon und besuche nächstes Mal einen Laden.
-7. **App-spezifische Einstellungen**: Wusstest du, dass TikTok und Instagram eingebaute Bildschirmzeit-Optionen haben? Sie sind nicht die besten, aber du kannst sie ausprobieren. Sogar das Tech-Forum "Hacker News" hat eine "noprocrast"-Option (d.h. "keine Prokrastination") in deinem Profil. Recherchiere deine Lieblingswebseiten.
-8. **Nutze den Browser anstatt der App**: Die suboptimale Erfahrung könnte gedankenloses Scrollen verhindern.
-9. **Gewöhne dich daran, gelangweilt zu sein**: Es ist tatsächlich gut für dich – deine Kreativität wird zunehmen. Kannst du es schaffen, für läppische 15 Minuten auf deine Wand zu starren?
-10. **Radikale Maßnahmen**: Wenn du wirklich eine Pause brauchst, versuche zu deinstallieren – auch wenn nur vorübergehend – oder besorge dir ein Dumbphone. Eine weniger bekannte Alternative zu Dumbphones ist eine Smartwatch mit SIM-Karte.
+1. **Benachrichtigungsmanagement** 💬: Deaktiviere nicht wesentliche Benachrichtigungen. Versuche, von Benachrichtigungen zu E-Mails zu wechseln; so kannst du sie später prüfen, möglicherweise von deinem Computer zu Hause.
+2. **App-Layout-Organisation** 🗂️: Verschiebe soziale Apps von deinem Startbildschirm, verstecke sie in Ordnern oder installiere einen minimalistischen Launcher.
+3. **Graustufenmodus** 🖤: Aktiviere ihn während der Abendstunden, um visuelle Stimulation zu reduzieren.
+4. **Physische Grenzen** 🏠: Schaffe handyfreie Zonen in deinem Zuhause. Kannst du dein Handy außerhalb deines Zimmers lassen, bevor du ins Bett gehst? Mache einen Spaziergang und lasse dein Handy zu Hause – wie fühlt sich das an? Umarme das Unbehagen und gewöhne dich daran.
+5. **Newsletter** ✉️: Es gibt Dienste, die zusammenfassen, was über die Woche auf deinen Lieblingswebseiten passiert ist. Anstatt alle paar Minuten nachzuschauen, abonniere einen von ihnen für eine wöchentliche Zusammenfassung. Du wirst merken, dass du nicht viel verpasst.
+6. **Mache weniger auf deinem Handy** 📵: Drucke Dokumente aus oder lies sie auf deinem E-Book-Reader. Kaufe eine Zeitung (ja, in 2025!) anstatt die News-App zu nutzen. Ersetze deine Notizen-App durch einen echten Notizblock, gib Geld für einen Plattenspieler aus anstatt für Spotify, oder deinstalliere Amazon und besuche nächstes Mal einen Laden.
+7. **App-spezifische Einstellungen** ⚙️: Wusstest du, dass TikTok und Instagram eingebaute Bildschirmzeit-Optionen haben? Sie sind nicht die besten, aber du kannst sie ausprobieren. Recherchiere deine Lieblingswebseiten.
+8. **Nutze den Browser anstatt der App** 🌐: Die suboptimale Erfahrung könnte gedankenloses Scrollen verhindern.
+9. **Gewöhne dich daran, gelangweilt zu sein** 🥱: Es ist tatsächlich gut für dich – deine Kreativität wird zunehmen. Kannst du es schaffen, für läppische 15 Minuten auf deine Wand zu starren?
+10. **Radikale Maßnahmen** ☢️: Wenn du wirklich eine Pause brauchst, versuche zu deinstallieren – auch wenn nur vorübergehend – oder besorge dir ein Dumbphone. Eine weniger bekannte Alternative zu Dumbphones ist eine Smartwatch mit SIM-Karte.
 
 ## Fazit: Nimm es langsam und experimentiere
 

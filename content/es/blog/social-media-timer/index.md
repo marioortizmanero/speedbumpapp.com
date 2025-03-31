@@ -108,6 +108,7 @@ Por si no lo sabías, Android e iOS incluyen potentes funciones para reducir el 
   width: 100%;
   height: auto;
   object-fit: contain;
+  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.3));
 }
 </style>
 
@@ -133,11 +134,18 @@ Para los que buscan soluciones más robustas, ambos sistemas operativos ofrecen 
   * Toca el icono "+" para crear una nueva rutina
   * Ideas: activar No Molestar por la noche, o cerrar siempre YouTube o Netflix durante las horas de trabajo
 
-Desafortunadamente, estas funciones pueden ser difíciles de configurar y están limitadas a ciertos fabricantes. No son específicas para el tiempo de pantalla, por lo que tu experiencia puede no ser la más fluida.
+<p>
+  <div class="screenshots">
+    <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/iPhone_atajos_captura_de_pantalla.PNG" alt="Una captura de pantalla en iPhone de la aplciación Atajos">
+    <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/Android_modos_y_rutinas_captura_de_pantalla.png" alt="Una captura de pantalla en Android de la aplicación Modos y Rutinas">
+  </div>
+</p>
+
+Por desgracia, estas funciones pueden ser difíciles de configurar y están limitadas a ciertos fabricantes. No están diseñadas expresamente para el tiempo de uso, por lo que tu experiencia puede no ser la más fluida.
 
 ### Apps de Temporizador de Terceros
 
-La App Store y Play Store ofrecen muchos temporizadores y bloqueadores de apps efectivos:
+Después de probar más de 20 apps en la App Store y Play Store, aquí están las más recomendadas:
 
 <div class="third-party-apps">
 {%- for app in third_party_apps %}
@@ -157,16 +165,16 @@ La App Store y Play Store ofrecen muchos temporizadores y bloqueadores de apps e
 
 Considera estas estrategias adicionales:
 
-1. **Gestión de notificaciones**: desactiva las notificaciones no esenciales. Intenta cambiar de notificaciones a correos electrónicos; de esa manera, puedes revisarlos más tarde, posiblemente desde tu ordenador en casa.
-2. **Organización de la disposición de apps**: mueve las apps sociales fuera de tu pantalla de inicio, escóndelas en carpetas o instala un lanzador minimalista.
-3. **Modo escala de grises**: actívalo durante las horas de la tarde para reducir la estimulación visual.
-4. **Límites físicos**: crea zonas libres de móvil en tu hogar. ¿Puedes dejar tu móvil fuera de tu habitación antes de acostarte? Da un paseo dejando tu móvil en casa -- ¿cómo se siente? Acepta la incomodidad y acostúmbrate a ella.
-5. **Boletines**: hay servicios que agregan lo que ocurrió durante la semana en tus webs favoritas. En lugar de comprobar cada pocos minutos, suscríbete a uno de ellos para obtener un resumen semanal. Te darás cuenta de que no te estás perdiendo mucho.
-6. **Haz menos cosas en tu móvil**: imprime documentos o léelos en tu e-reader. Compra un periódico (¡sí, en 2025!) en vez de usar la app de noticias. Reemplaza tu app de notas con un bloc de notas real, gasta dinero en un tocadiscos en lugar de Spotify, o desinstala Amazon y visita una tienda la próxima vez.
-7. **Configuración específica de apps**: ¿sabías que TikTok e Instagram tienen opciones de Tiempo de Pantalla integradas? No son las mejores, pero puedes probarlas. Incluso el foro tecnológico "Hacker News" tiene una opción "noprocrast" (es decir, "no procrastinar") en tu perfil. Investiga tus redes preferidas.
-8. **Usa el navegador en lugar de la app**: la experiencia subóptima podría ayudarte a usarlo menos.
-9. **Acostúmbrate a aburrirte**: en realidad es bueno para ti -- tu creatividad aumentará. ¿Puedes mirar fijamente a tu pared durante unos míseros 15 minutos?
-10. **Solución nuclear**: si realmente necesitas un descanso, prueba a desinstalar -- incluso temporalmente -- o usa un teléfono básico. Una alternativa menos conocida a los teléfonos básicos o "dumbphones" es un smartwatch con tarjeta SIM.
+1. **Gestión de notificaciones** 💬: desactiva las notificaciones no esenciales. Intenta cambiar de notificaciones a correos electrónicos; de esa manera, puedes revisarlos más tarde, posiblemente desde tu ordenador en casa.
+2. **Organización de la disposición de apps** 🗂️: mueve las apps sociales fuera de tu pantalla de inicio, escóndelas en carpetas o instala un lanzador minimalista.
+3. **Modo escala de grises** 🖤: actívalo durante las horas de la tarde para reducir la estimulación visual.
+4. **Límites físicos** 🏠: crea zonas libres de móvil en tu hogar. ¿Puedes dejar tu móvil fuera de tu habitación antes de acostarte? Da un paseo dejando tu móvil en casa -- ¿cómo se siente? Acepta la incomodidad y acostúmbrate a ella.
+5. **Boletines** ✉️: hay servicios que agregan lo que ocurrió durante la semana en tus webs favoritas. En lugar de comprobar cada pocos minutos, suscríbete a uno de ellos para obtener un resumen semanal. Te darás cuenta de que no te estás perdiendo mucho.
+6. **Haz menos cosas en tu móvil** 📵: imprime documentos o léelos en tu e-reader. Compra un periódico (¡sí, en 2025!) en vez de usar la app de noticias. Reemplaza tu app de notas con un bloc de notas real, gasta dinero en un tocadiscos en lugar de Spotify, o desinstala Amazon y visita una tienda la próxima vez.
+7. **Configuración específica de apps** ⚙️: ¿sabías que TikTok e Instagram tienen opciones de Tiempo de Pantalla integradas? No son las mejores, pero puedes probarlas. Investiga tus redes preferidas.
+8. **Usa el navegador en lugar de la app** 🌐: la experiencia subóptima podría ayudarte a usarlo menos.
+9. **Acostúmbrate a aburrirte** 🥱: en realidad es bueno para ti -- tu creatividad aumentará. ¿Puedes mirar fijamente a tu pared durante unos míseros 15 minutos?
+10. **Solución nuclear** ☢️: si realmente necesitas un descanso, prueba a desinstalar -- incluso temporalmente -- o usa un teléfono básico. Una alternativa menos conocida a los teléfonos básicos o "dumbphones" es un smartwatch con tarjeta SIM.
 
 ## Conclusión: Tómatelo con Calma y Experimenta
 
