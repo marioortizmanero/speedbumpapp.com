@@ -3,9 +3,9 @@ lang: en
 title: I was doing social media wrong (still am)
 date: 2025-04-01
 description: TODO
-keywords: ["speedbump app", "screen time", "social media addiction", "startup journey", "android", "iphone", "productivity app"]
-image: /assets/blog/launch/preview.jpg
-imageAlt: TODO
+keywords: ["speedbump app", "entrepreneurship"]
+image: /assets/blog/marketing-learnings/preview.jpg
+imageAlt: The Chrome dinosaur surrounded by social media apps (Reddit, TikTok, LinkedIn, YouTube, SnapChat, X, Instagram) with a vignette effect.
 draft: true
 ---
 
@@ -19,7 +19,7 @@ draft: true
 }
 </style>
 
-[I'm building SpeedBump]({{ '/blog/v1' | locale_url }}), an intentionally annoying app to get you off the phone. But after two months of work, it's hard to find a definitive answer to "should I continue working on this?". So I gave marketing a try; follow me in my path of fails as a first-time founder.
+[I'm building SpeedBump]({{ '/blog/v1' | locale_url }}), an intentionally annoying app to get you off the phone. But after three months of work, it's hard to find a definitive answer to "should I continue working on this?". So I gave marketing a try; follow me in my path of fails as a first-time founder.
 
 Opportunity cost is a problem -- maybe another project would be more worthy of my time. So I started spreading the word about SpeedBump; if people like it enough, that's a good signal! I think.
 
