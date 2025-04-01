@@ -2,10 +2,10 @@
 lang: en
 title: Screen time app Opal jokes about being bought by Meta
 date: 2025-04-01
-description: For April's Fools, the screen time app Opal joked about being bought by Meta.
-keywords: ["screen time", "opal", "meta"]
+description: For April's Fools, the screen time app Opal joked about being bought by Meta. Is this something that could actually happen?
+keywords: ["screen time", "opal", "meta", "business", "big tech"]
 image: /assets/blog/opal-bought-by-meta/preview.jpg
-imageAlt: "A blurred image of the founder's home, with the Opal and Meta icons joined by a heart, and the text: April's Fools edition"
+imageAlt: "A blurred background of the founder in his home, with the Opal and Meta icons joined by a heart on the foreground, and the text: April's Fools edition"
 ---
 
 Opal is possibly the most popular screen time app on the App Store, with over 40k ratings. In an unexpected turn of events, the company [announced on X](https://x.com/withopal/status/1907029291239383401) that it's now owned by Meta:
