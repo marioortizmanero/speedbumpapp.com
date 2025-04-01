@@ -1,6 +1,7 @@
 ---
 lang: en
-title: App Promotion Lessons I've Learned the Hard Way
+title: Lessons on Mobile App Promotion I've Learned the Hard Way
+permalink: /en/blog/mobile-app-promotion/
 date: 2025-04-01
 description: Getting into mobile app promotion isn't easy. Read these ideas to launch your app, define a strategy, learn about SEO, and do viral marketing.
 keywords: ["speedbump app", "entrepreneurship"]

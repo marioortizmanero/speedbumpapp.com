@@ -20,7 +20,7 @@ Only some moments later did some followers realize it was part of their April's 
 
 ![A tweet from @jeiting with the text: Damn u got me actually](tweet_reaction.png)
 
-We've already seen companies like Instagram or TikTok adding screen time limits to their apps. You can find them hidden in the settings page, and they aren't too effective. But surely this is a concern that a large company like Meta might have?
+We've already seen companies like Instagram or TikTok helping their own users [reduce screen time](/en/blog/how-to-reduce-screen-time/). You can find them hidden in the settings page, and they aren't too effective. But surely this is a concern that a large company like Meta might have?
 
 <style>
 .screenshots {
