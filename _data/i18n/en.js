@@ -5,7 +5,7 @@ export default {
     hero_2: "Annoying, but they sure slow you down",
     hero_3: "Meet the speed bump for <mark>social&nbsp;media&nbsp;apps</mark>",
     section_demo: {
-      h1: "Stop doomscrolling by installing SpeedBump",
+      h1: "The app to finally stop doomscrolling",
       step_1: "Set a time limit when opening addictive apps",
       step_2: "Get annoyed out of them when time's up",
       step_3: "Take a 15-minute break before next use",

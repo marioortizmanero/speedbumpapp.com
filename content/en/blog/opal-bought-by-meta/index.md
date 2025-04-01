@@ -48,6 +48,6 @@ We've already seen companies like Instagram or TikTok helping their own users [r
   </div>
 </p>
 
-Screen time apps are no stranger to Venture Capital, with [Opal having raised $4.3 million in 2021](https://techcrunch.com/2021/01/26/opal-raises-4-3-million-for-its-digital-wellbeing-assistant-for-iphone/). The Clearspace app also [went through the YC Combinator startup program](https://www.ycombinator.com/companies/clearspace), granting them $500k. <!--Apps without external funding like ScreenZen or SpeedBump might end up as the safest choice.-->
+Screen time apps are no stranger to Venture Capital, with [Opal having raised $4.3 million in 2021](https://techcrunch.com/2021/01/26/opal-raises-4-3-million-for-its-digital-wellbeing-assistant-for-iphone/). The Clearspace app also [went through the YC Combinator startup program](https://www.ycombinator.com/companies/clearspace), granting them $500k. Apps without external funding like ScreenZen or SpeedBump might end up as the safest choice.
 
 With the growing popularity of such apps, what's yet to be known is how big tech will react. As the saying goes, "if you can't beat them, join them"?
