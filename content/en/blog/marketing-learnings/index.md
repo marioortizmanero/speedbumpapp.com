@@ -101,11 +101,13 @@ By the way, it's insane that even LinkedIn has now a TikTok-like feed. Like feve
 
 ![The bottom bar of LinkedIn with: Home, Topics, Daily (new), Notifications, My Learning](linkedin_short_form_video.png)
 
-My favorite resource to learn how to do TikToks has been ["Money Mind Unfiltered"](https://www.youtube.com/@moneymindunfiltered). Very transparent guy with deep dives on how he does short-form videos himself. I also read
+My favorite resource to learn how to do TikToks has been ["Money Mind Unfiltered"](https://www.youtube.com/@moneymindunfiltered). Very transparent guy with deep dives on how he does short-form videos himself. The case studies in [Social Growth Engineers](https://www.socialgrowthengineers.com/) help see how this is done in real life.
 
 Side question: does anyone use hashtags anymore?
 
 ## What's next
+
+One last high-quality resource I can share is [Growth Unhinged](https://www.growthunhinged.com/), which covers broader topics.
 
 No regrets about learning marketing. I've learned a ton, and these are just the basics. But it hasn't helped me decide on the future of SpeedBump.
 
