@@ -8,7 +8,7 @@ image: /assets/blog/german-translation/preview.jpg
 imageAlt: A broken speed bump over the German flag
 ---
 
-I'm building an app to help people use their phones less. As a metaphor I use speed bumps -- they're annoying but actually work. This worked well enough as a catchy phrase in [the landing page](/), and it gave the project some personality.
+[I'm building an app](/en/blog/v1/) to help people use their phones less. As a metaphor I use speed bumps -- they're annoying but actually work. This worked well enough as a catchy phrase in [the landing page](/), and it gave the project some personality.
 
 Or at least it worked well enough until I tried to translate the site to German. There are a whooping 18 terms that can be used to refer to a speed bump. Some of them are less popular, and two out of the three translating websites gave me wrong terms. Not to mention that Google Translate's word was so long that it broke the site, going beyond the screen size:
 

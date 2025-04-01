@@ -20,7 +20,7 @@ draft: true
 }
 </style>
 
-[I'm building SpeedBump]({{ '/blog/v1' | locale_url }}), an intentionally annoying app to get you off the phone. But after three months of work, it's hard to find a definitive answer to "should I continue working on this?". I ended up giving marketing a try; follow me in my path of fails as a first-time founder with little budget.
+I'm building SpeedBump, an intentionally annoying app to [reduce your screen time]({{ '/blog/how-to-reduce-screen-time/' | locale_url }}). But after three months of work, it's hard to find a definitive answer to "should I continue working on this?". I ended up giving marketing a try; follow me in my path of [fails]({{ '/blog/german-translation/' | locale_url }}) as a first-time founder with little budget.
 
 Opportunity cost is a problem -- maybe another project would be more worthy of my time. So I started spreading the word about SpeedBump: if people like it enough, that's a good signal!
 
@@ -68,7 +68,7 @@ Not wanting to raise investor money, I'm also stingy. And holy crap is SEO expen
 
 ![Ahrefs, 119€ per month, and Semrush, $140 per month](seo_pricing.jpg)
 
-Free tools including Google Keyword Planner only go so far, unfortunately. Ahrefs' Starter plan at $29/month ran out of credits after a single afternoon. But Semrush has a powerful free trial, so that worked out better.
+Free tools including Google Keyword Planner only go so far, unfortunately. Ahrefs' Starter plan at 32€/month ran out of credits after a single afternoon. But Semrush has a powerful free trial, so that worked out better.
 
 Importantly, people use more than one search engine. The concepts are similar, but the tools vary and their search terms differ:
 
@@ -109,7 +109,7 @@ Side question: does anyone use hashtags anymore?
 
 One last high-quality resource I can share is [Growth Unhinged](https://www.growthunhinged.com/), which covers broader topics.
 
-No regrets about learning marketing. I've learned a ton, and these are just the basics. But it hasn't helped me decide on the future of SpeedBump.
+No regrets about learning marketing. Just the basics have been mind-opening. But it hasn't helped me decide on the future of SpeedBump.
 
 I've realized that asking "should I continue working on this?" was wrong. Instead, it should be: "does this make for a good enough business?".
 

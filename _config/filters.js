@@ -43,7 +43,7 @@ export default function(eleventyConfig) {
     return posts
       .filter(p => p.url !== this.page.url)
       .sort((p1, p2) => p2.data.date - p1.data.date)  // Descending
-      .slice(0, 5);
+      .slice(0, 100);  // TODO: change to 5 once there's a /blog/ page
   });
 
   eleventyConfig.addFilter("assertLengthUnder", (str, maxLength) => {
