@@ -14,7 +14,7 @@ Opal is possibly the most popular screen time app on the App Store, with over 40
 
 The video showcases an iPhone with built-in features for Meta products like WhatsApp and Instagram. Only Android makes such integrations possible, with some apps blocking specifically Reels within Instagram or YouTube Shorts.
 
-In the video, founder Kenneth Schlenker confirms that they will do not intend to sell any data, spread misinformation, or compromise their values.
+In the video, founder Kenneth Schlenker confirms that they do not intend to sell any data, spread misinformation, or compromise their values.
 
 Only some moments later did some followers realize it was part of their April's Fools prank:
 
