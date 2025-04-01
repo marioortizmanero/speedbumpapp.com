@@ -95,6 +95,13 @@ export default function(eleventyConfig) {
       .replace(/>/g, '&gt;');
   });
 
+  eleventyConfig.addFilter("escapeQuotes", (text) => {
+    return text
+      .replace(/&nbsp;/g, ' ')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  });
+
   eleventyConfig.addFilter("log", (obj) => {
     console.log(obj);
     console.log("------------------------");

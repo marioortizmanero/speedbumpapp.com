@@ -17,12 +17,12 @@
 {%- endif %}
 
 <meta property="og:url" content="{{ page.url | absUrl }}">
-<meta property="og:site_name" content="{{ metadata.title | escape }}">
-<meta property="og:title" content="{{ title | default: metadata.title | escape }}">
+<meta property="og:site_name" content="{{ metadata.title | escapeQuotes }}">
+<meta property="og:title" content="{{ title | default: metadata.title | escapeQuotes }}">
 {%- if image %}
   <meta property="og:image" content="{{ image | absUrl }}">
 {%- endif %}
-<meta property="og:description" content="{{ description | default: metadata.description | markdownify | plainifyHtml | escape }}">
+<meta property="og:description" content="{{ description | default: metadata.description | markdownify | plainifyHtml | escapeQuotes }}">
 <meta property="og:locale" content="{{ page.lang }}">
 {% comment %}
 og:locale:alternate isn't supported. Facebook adds a query parameter to the URL, which we can't quite use with a static website.
