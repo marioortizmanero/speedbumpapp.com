@@ -8,7 +8,7 @@ image: /assets/blog/opal-bought-by-meta/preview.jpg
 imageAlt: "A blurred background of the founder in his home, with the Opal and Meta icons joined by a heart on the foreground, and the text: April's Fools edition"
 ---
 
-Opal is possibly the most popular screen time app on the App Store, with over 40k ratings. In an unexpected turn of events, the company [announced on X](https://x.com/withopal/status/1907029291239383401) that it's now owned by Meta:
+Opal is possibly the most popular screen time app on the App Store, with over 40 thousand ratings. In an unexpected turn of events, the company [announced on X](https://x.com/withopal/status/1907029291239383401) that it's now owned by Meta:
 
 [![A tweet from @withopal with the text: We’re thrilled to announce that Opal has been acquired by Meta. This strategic alignment allows us to scale our mission in a bold new direction: not to eliminate distractions, but to optimize them. Leveraging cutting-edge AI and infinite scroll technologies, we will now help users maximize their screen time with unprecedented efficiency. Stay focused. On everything. #NextChapter #MoreScreenTimeBetterYou #Opal](tweet.png)](https://x.com/withopal/status/1907029291239383401)
 
@@ -48,6 +48,6 @@ We've already seen companies like Instagram or TikTok adding screen time limits 
   </div>
 </p>
 
-Screen time apps are no stranger to Venture Capital, with [Opal having raised $4.3 million in 2021](https://techcrunch.com/2021/01/26/opal-raises-4-3-million-for-its-digital-wellbeing-assistant-for-iphone/). The Clearspace app also [went through the YC Combinator startup program](https://www.ycombinator.com/companies/clearspace), granting them $500k. <!--Apps without external funding like ScreenZen or SpeedBump might be the safest choice.-->
+Screen time apps are no stranger to Venture Capital, with [Opal having raised $4.3 million in 2021](https://techcrunch.com/2021/01/26/opal-raises-4-3-million-for-its-digital-wellbeing-assistant-for-iphone/). The Clearspace app also [went through the YC Combinator startup program](https://www.ycombinator.com/companies/clearspace), granting them $500k. <!--Apps without external funding like ScreenZen or SpeedBump might end up as the safest choice.-->
 
 With the growing popularity of such apps, what's yet to be known is how big tech will react. As the saying goes, "if you can't beat them, join them"?
