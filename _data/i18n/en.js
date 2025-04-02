@@ -1,5 +1,16 @@
 export default {
   reading_dir: "ltr",
+  annoyances: {
+    annoyance_1: "The Screen Time Police",
+    annoyance_2: "Aggressive Cookie Banners",
+    annoyance_3: "Rain",
+    annoyance_4: "Customer Support",
+    annoyance_5: "Cats",
+    annoyance_6: "Endless Privacy Policy",
+    annoyance_7: "More cats",
+    annoyance_8: "Disable Your AdBlocker",
+    annoyance_9: "Newsletters",
+  },
   index: {
     hero_1: "Do you know speed bumps",
     hero_2: "Annoying, but they sure slow you down",
@@ -78,19 +89,6 @@ export default {
         "🍳 cooking",
         "🌱 gardening"
       ],
-    },
-    section_annoyances: {
-      title: "We're the best at getting you off the phone",
-      description: "9 annoyances so far - more coming soon!<br>They are displayed on top of addictive apps after your time is up. Trust me, you won't want to stay for long.",
-      annoyance_1: "The Screen Time Police",
-      annoyance_2: "Aggressive Cookie Banners",
-      annoyance_3: "Rain",
-      annoyance_4: "Customer Support",
-      annoyance_5: "Cats",
-      annoyance_6: "Endless Privacy Policy",
-      annoyance_7: "More cats",
-      annoyance_8: "Disable Your AdBlocker",
-      annoyance_9: "Newsletters",
     },
     section_stats: {
       title: "Take control of your time back",

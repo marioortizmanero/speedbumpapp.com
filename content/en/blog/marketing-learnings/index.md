@@ -1,12 +1,12 @@
 ---
 lang: en
-title: Lessons on Mobile App Promotion I've Learned the Hard Way
+title: "Lessons on Mobile App Promotion I've Learned the Hard Way"
 permalink: /en/blog/mobile-app-promotion/
-date: 2025-04-01
-description: Getting into mobile app promotion isn't easy. Read these ideas to launch your app, define a strategy, learn about SEO, and do viral marketing.
-keywords: ["speedbump app", "entrepreneurship"]
+date: 2025-04-02
+description: "Getting into mobile app promotion isn't easy. Read these ideas to launch your app, define a strategy, learn about SEO, and do viral marketing."
+keywords: ["mobile app promotion", "entrepreneurship", "mobile app promotion ideas", "how to promote your app for free", "free mobile app promotion", "mobile app marketing", "get more app downloads"]
 image: /assets/blog/marketing-learnings/preview.jpg
-imageAlt: The Chrome dinosaur surrounded by social media apps (Reddit, TikTok, LinkedIn, YouTube, SnapChat, X, Instagram) with a vignette effect.
+imageAlt: "The Chrome dinosaur surrounded by social media apps (Reddit, TikTok, LinkedIn, YouTube, SnapChat, X, Instagram) with a vignette effect."
 draft: true
 ---
 

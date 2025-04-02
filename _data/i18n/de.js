@@ -1,5 +1,16 @@
 export default {
   reading_dir: "ltr",
+  annoyances: {
+    annoyance_1: "Die Bildschirmzeit-Polizei",
+    annoyance_2: "Aggressive Cookie-Banner",
+    annoyance_3: "Regen",
+    annoyance_4: "Kundensupport",
+    annoyance_5: "Katzen",
+    annoyance_6: "Endlose Datenschutzerklärung",
+    annoyance_7: "Noch mehr Katzen",
+    annoyance_8: "Deaktiviere deinen Ad-Blocker",
+    annoyance_9: "Newsletter",
+  },
   index: {
     hero_1: "Kennst du Bremsschwellen",
     hero_2: "Nervig, aber sie bremsen dich definitiv aus",
@@ -78,19 +89,6 @@ export default {
         "🍳 Kochen",
         "🌱 Gärtnern"
       ],
-    },
-    section_annoyances: {
-      title: "Wir sind die Besten darin, dich vom Handy zu holen",
-      description: "Bisher 9 Nervfaktoren - mehr kommen bald!<br>Sie werden über süchtigmachende Apps angezeigt, wenn deine Zeit abgelaufen ist. Glaub mir, du wirst nicht lange bleiben wollen.",
-      annoyance_1: "Die Bildschirmzeit-Polizei",
-      annoyance_2: "Aggressive Cookie-Banner",
-      annoyance_3: "Regen",
-      annoyance_4: "Kundensupport",
-      annoyance_5: "Katzen",
-      annoyance_6: "Endlose Datenschutzerklärung",
-      annoyance_7: "Noch mehr Katzen",
-      annoyance_8: "Deaktiviere deinen Ad-Blocker",
-      annoyance_9: "Newsletter",
     },
     section_stats: {
       title: "Gewinne die Kontrolle über deine Zeit zurück",

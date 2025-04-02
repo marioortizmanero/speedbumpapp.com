@@ -1,5 +1,16 @@
 export default {
   reading_dir: "ltr",
+  annoyances: {
+    annoyance_1: "La Policía de la Pantallita",
+    annoyance_2: "Banners Agresivos de Cookies",
+    annoyance_3: "Lluvia",
+    annoyance_4: "Atención al Cliente",
+    annoyance_5: "Gatos",
+    annoyance_6: "Política de Privacidad Interminable",
+    annoyance_7: "Más gatos",
+    annoyance_8: "Desactiva tu Bloqueador de Anuncios",
+    annoyance_9: "Boletines",
+  },
   index: {
     hero_1: "¿Conoces los badenes",
     hero_2: "Molestos, pero sin duda te ralentizan",
@@ -53,7 +64,7 @@ export default {
     },
     section_carousel: {
       title: "Somos los mejores para alejarte del móvil",
-      content: "<p>9 molestias hasta ahora, ¡y vienen más!<br>Aparecen sobre apps adictivas cuando se te acaba el tiempo. Créeme, no querrás quedarte mucho.</p>"
+      content: "<p>9 molestias hasta ahora, ¡y vienen más!<br>Aparecen sobre apps adictivas cuando se te acaba el tiempo. Créeme, no querrás quedarte mucho más.</p>"
     },
     section_feelings: {
       title: "Basta de sentimientos negativos...",
@@ -67,7 +78,7 @@ export default {
         "😳 avergonzado/a",
         '🤯 distraído/a<br><span class="feeling-note">(especialmente con TDAH)</span>'
       ],
-      replace: "y reemplaza perder el tiempo en redes sociales por...",
+      replace: "y reemplaza el tiempo perdido en redes sociales por...",
       replacements: [
         "🏃 deporte",
         "📚 estudiar",
@@ -78,19 +89,6 @@ export default {
         "🍳 cocinar",
         "🌱 jardinería"
       ],
-    },
-    section_annoyances: {
-      title: "Somos los mejores sacándote del móvil",
-      description: "9 molestias hasta ahora - ¡más en camino!<br>Se muestran sobre las apps adictivas cuando se acaba tu tiempo. Créeme, no querrás quedarte mucho tiempo.",
-      annoyance_1: "La Policía de la Pantallita",
-      annoyance_2: "Banners Agresivos de Cookies",
-      annoyance_3: "Lluvia",
-      annoyance_4: "Atención al Cliente",
-      annoyance_5: "Gatos",
-      annoyance_6: "Política de Privacidad Interminable",
-      annoyance_7: "Más gatos",
-      annoyance_8: "Desactiva tu Bloqueador de Anuncios",
-      annoyance_9: "Boletines",
     },
     section_stats: {
       title: "Recupera el control de tu tiempo",
