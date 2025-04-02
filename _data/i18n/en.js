@@ -33,17 +33,17 @@ export default {
       feature_3: {
         title: "Be intentional",
         content: `<p>The more you want to use, the more you wait before opening. Doesn't get in your way but makes you think twice.</p>`,
-        image_alt: "TODO"
+        image_alt: "A person in the Lotus position"
       },
       feature_4: {
         title: "Easy to use",
         content: `<p>Don't overthink – trying it out takes 5 minutes. You will get <i>years</i> back.</p>`,
-        image_alt: "TODO",
+        image_alt: "A dart hitting bullseye",
       },
       feature_5: {
         title: "Effective",
         content: `<p>You can't extend the session time without breaking your streak.</p>`,
-        image_alt: "TODO",
+        image_alt: "A rocket taking off",
       },
       feature_6: {
         title: "Affordable",
@@ -97,7 +97,7 @@ export default {
       content: `
       <p><b>5 hours</b> of screen time <b>at 25</b> means you'll spend <b>over 15 years</b> of your remaining life glued to a phone (<a href="/en/blog/how-to-reduce-screen-time#screen-time-calculator">source</a>).</p>
 
-      <p>This takes a toll on your <b>mental health</b> and shrinks <b>your attention span to that of a goldfish</b> 🐟.</p>
+      <p>This takes a toll on your <b>mental health</b> and shrinks <b>your attention span to that of a goldfish</b>&nbsp;🐟.</p>
 
       <p>We believe social media is <b>genuinely useful</b>, but it's <b>too easy to get addicted</b>.</p>
 
@@ -107,9 +107,21 @@ export default {
     },
     section_testimonials: {
       title: "Our testimonials",
-      content: `<p><span class="testimonial-quote">“</span>I don't know how this works but it looks cool<span class="testimonial-quote">”</span><br><i>— my mom</i></p>
-      <p><span class="testimonial-quote">“</span>The cat one is funny<span class="testimonial-quote">”</span><br><i>— my girlfriend</i></p>
-      <p><span class="testimonial-quote">“</span>Can you let go of my arm and stop talking about screen time apps?<span class="testimonial-quote">”</span><br><i>— some boring guy in the supermarket</i></p>`,
+      testimonials: [
+        {
+          quote: `“I don't know how this works but it looks cool”`,
+          author: "— my mom",
+        },
+        {
+          quote: `“The cat one is funny”`,
+          author: "— my girlfriend",
+        },
+        {
+          quote: `“Can you let go of my arm and stop talking about screen time apps?”`,
+          author: "— some boring guy in the supermarket",
+        },
+
+      ],
       image_alt: "A microphone",
     },
     section_blog: {

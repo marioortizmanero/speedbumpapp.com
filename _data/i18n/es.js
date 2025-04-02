@@ -15,31 +15,69 @@ export default {
     },
     section_features: {
       feature_1: {
-        title: "Limita cualquier app",
+        title: "Limita apps adictivas",
         content: `<p>
         TikTok<br>
         Instagram<br>
-        Duolingo (¿por qué, en serio?)
+        Duolingo (¿por qué?)
       </p>
 
-      <p class="feature-clarification">Pronto podrás limitar Shorts, Reels y otras funciones dentro de apps. También para webs.</p>`,
+      <p class="feature-clarification">Pronto se añadirá la limitación de funciones dentro de apps como Shorts o Reels. También para sitios web.</p>`,
         image_alt: "Un gráfico cuya línea disminuye rápidamente",
       },
       feature_2: {
-        title: "Adaptado a ti",
-        content: `<p>¡Las redes sociales pueden ser geniales!</p>
-      <p>Conéctate con amigos sin pasar horas haciendo scroll infinito.</p>`,
+        title: "Crea hábitos saludables",
+        content: `<p>¡Las redes sociales pueden ser útiles! Conéctate con amigos sin pasar horas haciendo scroll.</p>`,
         image_alt: "Dos personas abrazándose",
       },
       feature_3: {
+        title: "Sé consciente",
+        content: `<p>Cuanto más quieras usar, más esperarás antes de abrir. No se interpone en tu camino pero te hace pensar dos veces.</p>`,
+        image_alt: "Una persona en posición de Loto"
+      },
+      feature_4: {
+        title: "Fácil de usar",
+        content: `<p>No le des muchas vueltas – probarlo lleva 5 minutos. Recuperarás <i>años</i> de vida.</p>`,
+        image_alt: "Un dardo dando en el blanco",
+      },
+      feature_5: {
+        title: "Eficaz",
+        content: `<p>No puedes extender el tiempo de sesión sin romper tu racha.</p>`,
+        image_alt: "Un cohete despegando",
+      },
+      feature_6: {
         title: "Asequible",
-        content: "<p>Actualmente gratuito. No tenemos que “maximizar el valor para los accionistas”.</p>",
-        image_alt: "Un fajo de dólares con alas",
+        content: '<p>Actualmente gratuito. No tenemos que “maximizar el valor para los accionistas”.</p>',
+        image_alt: "Un montón de billetes con alas"
       }
     },
     section_carousel: {
       title: "Somos los mejores para alejarte del móvil",
       content: "<p>9 molestias hasta ahora, ¡y vienen más!<br>Aparecen sobre apps adictivas cuando se te acaba el tiempo. Créeme, no querrás quedarte mucho.</p>"
+    },
+    section_feelings: {
+      title: "Basta de sentimientos negativos...",
+      feelings: [
+        "😔 culpable",
+        "💤 desmotivado/a",
+        "😞 impotente",
+        "😟 baja autoestima",
+        "😤 frustrado/a",
+        "😰 ansioso/a",
+        "😳 avergonzado/a",
+        '🤯 distraído/a<br><span class="feeling-note">(especialmente con TDAH)</span>'
+      ],
+      replace: "y reemplaza perder el tiempo en redes sociales por...",
+      replacements: [
+        "🏃 deporte",
+        "📚 estudiar",
+        "👫 socializar",
+        "💼 trabajar",
+        "🛋️ relajarte",
+        "🍿 películas",
+        "🍳 cocinar",
+        "🌱 jardinería"
+      ],
     },
     section_annoyances: {
       title: "Somos los mejores sacándote del móvil",
@@ -54,16 +92,37 @@ export default {
       annoyance_8: "Desactiva tu Bloqueador de Anuncios",
       annoyance_9: "Boletines",
     },
+    section_stats: {
+      title: "Recupera el control de tu tiempo",
+      content: `
+      <p><b>5 horas</b> de tiempo de pantalla <b>a los 25</b> significa que pasarás <b>más de 15 años</b> de tu vida restante pegado a un móvil (<a href="/es/blog/addicion-al-movil#screen-time-calculator">fuente</a>).</p>
+
+      <p>Esto afecta a tu <b>salud mental</b> y reduce <b>tu capacidad de atención a la de un pez</b>&nbsp;🐟.</p>
+
+      <p>Creemos que las redes sociales son <b>realmente útiles</b>, pero es <b>demasiado fácil volverse adicto</b>.</p>
+
+      <p>Déjanos ayudarte: te daremos <b>datos relevantes para actuar</b> y <b>rachas</b> para comprometerte con tus objetivos.</p>
+
+      <h3>🧑 Deja de ser un pez con SpeedBump</h3>`
+    },
     section_testimonials: {
       title: "Nuestros testimonios",
-      content: `<p><span class="testimonial-quote">"</span>No sé cómo funciona, pero mola<span class="testimonial-quote">"</span><br><i>— mi madre</i></p>
-      <p><span class="testimonial-quote">"</span>El del gato tiene gracia<span class="testimonial-quote">"</span><br><i>— mi novia</i></p>
-      <p><span class="testimonial-quote">"</span>¿Puedes soltarme el brazo y dejar de hablar de apps para controlar el tiempo de pantalla?<span class="testimonial-quote">"</span><br><i>— un tipo aburrido en el supermercado</i></p>`,
+      testimonials: [
+        {
+          quote: `“No sé cómo funciona, pero mola”`,
+          author: "— mi madre",
+        },
+        {
+          quote: `“El del gatito tiene gracia”`,
+          author: "— mi novia",
+        },
+        {
+          quote: `“¿Puedes soltarme el brazo y dejar de hablar de apps para controlar el tiempo de pantalla?”`,
+          author: "— un tipo aburrido en el supermercado",
+        },
+
+      ],
       image_alt: "Un micrófono",
-    },
-    section_downloads: {
-      title: "Deja de perder el tiempo:",
-      comment: "¡Envíaselo a un amigo que necesite dejar el scroll!",
     },
     section_blog: {
       title: "Lee más en nuestro blog",

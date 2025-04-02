@@ -286,7 +286,7 @@ function randomChoice(arr) {
     </div>
   </div>
 
-  <hr style="opacity: 0;">
+  <hr>
 
   <div class="section-stats">
     <div class="description">
@@ -301,26 +301,28 @@ function randomChoice(arr) {
       <div class="screenshot">
         <img eleventy:widths="300" src="/{{ page.lang }}/assets/screenshot_stats.png" alt="TODO">
       </div>
-      <hr>
+      <hr style="opacity: 0.8;">
     </div>
 
   </div>
 
-  <hr style="opacity: 0;">
+  <hr>
 
   <div class="section-testimonials">
     <div class="testimonials-header">
-      <img src="/assets/icons/icon_microphone.png" alt="{{ t.index.section_testimonials.image_alt }}">
       <h2>{{ t.index.section_testimonials.title }}</h2>
+      <img src="/assets/icons/icon_microphone.png" alt="{{ t.index.section_testimonials.image_alt }}">
     </div>
 
     <div class="testimonial-quotes">
-      <div class="testimonial-quote">
-        {{ t.index.section_testimonials.content }}
+      {%- for testimonial in t.index.section_testimonials.testimonials %}
+      <div class="speech-bubble">
+        <p class="quote">{{ testimonial.quote }}</p>
+        <p class="author">{{ testimonial.author }}</p>
       </div>
+      {%- endfor %}
     </div>
   </div>
-
 
   {%- assign recentPosts = collections.posts | where: "data.lang", page.lang | recentPosts %}
   {%- if recentPosts.size > 0 %}

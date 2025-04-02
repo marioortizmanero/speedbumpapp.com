@@ -15,31 +15,69 @@ export default {
     },
     section_features: {
       feature_1: {
-        title: "Begrenze jede App",
+        title: "Süchtig machende Apps begrenzen",
         content: `<p>
         TikTok<br>
         Instagram<br>
         Duolingo (warum eigentlich?)
       </p>
 
-      <p class="feature-clarification">Bald kannst du auch Shorts, Reels und andere In-App-Funktionen begrenzen. Websites auch.</p>`,
-        image_alt: "Ein Diagramm, dessen Linie schnell abnimmt",
+      <p class="feature-clarification">Die Begrenzung von In-App-Funktionen wie Shorts oder Reels wird bald hinzugefügt. Websites ebenso.</p>`,
+        image_alt: "Ein Diagramm, dessen Linie rapide abnimmt",
       },
       feature_2: {
-        title: "Für dich angepasst",
-        content: `<p>Soziale Medien können auch toll sein!</p>
-      <p>Bleib mit Freunden in Kontakt, ohne stundenlang zu scrollen.</p>`,
-        image_alt: "Zwei Menschen, die sich umarmen",
+        title: "Gesunde Gewohnheiten aufbauen",
+        content: `<p>Social Media kann nützlich sein! Bleib mit Freunden in Kontakt, ohne stundenlang zu scrollen.</p>`,
+        image_alt: "Zwei Personen, die sich umarmen",
       },
       feature_3: {
+        title: "Bewusster nutzen",
+        content: `<p>Je mehr du nutzen möchtest, desto länger wartest du vor dem Öffnen. Steht dir nicht im Weg, aber lässt dich zweimal nachdenken.</p>`,
+        image_alt: "Eine Person in der Lotusposition"
+      },
+      feature_4: {
+        title: "Einfach zu benutzen",
+        content: `<p>Nicht zu viel nachdenken – das Ausprobieren dauert 5 Minuten. Du wirst <i>Jahre</i> zurückbekommen.</p>`,
+        image_alt: "Ein Pfeil, der ins Schwarze trifft",
+      },
+      feature_5: {
+        title: "Effektiv",
+        content: `<p>Du kannst die Sitzungszeit nicht verlängern, ohne deine Erfolgsserie zu unterbrechen.</p>`,
+        image_alt: "Eine startende Rakete",
+      },
+      feature_6: {
         title: "Erschwinglich",
-        content: "<p>Derzeit kostenlos. Wir müssen keinen „Shareholder Value maximieren”.</p>",
-        image_alt: "Ein Vorrat an Dollarscheinen mit Flügeln",
+        content: "<p>Derzeit kostenlos. Wir müssen keinen „Shareholder Value maximieren“.</p>",
+        image_alt: "Ein Stapel Dollarscheine mit Flügeln"
       }
     },
     section_carousel: {
-      title: "Wir bringen dich am besten vom Handy weg.",
+      title: "Wir bringen dich am besten vom Handy weg",
       content: "<p>9 Nervensägen bisher – mehr kommen bald!<br>Sie tauchen auf süchtig machenden Apps auf, wenn deine Zeit abgelaufen ist. Glaub mir, lange willst du nicht bleiben.</p>"
+    },
+    section_feelings: {
+      title: "Stoppe die negativen Gefühle...",
+      feelings: [
+        "😔 schuldig",
+        "💤 unmotiviert",
+        "😞 machtlos",
+        "😟 geringes Selbstwertgefühl",
+        "😤 frustriert",
+        "😰 ängstlich",
+        "😳 beschämt",
+        '🤯 abgelenkt<br><span class="feeling-note">(besonders mit ADHS)</span>'
+      ],
+      replace: "und ersetze sinnloses Scrollen durch...",
+      replacements: [
+        "🏃 Sport",
+        "📚 Lernen",
+        "👫 Treffen mit Freunden",
+        "💼 Arbeiten",
+        "🛋️ Entspannen",
+        "🍿 Filme",
+        "🍳 Kochen",
+        "🌱 Gärtnern"
+      ],
     },
     section_annoyances: {
       title: "Wir sind die Besten darin, dich vom Handy zu holen",
@@ -54,16 +92,37 @@ export default {
       annoyance_8: "Deaktiviere deinen Ad-Blocker",
       annoyance_9: "Newsletter",
     },
+    section_stats: {
+      title: "Gewinne die Kontrolle über deine Zeit zurück",
+      content: `
+      <p><b>5 Stunden</b> Bildschirmzeit <b>mit 25</b> bedeutet, dass du <b>über 15 Jahre</b> deines restlichen Lebens an ein Handy gefesselt sein wirst (<a href="/de/blog/handysucht-bekaempfen#screen-time-calculator">Quelle</a>).</p>
+
+      <p>Das belastet deine <b>psychische Gesundheit</b> und schrumpft <b>deine Aufmerksamkeitsspanne auf die eines Goldfisches</b>&nbsp;🐟.</p>
+
+      <p>Wir glauben, dass soziale Medien <b>wirklich nützlich</b> sind, aber es ist <b>zu leicht, süchtig zu werden</b>.</p>
+
+      <p>Lass uns dir helfen: Wir geben dir <b>relevante Daten zum Handeln</b> und <b>Streaks</b>, um dich an deine Ziele zu halten.</p>
+
+      <h3>🧑 Hör auf, ein Goldfisch zu sein mit SpeedBump</h3>`
+    },
     section_testimonials: {
       title: "Unsere Testimonials",
-      content: `<p><span class="testimonial-quote">"</span>Ich weiß nicht, wie das funktioniert, aber es sieht cool aus<span class="testimonial-quote">"</span><br><i>— Meine Mutter</i></p>
-      <p><span class="testimonial-quote">"</span>Das mit der Katze ist lustig<span class="testimonial-quote">"</span><br><i>— Meine Freundin</i></p>
-      <p><span class="testimonial-quote">"</span>Kannst du meinen Arm loslassen und aufhören, über Bildschirmzeit-Apps zu reden?<span class="testimonial-quote">"</span><br><i>— Irgendein langweiliger Typ im Supermarkt</i></p>`,
+      testimonials: [
+        {
+          quote: `„Ich weiß nicht, wie das funktioniert, aber es sieht cool aus“`,
+          author: "— Meine Mutter",
+        },
+        {
+          quote: `„Das mit der Katze ist lustig“`,
+          author: "— Meine Freundin",
+        },
+        {
+          quote: `„Kannst du meinen Arm loslassen und aufhören, über Bildschirmzeit-Apps zu reden?“`,
+          author: "— Irgendein langweiliger Typ im Supermarkt",
+        },
+
+      ],
       image_alt: "Ein Mikrofon",
-    },
-    section_downloads: {
-      title: "Hör jetzt auf, deine Zeit zu verschwenden:",
-      comment: "Schick das einem Freund, der mit dem Scrollen aufhören muss!",
     },
     section_blog: {
       title: "Lies mehr in unserem Blog",
