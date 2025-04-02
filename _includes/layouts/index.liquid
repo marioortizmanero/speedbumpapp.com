@@ -236,9 +236,15 @@ function randomChoice(arr) {
     const sectionRect = feelingsSection.getBoundingClientRect();
     const windowHeight = window.innerHeight;
 
+    if (window.innerWidth < 768) {
+      var percentage = 0;
+    } else {
+      var percentage = 0.4;
+    }
+
     // Calculate how far the section is through the viewport
-    // When the section is 70% through the viewport, trigger the effect
-    if (sectionRect.top < windowHeight * 0.3) {
+    // When the section is mid-through the viewport, trigger the effect
+    if (sectionRect.top < windowHeight * percentage) {
       feelingChips.forEach(chip => {
         if (chip.classList.contains('destroyed1', 'destroyed2', 'destroyed3')) {
           return
@@ -306,7 +312,7 @@ function randomChoice(arr) {
 
   </div>
 
-  <hr>
+  <hr style="opacity: 0;">
 
   <div class="section-testimonials">
     <div class="testimonials-header">

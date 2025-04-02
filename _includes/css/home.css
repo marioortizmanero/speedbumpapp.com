@@ -608,7 +608,7 @@
 
 .section-stats {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 20%;
   justify-content: space-between;
 }
@@ -634,8 +634,9 @@
   .section-stats {
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
     justify-content: center;
+    margin-bottom: -5rem;
   }
 }
 
