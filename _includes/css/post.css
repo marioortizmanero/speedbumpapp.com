@@ -24,6 +24,7 @@
 .post-main {
   max-width: 768px;
   margin: 0 auto;
+  padding: 14px;
 }
 .post-main code {
   font-size: 1.1rem;
@@ -171,10 +172,4 @@
 .header-anchor:hover,
 .header-anchor:active {
   opacity: 1;
-}
-
-@media (max-width: 768px) {
-  .post-main {
-    margin: 14px;
-  }
 }
