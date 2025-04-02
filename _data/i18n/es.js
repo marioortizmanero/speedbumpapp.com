@@ -103,7 +103,8 @@ export default {
 
       <p>Déjanos ayudarte: te daremos <b>datos relevantes para actuar</b> y <b>rachas</b> para comprometerte con tus objetivos.</p>
 
-      <h3>🧑 Deja de ser un pez con SpeedBump</h3>`
+      <h3>🧑 Deja de ser un pez con SpeedBump</h3>`,
+      image_alt: "Una captura de pantalla de SpeedBump con la racha actual, la racha más larga, y estadísticas de uso semanales, mensuales, y anuales"
     },
     section_testimonials: {
       title: "Nuestros testimonios",

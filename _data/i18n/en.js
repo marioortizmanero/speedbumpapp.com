@@ -103,7 +103,8 @@ export default {
 
       <p>Let us help: we'll give you relevant <b>data to take action</b> and <b>streaks</b> to commit to your goals.</p>
 
-      <h3>🧑 Stop being a goldfish with SpeedBump</h3>`
+      <h3>🧑 Stop being a goldfish with SpeedBump</h3>`,
+      image_alt: "A screenshot of SpeedBump with the current streak, longest streak, and weekly, monthly, and yearly usage statistics"
     },
     section_testimonials: {
       title: "Our testimonials",

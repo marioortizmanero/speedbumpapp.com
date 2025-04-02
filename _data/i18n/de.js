@@ -103,7 +103,8 @@ export default {
 
       <p>Lass uns dir helfen: Wir geben dir <b>relevante Daten zum Handeln</b> und <b>Streaks</b>, um dich an deine Ziele zu halten.</p>
 
-      <h3>🧑 Hör auf, ein Goldfisch zu sein mit SpeedBump</h3>`
+      <h3>🧑 Hör auf, ein Goldfisch zu sein mit SpeedBump</h3>`,
+      image_alt: "Ein Screenshot von SpeedBump mit der aktuellen Streak, der längsten Streak und der wöchentlichen, monatlichen und jährlichen Nutzungsstatistik."
     },
     section_testimonials: {
       title: "Unsere Testimonials",
