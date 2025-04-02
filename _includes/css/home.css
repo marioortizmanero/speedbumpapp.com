@@ -698,13 +698,11 @@
   border-bottom-left-radius: 15px;
   border-bottom: 2px solid var(--foreground);
 }
-
 .section-testimonials .speech-bubble .quote {
   margin: 0;
   padding: 0;
   text-align: left;
 }
-
 .section-testimonials .speech-bubble .author {
   margin: 0.5rem 0 0;
   font-style: italic;
