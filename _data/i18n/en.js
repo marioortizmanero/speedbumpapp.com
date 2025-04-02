@@ -59,13 +59,15 @@ export default {
       title: "Stop feeling...",
       feelings: [
         "guilty",
+        "unmotivated",
         "powerless",
         "low self-esteem",
         "frustrated",
         "anxious",
         "ashamed",
-        "distracted (perfect for ADHD)"
+        'distracted<br><span class="feeling-note">(especially with ADHD)</span>'
       ],
+      replace: "and replace the doomscrolling with what you enjoy:"
     },
     section_annoyances: {
       title: "We're the best at getting you off the phone",

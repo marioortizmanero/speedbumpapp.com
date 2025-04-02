@@ -211,10 +211,16 @@ ffmpeg \
       <div class="feeling-chip">{{ feeling }}</div>
     {%- endfor %}
     </div>
+
+    <h3>{{ t.index.section_feelings.replace }}</h3>
   </div>
 
   <script>
 document.addEventListener('DOMContentLoaded', function() {
+function randomChoice(arr) {
+    return arr[Math.floor(arr.length * Math.random())];
+}
+
   const feelingsSection = document.querySelector('.section-feelings');
   const chips = document.querySelectorAll('.feeling-chip');
 
@@ -228,12 +234,17 @@ document.addEventListener('DOMContentLoaded', function() {
     if (sectionRect.top < windowHeight * 0.3) {
       // Destroy all chips at once
       chips.forEach(chip => {
-        chip.classList.add('destroyed');
+        if (chip.classList.contains('destroyed1', 'destroyed2', 'destroyed3')) {
+          return
+        }
+        chip.classList.add(randomChoice(['destroyed1', 'destroyed2', 'destroyed3']));
       });
     } else {
       // Reset when scrolling back up
       chips.forEach(chip => {
-        chip.classList.remove('destroyed');
+        chip.classList.remove('destroyed1');
+        chip.classList.remove('destroyed2');
+        chip.classList.remove('destroyed3');
       });
     }
   });

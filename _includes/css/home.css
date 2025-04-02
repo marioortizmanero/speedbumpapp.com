@@ -398,6 +398,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 15px;
   margin: 0 auto;
   max-width: 800px;
@@ -409,9 +410,14 @@
   border: 2px solid var(--foreground);
   border-radius: 30px;
   padding: 8px 20px;
+  text-align: center;
   font-size: 1.1rem;
   position: relative;
-  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.7s, opacity 0.7s;
+}
+
+.feeling-note {
+  font-size: 0.8rem;
 }
 
 /* Add some randomness to the chip positions */
@@ -428,8 +434,18 @@
 }
 
 /* Destruction effect */
-.feeling-chip.destroyed {
-  transform: scale(1.5);
+.feeling-chip.destroyed1 {
+  transform: scale(0.5) rotate(40deg) perspective(500px) rotateX(160deg) !important;
+  opacity: 0;
+  pointer-events: none;
+}
+.feeling-chip.destroyed2 {
+  transform: scale(0.5) rotate(10deg) perspective(500px) rotateX(-50deg) !important;
+  opacity: 0;
+  pointer-events: none;
+}
+.feeling-chip.destroyed3 {
+  transform: scale(0.5) rotate(-30deg) perspective(500px) rotateX(-180deg) !important;
   opacity: 0;
   pointer-events: none;
 }
