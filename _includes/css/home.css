@@ -538,7 +538,6 @@
   justify-content: center;
   min-height: 0;
 }
-
 .section-carousel .annoyance img {
   width: 100%;
   height: 100%;
@@ -546,7 +545,6 @@
   flex-shrink: 1;
   flex-grow: 1;
 }
-
 .section-carousel .annoyance h3 {
   padding: 0.5rem;
   margin: 0;
