@@ -112,7 +112,7 @@ ffmpeg \
           Taken from:
           https://pixabay.com/illustrations/phone-frame-smartphone-android-6064855/
         -->
-        <img class="frame" src="/assets/phone-frame.png" alt="The frame of the phone">
+        <img class="frame" src="/assets/phone-frame.png" alt="{{ t.index.section_demo.frame_alt }}">
       </div>
     </div>
 
@@ -146,37 +146,106 @@ ffmpeg \
   <hr>
 
   <div class="section-features">
-    <div class="feature">
-      <div class="feature-header">
-        <img src="/assets/icons/icon_decrease.png" alt="A chart whose line is rapidly decreasing">
-        <h3>{{ t.index.section_features.feature_1.title }}</h3>
+    <div class="feature-row">
+      <div class="feature">
+        <div class="feature-header">
+          <img src="/assets/icons/icon_decrease.png" alt="{{ t.index.section_features.feature_1.image_alt }}">
+          <h3>{{ t.index.section_features.feature_1.title }}</h3>
+        </div>
+        {{ t.index.section_features.feature_1.content }}
       </div>
-      {{ t.index.section_features.feature_1.content }}
+
+      <div class="feature">
+        <div class="feature-header">
+          <img src="/assets/icons/icon_hug.png" alt="{{ t.index.section_features.feature_2.image_alt }}">
+          <h3>{{ t.index.section_features.feature_2.title }}</h3>
+        </div>
+        {{ t.index.section_features.feature_2.content }}
+      </div>
+
+      <div class="feature">
+        <div class="feature-header">
+          <img src="/assets/icons/icon_lotus.png" alt="{{ t.index.section_features.feature_3.image_alt }}">
+          <h3>{{ t.index.section_features.feature_3.title }}</h3>
+        </div>
+        {{ t.index.section_features.feature_3.content }}
+      </div>
     </div>
 
-    <div class="feature">
-      <div class="feature-header">
-        <img src="/assets/icons/icon_hug.png" alt="Two people hugging each other">
-        <h3>{{ t.index.section_features.feature_2.title }}</h3>
+    <div class="feature-row">
+      <div class="feature">
+        <div class="feature-header">
+          <img eleventy:widths="60" src="/assets/icons/icon_bullseye.png" alt="{{ t.index.section_features.feature_1.image_alt }}">
+          <h3>{{ t.index.section_features.feature_4.title }}</h3>
+        </div>
+        {{ t.index.section_features.feature_4.content }}
       </div>
-      {{ t.index.section_features.feature_2.content }}
-    </div>
 
-    <div class="feature">
-      <div class="feature-header">
-        <img src="/assets/icons/icon_money.png" alt="A stash of dollar bills with wings">
-        <h3>{{ t.index.section_features.feature_3.title }}</h3>
+      <div class="feature">
+        <div class="feature-header">
+          <img eleventy:widths="60" src="/assets/icons/icon_rocket.png" alt="{{ t.index.section_features.feature_2.image_alt }}">
+          <h3>{{ t.index.section_features.feature_5.title }}</h3>
+        </div>
+        {{ t.index.section_features.feature_5.content }}
       </div>
-      {{ t.index.section_features.feature_3.content }}
+
+      <div class="feature">
+        <div class="feature-header">
+          <img eleventy:widths="60" src="/assets/icons/icon_money.png" alt="{{ t.index.section_features.feature_3.image_alt }}">
+          <h3>{{ t.index.section_features.feature_6.title }}</h3>
+        </div>
+        {{ t.index.section_features.feature_6.content }}
+      </div>
     </div>
   </div>
+
+  <hr>
+
+  <div class="section-feelings">
+    <div class="section-feelings-header">
+      <h2>{{ t.index.section_feelings.title }}</h2>
+    </div>
+
+    <div class="feelings-cloud">
+    {%- for feeling in t.index.section_feelings.feelings %}
+      <div class="feeling-chip">{{ feeling }}</div>
+    {%- endfor %}
+    </div>
+  </div>
+
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const feelingsSection = document.querySelector('.section-feelings');
+  const chips = document.querySelectorAll('.feeling-chip');
+
+  window.addEventListener('scroll', function() {
+    // Get the position of the feelings section
+    const sectionRect = feelingsSection.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    // Calculate how far the section is through the viewport
+    // When the section is 70% through the viewport, trigger the effect
+    if (sectionRect.top < windowHeight * 0.3) {
+      // Destroy all chips at once
+      chips.forEach(chip => {
+        chip.classList.add('destroyed');
+      });
+    } else {
+      // Reset when scrolling back up
+      chips.forEach(chip => {
+        chip.classList.remove('destroyed');
+      });
+    }
+  });
+});
+  </script>
 
   <hr>
 
   <div class="section-carousel">
     <div class="carousel-description">
       <h2>{{ t.index.section_carousel.title }}</h2>
-      <p>{{ t.index.section_carousel.description }}</p>
+      {{ t.index.section_carousel.content }}
     </div>
 
     <div class="carousel-wrapper">
@@ -190,12 +259,28 @@ ffmpeg \
     </div>
   </div>
 
+  <hr style="margin-bottom: var(--gap);">
+
+  <div class="section-stats">
+    <div class="description">
+      <h2>{{ t.index.section_stats.title }}</h2>
+      {{ t.index.section_stats.content }}
+    </div>
+
+    <div class="screenshots">
+      <div class="screenshot">
+        <img eleventy:widths="300" src="/{{ page.lang }}/assets/screenshot_stats.png" alt="TODO">
+      </div>
+    </div>
+
+  </div>
+
   <hr>
 
   <div class="section-testimonials">
     <div class="testimonials">
       <div class="testimonials-header">
-        <img src="/assets/icons/icon_microphone.png" alt="A microphone">
+        <img src="/assets/icons/icon_microphone.png" alt="{{ t.index.section_testimonials.image_alt }}">
         <h2>{{ t.index.section_testimonials.title }}</h2>
       </div>
       {{ t.index.section_testimonials.content }}

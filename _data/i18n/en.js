@@ -11,27 +11,61 @@ export default {
       step_3: "Take a 15-minute break before next use",
       description: "Because gentle reminders don't work anymore. Neither do fixed timers or motivation quotes. Sometimes, you need something more… direct.",
       note: "Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)",
+      frame_alt: "The frame of a phone"
     },
     section_features: {
       feature_1: {
-        title: "Limit any app",
+        title: "Limit addictive apps",
         content: `<p>
         TikTok<br>
         Instagram<br>
         Duolingo (why tho?)
       </p>
 
-      <p class="feature-clarification">Limiting Shorts, Reels, and other in-app features will be added soon. Websites, too.</p>`,
+      <p class="feature-clarification">Limiting in-app features like Shorts or Reels will be added soon. Websites, too.</p>`,
+        image_alt: "A chart whose line is rapidly decreasing",
       },
       feature_2: {
-        title: "Adapts to you",
-        content: `<p>Social media can be great!</p>
-      <p>Connect with friends without doomscrolling for hours.</p>`,
+        title: "Build healthy habits",
+        content: `<p>Social media can be useful! Connect with friends without doomscrolling for hours.</p>`,
+        image_alt: "Two people hugging each other",
       },
       feature_3: {
+        title: "Be intentional",
+        content: `<p>The more you want to use, the more you wait before opening. Doesn't get in your way but makes you think twice.</p>`,
+        image_alt: "TODO"
+      },
+      feature_4: {
+        title: "Easy to use",
+        content: `<p>Don't overthink – trying it out takes 5 minutes. You will get <i>years</i> back.</p>`,
+        image_alt: "TODO",
+      },
+      feature_5: {
+        title: "Effective",
+        content: `<p>You can't extend the session time without breaking your streak.</p>`,
+        image_alt: "TODO",
+      },
+      feature_6: {
         title: "Affordable",
-        content: "<p>Currently free. We don't have to “maximize shareholder value”.</p>"
+        content: "<p>Currently free. We don't have to “maximize shareholder value”.</p>",
+        image_alt: "A stash of dollar bills with wings"
       }
+    },
+    section_carousel: {
+      title: "We're the best at getting you off the phone",
+      content: "<p>9 annoyances so far - more coming soon!<br>They are displayed on top of addictive apps after your time is up. Trust me, you won't want to stay for long.</p>"
+    },
+    section_feelings: {
+      title: "Stop feeling...",
+      feelings: [
+        "guilty",
+        "powerless",
+        "low self-esteem",
+        "frustrated",
+        "anxious",
+        "ashamed",
+        "distracted (perfect for ADHD)"
+      ],
     },
     section_annoyances: {
       title: "We're the best at getting you off the phone",
@@ -46,11 +80,16 @@ export default {
       annoyance_8: "Disable Your AdBlocker",
       annoyance_9: "Newsletters",
     },
+    section_stats: {
+      title: "The effective way to quit doomscrolling",
+      content: `<p>Stop feeling: </p>`
+    },
     section_testimonials: {
       title: "Our testimonials",
       content: `<p><span class="testimonial-quote">“</span>I don't know how this works but it looks cool<span class="testimonial-quote">”</span><br><i>— my mom</i></p>
       <p><span class="testimonial-quote">“</span>The cat one is funny<span class="testimonial-quote">”</span><br><i>— my girlfriend</i></p>
       <p><span class="testimonial-quote">“</span>Can you let go of my arm and stop talking about screen time apps?<span class="testimonial-quote">”</span><br><i>— some boring guy in the supermarket</i></p>`,
+      image_alt: "A microphone",
     },
     section_downloads: {
       title: "Stop wasting your time now:",

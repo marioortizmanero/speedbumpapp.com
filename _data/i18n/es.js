@@ -11,6 +11,7 @@ export default {
       step_3: "Toma un descanso de 15 minutos para seguir",
       description: "Porque los recordatorios ya no funcionan. Tampoco los temporizadores fijos o las frases motivacionales. A veces, necesitas algo más... directo.",
       note: "Acceso anticipado - el desarrollador sigue programando sin parar. Pero oye, ¡eso solo aumenta el factor de molestia! ;)",
+      frame_alt: "El marco de un teléfono"
     },
     section_features: {
       feature_1: {
@@ -22,16 +23,23 @@ export default {
       </p>
 
       <p class="feature-clarification">Pronto podrás limitar Shorts, Reels y otras funciones dentro de apps. También para webs.</p>`,
+        image_alt: "Un gráfico cuya línea disminuye rápidamente",
       },
       feature_2: {
         title: "Adaptado a ti",
         content: `<p>¡Las redes sociales pueden ser geniales!</p>
       <p>Conéctate con amigos sin pasar horas haciendo scroll infinito.</p>`,
+        image_alt: "Dos personas abrazándose",
       },
       feature_3: {
         title: "Asequible",
-        content: "<p>Actualmente gratuito. No tenemos que “maximizar el valor para los accionistas”.</p>"
+        content: "<p>Actualmente gratuito. No tenemos que “maximizar el valor para los accionistas”.</p>",
+        image_alt: "Un fajo de dólares con alas",
       }
+    },
+    section_carousel: {
+      title: "Somos los mejores para alejarte del móvil",
+      content: "<p>9 molestias hasta ahora, ¡y vienen más!<br>Aparecen sobre apps adictivas cuando se te acaba el tiempo. Créeme, no querrás quedarte mucho.</p>"
     },
     section_annoyances: {
       title: "Somos los mejores sacándote del móvil",
@@ -51,6 +59,7 @@ export default {
       content: `<p><span class="testimonial-quote">"</span>No sé cómo funciona, pero mola<span class="testimonial-quote">"</span><br><i>— mi madre</i></p>
       <p><span class="testimonial-quote">"</span>El del gato tiene gracia<span class="testimonial-quote">"</span><br><i>— mi novia</i></p>
       <p><span class="testimonial-quote">"</span>¿Puedes soltarme el brazo y dejar de hablar de apps para controlar el tiempo de pantalla?<span class="testimonial-quote">"</span><br><i>— un tipo aburrido en el supermercado</i></p>`,
+      image_alt: "Un micrófono",
     },
     section_downloads: {
       title: "Deja de perder el tiempo:",

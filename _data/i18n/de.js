@@ -11,6 +11,7 @@ export default {
       step_3: "Mach 15 Minuten Pause vor der nächsten Nutzung",
       description: "Weil sanfte Erinnerungen, feste Timer oder Motivationszitate nicht mehr helfen. Manchmal brauchst du etwas... Direkteres.",
       note: "Early Access - erwarte Ecken und Kanten sowie zufällige Abstürze. Aber hey, das erhöht nur den Nervfaktor! ;)",
+      frame_alt: "Der Rahmen eines Telefons"
     },
     section_features: {
       feature_1: {
@@ -22,16 +23,23 @@ export default {
       </p>
 
       <p class="feature-clarification">Bald kannst du auch Shorts, Reels und andere In-App-Funktionen begrenzen. Websites auch.</p>`,
+        image_alt: "Ein Diagramm, dessen Linie schnell abnimmt",
       },
       feature_2: {
         title: "Für dich angepasst",
         content: `<p>Soziale Medien können auch toll sein!</p>
       <p>Bleib mit Freunden in Kontakt, ohne stundenlang zu scrollen.</p>`,
+        image_alt: "Zwei Menschen, die sich umarmen",
       },
       feature_3: {
         title: "Erschwinglich",
-        content: "<p>Derzeit kostenlos. Wir müssen keinen „Shareholder Value maximieren”.</p>"
+        content: "<p>Derzeit kostenlos. Wir müssen keinen „Shareholder Value maximieren”.</p>",
+        image_alt: "Ein Vorrat an Dollarscheinen mit Flügeln",
       }
+    },
+    section_carousel: {
+      title: "Wir bringen dich am besten vom Handy weg.",
+      content: "<p>9 Nervensägen bisher – mehr kommen bald!<br>Sie tauchen auf süchtig machenden Apps auf, wenn deine Zeit abgelaufen ist. Glaub mir, lange willst du nicht bleiben.</p>"
     },
     section_annoyances: {
       title: "Wir sind die Besten darin, dich vom Handy zu holen",
@@ -51,6 +59,7 @@ export default {
       content: `<p><span class="testimonial-quote">"</span>Ich weiß nicht, wie das funktioniert, aber es sieht cool aus<span class="testimonial-quote">"</span><br><i>— Meine Mutter</i></p>
       <p><span class="testimonial-quote">"</span>Das mit der Katze ist lustig<span class="testimonial-quote">"</span><br><i>— Meine Freundin</i></p>
       <p><span class="testimonial-quote">"</span>Kannst du meinen Arm loslassen und aufhören, über Bildschirmzeit-Apps zu reden?<span class="testimonial-quote">"</span><br><i>— Irgendein langweiliger Typ im Supermarkt</i></p>`,
+      image_alt: "Ein Mikrofon",
     },
     section_downloads: {
       title: "Hör jetzt auf, deine Zeit zu verschwenden:",
