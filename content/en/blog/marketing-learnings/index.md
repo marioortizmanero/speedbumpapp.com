@@ -7,7 +7,6 @@ description: "Getting into mobile app promotion isn't easy. Read these ideas to 
 keywords: ["mobile app promotion", "entrepreneurship", "mobile app promotion ideas", "how to promote your app for free", "free mobile app promotion", "mobile app marketing", "get more app downloads"]
 image: /assets/blog/marketing-learnings/preview.jpg
 imageAlt: "The Chrome dinosaur surrounded by social media apps (Reddit, TikTok, LinkedIn, YouTube, SnapChat, X, Instagram) with a vignette effect."
-draft: true
 ---
 
 <style>
@@ -109,7 +108,7 @@ Side question: does anyone use hashtags anymore?
 
 One last high-quality resource I can share is [Growth Unhinged](https://www.growthunhinged.com/), which covers broader topics.
 
-No regrets about learning marketing. Just the basics have been mind-opening. But it hasn't helped me decide on the future of SpeedBump.
+No regrets about learning marketing – just the basics have been mind-opening. But it hasn't helped me decide on the future of SpeedBump.
 
 I've realized that asking "should I continue working on this?" was wrong. Instead, it should be: "does this make for a good enough business?".
 
