@@ -208,11 +208,17 @@ ffmpeg \
 
     <div class="feelings-cloud">
     {%- for feeling in t.index.section_feelings.feelings %}
-      <div class="feeling-chip">{{ feeling }}</div>
+      <div class="chip feeling-chip">{{ feeling }}</div>
     {%- endfor %}
     </div>
 
     <h3>{{ t.index.section_feelings.replace }}</h3>
+
+    <div class="feelings-cloud">
+    {%- for replacement in t.index.section_feelings.replacements %}
+      <div class="chip replacement-chip destroyed{{ 1 | randomBetween: 3 }}">{{ replacement }}</div>
+    {%- endfor %}
+    </div>
   </div>
 
   <script>
@@ -222,7 +228,8 @@ function randomChoice(arr) {
 }
 
   const feelingsSection = document.querySelector('.section-feelings');
-  const chips = document.querySelectorAll('.feeling-chip');
+  const feelingChips = document.querySelectorAll('.feeling-chip');
+  const replacementChips = document.querySelectorAll('.replacement-chip');
 
   window.addEventListener('scroll', function() {
     // Get the position of the feelings section
@@ -232,19 +239,28 @@ function randomChoice(arr) {
     // Calculate how far the section is through the viewport
     // When the section is 70% through the viewport, trigger the effect
     if (sectionRect.top < windowHeight * 0.3) {
-      // Destroy all chips at once
-      chips.forEach(chip => {
+      feelingChips.forEach(chip => {
         if (chip.classList.contains('destroyed1', 'destroyed2', 'destroyed3')) {
           return
         }
         chip.classList.add(randomChoice(['destroyed1', 'destroyed2', 'destroyed3']));
       });
-    } else {
-      // Reset when scrolling back up
-      chips.forEach(chip => {
+      replacementChips.forEach(chip => {
         chip.classList.remove('destroyed1');
         chip.classList.remove('destroyed2');
         chip.classList.remove('destroyed3');
+      });
+    } else {
+      feelingChips.forEach(chip => {
+        chip.classList.remove('destroyed1');
+        chip.classList.remove('destroyed2');
+        chip.classList.remove('destroyed3');
+      });
+      replacementChips.forEach(chip => {
+        if (chip.classList.contains('destroyed1', 'destroyed2', 'destroyed3')) {
+          return
+        }
+        chip.classList.add(randomChoice(['destroyed1', 'destroyed2', 'destroyed3']));
       });
     }
   });
@@ -270,43 +286,41 @@ function randomChoice(arr) {
     </div>
   </div>
 
-  <hr style="margin-bottom: var(--gap);">
+  <hr style="opacity: 0;">
 
   <div class="section-stats">
     <div class="description">
       <h2>{{ t.index.section_stats.title }}</h2>
+
       {{ t.index.section_stats.content }}
+
+      {% render "partials/downloads.liquid" page: page %}
     </div>
 
     <div class="screenshots">
       <div class="screenshot">
         <img eleventy:widths="300" src="/{{ page.lang }}/assets/screenshot_stats.png" alt="TODO">
       </div>
+      <hr>
     </div>
 
   </div>
 
-  <hr>
+  <hr style="opacity: 0;">
 
   <div class="section-testimonials">
-    <div class="testimonials">
-      <div class="testimonials-header">
-        <img src="/assets/icons/icon_microphone.png" alt="{{ t.index.section_testimonials.image_alt }}">
-        <h2>{{ t.index.section_testimonials.title }}</h2>
+    <div class="testimonials-header">
+      <img src="/assets/icons/icon_microphone.png" alt="{{ t.index.section_testimonials.image_alt }}">
+      <h2>{{ t.index.section_testimonials.title }}</h2>
+    </div>
+
+    <div class="testimonial-quotes">
+      <div class="testimonial-quote">
+        {{ t.index.section_testimonials.content }}
       </div>
-      {{ t.index.section_testimonials.content }}
     </div>
   </div>
 
-  <hr>
-
-  <div class="section-downloads">
-    <h2>{{ t.index.section_downloads.title }}</h2>
-
-    {% render "partials/downloads.liquid" page: page %}
-
-    <p>{{ t.index.section_downloads.comment }}</p>
-  </div>
 
   {%- assign recentPosts = collections.posts | where: "data.lang", page.lang | recentPosts %}
   {%- if recentPosts.size > 0 %}

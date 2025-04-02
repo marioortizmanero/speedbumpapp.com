@@ -106,4 +106,18 @@ export default function(eleventyConfig) {
     console.log(obj);
     console.log("------------------------");
   });
+
+  // Generates a random number between minValue and maxValue (inclusive).
+  eleventyConfig.addFilter("randomBetween", function(minValue, maxValue) {
+    if (typeof minValue !== 'number' || typeof maxValue !== 'number') {
+      throw new Error('randomBetween filter expects number parameters. Received: ' +
+        typeof minValue + ' and ' + typeof maxValue);
+    }
+    if (minValue >= maxValue) {
+      throw new Error('randomBetween filter expects minValue to be less than maxValue. Received: ' +
+        minValue + ' and ' + maxValue);
+    }
+
+    return Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
+  });
 };

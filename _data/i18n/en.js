@@ -56,18 +56,28 @@ export default {
       content: "<p>9 annoyances so far - more coming soon!<br>They are displayed on top of addictive apps after your time is up. Trust me, you won't want to stay for long.</p>"
     },
     section_feelings: {
-      title: "Stop feeling...",
+      title: "Stop the negative feelings...",
       feelings: [
-        "guilty",
-        "unmotivated",
-        "powerless",
-        "low self-esteem",
-        "frustrated",
-        "anxious",
-        "ashamed",
-        'distracted<br><span class="feeling-note">(especially with ADHD)</span>'
+        "😔 guilty",
+        "💤 unmotivated",
+        "😞 powerless",
+        "😟 low self-esteem",
+        "😤 frustrated",
+        "😰 anxious",
+        "😳 ashamed",
+        '🤯 distracted<br><span class="feeling-note">(especially with ADHD)</span>'
       ],
-      replace: "and replace the doomscrolling with what you enjoy:"
+      replace: "and replace your mindless scrolling with...",
+      replacements: [
+        "🏃 sports",
+        "📚 studying",
+        "👫 hanging out",
+        "💼 working",
+        "🛋️ relaxing",
+        "🍿 movies",
+        "🍳 cooking",
+        "🌱 gardening"
+      ],
     },
     section_annoyances: {
       title: "We're the best at getting you off the phone",
@@ -83,8 +93,17 @@ export default {
       annoyance_9: "Newsletters",
     },
     section_stats: {
-      title: "The effective way to quit doomscrolling",
-      content: `<p>Stop feeling: </p>`
+      title: "Take control of your time back",
+      content: `
+      <p><b>5 hours</b> of screen time <b>at 25</b> means you'll spend <b>over 15 years</b> of your remaining life glued to a phone (<a href="/en/blog/how-to-reduce-screen-time#screen-time-calculator">source</a>).</p>
+
+      <p>This takes a toll on your <b>mental health</b> and shrinks <b>your attention span to that of a goldfish</b> 🐟.</p>
+
+      <p>We believe social media is <b>genuinely useful</b>, but it's <b>too easy to get addicted</b>.</p>
+
+      <p>Let us help: we'll give you relevant <b>data to take action</b> and <b>streaks</b> to commit to your goals.</p>
+
+      <h3>🧑 Stop being a goldfish with SpeedBump</h3>`
     },
     section_testimonials: {
       title: "Our testimonials",
@@ -92,10 +111,6 @@ export default {
       <p><span class="testimonial-quote">“</span>The cat one is funny<span class="testimonial-quote">”</span><br><i>— my girlfriend</i></p>
       <p><span class="testimonial-quote">“</span>Can you let go of my arm and stop talking about screen time apps?<span class="testimonial-quote">”</span><br><i>— some boring guy in the supermarket</i></p>`,
       image_alt: "A microphone",
-    },
-    section_downloads: {
-      title: "Stop wasting your time now:",
-      comment: "Send this to a friend who needs to stop doomscrolling!",
     },
     section_blog: {
       title: "Read more in our blog",
