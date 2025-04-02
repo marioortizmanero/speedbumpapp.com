@@ -16,7 +16,7 @@ export default {
     hero_2: "Molestos, pero sin duda te ralentizan",
     hero_3: "Conoce el badén para <mark>apps&nbsp;adictivas</mark>",
     section_demo: {
-      h1: "Concentrarse es fácil con SpeedBump instalado",
+      h1: "La app para centrarse de una vez",
       step_1: "Pon un tiempo límite al abrir apps adictivas",
       step_2: "Te sacará de quicio cuando se acabe el tiempo",
       step_3: "Toma un descanso de 15 minutos para seguir",
@@ -124,7 +124,13 @@ export default {
       image_alt: "Un micrófono",
     },
     section_blog: {
-      title: "Lee más en nuestro blog",
+      title: "Más información",
+      content: `
+      <p>Comienza con <b>autocompasión</b>. Pasar tiempo excesivo es normal cuando las empresas tecnológicas optimizan cada detalle para mantenerte enganchado. Las noticias negativas empeoran el problema; los medios prosperan con contenido alarmante y controvertido porque capta la atención. Es normal sentirse desafiado al limitar el uso – estas apps están <i>diseñadas</i> para ser adictivas.</p>
+      <p>Las redes sociales aun así pueden ser útiles para aprender y conectar con otros. Todo se trata de establecer límites y lograr un <b>uso más consciente</b>. Revisar un mensaje de un amigo pero quedarse atrapado durante una hora no debería ser la norma.</p>
+      <p>Formar hábitos lleva tiempo. <b>SpeedBump te da ese empujón</b> mientras intentas retomar el control. Después de una racha de dos semanas te verás siendo consciente de tu uso, dedicando más tiempo a cosas que realmente disfrutas. La clave será identificar lo que disfrutas y elegir hacerlo en lugar de perder el tiempo.</p>
+            `,
+      title_blog: "Echa un vistazo a nuestro blog:",
     },
   },
   post: {

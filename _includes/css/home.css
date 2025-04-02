@@ -721,4 +721,11 @@
 
 .section-blog {
   margin-bottom: calc(var(--gap) * 3.5);
+  padding: 0 8rem;
+}
+
+@media (max-width: 768px) {
+  .section-blog {
+    padding: 0;
+  }
 }

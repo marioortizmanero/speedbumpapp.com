@@ -64,7 +64,7 @@ export default {
     },
     section_carousel: {
       title: "Wir bringen dich am besten vom Handy weg",
-      content: "<p>9 Nervensägen bisher – mehr kommen bald!<br>Sie tauchen auf süchtig machenden Apps auf, wenn deine Zeit abgelaufen ist. Glaub mir, lange willst du nicht bleiben.</p>"
+      content: "<p>9 Nervensägen bisher – mehr kommen bald!<br>Sie tauchen auf süchtig machenden Apps auf, wenn deine Zeit abgelaufen ist. Glaub mir, du wirst nicht mehr lange bleiben wollen.</p>"
     },
     section_feelings: {
       title: "Stoppe die negativen Gefühle...",
@@ -124,7 +124,13 @@ export default {
       image_alt: "Ein Mikrofon",
     },
     section_blog: {
-      title: "Lies mehr in unserem Blog",
+      title: "Mehr erfahren",
+      content: `
+      <p>Beginne mit <b>Selbstmitgefühl</b>. Endloses Scrollen entsteht, wenn Technologieunternehmen jedes Detail optimieren, um dich süchtig zu machen. Negative Nachrichten verschlimmern das Problem; Medien gedeihen durch alarmierende und kontroverse Inhalte, weil diese Aufmerksamkeit erregen. Es ist normal, dass es schwierig ist, die Nutzung zu begrenzen – diese Apps sind <i>darauf ausgelegt</i>, süchtig zu machen.</p>
+      <p>Social Media kann dennoch nützlich sein, um zu lernen und mit anderen in Kontakt zu treten. Es geht also darum, Grenzen zu setzen und eine <b>bewusstere Nutzung</b> zu erreichen. Es sollte nicht die Norm sein, eine Nachricht von einem Freund zu überprüfen und dann für eine Stunde hängenzubleiben.</p>
+      <p>Der Aufbau von Gewohnheiten braucht Zeit. <b>SpeedBump gibt dir diesen Anstoß</b>, während du versuchst, wieder die Kontrolle zu übernehmen. Nach einer zweiwöchigen Serie wirst du dir deiner Nutzung bewusst sein und mehr Zeit mit Dingen verbringen, die dir wirklich Freude bereiten. Der Schlüssel wird sein, zu identifizieren, was du genießt, und dich dafür zu entscheiden, anstatt Zeit zu verschwenden.</p>
+      `,
+      title_blog: "Schau in unserem Blog vorbei:",
     },
   },
   post: {
