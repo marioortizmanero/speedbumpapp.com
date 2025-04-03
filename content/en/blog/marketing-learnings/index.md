@@ -33,7 +33,7 @@ My first mistake was not clearly defining a market. By default, I assumed my tar
 - iPhone is a majority, and its users tend to spend more money on apps than Android.
 - Building a prototype on Android is a pain.
 
-![](android_vs_ios_statistics.png)
+![Mobile Operating System Market Share in United States of America - March 2025. iOS is 57.36%, Android is 42.38%.](android_vs_ios_statistics.png)
 <span class="credits">*Source: [StatCounter](https://gs.statcounter.com/os-market-share/mobile/united-states-of-america)*</span>
 
 In reality, targeting the United States brought me headaches:
