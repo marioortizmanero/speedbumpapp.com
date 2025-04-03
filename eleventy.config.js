@@ -1,3 +1,5 @@
+import path from "node:path";
+
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import { EleventyI18nPlugin } from "@11ty/eleventy";
 
@@ -37,6 +39,13 @@ export default async function(eleventyConfig) {
     },
     sharpOptions: {
       animated: true,
+    },
+    // Descriptive filenames on images are good for SEO
+    filenameFormat: function (_id, src, width, format, _options) {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+
+      return `${name}-${width}.${format}`;
     }
   });
   // Internationalization
