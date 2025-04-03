@@ -38,7 +38,11 @@ layout: layouts/base.liquid
     "@type": "Article",
     "name": "{{ title | escapeQuotes }}",
     "image": "{{ image | absUrl }}",
-    "author": "Mario Ortiz Manero",
+    "author": {
+      "@type": "Person",
+      "name": "Mario Ortiz Manero",
+      "url": "{{ metadata.url }}",
+    },
     "url": "{{ page.url }}",
     "datePublished": "{{ date | iso8601Date }}",
     "dateModified": "{{ page.inputPath | lastModified | iso8601Date }}",
