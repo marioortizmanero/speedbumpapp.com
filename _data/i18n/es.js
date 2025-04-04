@@ -14,7 +14,7 @@ export default {
   index: {
     hero_1: "¿Conoces los badenes",
     hero_2: "Molestos, pero sin duda te ralentizan",
-    hero_3: "Conoce el badén para <mark>apps&nbsp;adictivas</mark>",
+    hero_3: "Te presentamos el badén para <mark>apps&nbsp;adictivas</mark>",
     section_demo: {
       h1: "La app para centrarse de una vez",
       step_1: "Pon un tiempo límite al abrir apps adictivas",
