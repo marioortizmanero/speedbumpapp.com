@@ -200,6 +200,6 @@ A: iOS' Bildschirmzeit, Opal oder ScreenZen teilen deine Daten standardmäßig �
 
 A: Es hängt von der Lösung ab. Einige Timer blockieren Benachrichtigungen während eingeschränkter Zeiträume, obwohl Notfallbenachrichtigungen typischerweise aktiv bleiben.
 
-### F: Was ist das empfohlene tägliche Limit für soziale Medien?
+### F: Wie viel Bildschirmzeit ist Normal?
 
-A: Es hängt weitgehend von persönlichen und beruflichen Anforderungen ab. Für Erwachsene, Experten empfehlen 30 bis 60 Minuten pro Tag für besseres geistiges Wohlbefinden. Idealerweise sollten sie in kürzere Abschnitte aufgeteilt werden, anstatt kontinuierlich zu scrollen.
+A: Es hängt weitgehend von persönlichen und beruflichen Anforderungen ab. Für Erwachsene, Experten empfehlen 30 bis 60 Minuten pro Tag am Handy für besseres geistiges Wohlbefinden. Idealerweise sollten sie in kürzere Abschnitte aufgeteilt werden, anstatt kontinuierlich zu scrollen.

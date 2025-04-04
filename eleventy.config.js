@@ -40,12 +40,13 @@ export default async function(eleventyConfig) {
     sharpOptions: {
       animated: true,
     },
-    // Descriptive filenames on images are good for SEO
-    filenameFormat: function (_id, src, width, format, _options) {
+    // Descriptive filenames on images are good for SEO. Note that the name
+    // still has to be unique so that it doesn't overwrite others.
+    filenameFormat: function (id, src, _width, format, _options) {
       const extension = path.extname(src);
       const name = path.basename(src, extension);
 
-      return `${name}-${width}.${format}`;
+      return `${name}-${id}.${format}`;
     }
   });
   // Internationalization

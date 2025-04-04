@@ -152,7 +152,7 @@ export default {
   },
   also_available_in: "Diese Seite ist auch verfügbar in:",
   life_calculator: {
-    title: "Bildschirmzeit-Rechner",
+    title: "Handysucht Test",
     daily_screen_time: "Durchschnittliche tägliche Bildschirmzeit (Stunden)",
     your_age: "Dein aktuelles Alter",
     calculate_button: "Berechnen",
