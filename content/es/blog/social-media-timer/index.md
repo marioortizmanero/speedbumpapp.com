@@ -114,16 +114,16 @@ Por si no lo sabías, Android e iOS incluyen potentes funciones para reducir tu 
 }
 </style>
 
-Antes de continuar, utiliza estos datos para saber cuántos años de tu vida pasarás con el teléfono:
-
-{% render "partials/life-calculator.liquid" i18n: i18n, page: page %}
-
 <p>
   <div class="screenshots">
     <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/iPhone_tiempo_de_uso_captura_de_pantalla.png" alt="Una captura de pantalla en iPhone de la sección de Tiempo de Uso">
     <img class="screenshot" eleventy:widths="400" src="/es/blog/social-media-timer/Android_bienestar_digital_y_controles_parentales_captura_de_pantalla.png" alt="Una captura de pantalla en Android de la sección de Bienestar Digital y Controles Parentales">
   </div>
 </p>
+
+Antes de continuar, utiliza estos datos para saber cuántos años de tu vida pasarás con el teléfono:
+
+{% render "partials/life-calculator.liquid" i18n: i18n, page: page %}
 
 Los temporizadores integrados son convenientes, pero pueden ser fáciles de ignorar; ¡es tan fácil pulsar el botón para continuar en la app! Opciones adicionales como el Modo Concentración, Modo Hora de Dormir o No Molestar pueden mejorar la eficacia. Pruébalas para ver qué funciona mejor para tus patrones de uso: TDAH, doomscrolling, desbloquear el móvil con demasiada frecuencia o procrastinar.
 

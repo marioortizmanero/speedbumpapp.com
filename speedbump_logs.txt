@@ -1,0 +1,267 @@
+04-06 02:42:15.299   513   513 D io_stats: !@ Read_top(KB): yapps.speedbump(31858) 800 kworker/u16:1(32443) 44 kworker/2:1H(13038) 24
+04-06 04:15:26.752   513   513 D io_stats: !@ Read_top(KB): yapps.speedbump(31858) 2896 kworker/u16:10(8443) 16 kworker/2:1H(13038) 4
+04-06 06:58:21.945   513   513 D io_stats: !@ Read_top(KB): yapps.speedbump(31858) 2484 kworker/u16:8(29124) 324 kworker/u16:0(25847) 8
+04-06 07:03:06.219   513   513 D io_stats: !@ Read_top(KB): yapps.speedbump(31858) 3360
+04-06 07:13:32.268 31858 31863 I yapps.speedbump: Background concurrent mark compact GC freed 8324KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 8369KB/16MB, paused 507us,15.851ms total 109.957ms
+04-06 08:27:04.904 31858 31863 I yapps.speedbump: Background concurrent mark compact GC freed 8224KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 8401KB/16MB, paused 989us,12.795ms total 199.171ms
+04-06 08:27:04.905 31858 31863 W yapps.speedbump: Reducing the number of considered missed Gc histogram windows from 108 to 100
+04-06 08:27:08.404   513   513 D io_stats: !@ Read_top(KB): yapps.speedbump(31858) 116 kworker/2:0H(15870) 4 system_server(1333) 4
+04-06 08:47:14.670 31858 31863 I yapps.speedbump: Background concurrent mark compact GC freed 8260KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 8429KB/16MB, paused 571us,15.743ms total 111.783ms
+04-06 08:47:14.671 31858 31863 W yapps.speedbump: Reducing the number of considered missed Gc histogram windows from 121 to 100
+04-06 09:01:38.173 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=1 newDisplayState=2
+04-06 09:01:41.214 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:01:41.234 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:01:51.320 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:01:53.616 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:02:42.789   513   513 D io_stats: !@ Read_top(KB): yapps.speedbump(31858) 12748 stagram.android(5138) 60 system_server(1333) 24
+04-06 09:02:45.958 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:02:46.795 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:03:02.467 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:03:02.851 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:03:05.317 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:03:18.891 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:03:29.125 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:03:29.179 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:03:30.722 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:03:31.784 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:03:32.016 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=1
+04-06 09:03:32.213 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=1 newDisplayState=1
+04-06 09:05:37.908 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=1 newDisplayState=2
+04-06 09:05:38.097 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:06:50.712  1333  2095 I ChimeraAggressivePolicyHandler: Skipped reason: LR, pids: 7809 5569 4132 21227 29360 5138 31858 2713 5983 
+04-06 09:06:51.608 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:06:57.795 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:06:58.989  1333  2095 I ChimeraAggressivePolicyHandler: Skipped reason: LR, pids: 7809 5569 4132 29383 29360 5138 31858 5983 
+04-06 09:06:59.300  1333  2095 I ChimeraAggressivePolicyHandler: Skipped reason: LR, pids: 7809 5569 4132 29383 29360 5138 31858 5983 
+04-06 09:07:22.919  1333  2154 D BrightnessHandler: inject brightness = 34.0, Brightness: 0.13185821
+04-06 09:07:22.920  1333  2154 D BrightnessHandler: inject brightness = 34.0, Brightness: 0.13185821
+04-06 09:07:22.921  1333  2154 D BrightnessHandler: inject brightness = 34.0, Brightness: 0.13185821
+04-06 09:07:22.921  1333  2154 D BrightnessHandler: inject brightness = 34.0, Brightness: 0.13185821
+04-06 09:08:55.380 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:09:19.073 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:09:20.345 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:09:20.396 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:09:23.048  1333  2095 I ChimeraAggressivePolicyHandler: Skipped reason: LR, pids: 7809 5569 4132 29383 21227 29360 5138 31858 2713 5983 
+04-06 09:09:24.145 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:09:24.225 31858 31858 I WindowManager: WindowManagerGlobal#addView, ty=2038, view=androidx.compose.ui.platform.ComposeView{f0db426 V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 com.capyapps.speedbump.overlays.ComposeShieldView.initView$composeApp_debug:55 com.capyapps.speedbump.overlays.ComposeShieldView.<init>:29 
+04-06 09:09:24.235 31858 12998 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+04-06 09:09:24.286 31858 31858 I InsetsController: onStateChanged: host=, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 0 - 569, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 M 0,7.822222222222222‬‬ a 10.31111111111111‬,10.31111111111111‬ 0 1,0 0,20.62222222222222‬ a 10.31111111111111‬,10.31111111111111‬ 0 1,0 0,-20.62222222222222‬ Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {a6cf0001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {a6cf0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {a6cf0005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {a6cf0006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {a6cf0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {fbd00000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {fbd00005 mType=mandatorySystemGestures mFrame=[0,0][1080,114] mVisible=true mFlags=[]}, InsetsSource: {fbd00006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+04-06 09:09:24.287 31858 31858 I ViewRootImpl@11d7867[]: synced displayState. AttachInfo displayState=2
+04-06 09:09:24.289 31858 31858 I ViewRootImpl@11d7867[]: setView = androidx.compose.ui.platform.ComposeView@f0db426 TM=true
+04-06 09:09:24.291 31858 31858 I ComposeShieldView: Initializing
+04-06 09:09:24.291 31858 31858 D Overlay : Shield shown
+04-06 09:09:24.481  1104  1144 I SurfaceFlinger: id=24077 createSurf, flag=44004, $_31858#24077
+04-06 09:09:24.482  1333  2299 D WindowManager: makeSurface duration=1 name=$_31858
+04-06 09:09:24.490  1333  2299 V WindowManager: Relayout hash=f089111, pid=31858, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_OVERLAY
+04-06 09:09:24.495 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=
+04-06 09:09:24.497 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=
+04-06 09:09:24.510 31858 31858 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@11d7867[] mNativeObject= 0xb400007770b1dc70 sc.mNativeObject= 0xb400007630a886d0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+04-06 09:09:24.511 31858 31858 I BLASTBufferQueue_Java: update, w= 1080 h= 2125 mName = ViewRootImpl@11d7867[] mNativeObject= 0xb400007770b1dc70 sc.mNativeObject= 0xb400007630a886d0 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+04-06 09:09:24.512 31858 31858 I ViewRootImpl@11d7867[]: Relayout returned: old=(0,80,1080,2205) new=(0,80,1080,2205) relayoutAsync=false req=(1080,2125)0 dur=29 res=0x3 s={true 0xb400007640b31690} ch=true seqId=0
+04-06 09:09:24.520 31858 31858 I ViewRootImpl@11d7867[]: performConfigurationChange setNightDimText nightDimLevel=0
+04-06 09:09:24.528 31858 31858 D ViewRootImpl@11d7867[]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007640b31690} hwInitialized=true
+04-06 09:09:24.552 31858 31858 D ViewRootImpl@11d7867[]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+04-06 09:09:24.552 31858 31858 I ViewRootImpl@11d7867[]: Setup new sync=wmsSync-ViewRootImpl@11d7867[]#6
+04-06 09:09:24.553 31858 31858 I ViewRootImpl@11d7867[]: Creating new active sync group ViewRootImpl@11d7867[]#7
+04-06 09:09:24.557 31858 31858 I ViewRootImpl@11d7867[]: registerCallbacksForSync syncBuffer=false
+04-06 09:09:24.596 31858 13025 I ViewRootImpl@11d7867[]: Received frameDrawingCallback syncResult=0 frameNum=1.
+04-06 09:09:24.596 31858 13025 I ViewRootImpl@11d7867[]: mWNT: t=0xb400007690aa52b0 mBlastBufferQueue=0xb400007770b1dc70 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+04-06 09:09:24.596 31858 13025 I ViewRootImpl@11d7867[]: Setting up sync and frameCommitCallback
+04-06 09:09:24.612 31858 12998 I BLASTBufferQueue: [ViewRootImpl@11d7867[]#50](f:0,a:0,s:0) onFrameAvailable the first frame is available
+04-06 09:09:24.614 31858 12998 I ViewRootImpl@11d7867[]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+04-06 09:09:24.615 31858 12998 D OpenGLRenderer: CFMS:: SetUp Pid : 31858    Tid : 12998
+04-06 09:09:24.616 31858 31858 I ViewRootImpl@11d7867[]: reportDrawFinished seqId=0
+04-06 09:09:24.617 31858 12998 D OpenGLRenderer: HWUI - treat SMPTE_170M as sRGB
+04-06 09:09:24.623 31858 31858 I Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+04-06 09:09:24.626  1104  1104 I Layer   : Layer [$_31858#24077] hidden!! flag(0)
+04-06 09:09:24.630  1104  1104 D SurfaceFlinger:      DEVICE | 0xb400007b32675a50 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2125.0 |    0   80 1080 2205 | $_31858#24077
+04-06 09:09:24.631 31858 31858 I ViewRootImpl@11d7867[]: handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+04-06 09:09:24.631 31858 31858 D ViewRootImpl@11d7867[]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007640b31690}
+04-06 09:09:24.632 31858 31858 D InputMethodManagerUtils: startInputInner - Id : 0
+04-06 09:09:24.633 31858 31858 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+04-06 09:09:24.645 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=false, type=ime, host=
+04-06 09:09:24.796 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:09:25.300 31858 31858 I WindowManager: WindowManagerGlobal#removeView, ty=2038, view=androidx.compose.ui.platform.ComposeView{f0db426 V.E...... ........ 0,0-1080,2125 aid=25}, caller=android.view.WindowManagerGlobal.removeView:628 android.view.WindowManagerImpl.removeView:203 com.capyapps.speedbump.overlays.ComposeShieldView.destroy:65 
+04-06 09:09:25.305 31858 12998 D OpenGLRenderer: CacheManager::trimMemory(20)
+04-06 09:09:25.306 31858 31858 I ComposeShieldView: Destroyed
+04-06 09:09:25.307 31858 31858 D Overlay : Shield destroyed, now idle
+04-06 09:09:25.309 31858 31858 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda19@a9b19da
+04-06 09:09:25.341 31858 31858 I ViewRootImpl@11d7867[]: dispatchDetachedFromWindow
+04-06 09:09:25.344  1333  3769 V WindowManager: Remove Window{f089111 u0 com.capyapps.speedbump}: mSurfaceController=Surface(name=$_31858)/@0x253b50e mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 android.os.Binder.execTransact:1311 
+04-06 09:09:25.344  1333  3769 I WindowManager: Destroying surface Surface(name=$_31858)/@0x253b50e called by com.android.server.wm.WindowStateAnimator.destroySurface:799 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:472 com.android.server.wm.WindowState.removeImmediately:2937 com.android.server.wm.WindowState.removeIfPossible:3214 com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 
+04-06 09:09:25.360  1104  1104 I Layer   : id=24077 removeFromCurrentState $_31858#24077 (227)
+04-06 09:09:25.364  1104  1238 I SurfaceFlinger: id=24077 Removed $_31858#24077 (228)
+04-06 09:09:25.368 31858 31858 D InputTransport: Input channel destroyed: 'f089111', fd=134
+04-06 09:09:25.373  1104  1104 I Layer   : id=24077 Destroyed $_31858#24077
+04-06 09:09:25.394 31858 31858 D InputTransport: Input channel destroyed: 'ClientS', fd=149
+04-06 09:09:28.227 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:09:34.102 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:09:34.659 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=1
+04-06 09:09:34.827 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=1 newDisplayState=1
+04-06 09:09:40.893 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=1 newDisplayState=2
+04-06 09:09:41.083 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:09:42.187 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=1
+04-06 09:09:42.388 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=1 newDisplayState=1
+04-06 09:10:51.699 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=1 newDisplayState=3
+04-06 09:10:51.934 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=3
+04-06 09:10:57.562 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=4
+04-06 09:11:00.664 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=4 newDisplayState=3
+04-06 09:11:00.666 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=3
+04-06 09:11:00.751 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=4
+04-06 09:11:02.535 31858 31863 I yapps.speedbump: Background concurrent mark compact GC freed 8284KB AllocSpace bytes, 5(100KB) LOS objects, 49% free, 8373KB/16MB, paused 1.109ms,16.358ms total 326.606ms
+04-06 09:11:02.536 31858 12998 D OpenGLRenderer: CacheManager::trimMemory(20)
+04-06 09:11:02.537 31858 12998 D OpenGLRenderer: CacheManager::trimMemory(20)
+04-06 09:11:02.563 31858 31865 W yapps.speedbump: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LJeuNXBmjA2iFOINoe_f6Q==/com.instagram.android-oiZVgUXj7D5EkXv3xh3DAA==/base.apk' with 1 weak references
+04-06 09:11:02.564 31858 31865 W yapps.speedbump: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LJeuNXBmjA2iFOINoe_f6Q==/com.instagram.android-oiZVgUXj7D5EkXv3xh3DAA==/split_audio_stream_processor.apk' with 1 weak references
+04-06 09:11:02.564 31858 31865 W yapps.speedbump: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LJeuNXBmjA2iFOINoe_f6Q==/com.instagram.android-oiZVgUXj7D5EkXv3xh3DAA==/split_audio_stream_processor_shim_impl.apk' with 1 weak references
+04-06 09:11:02.564 31858 31865 W yapps.speedbump: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LJeuNXBmjA2iFOINoe_f6Q==/com.instagram.android-oiZVgUXj7D5EkXv3xh3DAA==/split_executorch.apk' with 1 weak references
+04-06 09:11:02.564 31858 31865 W yapps.speedbump: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LJeuNXBmjA2iFOINoe_f6Q==/com.instagram.android-oiZVgUXj7D5EkXv3xh3DAA==/split_i18n_es_ES.apk' with 1 weak references
+04-06 09:11:02.564 31858 31865 W yapps.speedbump: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LJeuNXBmjA2iFOINoe_f6Q==/com.instagram.android-oiZVgUXj7D5EkXv3xh3DAA==/split_pytorch.apk' with 1 weak references
+04-06 09:11:02.564 31858 31865 W yapps.speedbump: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LJeuNXBmjA2iFOINoe_f6Q==/com.instagram.android-oiZVgUXj7D5EkXv3xh3DAA==/split_s_audio_stream_processor_configurable_audio.apk' with 1 weak references
+04-06 09:11:02.564 31858 31865 W yapps.speedbump: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LJeuNXBmjA2iFOINoe_f6Q==/com.instagram.android-oiZVgUXj7D5EkXv3xh3DAA==/split_s_executorch_pytorch.apk' with 1 weak references
+04-06 09:11:02.564 31858 31865 W yapps.speedbump: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LJeuNXBmjA2iFOINoe_f6Q==/com.instagram.android-oiZVgUXj7D5EkXv3xh3DAA==/split_spm.apk' with 1 weak references
+04-06 09:11:04.762 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=4 newDisplayState=3
+04-06 09:11:04.922 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=4
+04-06 09:11:14.712 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=4 newDisplayState=3
+04-06 09:11:14.743 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=3
+04-06 09:11:14.854 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=4
+04-06 09:11:14.979 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=4 newDisplayState=4
+04-06 09:11:15.020 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=4 newDisplayState=3
+04-06 09:11:15.151 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=3
+04-06 09:11:15.152 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=3
+04-06 09:11:15.447 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=3 newDisplayState=2
+04-06 09:11:16.350 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:16.438 31858 31858 I WindowManager: WindowManagerGlobal#addView, ty=2038, view=androidx.compose.ui.platform.ComposeView{7c0f44a V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 com.capyapps.speedbump.overlays.ComposeShieldView.initView$composeApp_debug:55 com.capyapps.speedbump.overlays.ComposeShieldView.<init>:29 
+04-06 09:11:16.443 31858 12998 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+04-06 09:11:16.453 31858 31858 I InsetsController: onStateChanged: host=, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 0 - 569, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 M 0,7.822222222222222‬‬ a 10.31111111111111‬,10.31111111111111‬ 0 1,0 0,20.62222222222222‬ a 10.31111111111111‬,10.31111111111111‬ 0 1,0 0,-20.62222222222222‬ Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {a6cf0001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {a6cf0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {a6cf0005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {a6cf0006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {a6cf0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {fbd00000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {fbd00005 mType=mandatorySystemGestures mFrame=[0,0][1080,114] mVisible=true mFlags=[]}, InsetsSource: {fbd00006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+04-06 09:11:16.454 31858 31858 I ViewRootImpl@2d2bfbb[]: synced displayState. AttachInfo displayState=2
+04-06 09:11:16.454 31858 31858 I ViewRootImpl@2d2bfbb[]: setView = androidx.compose.ui.platform.ComposeView@7c0f44a TM=true
+04-06 09:11:16.455 31858 31858 I ComposeShieldView: Initializing
+04-06 09:11:16.455 31858 31858 D Overlay : Shield shown
+04-06 09:11:16.458 31858 12998 D OpenGLRenderer: HWUI - treat SMPTE_170M as sRGB
+04-06 09:11:16.511  1104  1238 I SurfaceFlinger: id=24137 createSurf, flag=44004, $_31858#24137
+04-06 09:11:16.511  1333  1597 D WindowManager: makeSurface duration=1 name=$_31858
+04-06 09:11:16.514  1333  1597 V WindowManager: Relayout hash=15f5cdd, pid=31858, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_OVERLAY
+04-06 09:11:16.516 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=
+04-06 09:11:16.517 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=
+04-06 09:11:16.519 31858 31858 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@2d2bfbb[] mNativeObject= 0xb400007770b16290 sc.mNativeObject= 0xb400007630a81050 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+04-06 09:11:16.519 31858 31858 I BLASTBufferQueue_Java: update, w= 1080 h= 2125 mName = ViewRootImpl@2d2bfbb[] mNativeObject= 0xb400007770b16290 sc.mNativeObject= 0xb400007630a81050 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+04-06 09:11:16.520 31858 31858 I ViewRootImpl@2d2bfbb[]: Relayout returned: old=(0,80,1080,2205) new=(0,80,1080,2205) relayoutAsync=false req=(1080,2125)0 dur=9 res=0x3 s={true 0xb400007640b31690} ch=true seqId=0
+04-06 09:11:16.520 31858 31858 I ViewRootImpl@2d2bfbb[]: performConfigurationChange setNightDimText nightDimLevel=0
+04-06 09:11:16.521 31858 31858 D ViewRootImpl@2d2bfbb[]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007640b31690} hwInitialized=true
+04-06 09:11:16.532 31858 31858 D ViewRootImpl@2d2bfbb[]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+04-06 09:11:16.532 31858 31858 I ViewRootImpl@2d2bfbb[]: Setup new sync=wmsSync-ViewRootImpl@2d2bfbb[]#8
+04-06 09:11:16.532 31858 31858 I ViewRootImpl@2d2bfbb[]: Creating new active sync group ViewRootImpl@2d2bfbb[]#9
+04-06 09:11:16.533 31858 31858 I ViewRootImpl@2d2bfbb[]: registerCallbacksForSync syncBuffer=false
+04-06 09:11:16.544 31858 13026 I ViewRootImpl@2d2bfbb[]: Received frameDrawingCallback syncResult=0 frameNum=1.
+04-06 09:11:16.544 31858 13026 I ViewRootImpl@2d2bfbb[]: mWNT: t=0xb400007690a6e150 mBlastBufferQueue=0xb400007770b16290 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+04-06 09:11:16.544 31858 13026 I ViewRootImpl@2d2bfbb[]: Setting up sync and frameCommitCallback
+04-06 09:11:16.548 31858 12998 I BLASTBufferQueue: [ViewRootImpl@2d2bfbb[]#51](f:0,a:0,s:0) onFrameAvailable the first frame is available
+04-06 09:11:16.550 31858 12998 I ViewRootImpl@2d2bfbb[]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+04-06 09:11:16.551 31858 12998 D OpenGLRenderer: CFMS:: SetUp Pid : 31858    Tid : 12998
+04-06 09:11:16.551 31858 31858 I ViewRootImpl@2d2bfbb[]: reportDrawFinished seqId=0
+04-06 09:11:16.553  1104  1104 I Layer   : Layer [$_31858#24137] hidden!! flag(0)
+04-06 09:11:16.557  1104  1104 D SurfaceFlinger:      DEVICE | 0xb400007b326614d0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2125.0 |    0   80 1080 2205 | $_31858#24137
+04-06 09:11:16.558 31858 31858 I ViewRootImpl@2d2bfbb[]: handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+04-06 09:11:16.558 31858 31858 D ViewRootImpl@2d2bfbb[]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007640b31690}
+04-06 09:11:16.559 31858 31858 D InputMethodManagerUtils: startInputInner - Id : 0
+04-06 09:11:16.559 31858 31858 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+04-06 09:11:16.568 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=false, type=ime, host=
+04-06 09:11:16.961 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:17.285 31858 31858 I ViewRootImpl@2d2bfbb[]: handleWindowFocusChanged: 0 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+04-06 09:11:17.285 31858 31858 I ImeFocusController: onPreWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+04-06 09:11:17.286 31858 31858 I ImeFocusController: onPostWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+04-06 09:11:17.307  1104  1104 D SurfaceFlinger:      DEVICE | 0xb400007b326614d0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2125.0 |    0   80 1080 2205 | $_31858#24137
+04-06 09:11:17.468 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:17.975 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:18.481 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:18.991 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:19.500 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:19.802 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=
+04-06 09:11:19.804 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=
+04-06 09:11:19.811 31858 31858 I ViewRootImpl@2d2bfbb[]: handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+04-06 09:11:19.811 31858 31858 D ViewRootImpl@2d2bfbb[]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007640b31690}
+04-06 09:11:19.813 31858 31858 D InputMethodManagerUtils: startInputInner - Id : 0
+04-06 09:11:19.813 31858 31858 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+04-06 09:11:19.824  1104  1104 D SurfaceFlinger:      DEVICE | 0xb400007b3264cbd0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2125.0 |    0   80 1080 2205 | $_31858#24137
+04-06 09:11:20.005 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:20.448  1104  1104 I LayerHistory: $_31858#24137 Max (can't resolve refresh rate)
+04-06 09:11:20.510 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:20.633 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:11:20.633 31858 31858 I ViewRootImpl@2d2bfbb[]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:11:20.998   513   513 D io_stats: !@ Read_top(KB): stagram.android(5138) 372 yapps.speedbump(31858) 364 ndroid.systemui(2224) 276
+04-06 09:11:21.016 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:21.523 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:22.036 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:22.547 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:23.058 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:23.563 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:24.072 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:24.582 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:25.087 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:25.592 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:26.100 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:26.622 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:27.133 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:27.642 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:28.151 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:28.658 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:29.170 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:29.680 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:30.194 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:30.705 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:31.213 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:31.721 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:32.226 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:32.704  1104  1104 I LayerHistory: $_31858#24137 Max (can't resolve refresh rate)
+04-06 09:11:32.725 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:11:32.725 31858 31858 I ViewRootImpl@2d2bfbb[]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:11:32.728 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:32.858 31858 31858 I ViewRootImpl@2d2bfbb[]: handleWindowFocusChanged: 0 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+04-06 09:11:32.859 31858 31858 I ImeFocusController: onPreWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+04-06 09:11:32.859 31858 31858 I ImeFocusController: onPostWindowFocus: skipped, hasWindowFocus=false mHasImeFocus=true
+04-06 09:11:32.874  1104  1104 D SurfaceFlinger:      DEVICE | 0xb400007b3264cbd0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2125.0 |    0   80 1080 2205 | $_31858#24137
+04-06 09:11:33.234 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:33.741 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:34.249 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:34.755 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:35.262 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:35.323 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=
+04-06 09:11:35.324 31858 31858 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=
+04-06 09:11:35.333 31858 31858 I ViewRootImpl@2d2bfbb[]: handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+04-06 09:11:35.333  1104  1104 D SurfaceFlinger:      DEVICE | 0xb400007b32602790 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2125.0 |    0   80 1080 2205 | $_31858#24137
+04-06 09:11:35.334 31858 31858 D ViewRootImpl@2d2bfbb[]: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007640b31690}
+04-06 09:11:35.335 31858 31858 D InputMethodManagerUtils: startInputInner - Id : 0
+04-06 09:11:35.335 31858 31858 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+04-06 09:11:35.768 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:36.254  1104  1104 I LayerHistory: $_31858#24137 Max (can't resolve refresh rate)
+04-06 09:11:36.274 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:36.671 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:11:36.671 31858 31858 I ViewRootImpl@2d2bfbb[]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:11:36.779 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:37.009   513   513 D io_stats: !@ Read_top(KB): ding:background(18769) 384 yapps.speedbump(31858) 256 f2fs_ckpt-254:5(2873) 28
+04-06 09:11:37.293 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:37.807 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:38.161 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:11:38.161 31858 31858 I ViewRootImpl@2d2bfbb[]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:11:38.306  1104  1104 D SurfaceFlinger:      DEVICE | 0xb400007b325d3a90 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2125.0 |    0   80 1080 2205 | $_31858#24137
+04-06 09:11:38.312 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:38.331  1104  1104 D SurfaceFlinger:      DEVICE | 0xb400007b325d3a90 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2125.0 |    0   80 1080 2205 | $_31858#24137
+04-06 09:11:38.814 31858 31858 I AppMonitorService: Foreground apps: [com.instagram.android]
+04-06 09:11:39.317 31858 31858 I WindowManager: WindowManagerGlobal#removeView, ty=2038, view=androidx.compose.ui.platform.ComposeView{7c0f44a V.E...... ........ 0,0-1080,2125 aid=26}, caller=android.view.WindowManagerGlobal.removeView:628 android.view.WindowManagerImpl.removeView:203 com.capyapps.speedbump.overlays.ComposeShieldView.destroy:65 
+04-06 09:11:39.319 31858 12998 D OpenGLRenderer: CacheManager::trimMemory(20)
+04-06 09:11:39.319 31858 31858 I ComposeShieldView: Destroyed
+04-06 09:11:39.320 31858 31858 D Overlay : Shield destroyed, now idle
+04-06 09:11:39.320 31858 31858 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda19@e16e7be
+04-06 09:11:39.325 31858 31858 I ViewRootImpl@2d2bfbb[]: dispatchDetachedFromWindow
+04-06 09:11:39.327  1333  1849 V WindowManager: Remove Window{15f5cdd u0 com.capyapps.speedbump}: mSurfaceController=Surface(name=$_31858)/@0x86fa898 mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 android.os.Binder.execTransact:1311 
+04-06 09:11:39.327  1333  1849 I WindowManager: Destroying surface Surface(name=$_31858)/@0x86fa898 called by com.android.server.wm.WindowStateAnimator.destroySurface:799 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:472 com.android.server.wm.WindowState.removeImmediately:2937 com.android.server.wm.WindowState.removeIfPossible:3214 com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 
+04-06 09:11:39.336 31858 31858 D InputTransport: Input channel destroyed: '15f5cdd', fd=134
+04-06 09:11:39.336  1104  1104 I Layer   : id=24137 removeFromCurrentState $_31858#24137 (227)
+04-06 09:11:39.337  1104  1104 I SurfaceFlinger: id=24137 Removed $_31858#24137 (227)
+04-06 09:11:39.345  1104  1104 I Layer   : id=24137 Destroyed $_31858#24137
+04-06 09:11:39.372 31858 31858 D InputTransport: Input channel destroyed: 'ClientS', fd=150
+04-06 09:12:10.063 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
+04-06 09:12:10.536  1333  2095 I ChimeraAggressivePolicyHandler: Skipped reason: LR, pids: 7809 4132 29383 21227 29360 31858 2713 5983 
+04-06 09:12:15.618  1333  2095 I ChimeraAggressivePolicyHandler: Skipped reason: LR, pids: 7809 4132 29383 21227 29360 3474 5138 31858 2713 5983 
+04-06 09:12:16.019 31858 31858 I ViewRootImpl@77b2e7b[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=2
