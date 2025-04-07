@@ -14,13 +14,13 @@ export default {
   index: {
     hero_1: "¿Conoces los badenes",
     hero_2: "Molestos, pero sin duda te ralentizan",
-    hero_3: "Te presentamos el badén para <mark>apps&nbsp;adictivas</mark>",
+    hero_3: "Te presentamos el badén para <mark>las&nbsp;redes&nbsp;sociales</mark>",
     section_demo: {
-      h1: "La app para centrarse de una vez",
+      h1: "La app para curar tu adicción a redes sociales",
       step_1: "Pon un tiempo límite al abrir apps adictivas",
       step_2: "Te sacará de quicio cuando se acabe el tiempo",
       step_3: "Toma un descanso de 15 minutos para seguir",
-      description: "Porque los recordatorios ya no funcionan. Tampoco los temporizadores fijos o las frases motivacionales. A veces, necesitas algo más... directo.",
+      description: "Porque los recordatorios ya no funcionan. Tampoco los temporizadores, frases motivacionales u otras técnicas de concentración. A veces, necesitas algo más... directo.",
       note: "Acceso anticipado - el desarrollador sigue programando sin parar. Pero oye, ¡eso solo aumenta el factor de molestia! ;)",
       frame_alt: "El marco de un teléfono"
     },
@@ -33,17 +33,17 @@ export default {
         Duolingo (¿por qué?)
       </p>
 
-      <p class="feature-clarification">Pronto se añadirá la limitación de funciones dentro de apps como Shorts o Reels. También para sitios web.</p>`,
+      <p class="feature-clarification">Pronto se podrán limitar funciones dentro de apps como Shorts o Reels. También sitios web.</p>`,
         image_alt: "Un gráfico cuya línea disminuye rápidamente",
       },
       feature_2: {
         title: "Crea hábitos saludables",
-        content: `<p>¡Las redes sociales pueden ser útiles! Conéctate con amigos sin pasar horas haciendo scroll.</p>`,
+        content: `<p>¡Las redes sociales pueden ser útiles! Conecta con amigos sin pasar horas haciendo scroll.</p>`,
         image_alt: "Dos personas abrazándose",
       },
       feature_3: {
         title: "Sé consciente",
-        content: `<p>Cuanto más quieras usar, más esperarás antes de abrir. No se interpone en tu camino pero te hace pensar dos veces.</p>`,
+        content: `<p>Cuanto más quieras usar, más esperarás antes de abrir. No se interpone en tu camino pero evita el uso compulsivo.</p>`,
         image_alt: "Una persona en posición de Loto"
       },
       feature_4: {
@@ -64,10 +64,10 @@ export default {
     },
     section_carousel: {
       title: "Somos los mejores para alejarte del móvil",
-      content: "<p>9 molestias hasta ahora, ¡y vienen más!<br>Aparecen sobre apps adictivas cuando se te acaba el tiempo. Créeme, no querrás quedarte mucho más.</p>"
+      content: "<p>9 molestias hasta ahora, ¡y vienen más!<br>Aparecen sobre apps adictivas al acabarse el tiempo elegido. Créeme, no querrás quedarte mucho más.</p>"
     },
     section_feelings: {
-      title: "Basta de sentimientos negativos...",
+      title: "Los síntomas son claros...",
       feelings: [
         "😔 culpable",
         "💤 desmotivado/a",
@@ -78,7 +78,7 @@ export default {
         "😳 avergonzado/a",
         '🤯 distraído/a<br><span class="feeling-note">(especialmente con TDAH)</span>'
       ],
-      replace: "y reemplaza el tiempo perdido en redes sociales por...",
+      replace: "Reemplaza el tiempo perdido por...",
       replacements: [
         "🏃 deporte",
         "📚 estudiar",
@@ -95,9 +95,9 @@ export default {
       content: `
       <p><b>5 horas</b> de tiempo de pantalla <b>a los 25</b> significa que pasarás <b>más de 15 años</b> de tu vida restante pegado a un móvil (<a href="/es/blog/addicion-al-movil#screen-time-calculator">fuente</a>).</p>
 
-      <p>Esto afecta a tu <b>salud mental</b> y reduce <b>tu capacidad de atención a la de un pez</b>&nbsp;🐟.</p>
+      <p>Las consecuencias incluyen una peor <b>salud mental</b> y la <b>capacidad de atención</b> de un pez 🐟.</p>
 
-      <p>Creemos que las redes sociales son <b>realmente útiles</b>, pero es <b>demasiado fácil volverse adicto</b>.</p>
+      <p>Creemos que las redes sociales son <b>realmente útiles</b>, pero es <b>demasiado fácil perder la noción del tiempo</b>.</p>
 
       <p>Déjanos ayudarte: te daremos <b>datos relevantes para actuar</b> y <b>rachas</b> para comprometerte con tus objetivos.</p>
 
@@ -126,11 +126,12 @@ export default {
     section_blog: {
       title: "Más información",
       content: `
+      <p>No estás solo: <a href="https://news.gallup.com/poll/393785/americans-close-wary-bond-smartphone.aspx" target="_blank">6 de cada 10 adultos</a> con smartphones en EEUU admiten que lo usan demasiado.</p>
       <p>Comienza con <b>autocompasión</b>. Pasar tiempo excesivo es normal cuando las empresas tecnológicas optimizan cada detalle para mantenerte enganchado. Las noticias negativas empeoran el problema; los medios prosperan con contenido alarmante y controvertido porque capta la atención. Es normal sentirse desafiado al limitar el uso – estas apps están <i>diseñadas</i> para ser adictivas.</p>
       <p>Las redes sociales aun así pueden ser útiles para aprender y conectar con otros. Todo se trata de establecer límites y lograr un <b>uso más consciente</b>. Revisar un mensaje de un amigo pero quedarse atrapado durante una hora no debería ser la norma.</p>
-      <p>Formar hábitos lleva tiempo. <b>SpeedBump te da ese empujón</b> mientras intentas retomar el control. Después de una racha de dos semanas te verás siendo consciente de tu uso, dedicando más tiempo a cosas que realmente disfrutas. La clave será identificar lo que disfrutas y elegir hacerlo en lugar de perder el tiempo.</p>
+      <p>Formar hábitos lleva tiempo. <b>SpeedBump te da ese empujón</b> mientras intentas entender tu causa del sobreuso. Después de una racha de dos semanas te notarás menos compulsivo, dedicando más tiempo a cosas que realmente disfrutas.</p>
             `,
-      title_blog: "Echa un vistazo a nuestro blog:",
+      title_blog: "Aprende más en nuestro blog",
     },
   },
   post: {
