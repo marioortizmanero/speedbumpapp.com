@@ -126,9 +126,12 @@ export default {
     section_blog: {
       title: "Más información",
       content: `
-      <p>No estás solo: <a href="https://news.gallup.com/poll/393785/americans-close-wary-bond-smartphone.aspx" target="_blank">6 de cada 10 adultos</a> con smartphones en EEUU admiten que lo usan demasiado.</p>
+      <p>No estás solo: <a href="https://news.gallup.com/poll/393785/americans-close-wary-bond-smartphone.aspx" target="_blank"><b>6 de cada 10 adultos</b></a> con smartphones en EEUU admiten que lo usan demasiado.</p>
+
       <p>Comienza con <b>autocompasión</b>. Pasar tiempo excesivo es normal cuando las empresas tecnológicas optimizan cada detalle para mantenerte enganchado. Las noticias negativas empeoran el problema; los medios prosperan con contenido alarmante y controvertido porque capta la atención. Es normal sentirse desafiado al limitar el uso – estas apps están <i>diseñadas</i> para ser adictivas.</p>
+
       <p>Las redes sociales aun así pueden ser útiles para aprender y conectar con otros. Todo se trata de establecer límites y lograr un <b>uso más consciente</b>. Revisar un mensaje de un amigo pero quedarse atrapado durante una hora no debería ser la norma.</p>
+
       <p>Formar hábitos lleva tiempo. <b>SpeedBump te da ese empujón</b> mientras intentas entender tu causa del sobreuso. Después de una racha de dos semanas te notarás menos compulsivo, dedicando más tiempo a cosas que realmente disfrutas.</p>
             `,
       title_blog: "Aprende más en nuestro blog",

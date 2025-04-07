@@ -16,7 +16,7 @@ export default {
     hero_2: "Nervig, aber sie bremsen dich definitiv aus",
     hero_3: "Entdecke die Bremsschwellen für <mark>Handysucht</mark>",
     section_demo: {
-      h1: "Mit SpeedBump kannst du deine Konzentrazion steigern",
+      h1: "Die App, um Social Media Sucht zu bekämpfen",
       step_1: "Du legst ein Zeitlimit für süchtigmachende Apps fest",
       step_2: "Wenn die Zeit um ist, wirst du von Apps rausgenervt",
       step_3: "Mach 15 Minuten Pause vor der nächsten Nutzung",
@@ -67,7 +67,7 @@ export default {
       content: "<p>9 Nervensägen bisher – mehr kommen bald!<br>Sie tauchen auf süchtig machenden Apps auf, wenn deine Zeit abgelaufen ist. Glaub mir, du wirst nicht mehr lange bleiben wollen.</p>"
     },
     section_feelings: {
-      title: "Stoppe die negativen Gefühle...",
+      title: "Die Symptome sind eindeutig...",
       feelings: [
         "😔 schuldig",
         "💤 unmotiviert",
@@ -78,7 +78,7 @@ export default {
         "😳 beschämt",
         '🤯 abgelenkt<br><span class="feeling-note">(besonders mit ADHS)</span>'
       ],
-      replace: "und ersetze sinnloses Scrollen durch...",
+      replace: "Ersetze sinnloses Scrollen durch...",
       replacements: [
         "🏃 Sport",
         "📚 Lernen",
@@ -93,9 +93,9 @@ export default {
     section_stats: {
       title: "Gewinne die Kontrolle über deine Zeit zurück",
       content: `
-      <p><b>5 Stunden</b> Bildschirmzeit <b>mit 25</b> bedeutet, dass du <b>über 15 Jahre</b> deines restlichen Lebens an ein Handy gefesselt sein wirst (<a href="/de/blog/handysucht-bekaempfen#screen-time-calculator">Quelle</a>).</p>
+      <p><b>5 Stunden</b> Bildschirmzeit <b>mit 25</b> bedeutet, dass du <b>über 15 Jahre</b> deines restlichen Lebens an ein Handy gefesselt sein wirst (<a href="/de/blog/handysucht-bekaempfen#screen-time-calculator" style="font-size: 0.9rem">Social Media Sucht Test</a>).</p>
 
-      <p>Das belastet deine <b>psychische Gesundheit</b> und schrumpft <b>deine Aufmerksamkeitsspanne auf die eines Goldfisches</b>&nbsp;🐟.</p>
+      <p>Die Auswirkungen umfassen eine schlechtere <b>psychische Gesundheit</b> und <b>die Aufmerksamkeitsspanne</b> eines Fisches 🐟.</p>
 
       <p>Wir glauben, dass soziale Medien <b>wirklich nützlich</b> sind, aber es ist <b>zu leicht, süchtig zu werden</b>.</p>
 
@@ -126,8 +126,12 @@ export default {
     section_blog: {
       title: "Mehr erfahren",
       content: `
+      <p>Die Statistik bestätigt, dass du nicht allein bist. <a href="https://news.gallup.com/poll/393785/americans-close-wary-bond-smartphone.aspx" target="_blank"><b>6 von 10 Erwachsenen</b></a> mit Smartphones in den USA geben zu, dass sie es zu viel nutzen.</p>
+
       <p>Beginne mit <b>Selbstmitgefühl</b>. Endloses Scrollen entsteht, wenn Technologieunternehmen jedes Detail optimieren, um dich süchtig zu machen. Negative Nachrichten verschlimmern das Problem; Medien gedeihen durch alarmierende und kontroverse Inhalte, weil diese Aufmerksamkeit erregen. Es ist normal, dass es schwierig ist, die Nutzung zu begrenzen – diese Apps sind <i>darauf ausgelegt</i>, süchtig zu machen.</p>
+
       <p>Social Media kann dennoch nützlich sein, um zu lernen und mit anderen in Kontakt zu treten. Es geht also darum, Grenzen zu setzen und eine <b>bewusstere Nutzung</b> zu erreichen. Es sollte nicht die Norm sein, eine Nachricht von einem Freund zu überprüfen und dann für eine Stunde hängenzubleiben.</p>
+
       <p>Der Aufbau von Gewohnheiten braucht Zeit. <b>SpeedBump gibt dir diesen Anstoß</b>, während du versuchst, wieder die Kontrolle zu übernehmen. Nach einer zweiwöchigen Serie wirst du dir deiner Nutzung bewusst sein und mehr Zeit mit Dingen verbringen, die dir wirklich Freude bereiten. Der Schlüssel wird sein, zu identifizieren, was du genießt, und dich dafür zu entscheiden, anstatt Zeit zu verschwenden.</p>
       `,
       title_blog: "Schau in unserem Blog vorbei:",
