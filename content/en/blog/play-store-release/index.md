@@ -5,7 +5,7 @@ permalink: /en/blog/play-store-release/
 date: 2025-04-08
 description: "Help me out by reviewing SpeedBump!"
 keywords: ["speedbump app", "entrepreneurship", "app development", "android development", "startup journey"]
-image: /en/assets/blog/play-store-release/staring-at-a-wall.jpg
+image: /en/blog/play-store-release/staring-at-a-wall.jpg
 imageAlt: "The author standing over a grass field, looking slightly above at a wall texturized with vertical stripes"
 ---
 
