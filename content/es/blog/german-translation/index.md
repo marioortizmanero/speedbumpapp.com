@@ -8,7 +8,7 @@ image: /assets/blog/german-translation/preview.jpg
 imageAlt: Un badén roto sobre la bandera alemana
 ---
 
-Estoy desarrollando una app para ayudar a la gente a usar menos el móvil. Como metáfora uso los badenes -- son molestos pero realmente funcionan. Esto funcionó bastante bien como frase pegadiza en [la página de inicio](/), y le dio algo de personalidad al proyecto.
+Estoy desarrollando una app para ayudar a la gente a usar menos el móvil. Como metáfora uso los badenes -- son molestos pero realmente funcionan. Esto ha funcionado bien como frase pegadiza en [la página de inicio](/) y le ha dado algo de personalidad al proyecto.
 
 O al menos funcionó bien hasta que intenté traducir la página web al alemán. Hay una cantidad impresionante de 18 términos para referirse a un badén. Algunos de ellos son menos populares, y dos servicios de traducción me dieron resultados incorrectos. Por no mencionar que la palabra que me dio Google Translate era tan larga que rompió la página, sobrepasando el tamaño de la pantalla:
 
