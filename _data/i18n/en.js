@@ -108,6 +108,10 @@ export default {
       title: "Our testimonials",
       testimonials: [
         {
+          quote: "This app is like paying a Gen-Z intern to annoy you so you spend less time on your phone.",
+          author: `- <a target="_blank" href="https://x.com/ProductHunt/status/1897210505183576167">@ProductHunt</a>`
+        },
+        {
           quote: `“I don't know how this works but it looks cool”`,
           author: "— my mom",
         },
