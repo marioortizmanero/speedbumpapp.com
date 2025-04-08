@@ -21,7 +21,6 @@ export default {
       step_2: "Te sacará de quicio cuando se acabe el tiempo",
       step_3: "Toma un descanso de 15 minutos para seguir",
       description: "Porque los recordatorios ya no funcionan. Tampoco los temporizadores, frases motivacionales u otras técnicas de concentración. A veces, necesitas algo más... directo.",
-      note: "Acceso anticipado - el desarrollador sigue programando sin parar. Pero oye, ¡eso solo aumenta el factor de molestia! ;)",
       frame_alt: "El marco de un teléfono"
     },
     section_features: {

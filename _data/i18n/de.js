@@ -21,7 +21,6 @@ export default {
       step_2: "Wenn die Zeit um ist, wirst du von Apps rausgenervt",
       step_3: "Mach 15 Minuten Pause vor der nächsten Nutzung",
       description: "Weil sanfte Erinnerungen, feste Timer oder Motivationszitate nicht mehr helfen. Manchmal brauchst du etwas... Direkteres.",
-      note: "Early Access - erwarte Ecken und Kanten sowie zufällige Abstürze. Aber hey, das erhöht nur den Nervfaktor! ;)",
       frame_alt: "Der Rahmen eines Telefons"
     },
     section_features: {

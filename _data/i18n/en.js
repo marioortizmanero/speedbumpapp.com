@@ -21,7 +21,6 @@ export default {
       step_2: "Get annoyed out of them when time's up",
       step_3: "Take a 15-minute break before next use",
       description: "Because gentle reminders don't work anymore. Neither do fixed timers or motivation quotes. Sometimes, you need something more… direct.",
-      note: "Early access - expect rough edges and random crashes. But hey, that just adds to the annoyance factor ;)",
       frame_alt: "The frame of a phone"
     },
     section_features: {
