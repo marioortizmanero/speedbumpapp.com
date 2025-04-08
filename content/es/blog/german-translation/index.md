@@ -10,7 +10,7 @@ imageAlt: Un badén roto sobre la bandera alemana
 
 Estoy desarrollando una app para ayudar a la gente a usar menos el móvil. Como metáfora uso los badenes -- son molestos pero realmente funcionan. Esto funcionó bastante bien como frase pegadiza en [la página de inicio](/), y le dio algo de personalidad al proyecto.
 
-O al menos funcionó bien hasta que intenté traducir la página web al alemán. Hay una cantidad impresionante de 18 términos para referirse a un badén. Algunos de ellos son menos populares, y dos servicios de traducción me dieron resultados incorrectos. Por no mencionar que la que me dio Google Translate era tan larga que rompió la página, sobrepasando el tamaño de la pantalla:
+O al menos funcionó bien hasta que intenté traducir la página web al alemán. Hay una cantidad impresionante de 18 términos para referirse a un badén. Algunos de ellos son menos populares, y dos servicios de traducción me dieron resultados incorrectos. Por no mencionar que la palabra que me dio Google Translate era tan larga que rompió la página, sobrepasando el tamaño de la pantalla:
 
 <style>
 .screenshots {
@@ -70,4 +70,6 @@ He recolectado todos los términos porque ¿por qué no? -- avísame si conoces 
 20. **Huckel**: sugerido [en Reddit](https://www.reddit.com/r/germany/comments/1j2gryv/comment/mfrracd/), similar a Hubbel.
 21. **Tempohemmschwelle"**: "umbral de inhibición de velocidad", por ejemplo usado en [esta tienda](https://www.seton.at/tempohemmschwellen-elastisch.html#3809051000) (¡puedes comprarte tu propio badén por 430€!)
 
-Lección aprendida: trabaja con un servicio de traducción en condiciones -- incluso la IA no funciona lo suficientemente bien. O sin presupuesto, intenta preguntar a un amigo. Aunque incluso con una traducción adecuada, la cultura podría hacerla irrelevante. Resulta que los badenes no son tan populares en Alemania. Múnich dejó de construirlos hace veinte años porque eran un peligro para ciclistas y vehículos de rescate ([según Reddit](https://www.reddit.com/r/Munich/comments/1ieicbg/comment/mac76xe/)).
+Lección aprendida: los servicios de traducción están para algo -- incluso la IA no funciona del todo bien. Si tu prespuesto es limitado, intenta preguntar a un amigo nativo.
+
+De todos modos, incluso con una traducción adecuada, la cultura podría hacerla irrelevante. Resulta que los badenes no son tan populares en Alemania. Múnich dejó de construirlos hace veinte años porque eran un peligro para ciclistas y vehículos de rescate ([según Reddit](https://www.reddit.com/r/Munich/comments/1ieicbg/comment/mac76xe/)).
