@@ -3,7 +3,7 @@ lang: en
 title: "Releasing SpeedBump on the Play Store"
 permalink: /en/blog/play-store-release/
 date: 2025-04-08
-description: "Help me out by reviewing SpeedBump!"
+description: "Help me out by reviewing SpeedBump! It's no longer Early Release, with new streaks and more customization."
 keywords: ["speedbump app", "entrepreneurship", "app development", "android development", "startup journey"]
 image: /en/blog/play-store-release/staring-at-a-wall.jpg
 imageAlt: "The author standing over a grass field, looking slightly above at a wall texturized with vertical stripes"
