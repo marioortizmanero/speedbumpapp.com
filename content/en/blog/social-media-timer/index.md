@@ -128,11 +128,11 @@ Built-in timers are convenient but can be easy to bypass; the button to extend t
 
 For those seeking more robust solutions, both operating systems offer advanced customization:
 
-* **iOS Shortcuts** for social media control:
+* **iOS Shortcuts**:
   * Launch the "Shortcuts" app on your iOS device
   * Tap the "+" icon to create a new automation
   * Ideas: send a notification after 10 minutes of usage, or toggle Focus Mode in the office
-* **Samsung's Modes and Routines** (for other Android brands, the third party app Tasker, which is paid):
+* **Samsung's Modes and Routines** (other Android brands can try the app Tasker, which is paid):
   * Go to Settings > "Modes and Routines" > "Routines"
   * Tap the "+" icon to create a new routine
   * Ideas: enable Do Not Disturb at night, or always close YouTube or Netflix during work hours
