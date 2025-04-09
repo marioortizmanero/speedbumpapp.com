@@ -1,9 +1,9 @@
 ---
 lang: es
-title: "Adicción al Móvil: la Guía Definitiva con más de 40 consejos"
+title: "Adicción al Móvil: la Guía Definitiva"
 permalink: /es/blog/addicion-al-movil/
 date: 2025-03-07
-description: 'Aprende a reducir tu adicción al móvil con esta guía extensiva. Entiende el por qué, ponte objetivos y usa herramientas.'
+description: 'Aprende a reducir tu adicción al móvil con más de 40 consejos. Entiende el por qué, ponte objetivos y usa herramientas.'
 keywords: ["adiccion al movil", "adiccion al celular", "dependencia al movil", "adicto al movil", "enganchado al movil"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: Un reloj de arena sobre capturas de pantalla de apps adictivas, como TikTok, Instagram o juegos.
