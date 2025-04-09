@@ -46,8 +46,6 @@ third_party_apps:
     best_for: Concentración total durante el estudio o trabajo y gamificación.
 ---
 
-## Por qué Tienes que Quitar tu Adicción al Móvil en 2025
-
 Abandonar completamente las redes sociales es cada vez menos realista. Plataformas como Instagram o TikTok pueden ser indispensables para conectar con amigos, pero es fácil engancharse. A todos nos ha pasado: te envían un Reel y acabas viendo gatos bailando canciones de Shakira una hora. Es divertido, pero te sientes frustrado e impotente.
 
 ¿Se puede encontrar un equilibrio entre estar pegados a la pantalla y convertirnos en monjes budistas?

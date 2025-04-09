@@ -46,8 +46,6 @@ third_party_apps:
     best_for: Full focus during study or work & gamification.
 ---
 
-## Why you Should Cut Down Screen Time in 2025
-
 Completely quitting social media is getting less and less realistic. Platforms like Instagram or TikTok can be essential to connect with friends, but it's easy to get hooked. We've all been there: someone shares a Reel, taking you into an hour-long rabbit hole of cats dancing to Shakira. It's fun, but you feel frustrated and powerless.
 
 Can we find balance between being "chronically online" and becoming a buddhist monk?
