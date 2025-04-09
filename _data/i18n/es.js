@@ -16,7 +16,7 @@ export default {
     hero_2: "Molestos, pero sin duda te ralentizan",
     hero_3: "Te presentamos el badén para <mark>las&nbsp;redes&nbsp;sociales</mark>",
     section_demo: {
-      h1: "La app para curar tu adicción a redes sociales",
+      title: "La app para curar tu adicción a redes sociales",
       step_1: "Pon un tiempo límite al abrir apps adictivas",
       step_2: "Te sacará de quicio cuando se acabe el tiempo",
       step_3: "Toma un descanso de 15 minutos para seguir",
@@ -164,4 +164,83 @@ export default {
     result_explanation: "de tu vida restante mirando pantallas.",
     life_expectancy_note: "Suponiendo una esperanza de vida de 75 años, y que estás despierto 16 horas al día.",
   },
+  // Volume and KD% are given as: without tilde + with tilde
+  apps: [
+//    {
+//      name: "TikTok",
+//      description: "TODO",
+//      keywords: [
+//        "Adicción a TikTok", // 50 + 20
+//        "Adicto a TikTok", // 40
+//        "Adicción al TikTok", // 30
+//      ],
+//      content: `
+//TODO
+//      `,
+//      demo_title: "TODO",
+//    },
+    //{
+    //  name: "Instagram",
+    //  keywords: [
+    //    "Adicción a", // 190 + 70
+    //    "Adicto a", // 90
+    //    "Adicción al", // 40 + 10
+    //  ],
+    //},
+    //{
+    //  name: "Tinder",
+    //  keywords: [
+    //    "Adicción a", // 30 + 0
+    //    "Adicto a", // 10
+    //  ],
+    //},
+    //{
+    //  name: "YouTube",
+    //  keywords: [
+    //    "Adicción a", // 150 + 90
+    //    "Adicto a", // 100
+    //  ],
+    //},
+    //{
+    //  name: "Netflix",
+    //  keywords: [
+    //    "Adicción a", // 80 + 0
+    //    "Adicto a", // 60
+    //  ],
+    //},
+    //{
+    //  name: "Facebook",
+    //  keywords: [
+    //    "Adicción al", // 440 + 50
+    //    "Adicción a", // 30 + 110
+    //    "Adicto a", // 110
+    //  ],
+    //},
+    //{
+    //  name: "Roblox",
+    //  keywords: [
+    //    "Adicción a", // 150 + 0
+    //  ],
+    //},
+    //{
+    //  name: "Twitter",
+    //  keywords: [
+    //    "Adicción a", // 70 + 20
+    //    "Adicto a", // 10
+    //  ],
+    //},
+    //{
+    //  name: "Candy Crush",
+    //  keywords: [
+    //    "Adicción a", // 30 + 0
+    //    "Adicto a", // 20
+    //  ],
+    //},
+    //{
+    //  name: "Temu",
+    //  keywords: [
+    //    "Adicción a", // 10 + 0
+    //  ],
+    //},
+  ]
 }

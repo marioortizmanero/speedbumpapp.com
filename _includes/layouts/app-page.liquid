@@ -1,0 +1,38 @@
+---
+layout: layouts/base.liquid
+---
+
+{% assign t = i18n[page.lang] %}
+
+<section id="content" class="content">
+  <div class="section-app">
+    <div class="description">
+      <h1>{{ app.keywords[0] }}</h1>
+      {{ app.content | markdownBlock }}
+    </div>
+    <img eleventy:widths="200" src="/assets/apps/{{ app.name | slugify }}.png" alt="{{ app.keywords[0] }}">
+  </div>
+
+  <hr>
+
+  {% render "partials/section-demo.liquid"
+    page: page,
+    t: t,
+    headerText: app.demo_title,
+    headerNum: "h2",
+    stepsHeaderNum: "h3" %}
+
+  <hr>
+
+  {% render "partials/section-feelings.liquid" t: t %}
+
+  <hr>
+
+  {% render "partials/section-features.liquid" t: t %}
+
+  <hr>
+
+  {% render "partials/section-stats.liquid" t: t, page: page %}
+
+  <hr style="opacity: 0;">
+</section>

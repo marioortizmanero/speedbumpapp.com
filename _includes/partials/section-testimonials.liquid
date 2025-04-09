@@ -1,0 +1,15 @@
+<div class="section-testimonials">
+  <div class="testimonials-header">
+    <h2>{{ t.index.section_testimonials.title }}</h2>
+    <img src="/assets/icons/icon_microphone.png" alt="{{ t.index.section_testimonials.image_alt }}">
+  </div>
+
+  <div class="testimonial-quotes">
+    {%- for testimonial in t.index.section_testimonials.testimonials %}
+    <div class="speech-bubble">
+      <p class="quote">{{ testimonial.quote }}</p>
+      <p class="author">{{ testimonial.author }}</p>
+    </div>
+    {%- endfor %}
+  </div>
+</div>

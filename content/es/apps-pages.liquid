@@ -1,0 +1,19 @@
+---js
+const pagination = {
+  data: "i18n.es.apps",
+  size: 1,
+  alias: "app",
+};
+const eleventyComputed = {
+  title: "{{ app.keywords[0] }}",
+  layout: "layouts/app-page.liquid",
+  description: "{{ app.description }}",
+  image: "/es/assets/banner.jpg",
+  imageAlt: "El fondo es un arcoíris, con 'Hacer molestas las redes sociales' en el centro usando la fuente Comic Sans, y un gato mal dibujado en la esquina superior derecha. Hace referencia al meme de internet 'graphic design is my passion'.",
+  keywords: ['{{ app.keywords | join: "," }}'],
+  permalink: function(data) {
+    return `/es/app/{{ app.keywords[0] | slugify }}/`;
+  }
+};
+---
+

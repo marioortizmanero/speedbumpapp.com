@@ -16,7 +16,7 @@ export default {
     hero_2: "Annoying, but they sure slow you down",
     hero_3: "Meet the speed bump for <mark>social&nbsp;media&nbsp;apps</mark>",
     section_demo: {
-      h1: "The app to finally stop doomscrolling",
+      title: "The app to finally stop doomscrolling",
       step_1: "Set a time limit when opening addictive apps",
       step_2: "Get annoyed out of them when time's up",
       step_3: "Take a 15-minute break before next use",
@@ -164,4 +164,208 @@ export default {
     result_explanation: "of your remaining life staring at screens.",
     life_expectancy_note: "Assuming a life expectancy of 75 years, and that you are awake 16 hours a day.",
   },
+  // Keywords are given in order of importance (volume, KD%)
+  apps: [
+//    {
+//      name: "TikTok",
+//      description: "TikTok Addiction is more and more common TODO",
+//      keywords: [
+//        "TikTok Addiction", // 1.6k, 33%
+//        "Addicted to TikTok", // 430, 40%
+//        "Addiction to TikTok", // 350, 35%
+//      ],
+//      content: `
+//We all know how addictive scrolling TikTok can be.
+//
+//Almost two billion users worldwide
+//
+//## Why TikTok is so addictive
+//
+//- **Algorithm personalization:** TODO
+//- **Designed for doomscrolling:** TODO
+//- **Dopamine hits:** TODO
+//- **Gamification:** creator content challenges
+//- **Dark patterns:** TODO
+//
+//## How to cure your TikTok addiction
+//
+//Consider taking it slow -- you may experience withdrawal symptoms
+//
+//It has its own screen time limit functionality in TODO > TODO > TODO
+//      `,
+//      demo_title: "SpeedBump: the app to stop doomscrolling on TikTok",
+//    },
+    //{
+    //  name: "Instagram",
+    //  keywords: [
+    //    "Instagram Addiction", // 920, 27%
+    //    "Addicted to Instagram", // 310, 22%
+    //    "Addiction to Instagram", // 300, 29%
+    //  ],
+    //},
+    //{
+    //  name: "Tinder",
+    //  keywords: [
+    //    "Tinder Addiction", // 490
+    //    "Addicted to Tinder", // 490
+    //    "Addiction to Tinder", // 160
+    //  ],
+    //},
+    //{
+    //  name: "Bumble",
+    //  keywords: [
+    //    "Addicted to Bumble", // 50
+    //  ],
+    //},
+    //{
+    //  name: "Snapchat",
+    //  keywords: [
+    //    "Snapchat Addiction", // 450, 18%
+    //    "Addicted to Snapchat", // 110
+    //    "Addiction to Snapchat", // 60
+    //  ],
+    //},
+    //{
+    //  name: "YouTube",
+    //  keywords: [
+    //    "YouTube Addiction", // 2.4k, 30%
+    //    "Addicted to YouTube", // 420, 43%
+    //    "Addiction to YouTube", // 220, 36%
+    //  ],
+    //},
+    //{
+    //  name: "Netflix",
+    //  keywords: [
+    //    "Netflix Addiction", // 1.2k, 4%
+    //    "Addicted to Netflix", // 1k
+    //    "Addiction to Netflix", // 910
+    //  ],
+    //},
+    //{
+    //  name: "Facebook",
+    //  keywords: [
+    //    "Facebook Addiction", // 2k, 21%
+    //    "Addicted to Facebook", // 180, 22%
+    //    "Addiction to Facebook", // 180, 24%
+    //  ],
+    //},
+    //{
+    //  name: "Roblox",
+    //  keywords: [
+    //    "Roblox Addiction", // 460, 26%
+    //    "Addicted to Roblox", // 150
+    //    "Addiction to Roblox", // 90
+    //  ],
+    //},
+    //{
+    //  name: "Twitter",
+    //  keywords: [
+    //    "Twitter Addiction", // 370, 41%
+    //    "Addicted to Twitter", // 180
+    //    "Addiction to Twitter", // 150
+    //  ],
+    //},
+    //{
+    //  name: "X",
+    //  keywords: [
+    //    "X Addiction", // 70
+    //    "Addicted to X", // 60
+    //  ],
+    //},
+    //{
+    //  name: "Reddit",
+    //  keywords: [
+    //    "Reddit Addiction", // 1k, 29%
+    //    "Addicted to Reddit", // 350, 30%
+    //    "Addiction to Reddit", // 90
+    //  ],
+    //},
+    //{
+    //  name: "LinkedIn",
+    //  keywords: [
+    //    "LinkedIn Addiction", // 160
+    //    "Addicted to LinkedIn", // 140
+    //  ],
+    //},
+    //{
+    //  name: "Discord",
+    //  keywords: [
+    //    "Discord Addiction", // 210
+    //    "Addicted to Discord", // 170
+    //  ],
+    //},
+    //{
+    //  name: "Twitch",
+    //  keywords: [
+    //    "Twitch Addiction", // 500, 22%
+    //    "Addicted to Twitch", // 130
+    //  ],
+    //},
+    //{
+    //  name: "Candy Crush",
+    //  keywords: [
+    //    "Candy Crush Addiction", // 600, 32%
+    //    "Addicted to Candy Crush", // 120
+    //    "Addiction to Candy Crush", // 110
+    //  ],
+    //},
+    //{
+    //  name: "Amazon",
+    //  keywords: [
+    //    "Amazon Addiction", // 350, 28%
+    //    "Addicted to Amazon", // 150
+    //    "Addiction to Amazon", // 100
+    //  ],
+    //},
+    //{
+    //  name: "Shein",
+    //  keywords: [
+    //    "Shein Addiction", // 150
+    //    "Addicted to Shein", // 120, 22%
+    //  ],
+    //},
+    //{
+    //  name: "AliExpress",
+    //  keywords: [
+    //    "AliExpress Addiction", // 90
+    //    "Addicted to AliExpress", // 80
+    //  ],
+    //},
+    //{
+    //  name: "eBay",
+    //  keywords: [
+    //    "eBay Addiction", // 140
+    //    "Addicted to eBay", // 80
+    //  ],
+    //},
+    //{
+    //  name: "Temu",
+    //  keywords: [
+    //    "Temu Addiction", // 310
+    //    "Addicted to Temu", // 160
+    //  ],
+    //},
+    //{
+    //  name: "Pinterest",
+    //  keywords: [
+    //    "Pinterest Addiction", // 220
+    //    "Addicted to Pinterest", // 130
+    //  ],
+    //},
+    // Skipping NSFW ones for now just to be safe
+    // {
+    //   name: "OnlyFans",
+    //   keywords: [
+    //     "OnlyFans Addiction", // 360
+    //     "Addicted to OnlyFans", // 130
+    //   ],
+    // },
+    // {
+    //   name: "PornHub",
+    //   keywords: [
+    //     "PornHub Addiction", // 220
+    //     "Addicted to PornHub", // 160
+    //   ],
+    // },
+  ]
 }

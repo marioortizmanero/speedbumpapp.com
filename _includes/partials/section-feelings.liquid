@@ -1,0 +1,71 @@
+<div class="section-feelings">
+  <div class="section-feelings-header">
+    <h2>{{ t.index.section_feelings.title }}</h2>
+  </div>
+
+  <div class="feelings-cloud">
+  {%- for feeling in t.index.section_feelings.feelings %}
+    <div class="chip feeling-chip">{{ feeling }}</div>
+  {%- endfor %}
+  </div>
+
+  <h3>{{ t.index.section_feelings.replace }}</h3>
+
+  <div class="feelings-cloud">
+  {%- for replacement in t.index.section_feelings.replacements %}
+    <div class="chip replacement-chip destroyed{{ 1 | randomBetween: 3 }}">{{ replacement }}</div>
+  {%- endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function randomChoice(arr) {
+      return arr[Math.floor(arr.length * Math.random())];
+  }
+
+  const feelingsSection = document.querySelector('.section-feelings');
+  const feelingChips = document.querySelectorAll('.feeling-chip');
+  const replacementChips = document.querySelectorAll('.replacement-chip');
+
+  window.addEventListener('scroll', function() {
+    // Get the position of the feelings section
+    const sectionRect = feelingsSection.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    if (window.innerWidth < 768) {
+      var percentage = 0;
+    } else {
+      var percentage = 0.4;
+    }
+
+    // Calculate how far the section is through the viewport
+    // When the section is mid-through the viewport, trigger the effect
+    if (sectionRect.top < windowHeight * percentage) {
+      feelingChips.forEach(chip => {
+        if (chip.classList.contains('destroyed1', 'destroyed2', 'destroyed3')) {
+          return
+        }
+        chip.classList.add(randomChoice(['destroyed1', 'destroyed2', 'destroyed3']));
+      });
+      replacementChips.forEach(chip => {
+        chip.classList.remove('destroyed1');
+        chip.classList.remove('destroyed2');
+        chip.classList.remove('destroyed3');
+      });
+    } else {
+      feelingChips.forEach(chip => {
+        chip.classList.remove('destroyed1');
+        chip.classList.remove('destroyed2');
+        chip.classList.remove('destroyed3');
+      });
+      replacementChips.forEach(chip => {
+        if (chip.classList.contains('destroyed1', 'destroyed2', 'destroyed3')) {
+          return
+        }
+        chip.classList.add(randomChoice(['destroyed1', 'destroyed2', 'destroyed3']));
+      });
+    }
+  });
+});
+  </script>

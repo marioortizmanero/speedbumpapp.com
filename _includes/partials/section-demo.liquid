@@ -1,0 +1,75 @@
+<div class="section-demo">
+{% comment %}
+Video optimized with the following commands:
+
+ffmpeg \
+-i output.mp4 \
+-t 16 \
+-an \
+-vf "fps=10,scale=-1:640" \
+-c:v libx264 \
+-crf 32 \
+-preset veryslow \
+-profile:v high \
+-level:v 4.1 \
+-pix_fmt yuv420p \
+-movflags +faststart \
+demo.mp4
+
+ffmpeg \
+-i output.mp4 \
+-t 16 \
+-an \
+-vf "fps=10,scale=-1:640" \
+-c:v libvpx-vp9 \
+-b:v 0 \
+-crf 50 \
+-deadline best \
+-cpu-used 0 \
+-row-mt 1 \
+-pix_fmt yuv420p \
+-quality good \
+-tile-columns 2 \
+-auto-alt-ref 1 \
+demo.webm
+{% endcomment %}
+
+  <div class="screenshots">
+    <div class="screenshot">
+      <!-- TODO: poster="/demo-poster.jpg" -->
+      <video autoplay loop muted playsinline loading="lazy">
+        <!-- <source src="/{{ page.lang }}/assets/demo.webm" type="video/webm"> -->
+        <source src="/{{ page.lang }}/assets/demo.mp4" type="video/mp4">
+      </video>
+      <!--
+        Taken from:
+        https://pixabay.com/illustrations/phone-frame-smartphone-android-6064855/
+      -->
+      <img class="frame" src="/assets/phone-frame.png" alt="{{ t.index.section_demo.frame_alt }}">
+    </div>
+  </div>
+
+  <div class="description">
+    <{{ headerNum }}>{{ headerText }}</{{ headerNum }}>
+
+    <div class="description-steps">
+      <div class="description-step">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm-20 200h80v-400H380v80h80v320Z"/></svg>
+        <{{ stepsHeaderNum }}>{{ t.index.section_demo.step_1 }}</{{ stepsHeaderNum }}>
+      </div>
+      <div class="description-step">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h240v-80H440v-80h80q33 0 56.5-23.5T600-520v-80q0-33-23.5-56.5T520-680H360v80h160v80h-80q-33 0-56.5 23.5T360-440v160Z"/></svg>
+        <{{ stepsHeaderNum }}>{{ t.index.section_demo.step_2 }}</{{ stepsHeaderNum }}>
+      </div>
+      <div class="description-step">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h160q33 0 56.5-23.5T600-360v-60q0-26-17-43t-43-17q26 0 43-17t17-43v-60q0-33-23.5-56.5T520-680H360v80h160v80h-80v80h80v80H360v80Z"/></svg>
+        <{{ stepsHeaderNum }}>{{ t.index.section_demo.step_3 }}</{{ stepsHeaderNum }}>
+      </div>
+    </div>
+
+    <p>{{ t.index.section_demo.description }}</p>
+
+    {% render "partials/downloads.liquid" page: page %}
+  </div>
+
+</div>

@@ -16,7 +16,7 @@ export default {
     hero_2: "Nervig, aber sie bremsen dich definitiv aus",
     hero_3: "Entdecke die Bremsschwellen für <mark>Handysucht</mark>",
     section_demo: {
-      h1: "Die App, um Social Media Sucht zu bekämpfen",
+      title: "Die App, um Social Media Sucht zu bekämpfen",
       step_1: "Du legst ein Zeitlimit für süchtigmachende Apps fest",
       step_2: "Wenn die Zeit um ist, wirst du von Apps rausgenervt",
       step_3: "Mach 15 Minuten Pause vor der nächsten Nutzung",
@@ -164,4 +164,113 @@ export default {
     result_explanation: "deines verbleibenden Lebens auf Bildschirme starrend verbringen.",
     life_expectancy_note: "Angenommen, du hast eine Lebenserwartung von 75 Jahren und bist 16 Stunden am Tag wach.",
   },
+  apps: [
+//    {
+//      name: "TikTok",
+//      description: "TODO",
+//      keywords: [
+//        "Tiktok Sucht", // 470, 29%
+//        "TikTok süchtig", // 100, 27%
+//        "Süchtig nach TikTok", // 20
+//      ],
+//      content: `
+//TODO
+//      `,
+//      demo_title: "TODO",
+//    },
+    //{
+    //  name: "Instagram",
+    //  keywords: [
+    //    "Instagram Sucht", // 320, 21%
+    //    "Instagram süchtig", // 80, 23%
+    //    "Süchtig nach Instagram", // 30
+    //  ],
+    //},
+    //{
+    //  name: "Tinder",
+    //  keywords: [
+    //    "Tinder Sucht", // 40
+    //    "Tinder süchtig", // 20
+    //    "Süchtig nach Tinder", // 20
+    //  ],
+    //},
+    //{
+    //  name: "Snapchat",
+    //  keywords: [
+    //    "Snapchat Sucht", // 20
+    //    "Snapchat süchtig", // 20
+    //  ],
+    //},
+    //{
+    //  name: "YouTube",
+    //  keywords: [
+    //    "YouTube Sucht", // 250, 29%
+    //    "YouTube süchtig", // 40
+    //    "Süchtig nach YouTube", // 20
+    //  ],
+    //},
+    //{
+    //  name: "Netflix",
+    //  keywords: [
+    //    "Netflix Sucht", // 40
+    //    "Netflix süchtig", // 40
+    //  ],
+    //},
+    //{
+    //  name: "Facebook",
+    //  keywords: [
+    //    "Facebook Sucht", // 70
+    //    "Facebook süchtig", // 50
+    //    "Süchtig nach Facebook", // 30
+    //  ],
+    //},
+    //{
+    //  name: "Roblox",
+    //  keywords: [
+    //    "Roblox Sucht", // 20
+    //    "Roblox süchtig", // 20
+    //  ],
+    //},
+    //{
+    //  name: "Twitter",
+    //  keywords: [
+    //    "Twitter Sucht", // 20
+    //    "Twitter süchtig", // 20
+    //  ],
+    //},
+    //{
+    //  name: "X",
+    //  keywords: [
+    //    "X Sucht", // 20
+    //  ],
+    //},
+    //{
+    //  name: "Candy Crush",
+    //  keywords: [
+    //    "Candy Crush Sucht", // 310
+    //    "Candy Crush süchtig", // 110
+    //  ],
+    //},
+    //{
+    //  name: "Amazon",
+    //  keywords: [
+    //    "Amazon Sucht", // 20
+    //    "Amazon süchtig", // 110
+    //  ],
+    //},
+    //{
+    //  name: "eBay",
+    //  keywords: [
+    //    "eBay Sucht", // 20
+    //    "eBay süchtig", // 20
+    //  ],
+    //},
+    //{
+    //  name: "Temu",
+    //  keywords: [
+    //    "Temu Sucht", // 30
+    //    "Temu süchtig", // 20
+    //  ],
+    //},
+  ]
 }

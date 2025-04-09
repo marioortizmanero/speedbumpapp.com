@@ -1,0 +1,18 @@
+---js
+const pagination = {
+  data: "i18n.en.apps",
+  size: 1,
+  alias: "app",
+};
+const eleventyComputed = {
+  title: "{{ app.keywords[0] }}",
+  layout: "layouts/app-page.liquid",
+  description: "{{ app.description }}",
+  image: "/en/assets/banner.jpg",
+  imageAlt: "The background is a rainbow, with 'Make social media annoying' in the middle using the font Comic Sans, and a badly drawn cat in the top right corner. It references the internet meme 'graphic design is my passion'.",
+  keywords: ['{{ app.keywords | join: "," }}'],
+  permalink: function(data) {
+    return `/en/app/{{ app.keywords[0] | slugify }}/`;
+  }
+};
+---

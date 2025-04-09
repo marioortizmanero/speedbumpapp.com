@@ -1,0 +1,16 @@
+<div class="section-stats">
+  <div class="description">
+    <h2>{{ t.index.section_stats.title }}</h2>
+
+    {{ t.index.section_stats.content }}
+
+    {% render "partials/downloads.liquid" page: page %}
+  </div>
+
+  <div class="screenshots">
+    <div class="screenshot">
+      <img eleventy:widths="300" src="/{{ page.lang }}/assets/screenshot_stats.png" alt="{{ t.index.section_stats.image_alt }}">
+    </div>
+    <hr style="opacity: 0.8;">
+  </div>
+</div>

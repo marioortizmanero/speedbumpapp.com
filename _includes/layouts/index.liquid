@@ -65,288 +65,38 @@ rm transforms.trf 20250204_142815.mp4
 </section>
 
 <section id="content" class="content">
-  <div class="section-demo">
-{% comment %}
-Video optimized with the following commands:
-
-ffmpeg \
-  -i output.mp4 \
-  -t 16 \
-  -an \
-  -vf "fps=10,scale=-1:640" \
-  -c:v libx264 \
-  -crf 32 \
-  -preset veryslow \
-  -profile:v high \
-  -level:v 4.1 \
-  -pix_fmt yuv420p \
-  -movflags +faststart \
-  demo.mp4
-
-ffmpeg \
-  -i output.mp4 \
-  -t 16 \
-  -an \
-  -vf "fps=10,scale=-1:640" \
-  -c:v libvpx-vp9 \
-  -b:v 0 \
-  -crf 50 \
-  -deadline best \
-  -cpu-used 0 \
-  -row-mt 1 \
-  -pix_fmt yuv420p \
-  -quality good \
-  -tile-columns 2 \
-  -auto-alt-ref 1 \
-  demo.webm
-{% endcomment %}
-
-    <div class="screenshots">
-      <div class="screenshot">
-        <!-- TODO: poster="/demo-poster.jpg" -->
-        <video autoplay loop muted playsinline loading="lazy">
-          <!-- <source src="/{{ page.lang }}/assets/demo.webm" type="video/webm"> -->
-          <source src="/{{ page.lang }}/assets/demo.mp4" type="video/mp4">
-        </video>
-        <!--
-          Taken from:
-          https://pixabay.com/illustrations/phone-frame-smartphone-android-6064855/
-        -->
-        <img class="frame" src="/assets/phone-frame.png" alt="{{ t.index.section_demo.frame_alt }}">
-      </div>
-    </div>
-
-    <div class="description">
-      <h1>{{ t.index.section_demo.h1 }}</h1>
-
-      <div class="description-steps">
-        <div class="description-step">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm-20 200h80v-400H380v80h80v320Z"/></svg>
-          <h2>{{ t.index.section_demo.step_1 }}</h2>
-        </div>
-        <div class="description-step">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h240v-80H440v-80h80q33 0 56.5-23.5T600-520v-80q0-33-23.5-56.5T520-680H360v80h160v80h-80q-33 0-56.5 23.5T360-440v160Z"/></svg>
-          <h2>{{ t.index.section_demo.step_2 }}</h2>
-        </div>
-        <div class="description-step">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h160q33 0 56.5-23.5T600-360v-60q0-26-17-43t-43-17q26 0 43-17t17-43v-60q0-33-23.5-56.5T520-680H360v80h160v80h-80v80h80v80H360v80Z"/></svg>
-          <h2>{{ t.index.section_demo.step_3 }}</h2>
-        </div>
-      </div>
-
-      <p>{{ t.index.section_demo.description }}</p>
-
-      {% render "partials/downloads.liquid" page: page %}
-    </div>
-
-  </div>
+  {% render "partials/section-demo.liquid"
+    page: page,
+    t: t,
+    headerText: t.index.section_demo.title,
+    headerNum: "h1",
+    stepsHeaderNum: "h2" %}
 
   <hr>
 
-  <div class="section-features">
-    <div class="feature-row">
-      <div class="feature">
-        <div class="feature-header">
-          <img src="/assets/icons/icon_decrease.png" alt="{{ t.index.section_features.feature_1.image_alt }}">
-          <h3>{{ t.index.section_features.feature_1.title }}</h3>
-        </div>
-        {{ t.index.section_features.feature_1.content }}
-      </div>
-
-      <div class="feature">
-        <div class="feature-header">
-          <img src="/assets/icons/icon_hug.png" alt="{{ t.index.section_features.feature_2.image_alt }}">
-          <h3>{{ t.index.section_features.feature_2.title }}</h3>
-        </div>
-        {{ t.index.section_features.feature_2.content }}
-      </div>
-
-      <div class="feature">
-        <div class="feature-header">
-          <img src="/assets/icons/icon_lotus.png" alt="{{ t.index.section_features.feature_3.image_alt }}">
-          <h3>{{ t.index.section_features.feature_3.title }}</h3>
-        </div>
-        {{ t.index.section_features.feature_3.content }}
-      </div>
-    </div>
-
-    <div class="feature-row">
-      <div class="feature">
-        <div class="feature-header">
-          <img eleventy:widths="60" src="/assets/icons/icon_bullseye.png" alt="{{ t.index.section_features.feature_1.image_alt }}">
-          <h3>{{ t.index.section_features.feature_4.title }}</h3>
-        </div>
-        {{ t.index.section_features.feature_4.content }}
-      </div>
-
-      <div class="feature">
-        <div class="feature-header">
-          <img eleventy:widths="60" src="/assets/icons/icon_rocket.png" alt="{{ t.index.section_features.feature_2.image_alt }}">
-          <h3>{{ t.index.section_features.feature_5.title }}</h3>
-        </div>
-        {{ t.index.section_features.feature_5.content }}
-      </div>
-
-      <div class="feature">
-        <div class="feature-header">
-          <img eleventy:widths="60" src="/assets/icons/icon_money.png" alt="{{ t.index.section_features.feature_3.image_alt }}">
-          <h3>{{ t.index.section_features.feature_6.title }}</h3>
-        </div>
-        {{ t.index.section_features.feature_6.content }}
-      </div>
-    </div>
-  </div>
+  {% render "partials/section-features.liquid" t: t %}
 
   <hr>
 
-  <div class="section-feelings">
-    <div class="section-feelings-header">
-      <h2>{{ t.index.section_feelings.title }}</h2>
-    </div>
-
-    <div class="feelings-cloud">
-    {%- for feeling in t.index.section_feelings.feelings %}
-      <div class="chip feeling-chip">{{ feeling }}</div>
-    {%- endfor %}
-    </div>
-
-    <h3>{{ t.index.section_feelings.replace }}</h3>
-
-    <div class="feelings-cloud">
-    {%- for replacement in t.index.section_feelings.replacements %}
-      <div class="chip replacement-chip destroyed{{ 1 | randomBetween: 3 }}">{{ replacement }}</div>
-    {%- endfor %}
-    </div>
-  </div>
-
-  <script>
-document.addEventListener('DOMContentLoaded', function() {
-function randomChoice(arr) {
-    return arr[Math.floor(arr.length * Math.random())];
-}
-
-  const feelingsSection = document.querySelector('.section-feelings');
-  const feelingChips = document.querySelectorAll('.feeling-chip');
-  const replacementChips = document.querySelectorAll('.replacement-chip');
-
-  window.addEventListener('scroll', function() {
-    // Get the position of the feelings section
-    const sectionRect = feelingsSection.getBoundingClientRect();
-    const windowHeight = window.innerHeight;
-
-    if (window.innerWidth < 768) {
-      var percentage = 0;
-    } else {
-      var percentage = 0.4;
-    }
-
-    // Calculate how far the section is through the viewport
-    // When the section is mid-through the viewport, trigger the effect
-    if (sectionRect.top < windowHeight * percentage) {
-      feelingChips.forEach(chip => {
-        if (chip.classList.contains('destroyed1', 'destroyed2', 'destroyed3')) {
-          return
-        }
-        chip.classList.add(randomChoice(['destroyed1', 'destroyed2', 'destroyed3']));
-      });
-      replacementChips.forEach(chip => {
-        chip.classList.remove('destroyed1');
-        chip.classList.remove('destroyed2');
-        chip.classList.remove('destroyed3');
-      });
-    } else {
-      feelingChips.forEach(chip => {
-        chip.classList.remove('destroyed1');
-        chip.classList.remove('destroyed2');
-        chip.classList.remove('destroyed3');
-      });
-      replacementChips.forEach(chip => {
-        if (chip.classList.contains('destroyed1', 'destroyed2', 'destroyed3')) {
-          return
-        }
-        chip.classList.add(randomChoice(['destroyed1', 'destroyed2', 'destroyed3']));
-      });
-    }
-  });
-});
-  </script>
+  {% render "partials/section-feelings.liquid" t: t %}
 
   <hr>
 
-  <div class="section-carousel">
-    <div class="carousel-description">
-      <h2>{{ t.index.section_carousel.title }}</h2>
-      {{ t.index.section_carousel.content }}
-    </div>
-
-    <div class="carousel-wrapper">
-      <div class="carousel-track">
-        <div class="carousel-content">
-          {% render "partials/annoyances.liquid" i18n: i18n, page: page %}
-          <!-- We need to copy-paste the group for the carousel effect -->
-          {% render "partials/annoyances.liquid" i18n: i18n, page: page %}
-        </div>
-      </div>
-    </div>
-  </div>
+  {% render "partials/section-carousel.liquid" t: t, i18n: i18n, page: page %}
 
   <hr>
 
-  <div class="section-stats">
-    <div class="description">
-      <h2>{{ t.index.section_stats.title }}</h2>
-
-      {{ t.index.section_stats.content }}
-
-      {% render "partials/downloads.liquid" page: page %}
-    </div>
-
-    <div class="screenshots">
-      <div class="screenshot">
-        <img eleventy:widths="300" src="/{{ page.lang }}/assets/screenshot_stats.png" alt="{{ t.index.section_stats.image_alt }}">
-      </div>
-      <hr style="opacity: 0.8;">
-    </div>
-
-  </div>
+  {% render "partials/section-stats.liquid" t: t, page: page %}
 
   <hr style="opacity: 0;">
 
-  <div class="section-testimonials">
-    <div class="testimonials-header">
-      <h2>{{ t.index.section_testimonials.title }}</h2>
-      <img src="/assets/icons/icon_microphone.png" alt="{{ t.index.section_testimonials.image_alt }}">
-    </div>
-
-    <div class="testimonial-quotes">
-      {%- for testimonial in t.index.section_testimonials.testimonials %}
-      <div class="speech-bubble">
-        <p class="quote">{{ testimonial.quote }}</p>
-        <p class="author">{{ testimonial.author }}</p>
-      </div>
-      {%- endfor %}
-    </div>
-  </div>
+  {% render "partials/section-testimonials.liquid" t: t %}
 
   {%- assign recentPosts = collections.posts | where: "data.lang", page.lang | recentPosts %}
   {%- if recentPosts.size > 0 %}
   <hr>
 
-  <div class="section-blog">
-    <div class="blog-header">
-      <h2>{{ t.index.section_blog.title }}</h2>
-      {{ t.index.section_blog.content }}
-    </div>
-
-    <h3>{{ t.index.section_blog.title_blog }}</h3>
-    <ul>
-      {%- for post in recentPosts %}
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a> <i>({{ post.date | readableDateShort: page.lang }})</i></li>
-      {%- endfor %}
-    </ul>
-
-    {% render "partials/downloads.liquid" page: page %}
-  </div>
+  {% render "partials/section-blog.liquid" t: t, page: page, recentPosts: recentPosts %}
   {% endif %}
 </section>
 

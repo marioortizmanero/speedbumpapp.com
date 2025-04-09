@@ -157,6 +157,7 @@
 .content h3 {
   font-size: 1.4rem;
   margin-bottom: 0.6rem;
+  font-weight: 500;
 }
 .content ol,
 .content ul {
@@ -728,4 +729,20 @@
   .section-blog {
     padding: 0;
   }
+}
+
+/* APP-SPECIFIC SECTION */
+
+.section-app {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.section-app img {
+  width: 200px;
+  border-radius: calc(var(--radius) * 4);
+  border: 2px solid black;
 }

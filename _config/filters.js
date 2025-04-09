@@ -5,7 +5,11 @@ import memoize from "memoize";
 
 import metadata from "../_data/metadata.js";
 
-const markdownIt = new MarkdownIt({ html: true });
+const markdownIt = new MarkdownIt({
+  html: true,  // Embedding raw HTML
+  typographer: true,  // Replacing characters like arrows or dashes
+  linkify: true,  // Creates <a> for links automatically
+});
 
 export default function(eleventyConfig) {
   eleventyConfig.addFilter("absUrl", (relUrl) => {
@@ -62,6 +66,10 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addFilter("markdownify", (str) => {
     return markdownIt.renderInline(str);
+  });
+
+  eleventyConfig.addFilter("markdownBlock", (str) => {
+    return markdownIt.render(str);
   });
 
   eleventyConfig.addFilter("strip_whitespace", (str) => {
