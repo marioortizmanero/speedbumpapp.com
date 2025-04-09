@@ -1,9 +1,9 @@
 ---
 lang: de
-title: 'Handysucht bekämpfen: Der ultimative Guide mit über 40 Tipps'
+title: 'Handysucht bekämpfen: Der ultimative Guide'
 permalink: /de/blog/handysucht-bekaempfen/
 date: 2025-03-07
-description: 'Lerne, deine Handysucht zu bekämpfen mit diesem umfangreichen Guide. Verstehe das Warum, setze dir Ziele und nutze hilfreiche Tools.'
+description: 'Lerne, deine Handysucht zu bekämpfen mit über 40 Tipps. Verstehe das Warum, setze dir Ziele und nutze hilfreiche Tools.'
 keywords: ["handysucht bekämpfen", "handysucht loswerden", "handy sucht bekämpfen", "handysucht was tun", "gegen handysucht machen", "handy süchtig", "handy-sucht", "sucht smartphone"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: Eine Sanduhr über Screenshots von süchtig machenden Apps wie TikTok, Instagram oder Spielen.
