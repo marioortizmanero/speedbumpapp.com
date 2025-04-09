@@ -200,4 +200,4 @@ A: Es hängt von der Lösung ab. Einige Timer blockieren Benachrichtigungen wäh
 
 ### F: Wie viel Bildschirmzeit ist Normal?
 
-A: Es hängt weitgehend von persönlichen und beruflichen Anforderungen ab. Für Erwachsene, Experten empfehlen 30 bis 60 Minuten pro Tag am Handy für besseres geistiges Wohlbefinden. Idealerweise sollten sie in kürzere Abschnitte aufgeteilt werden, anstatt kontinuierlich zu scrollen.
+A: Es hängt weitgehend von persönlichen und beruflichen Anforderungen ab. Für Erwachsene, [Experten empfehlen nicht mehr als 2 Stunden pro Tag](https://www.nhlbi.nih.gov/health/educational/wecan/reduce-screen-time/) für besseres geistiges Wohlbefinden. Idealerweise sollten sie in kürzere Abschnitte aufgeteilt werden, anstatt kontinuierlich zu scrollen.

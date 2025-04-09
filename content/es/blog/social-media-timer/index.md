@@ -200,4 +200,4 @@ R: Depende de la solución. Algunos temporizadores bloquearán las notificacione
 
 ### P: ¿Cuál es el límite diario recomendado para las redes sociales?
 
-R: Depende en gran medida de los requisitos personales y profesionales. Para adultos, los expertos sugieren de 30 a 60 minutos al día para un mejor bienestar mental. Idealmente, deberían dividirse en secciones más cortas en lugar de un uso continuo.
+R: Depende en gran medida de los requisitos personales y profesionales. Para adultos, los [expertos sugieren menos de dos horas al día](https://www.nhlbi.nih.gov/health/educational/wecan/espanol/tiempopantalla.htm) para un mejor bienestar mental. Idealmente, deberían dividirse en secciones más cortas en lugar de un uso continuo.

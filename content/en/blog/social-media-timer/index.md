@@ -199,4 +199,4 @@ A: It depends on the solution. Some timers will block notifications during restr
 
 ### Q: How much screen time is too much?
 
-A: It really depends on personal and professional requirements. For adults, experts suggest 30 to 60 minutes per day for better mental wellbeing. Ideally, they should be broken into shorter sections rather than continuous scrolling.
+A: It really depends on personal and professional requirements. For adults, [experts suggest no more than two hours per day](https://www.nhlbi.nih.gov/health/educational/wecan/reduce-screen-time/index.htm) for better mental wellbeing. Ideally, they should be broken into shorter sections rather than continuous scrolling.
