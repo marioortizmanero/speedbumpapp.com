@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'How to Reduce Screen Time: The Ultimate Guide with 40+ Tips'
+title: 'How to Reduce Screen Time: The Ultimate Guide'
 permalink: /en/blog/how-to-reduce-screen-time/
 date: 2025-03-07
 description: "An extensive guide with over 40 ideas to learn how to reduce your screen time. Understand why, create new objectives, and leverage tools."
@@ -193,7 +193,7 @@ If you know someone facing similar problems, share this article with them.
 
 ### Q: Do social media timers work for desktop usage too?
 
-A: iOS's Screen Time and most apps share your data across Apple devices by default, including macOS, iPad, and iPhone. Most third-party solutions offer browser extensions for desktop. Browser-specific extensions like StayFocusd (Chrome) or LeechBlock (Firefox) are also effective.
+A: iOS's Screen Time and most apps share your data across Apple devices by default, including macOS, iPad, and iPhone. Some third-party solutions offer browser extensions for desktop. Browser-specific extensions like StayFocusd (Chrome) or LeechBlock (Firefox) are also effective.
 
 ### Q: Will using timers affect my notifications?
 
