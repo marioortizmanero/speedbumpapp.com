@@ -182,11 +182,13 @@ Considera estas estrategias adicionales:
 
 ## Conclusión: Tómatelo con Calma y Experimenta
 
-Combinar múltiples tratamientos de forma consistente a lo largo del tiempo funciona mejor. Las primeras dos semanas suelen ser las más difíciles, pero seguir 3-4 reducirá la mayoría de síntomas. Requiere persistencia, pero los beneficios para tu concentración y bienestar valen el esfuerzo inicial.
+Combinar múltiples tratamientos de forma consistente a lo largo del tiempo funciona mejor. Las primeras dos semanas suelen ser las más difíciles, pero seguir 3-4 reducirá la mayoría de síntomas. Requiere persistencia, pero los beneficios para tu concentración y bienestar merecen la pena.
 
 Recuerda que plataformas como Instagram, TikTok, Twitter/X y Reddit emplean a miles de ingenieros específicamente para maximizar tu compromiso. Sentirse desafiado al limitar el uso es normal -- estas apps están diseñadas para ser adictivas. Cambiar tu perspectiva y establecer límites te ayudará a centrarte en lo que realmente importa en tu vida.
 
-Este artículo enumera suficientes ideas -- ahora te toca a ti actuar. No te limites a guardar un enlace o dejarlo para más tarde. Escribe una lista de unas pocas que quieres probar, colócala en el espejo de tu baño y haz un seguimiento de cómo están funcionando para ti. Si conoces a alguien con problemas similares, ¡comparte este artículo con ellos!
+Este artículo enumera suficientes ideas -- ahora te toca a ti actuar. No te limites a guardar un enlace o dejarlo para más tarde. Escribe una lista de unas pocas que quieres probar, colócala en el espejo de tu baño y haz un seguimiento de cómo están funcionando para ti.
+
+Si conoces a alguien con problemas similares, ¡comparte este artículo con ellos!
 
 ## Preguntas Frecuentes
 
