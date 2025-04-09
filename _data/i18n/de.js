@@ -131,7 +131,7 @@ export default {
 
       <p>Social Media kann dennoch nützlich sein, um zu lernen und mit anderen in Kontakt zu treten. Es geht also darum, Grenzen zu setzen und eine <b>bewusstere Nutzung</b> zu erreichen. Es sollte nicht die Norm sein, eine Nachricht von einem Freund zu überprüfen und dann für eine Stunde hängenzubleiben.</p>
 
-      <p>Der Aufbau von Gewohnheiten braucht Zeit. <b>SpeedBump gibt dir diesen Anstoß</b>, während du versuchst, wieder die Kontrolle zu übernehmen. Nach einer zweiwöchigen Serie wirst du dir deiner Nutzung bewusst sein und mehr Zeit mit Dingen verbringen, die dir wirklich Freude bereiten. Der Schlüssel wird sein, zu identifizieren, was du genießt, und dich dafür zu entscheiden, anstatt Zeit zu verschwenden.</p>
+      <p>Der Aufbau von Gewohnheiten braucht Zeit. <b>SpeedBump gibt dir diesen Anstoß</b>, während du versuchst, wieder die Kontrolle zu übernehmen. Nach einer zweiwöchigen Serie wirst du dir deiner Nutzung bewusst sein und mehr Zeit mit Dingen verbringen, die dir wirklich Freude bereiten.</p>
       `,
       title_blog: "Schau in unserem Blog vorbei:",
     },

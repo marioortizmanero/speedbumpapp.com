@@ -131,7 +131,7 @@ export default {
       content: `
       <p>Start with <b>self-compassion</b>. Doomscrolling is what happens when tech companies optimize every detail to keep you hooked. Negative news worsen the problem; media thrives on alarming and controversial content because it grabs attention. Feeling challenged when limiting usage is normal – these apps are <i>designed</i> to be addictive.</p>
       <p>Social media can still be useful to learn and connect with others. So it's all about setting boundaries, and achieving a more <b>conscious usage</b>. Checking a message from a friend but getting stuck for an hour shouldn't be the norm.</p>
-      <p>Building habits takes time. <b>SpeedBump gives you that push</b> while you try to take control again. After a two-week streak, you'll find yourself aware of your usage and spending more time on things you truly enjoy. The key will be identifying what you enjoy, and choosing to do it instead of wasting time.</p>
+      <p>Building habits takes time. <b>SpeedBump gives you that push</b> while you try to take control again. After a two-week streak, you'll find yourself aware of your usage and spending more time on things you truly enjoy.</p>
       `,
       title_blog: "Check out our blog:",
     },
