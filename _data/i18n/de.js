@@ -92,7 +92,7 @@ export default {
     section_stats: {
       title: "Gewinne die Kontrolle über deine Zeit zurück",
       content: `
-      <p><b>5 Stunden</b> Bildschirmzeit <b>mit 25</b> bedeutet, dass du <b>über 15 Jahre</b> deines restlichen Lebens an ein Handy gefesselt sein wirst (<a href="/de/blog/handysucht-bekaempfen#screen-time-calculator" style="font-size: 0.9rem">Social Media Sucht Test</a>).</p>
+      <p><b>5 Stunden</b> Bildschirmzeit <b>mit 25</b> bedeutet, dass du <b>über 15 Jahre</b> deines restlichen Lebens an ein Handy gefesselt sein wirst (<a href="/de/blog/handysucht-bekaempfen/#screen-time-calculator" style="font-size: 0.9rem">Social Media Sucht Test</a>).</p>
 
       <p>Die Auswirkungen umfassen eine schlechtere <b>psychische Gesundheit</b> und <b>die Aufmerksamkeitsspanne</b> eines Fisches 🐟.</p>
 

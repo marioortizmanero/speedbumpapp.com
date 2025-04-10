@@ -92,7 +92,7 @@ export default {
     section_stats: {
       title: "Recognize the problem and take control",
       content: `
-      <p><b>5 hours</b> of screen time <b>at 25</b> means you'll spend <b>over 15 years</b> of your remaining life glued to a phone (<a href="/en/blog/how-to-reduce-screen-time#screen-time-calculator">source</a>).</p>
+      <p><b>5 hours</b> of screen time <b>at 25</b> means you'll spend <b>over 15 years</b> of your remaining life glued to a phone (<a href="/en/blog/how-to-reduce-screen-time/#screen-time-calculator">source</a>).</p>
 
       <p>This takes a toll on your <b>mental health</b> and shrinks <b>your attention span to that of a goldfish</b>&nbsp;🐟.</p>
 

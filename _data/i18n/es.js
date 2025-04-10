@@ -92,7 +92,7 @@ export default {
     section_stats: {
       title: "Recupera el control de tu tiempo",
       content: `
-      <p><b>5 horas</b> de tiempo de pantalla <b>a los 25</b> significa que pasarás <b>más de 15 años</b> de tu vida restante pegado a un móvil (<a href="/es/blog/addicion-al-movil#screen-time-calculator">fuente</a>).</p>
+      <p><b>5 horas</b> de tiempo de pantalla <b>a los 25</b> significa que pasarás <b>más de 15 años</b> de tu vida restante pegado a un móvil (<a href="/es/blog/addicion-al-movil/#screen-time-calculator">fuente</a>).</p>
 
       <p>Las consecuencias incluyen una peor <b>salud mental</b> y la <b>capacidad de atención</b> de un pez 🐟.</p>
 
