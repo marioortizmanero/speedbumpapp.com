@@ -17,8 +17,8 @@ export default {
     hero_3: "Entdecke die Bremsschwellen für <mark>Handysucht</mark>",
     section_demo: {
       title: "Die App, um Social Media Sucht zu bekämpfen",
-      step_1: "Du legst ein Zeitlimit für süchtigmachende Apps fest",
-      step_2: "Wenn die Zeit um ist, wirst du von Apps rausgenervt",
+      step_1: "Du legst ein Zeitlimit beim Öffnen süchtig machender Apps",
+      step_2: "Wenn die Zeit um ist, wirst du aus den Apps rausgenervt",
       step_3: "Mach 15 Minuten Pause vor der nächsten Nutzung",
       description: "Weil sanfte Erinnerungen, feste Timer oder Motivationszitate nicht mehr helfen. Manchmal brauchst du etwas... Direkteres.",
       frame_alt: "Der Rahmen eines Telefons"
