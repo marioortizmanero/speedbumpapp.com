@@ -10,6 +10,8 @@ imageAlt: "TODO"
 draft: true
 ---
 
+TODO: working alone worsens the situation. I can only do one at a time: marketing or coding. But both are crying for help at all times. I can never do enough work for everything that's in my mind. And my mind is full of things.
+
 Being obsessed is commonly said to be essential for entrepreneurship. I agree.
 
 Holy crap was I wrong about [this quote](https://nullderef.com/blog/phone-jan25/):
