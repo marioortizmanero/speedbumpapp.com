@@ -3,7 +3,7 @@ lang: en
 title: 'How to Reduce Screen Time: The Ultimate Guide'
 permalink: /en/blog/how-to-reduce-screen-time/
 date: 2025-03-07
-description: "An extensive guide with over 40 ideas to learn how to reduce your screen time. Understand why, create new objectives, and leverage tools."
+description: "An extensive guide with over 40 tips to learn how to reduce your screen time. Understand why, create new objectives, and leverage tools like app blockers."
 keywords: ["how to reduce screen time", "how to cut down on screen time", "how to limit my screen time", "how to reduce time on phone", "how to reduce phone time", "stop doomscrolling", "limit social media"]
 image: /assets/blog/social-media-timer/preview.jpg
 imageAlt: "An hourglass over screenshots of addictive apps, such as TikTok, Instagram, or games."
