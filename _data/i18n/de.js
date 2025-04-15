@@ -27,7 +27,7 @@ export default {
       feature_1: {
         title: "Süchtig machende Apps begrenzen",
         content: `<p>
-        TikTok<br>
+        <a href="/de/app/tiktok-sucht/">TikTok</a><br>
         Instagram<br>
         Duolingo (warum eigentlich?)
       </p>
@@ -164,20 +164,63 @@ export default {
     result_explanation: "deines verbleibenden Lebens auf Bildschirme starrend verbringen.",
     life_expectancy_note: "Angenommen, du hast eine Lebenserwartung von 75 Jahren und bist 16 Stunden am Tag wach.",
   },
+  addiction_quiz: {
+    title: "Bist du süchtig nach %app%?",
+    option_anxiety: "Ich fühle mich ängstlich, wenn ich es nicht benutze",
+    option_time_loss: "Ich verliere Stunden in der App, ohne es zu merken",
+    option_interference: "Es beeinträchtigt mein tägliches Leben auf negative Weise",
+    button_submit: "Meine Nutzung prüfen",
+    warning_title: "😓 Du bist möglicherweise süchtig nach %app%",
+    warning_text: "Die von dir ausgewählten Anzeichen deuten darauf hin, dass deine Beziehung zu dieser App möglicherweise ungesund ist. Du bist auf dem richtigen Weg – informiere dich weiterhin!",
+    healthy_title: "😊 Gute Nachrichten!",
+    healthy_text: "Deine Beziehung zu %app% scheint unter Kontrolle zu sein. Bleib informiert und teile diesen Test mit anderen, die möglicherweise Probleme haben."
+  },
+  app_pages: {
+    reasons_title: "Warum %app% so süchtig macht",
+  },
   apps: [
-//    {
-//      name: "TikTok",
-//      description: "TODO",
-//      keywords: [
-//        "Tiktok Sucht", // 470, 29%
-//        "TikTok süchtig", // 100, 27%
-//        "Süchtig nach TikTok", // 20
-//      ],
-//      content: `
-//TODO
-//      `,
-//      demo_title: "TODO",
-//    },
+    {
+      name: "TikTok",
+      keywords: [
+        "Tiktok Sucht", // 470, 29%
+        "TikTok süchtig", // 100, 27%
+        "Süchtig nach TikTok", // 20
+      ],
+      description: "Entdecke, was TikTok Sucht verursacht, erkenne die Warnzeichen und lerne, wie du den Kreislauf mit der App SpeedBump effektiv durchbrechen kannst.",
+      intro: `
+Mit [über 1 Milliarde Nutzern weltweit](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/) ist TikTok wahrscheinlich die süchtig machendste App auf deinem Handy.
+
+TikTok-Sucht entsteht, wenn die App beginnt, **deine normalen Aktivitäten zu ersetzen**, wie Zeit mit Freunden verbringen oder Hobbys genießen. Es ist nicht schwarz-weiß; du könntest leicht, mäßig oder stark abhängig sein.
+`,
+      reasons: [
+        {
+          title: "🤖 Algorithmus-Personalisierung",
+          description: "Das Unternehmen hinter TikTok [beschäftigt über 110.000](https://www.linkedin.com/company/bytedance) Mitarbeiter, die dafür sorgen, dass du süchtig bleibst. Sie verfolgen, was deine Aufmerksamkeit am längsten fesselt, um dir ähnliche Inhalte zu zeigen.",
+        },
+        {
+          title: "⏰ Für endloses Scrollen konzipiert",
+          description: "Die einzige Hürde zwischen dir und dem nächsten Video ist ein einfaches Nach-oben-Wischen.",
+        },
+        {
+          title: "🚬 Dopamin-Kicks",
+          description: "Schnelllebige Inhalte sind die Norm -- [50% der Nutzer finden es stressig, ein Video anzusehen, das länger als eine Minute dauert, und 33% schauen Videos mit doppelter Geschwindigkeit](https://www.wired.com/story/tiktok-wants-longer-videos-like-not/).",
+        },
+        {
+          title: "🎮 Gamification",
+          description: "TikTok führt Creator-Challenges durch, um neue Inhalte zu fördern, und [ermutigt Zuschauer, Coins für ihre Lieblings-Streamer zu kaufen](https://www.tiktok.com/coin).",
+        },
+        {
+          title: "😈 Dark Patterns",
+          description: "Die App sendet strategisch getimte Benachrichtigungen, um dich zurück zum Scrollen zu locken.",
+        },
+      ],
+      demo_title: "SpeedBump: die App gegen deine TikTok-Sucht",
+      demo_intro: `
+Obwohl TikTok eingebaute Funktionen zur Kontrolle der Bildschirmzeit hat, sind diese nicht besonders effektiv. Probiere stattdessen die App SpeedBump aus. Sie hat **keine Interessenkonflikte** und macht es möglich, **schrittweise aufzuhören**, da ein kompletter Verzicht die Entzugserscheinungen verstärken kann.
+
+Du kannst SpeedBump auch nutzen, um andere süchtig machende Apps wie Instagram, YouTube oder Twitter einzuschränken. So funktioniert's:
+`,
+    },
     //{
     //  name: "Instagram",
     //  keywords: [

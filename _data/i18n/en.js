@@ -27,7 +27,7 @@ export default {
       feature_1: {
         title: "Limit addictive apps",
         content: `<p>
-        TikTok<br>
+        <a href="/en/app/tiktok-addiction/">TikTok</a><br>
         Instagram<br>
         Duolingo (why tho?)
       </p>
@@ -182,16 +182,16 @@ export default {
   apps: [
     {
       name: "TikTok",
-      description: "TikTok Addiction is more and more common TODO",
       keywords: [
         "TikTok Addiction", // 1.6k, 33%
         "Addicted to TikTok", // 430, 40%
         "Addiction to TikTok", // 350, 35%
       ],
+      description: "Discover what causes TikTok addiction, recognize the warning signs, and learn how to effectively break the cycle with the app SpeedBump.",
       intro: `
 With [over 1 billion users worldwide](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), TikTok is likely the most addictive app on your phone.
 
-TikTok addiction happens when the app starts replacing your normal activities like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
+TikTok addiction happens when the app starts **replacing your normal activities** like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
 `,
       reasons: [
         {
@@ -219,7 +219,7 @@ TikTok addiction happens when the app starts replacing your normal activities li
       demo_intro: `
 Although TikTok has built-in features to control screen time, they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
 
-You can also use it for other addictive apps like Instagram, YouTube, or Twitter. Here's how it works:
+You can also use SpeedBump to restrict other addictive apps like Instagram, YouTube, or Twitter. Here's how it works:
 `,
     },
     //{

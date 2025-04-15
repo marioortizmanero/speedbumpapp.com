@@ -27,7 +27,7 @@ export default {
       feature_1: {
         title: "Limita apps adictivas",
         content: `<p>
-        TikTok<br>
+        <a href="/es/app/adiccion-a-tiktok/">TikTok</a><br>
         Instagram<br>
         Duolingo (¿por qué?)
       </p>
@@ -164,21 +164,64 @@ export default {
     result_explanation: "de tu vida restante mirando pantallas.",
     life_expectancy_note: "Suponiendo una esperanza de vida de 75 años, y que estás despierto 16 horas al día.",
   },
+  addiction_quiz: {
+    title: "¿Estás adicto a %app%?",
+    option_anxiety: "Me siento ansioso cuando no lo estoy usando",
+    option_time_loss: "Pierdo horas en la aplicación sin darme cuenta",
+    option_interference: "Interfiere con mi vida diaria de manera negativa",
+    button_submit: "Verificar mi uso",
+    warning_title: "😓 Podrías ser adicto a %app%",
+    warning_text: "Los signos que has seleccionado indican que tu relación con esta aplicación podría ser poco saludable. Estás en el camino correcto – ¡sigue informándote!",
+    healthy_title: "😊 ¡Buenas noticias!",
+    healthy_text: "Tu relación con %app% parece estar bajo control. Sigue aprendiendo y comparte esta prueba con otras personas que podrían tener problemas."
+  },
+  app_pages: {
+    reasons_title: "Por qué %app% es tan adictivo",
+  },
   // Volume and KD% are given as: without tilde + with tilde
   apps: [
-//    {
-//      name: "TikTok",
-//      description: "TODO",
-//      keywords: [
-//        "Adicción a TikTok", // 50 + 20
-//        "Adicto a TikTok", // 40
-//        "Adicción al TikTok", // 30
-//      ],
-//      content: `
-//TODO
-//      `,
-//      demo_title: "TODO",
-//    },
+    {
+      name: "TikTok",
+      keywords: [
+        "Adicción a TikTok", // 50 + 20
+        "Adicto a TikTok", // 40
+        "Adicción al TikTok", // 30
+      ],
+      description: "Descubre qué causa la adicción a TikTok, reconoce las señales de alerta y aprende cómo romper el ciclo de manera efectiva con la app SpeedBump.",
+      intro: `
+Con [más de 1.000 millones de usuarios en todo el mundo](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), TikTok es probablemente la app más adictiva de tu móvil.
+
+La adicción a TikTok ocurre cuando la app comienza a **reemplazar tus actividades normales** como salir con amigos o disfrutar de tus hobbies. No es blanco o negro; podrías estar enganchado de forma leve, moderada o severa.
+`,
+      reasons: [
+        {
+          title: "🤖 Personalización del algoritmo",
+          description: "La empresa detrás de TikTok [emplea a más de 110.000](https://www.linkedin.com/company/bytedance) personas dedicadas a mantenerte enganchado. Rastrean lo que mantiene tu atención por más tiempo para mostrarte contenido similar.",
+        },
+        {
+          title: "⏰ Diseñado para el scroll infinito",
+          description: "La única fricción entre tú y el siguiente vídeo es un simple deslizamiento hacia arriba.",
+        },
+        {
+          title: "🚬 Golpes de dopamina",
+          description: "El contenido de ritmo rápido es la norma -- [al 50% de los usuarios les estresa ver un vídeo de más de un minuto, y el 33% ve vídeos a doble velocidad](https://www.wired.com/story/tiktok-wants-longer-videos-like-not/).",
+        },
+        {
+          title: "🎮 Gamificación",
+          description: "TikTok lanza desafíos para creadores para estimular nuevo contenido, a la vez que [anima a los espectadores a comprar monedas para sus streamers favoritos](https://www.tiktok.com/coin).",
+        },
+        {
+          title: "😈 Patrones oscuros",
+          description: "La app envía notificaciones estratégicamente programadas para que la vuelvas a abrir.",
+        },
+      ],
+      demo_title: "SpeedBump: la app para curar tu adicción a TikTok",
+      demo_intro: `
+Aunque TikTok tiene funciones integradas para controlar el tiempo de pantalla, no son las más efectivas. En su lugar, prueba la app SpeedBump. No tiene **conflictos de intereses** y hace posible **dejarlo progresivamente**, ya que dejar de golpe puede aumentar los síntomas de abstinencia.
+
+También puedes usar SpeedBump para restringir otras apps adictivas como Instagram, YouTube o Twitter. Así es como funciona:
+`,
+    },
     //{
     //  name: "Instagram",
     //  keywords: [

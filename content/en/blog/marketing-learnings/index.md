@@ -72,7 +72,7 @@ Free tools including Google Keyword Planner only go so far, unfortunately. Ahref
 Importantly, people use more than one search engine. The concepts are similar, but the tools vary and their search terms differ:
 
 * **On the Play Store or App Store**. People don't go there to learn, they try to find a specific app. Appfigures offers a 14-day trial which helped me set up the basics.
-* **On social media**. Queries are more similar to Google, but tend to follow trends. The [Creator Search Insights](https://newsroom.tiktok.com/en-us/creator-search-insights) provided by TikTok is amazing (and free!). You can use it to learn demographics, which is something other SEO platforms don't provide.
+* **On social media**. Queries are more similar to Google, but tend to follow trends. The [Creator Search Insights](https://newsroom.tiktok.com/en-us/creator-search-insights) provided by [TikTok](/en/app/tiktok-addiction/) is amazing (and free!). You can use it to learn demographics, which is something other SEO platforms don't provide.
 
 [My personal blog](https://nullderef.com/) taught me the importance of SEO. Sure, launching an article (or product) will get you a spike of views. But what keeps the blog alive is the keyword "rust plugin system", which people keep searching for. SEO is rather long-term and "do once and forget".
 
