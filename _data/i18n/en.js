@@ -221,6 +221,11 @@ Although TikTok has built-in features to control screen time, they aren't the mo
 
 You can also use SpeedBump to restrict other addictive apps like Instagram, YouTube, or Twitter. Here's how it works:
 `,
+      demo_outro: `
+**Building habits** can take weeks. SpeedBump will help you realize when it's been too long on TikTok, and confirm that it's you who wants to open it and **not muscle memory**.
+
+Gain control again now:
+`,
     },
     //{
     //  name: "Instagram",

@@ -220,6 +220,11 @@ Obwohl TikTok eingebaute Funktionen zur Kontrolle der Bildschirmzeit hat, sind d
 
 Du kannst SpeedBump auch nutzen, um andere süchtig machende Apps wie Instagram, YouTube oder Twitter einzuschränken. So funktioniert's:
 `,
+      demo_outro: `
+Gewohnheiten zu ändern kann Wochen dauern. SpeedBump hilft dir zu erkennen, wenn du **zu lange auf TikTok warst**, und bestätigt, dass du es bewusst öffnen willst und **nicht aus reinem Muskelgedächtnis**.
+
+Gewinne jetzt wieder die Kontrolle:
+`,
     },
     //{
     //  name: "Instagram",
