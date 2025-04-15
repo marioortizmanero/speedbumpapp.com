@@ -1,0 +1,124 @@
+{% assign t = i18n[page.lang] %}
+<div class="app-addiction-calculator">
+  <div class="app-addiction-container">
+    <h2>{{ t.addiction_quiz.title | replace: '%app%', app.name }}</h2>
+
+    <form id="addiction-quiz-form">
+      <div class="quiz-options">
+        <div class="option">
+          <input type="checkbox" id="anxiety" name="addiction-signs">
+          <label for="anxiety">{{ t.addiction_quiz.option_anxiety }}</label>
+        </div>
+
+        <div class="option">
+          <input type="checkbox" id="time-loss" name="addiction-signs">
+          <label for="time-loss">{{ t.addiction_quiz.option_time_loss }}</label>
+        </div>
+
+        <div class="option">
+          <input type="checkbox" id="interference" name="addiction-signs">
+          <label for="interference">{{ t.addiction_quiz.option_interference }}</label>
+        </div>
+      </div>
+
+      <button type="submit">{{ t.addiction_quiz.button_submit }}</button>
+    </form>
+
+    <div class="quiz-result" style="display: none;">
+      <div id="addiction-warning" style="display: none;">
+        <h3>{{ t.addiction_quiz.warning_title | replace: '%app%', app.name }}</h3>
+        <p>{{ t.addiction_quiz.warning_text }}</p>
+      </div>
+
+      <div id="healthy-usage" style="display: none;">
+        <h3>{{ t.addiction_quiz.healthy_title }}</h3>
+        <p>{{ t.addiction_quiz.healthy_text | replace: '%app%', app.name }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('addiction-quiz-form');
+  const result = document.querySelector('.quiz-result');
+  const warning = document.getElementById('addiction-warning');
+  const healthy = document.getElementById('healthy-usage');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const checkboxes = form.querySelectorAll('input[type="checkbox"]');
+    let hasAddictionSigns = false;
+
+    checkboxes.forEach(checkbox => {
+      if (checkbox.checked) {
+        hasAddictionSigns = true;
+      }
+    });
+
+    result.style.display = 'block';
+
+    if (hasAddictionSigns) {
+      warning.style.display = 'block';
+      healthy.style.display = 'none';
+    } else {
+      warning.style.display = 'none';
+      healthy.style.display = 'block';
+    }
+  });
+});
+</script>
+
+<style>
+.app-addiction-calculator {
+  margin: 2rem 0;
+}
+
+.app-addiction-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  background-color: var(--background-alt);
+  border-radius: var(--radius);
+  border: 2px solid var(--foreground);
+}
+
+.app-addiction-calculator .quiz-options {
+  margin: 20px 0;
+}
+
+.app-addiction-calculator .option {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.app-addiction-calculator .option input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.app-addiction-calculator button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--accent);
+  color: black;
+  border: 2px solid black;
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.app-addiction-calculator .quiz-result {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.app-addiction-calculator .quiz-result h3 {
+  margin-top: 0;
+  color: #333;
+}
+</style>

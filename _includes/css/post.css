@@ -1,22 +1,28 @@
-.post-main header a {
+.post-main header a,
+.main header a {
   display: block;
   text-align: center;
 }
-.post-main header .logo {
+.post-main header .logo,
+.main header .logo {
   margin: 15px auto;
   height: 3.5rem;
 }
-.post-main header .logo-light {
+.post-main header .logo-light,
+.main header .logo-light {
   display: block;
 }
-.post-main header .logo-dark {
+.post-main header .logo-dark,
+.main header .logo-dark {
   display: none;
 }
 @media (prefers-color-scheme: dark) {
-  .post-main header .logo-light {
+  .post-main header .logo-light,
+  .main header .logo-light {
     display: none;
   }
-  .post-main header .logo-dark {
+  .post-main header .logo-dark,
+  .main header .logo-dark {
     display: block;
   }
 }

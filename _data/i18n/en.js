@@ -164,37 +164,64 @@ export default {
     result_explanation: "of your remaining life staring at screens.",
     life_expectancy_note: "Assuming a life expectancy of 75 years, and that you are awake 16 hours a day.",
   },
+  addiction_quiz: {
+    title: "Are you addicted to %app%?",
+    option_anxiety: "I feel anxious when I'm not using it",
+    option_time_loss: "I lose hours in the app without realizing it",
+    option_interference: "It interferes with my daily life in negative ways",
+    button_submit: "Check My Usage",
+    warning_title: "😓 You might be addicted to %app%",
+    warning_text: "The signs you've selected indicate that your relationship with this app might be unhealthy. You're on the right path – keep informing yourself!",
+    healthy_title: "😊 Good news!",
+    healthy_text: "Your relationship with %app% seems to be under control. Keep learning and share this quiz with others who might be having problems."
+  },
+  app_pages: {
+    reasons_title: "Why %app% is so addictive",
+  },
   // Keywords are given in order of importance (volume, KD%)
   apps: [
-//    {
-//      name: "TikTok",
-//      description: "TikTok Addiction is more and more common TODO",
-//      keywords: [
-//        "TikTok Addiction", // 1.6k, 33%
-//        "Addicted to TikTok", // 430, 40%
-//        "Addiction to TikTok", // 350, 35%
-//      ],
-//      content: `
-//We all know how addictive scrolling TikTok can be.
-//
-//Almost two billion users worldwide
-//
-//## Why TikTok is so addictive
-//
-//- **Algorithm personalization:** TODO
-//- **Designed for doomscrolling:** TODO
-//- **Dopamine hits:** TODO
-//- **Gamification:** creator content challenges
-//- **Dark patterns:** TODO
-//
-//## How to cure your TikTok addiction
-//
-//Consider taking it slow -- you may experience withdrawal symptoms
-//
-//It has its own screen time limit functionality in TODO > TODO > TODO
-//      `,
-//      demo_title: "SpeedBump: the app to stop doomscrolling on TikTok",
-//    },
+    {
+      name: "TikTok",
+      description: "TikTok Addiction is more and more common TODO",
+      keywords: [
+        "TikTok Addiction", // 1.6k, 33%
+        "Addicted to TikTok", // 430, 40%
+        "Addiction to TikTok", // 350, 35%
+      ],
+      intro: `
+With [over 1 billion users worldwide](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), TikTok is likely the most addictive app on your phone.
+
+TikTok addiction happens when the app starts replacing your normal activities like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
+`,
+      reasons: [
+        {
+          title: "🤖 Algorithm Personalization",
+          description: "The company behind TikTok [employs over 110,000](https://www.linkedin.com/company/bytedance) people dedicated to keeping you hooked. They track what holds your attention longest to serve you similar content.",
+        },
+        {
+          title: "⏰ Designed for endless scrolling",
+          description: "The only friction between you and the next video is a simple upward swipe.",
+        },
+        {
+          title: "🚬 Dopamine hits",
+          description: "Fast-paced content is the norm -- [50% of users find it stressful to watch a video longer than a minute, and 33% watch videos at double speed](https://www.wired.com/story/tiktok-wants-longer-videos-like-not/).",
+        },
+        {
+          title: "🎮 Gamification",
+          description: "Tiktok runs creator challenges to stimulate new content, while [encouraging viewers to purchase coins for their favorite streamers](https://www.tiktok.com/coin).",
+        },
+        {
+          title: "😈 Dark patterns",
+          description: "The app strategically times notifications to pull you back into scrolling.",
+        },
+      ],
+      demo_title: "SpeedBump: the app to cure your TikTok addiction",
+      demo_intro: `
+Although TikTok has built-in features to control screen time, they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
+
+You can also use it for other addictive apps like Instagram, YouTube, or Twitter. Here's how it works:
+`,
+    },
     //{
     //  name: "Instagram",
     //  keywords: [

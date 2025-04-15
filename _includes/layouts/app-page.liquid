@@ -4,23 +4,39 @@ layout: layouts/base.liquid
 
 {% assign t = i18n[page.lang] %}
 
+<header>
+  <a href="{{ '/' | locale_url }}">
+    <img eleventy:ignore class="logo logo-light" src="/{{ page.lang }}/assets/logo.svg" alt="SpeedBump">
+    <img eleventy:ignore class="logo logo-dark" src="/{{ page.lang }}/assets/logo-dark.svg" alt="SpeedBump">
+  </a>
+</header>
+
 <section id="content" class="content">
   <div class="section-app">
     <div class="description">
-      <h1>{{ app.keywords[0] }}</h1>
-      {{ app.content | markdownBlock }}
+      <img eleventy:widths="200" src="/assets/apps/{{ app.name | slugify }}.png" alt="{{ app.keywords[0] }}">
+      <h1>{{ title }}</h1>
+
+      {{ app.intro | markdownBlock }}
+      {% render "partials/addiction-quiz.liquid" i18n: i18n, page: page, app: app %}
+
+      <hr style="opacity: 0; margin-top: var(--gap); margin-bottom: var(--gap);">
+
+      <h2>{{ t.app_pages.reasons_title | replace: '%app%', app.name }}</h2>
+      <div class="reasons">
+      {%- for reason in app.reasons %}
+        <div class="reason">
+          <h3>{{ reason.title }}</h3>
+          {{ reason.description | markdownify }}
+        </div>
+      {%- endfor %}
+      </div>
     </div>
-    <img eleventy:widths="200" src="/assets/apps/{{ app.name | slugify }}.png" alt="{{ app.keywords[0] }}">
   </div>
 
-  <hr>
+  <hr style="opacity: 0; margin-top: var(--gap); margin-bottom: var(--gap);">
 
-  {% render "partials/section-demo.liquid"
-    page: page,
-    t: t,
-    headerText: app.demo_title,
-    headerNum: "h2",
-    stepsHeaderNum: "h3" %}
+  {% render "partials/section-demo-app-page.liquid" page: page, t: t, app: app %}
 
   <hr>
 
