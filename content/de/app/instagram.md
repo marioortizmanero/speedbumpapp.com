@@ -41,7 +41,7 @@ demo_title: "SpeedBump: die App zur Heilung deiner Instagram-Sucht"
 demo_intro: |
   Obwohl <a href="https://help.instagram.com/2049425491975359" target="_blank">Instagram eingebaute Funktionen zur Kontrolle der Bildschirmzeit hat</a>, sind diese nicht besonders effektiv. Probiere stattdessen die App SpeedBump aus. Sie hat **keine Interessenkonflikte** und ermöglicht es dir, **progressiv aufzuhören**, da ein kalter Entzug die Entzugserscheinungen verstärken kann.
 
-  Du kannst SpeedBump auch nutzen, um andere süchtig machende Apps wie [TikTok](/de/app/tiktok-addiction/), YouTube oder Twitter einzuschränken. So funktioniert's:
+  Du kannst SpeedBump auch nutzen, um andere süchtig machende Apps wie [TikTok](/de/app/tiktok-sucht/), YouTube oder Twitter einzuschränken. So funktioniert's:
 demo_outro: |
   **Gewohnheiten** zu ändern kann Wochen dauern. SpeedBump hilft dir zu erkennen, wann du zu lange auf Instagram warst, und bestätigt, dass du es bewusst öffnen willst und **nicht aus Muskelgedächtnis**.
 

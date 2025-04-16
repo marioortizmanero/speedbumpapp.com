@@ -41,7 +41,7 @@ demo_title: "SpeedBump: la app para curar tu adicción a Instagram"
 demo_intro: |
   Aunque <a href="https://help.instagram.com/2049425491975359" target="_blank">Instagram tiene funciones integradas para controlar el tiempo de pantalla</a>, no son las más efectivas. En su lugar, prueba la app SpeedBump. No tiene **conflictos de intereses** y hace posible **dejarlo progresivamente**, ya que parar de golpe puede aumentar los síntomas de abstinencia.
 
-  También puedes usar SpeedBump para restringir otras apps adictivas como [TikTok](/es/app/tiktok-addiction/), YouTube o Twitter. Así es como funciona:
+  También puedes usar SpeedBump para restringir otras apps adictivas como [TikTok](/es/app/adiccion-a-tiktok/), YouTube o Twitter. Así es como funciona:
 demo_outro: |
   **Crear hábitos** puede llevar semanas. SpeedBump te ayudará a darte cuenta cuando llevas demasiado tiempo en Instagram y confirmar que eres tú quien quiere abrirlo y **no tu memoria muscular**.
 
