@@ -28,7 +28,7 @@ export default {
         title: "Limita apps adictivas",
         content: `<p>
         <a href="/es/app/adiccion-a-tiktok/">TikTok</a><br>
-        Instagram<br>
+        <a href="/es/app/adiccion-a-instagram/">Instagram</a><br>
         Duolingo (¿por qué?)
       </p>
 
@@ -200,7 +200,7 @@ La adicción a TikTok ocurre cuando la app comienza a **reemplazar tus actividad
         },
         {
           title: "⏰ Diseñado para el scroll infinito",
-          description: "La única fricción entre tú y el siguiente vídeo es un simple deslizamiento hacia arriba.",
+          description: "La única fricción entre tú y el siguiente TikTok es un simple deslizamiento hacia arriba.",
         },
         {
           title: "🚬 Golpes de dopamina",
@@ -217,7 +217,7 @@ La adicción a TikTok ocurre cuando la app comienza a **reemplazar tus actividad
       ],
       demo_title: "SpeedBump: la app para curar tu adicción a TikTok",
       demo_intro: `
-Aunque TikTok tiene funciones integradas para controlar el tiempo de pantalla, no son las más efectivas. En su lugar, prueba la app SpeedBump. No tiene **conflictos de intereses** y hace posible **dejarlo progresivamente**, ya que dejar de golpe puede aumentar los síntomas de abstinencia.
+Aunque [TikTok tiene funciones integradas para controlar el tiempo de pantalla](https://support.tiktok.com/es/account-and-privacy/account-information/screen-time), no son las más efectivas. En su lugar, prueba la app SpeedBump. No tiene **conflictos de intereses** y hace posible **dejarlo progresivamente**, ya que dejar de golpe puede aumentar los síntomas de abstinencia.
 
 También puedes usar SpeedBump para restringir otras apps adictivas como Instagram, YouTube o Twitter. Así es como funciona:
 `,

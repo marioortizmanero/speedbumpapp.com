@@ -200,7 +200,7 @@ TikTok addiction happens when the app starts **replacing your normal activities*
         },
         {
           title: "⏰ Designed for endless scrolling",
-          description: "The only friction between you and the next video is a simple upward swipe.",
+          description: "The only friction between you and the next TikTok is a simple upward swipe.",
         },
         {
           title: "🚬 Dopamine hits",
@@ -218,9 +218,9 @@ TikTok addiction happens when the app starts **replacing your normal activities*
       demo_title: "SpeedBump: the app to cure your TikTok addiction",
       // TODO: links
       demo_intro: `
-Although TikTok has built-in features to control screen time, they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
+Although [TikTok has built-in features to control screen time](https://support.tiktok.com/en/account-and-privacy/account-information/screen-time), they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
 
-You can also use SpeedBump to restrict other addictive apps like Instagram, YouTube, or Twitter. Here's how it works:
+You can also use SpeedBump to restrict other addictive apps like [Instagram](/en/app/instagram-addiction/), YouTube, or Twitter. Here's how it works:
 `,
       demo_outro: `
 **Building habits** can take weeks. SpeedBump will help you realize when it's been too long on TikTok, and confirm that it's you who wants to open it and **not muscle memory**.
@@ -266,40 +266,40 @@ Source: [DataReportal - Digital 2025: Global Overview Report](https://datareport
       ],
       description: "TODO",
       intro: `
-With [2 billion users worldwide](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), Instagram particularly easy to get addicted to. This app can be essential to connect with friends, but it's too easy to lose track of time.
+With [2 billion users worldwide](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), Instagram is particularly easy to get addicted to. This app can be essential to keep up with your friends and family, but it's too easy to lose track of time.
 
-TikTok addiction happens when the app starts **replacing your normal activities** like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
+Instagram addiction happens when the app starts **replacing your normal activities** like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
 `,
       reasons: [
         {
-          title: "🤖 Algorithm Personalization",
-          description: "The company behind TikTok [employs over 110,000](https://www.linkedin.com/company/bytedance) people dedicated to keeping you hooked. They track what holds your attention longest to serve you similar content.",
+          title: "🫂 Socializing + endless scrolling = dangerous",
+          description: "Instagram is commonly used to catch up with friends through Stories or messages. You might want to say hi to an old friend but get pulled into an hour of scrolling.",
         },
         {
           title: "⏰ Designed for endless scrolling",
-          description: "The only friction between you and the next video is a simple upward swipe.",
+          description: "Discovery of new content is embedded in every part of the app: your friends' feed, searching, or even in messages. This makes it easy to forget what you actually wanted to do when opening Instagram.",
         },
         {
-          title: "🚬 Dopamine hits",
-          description: "Fast-paced content is the norm -- [50% of users find it stressful to watch a video longer than a minute, and 33% watch videos at double speed](https://www.wired.com/story/tiktok-wants-longer-videos-like-not/).",
+          title: "😰 Fear Of Missing Out (FOMO)",
+          description: "Stories and Notes only last for 24 hours. This creates an urgency to check the app regularly -- otherwise, you'll miss out!",
         },
         {
-          title: "🎮 Gamification",
-          description: "Tiktok runs creator challenges to stimulate new content, while [encouraging viewers to purchase coins for their favorite streamers](https://www.tiktok.com/coin).",
+          title: "😒 Social comparison",
+          description: "Instagram makes it [easy to compare yourself](https://about.fb.com/wp-content/uploads/2021/09/Instagram-Teen-Annotated-Research-Deck-1.pdf) with others in unhealthy ways, resulting in body image issues.",
         },
         {
           title: "😈 Dark patterns",
-          description: "The app strategically times notifications to pull you back into scrolling.",
+          description: "The app strategically times notifications to pull you back into scrolling. But if you disable them, you might miss out on messages from friends.",
         },
       ],
-      demo_title: "SpeedBump: the app to cure your TikTok addiction",
+      demo_title: "SpeedBump: the app to cure your Instagram addiction",
       demo_intro: `
-Although TikTok has built-in features to control screen time, they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
+Although [Instagram has built-in features to control screen time](https://help.instagram.com/2049425491975359), they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
 
-You can also use SpeedBump to restrict other addictive apps like Instagram, YouTube, or Twitter. Here's how it works:
+You can also use SpeedBump to restrict other addictive apps like [TikTok](/en/app/tiktok-addiction/), YouTube, or Twitter. Here's how it works:
 `,
       demo_outro: `
-**Building habits** can take weeks. SpeedBump will help you realize when it's been too long on TikTok, and confirm that it's you who wants to open it and **not muscle memory**.
+**Building habits** can take weeks. SpeedBump will help you realize when it's been too long on Instagram, and confirm that it's you who wants to open it and **not muscle memory**.
 
 Gain control again now:
 `,

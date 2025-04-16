@@ -46,7 +46,7 @@ I'm still trying to get the hang of [mobile app promotion](https://speedbumpapp.
 
 The easiest part is done, which is developing an initial version of the app. Don't get me wrong -- it took plenty of effort. But coding is a challenge I know very well. Creating TikToks? Now, *that's* out of my comfort zone. Or worse: sending cold emails to ask for reviews. That sucks.
 
-Maybe the moral of the story is to embrace the wall. Just like embracing boredom when some dancing cats are preventing me from opening Instagram to procrastinate.
+Maybe the moral of the story is to embrace the wall. Just like embracing boredom when some dancing cats are preventing me from opening [Instagram](/en/app/instagram-addiction/) to procrastinate.
 
 If I stare for long enough at the wall, it might eventually collapse?
 

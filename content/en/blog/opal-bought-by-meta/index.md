@@ -12,7 +12,7 @@ Opal is possibly the most popular screen time app on the App Store, with over 40
 
 [![A tweet from @withopal with the text: We’re thrilled to announce that Opal has been acquired by Meta. This strategic alignment allows us to scale our mission in a bold new direction: not to eliminate distractions, but to optimize them. Leveraging cutting-edge AI and infinite scroll technologies, we will now help users maximize their screen time with unprecedented efficiency. Stay focused. On everything. #NextChapter #MoreScreenTimeBetterYou #Opal](tweet.png)](https://x.com/withopal/status/1907029291239383401)
 
-The video showcases an iPhone with built-in features for Meta products like WhatsApp and Instagram. Only Android makes such integrations possible, with some apps blocking specifically Reels within Instagram or YouTube Shorts.
+The video showcases an iPhone with built-in features for Meta products like WhatsApp and [Instagram](/en/app/instagram-addiction/). Only Android makes such integrations possible, with some apps blocking specifically Reels within Instagram or YouTube Shorts.
 
 In the video, founder Kenneth Schlenker confirms that they do not intend to sell any data, spread misinformation, or compromise their values.
 
@@ -20,7 +20,7 @@ Only some moments later did some followers realize it was part of their April's 
 
 ![A tweet from @jeiting with the text: Damn u got me actually](tweet_reaction.png)
 
-We've already seen companies like Instagram or TikTok helping their own users [reduce screen time](/en/blog/how-to-reduce-screen-time/). You can find them hidden in the settings page, and they aren't too effective. But surely this is a concern that a large company like Meta might have?
+We've already seen companies like Instagram or [TikTok](/en/app/tiktok-addiction/) helping their own users [reduce screen time](/en/blog/how-to-reduce-screen-time/). You can find them hidden in the settings page, and they aren't too effective. But surely this is a concern that a large company like Meta might have?
 
 <style>
 .screenshots {

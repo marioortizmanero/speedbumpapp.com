@@ -28,7 +28,7 @@ export default {
         title: "Süchtig machende Apps begrenzen",
         content: `<p>
         <a href="/de/app/tiktok-sucht/">TikTok</a><br>
-        Instagram<br>
+        <a href="/de/app/instagram-sucht/">Instagram</a><br>
         Duolingo (warum eigentlich?)
       </p>
 
@@ -199,7 +199,7 @@ TikTok-Sucht entsteht, wenn die App beginnt, **deine normalen Aktivitäten zu er
         },
         {
           title: "⏰ Für endloses Scrollen konzipiert",
-          description: "Die einzige Hürde zwischen dir und dem nächsten Video ist ein einfaches Nach-oben-Wischen.",
+          description: "Die einzige Hürde zwischen dir und dem nächsten TikTok ist ein einfaches Nach-oben-Wischen.",
         },
         {
           title: "🚬 Dopamin-Kicks",
@@ -216,7 +216,7 @@ TikTok-Sucht entsteht, wenn die App beginnt, **deine normalen Aktivitäten zu er
       ],
       demo_title: "SpeedBump: die App gegen deine TikTok-Sucht",
       demo_intro: `
-Obwohl TikTok eingebaute Funktionen zur Kontrolle der Bildschirmzeit hat, sind diese nicht besonders effektiv. Probiere stattdessen die App SpeedBump aus. Sie hat **keine Interessenkonflikte** und macht es möglich, **schrittweise aufzuhören**, da ein kompletter Verzicht die Entzugserscheinungen verstärken kann.
+Obwohl [TikTok eingebaute Funktionen zur Kontrolle der Bildschirmzeit hat](https://support.tiktok.com/de/account-and-privacy/account-information/screen-time), sind diese nicht besonders effektiv. Probiere stattdessen die App SpeedBump aus. Sie hat **keine Interessenkonflikte** und macht es möglich, **schrittweise aufzuhören**, da ein kompletter Verzicht die Entzugserscheinungen verstärken kann.
 
 Du kannst SpeedBump auch nutzen, um andere süchtig machende Apps wie Instagram, YouTube oder Twitter einzuschränken. So funktioniert's:
 `,

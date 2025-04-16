@@ -46,7 +46,7 @@ third_party_apps:
     best_for: Volle Konzentration während des Studiums oder der Arbeit & Gamification.
 ---
 
-Ein vollständiger Verzicht auf soziale Medien wird immer unrealistischer. Plattformen wie Instagram oder [TikTok](/de/app/tiktok-sucht/) können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Jeder kennt das: Ein Freund zeigt ein Reel und man verbringt eine Stunde damit, Katzen beim Tanzen zu Shakira-Songs zuzusehen. Es macht Spaß, aber man fühlt sich frustriert und machtlos.
+Ein vollständiger Verzicht auf soziale Medien wird immer unrealistischer. Plattformen wie [Instagram](/de/app/instagram-sucht/) oder [TikTok](/de/app/tiktok-sucht/) können tatsächlich nützlich sein, um mit anderen in Kontakt zu bleiben, aber man kann leicht abhängig werden. Jeder kennt das: Ein Freund zeigt ein Reel und man verbringt eine Stunde damit, Katzen beim Tanzen zu Shakira-Songs zuzusehen. Es macht Spaß, aber man fühlt sich frustriert und machtlos.
 
 Können wir eine Balance zwischen Handysucht und einem buddhistischen Mönch finden?
 

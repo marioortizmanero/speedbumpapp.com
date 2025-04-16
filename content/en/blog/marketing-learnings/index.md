@@ -84,7 +84,7 @@ The best resources I found were [Ilias Ism's YouTube channel](https://www.youtub
 
 This was a huge rabbit hole! Ironically, I've never used social media more than when building an app to reduce social media usage. There's a lot of irony in this project.
 
-My strategy is heavily influenced by the fact that SpeedBump has no followers anywhere. I'd upload a Reel to Instagram and literally get 0 views. My personal account helped a bit, along with my LinkedIn followers. But they aren't necessarily the perfect user for SpeedBump.
+My strategy is heavily influenced by the fact that SpeedBump has no followers anywhere. I'd upload a Reel to [Instagram](/en/app/instagram-addiction/) and literally get 0 views. My personal account helped a bit, along with my LinkedIn followers. But they aren't necessarily the perfect user for SpeedBump.
 
 ![speedbumpapp on Instagram, with 11 posts, 5 followers, and following 30 people](instagram_followers.jpg)
 
