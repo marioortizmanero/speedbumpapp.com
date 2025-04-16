@@ -40,15 +40,20 @@ layout: layouts/base.liquid
 
   <hr>
 
-  {% render "partials/section-feelings.liquid" t: t %}
+  {% render "partials/section-facts-app-page.liquid" t: t, app: app %}
+
+  <hr>
+
+  {% render "partials/section-stats.liquid" t: t, page: page %}
 
   <hr>
 
   {% render "partials/section-features.liquid" t: t %}
 
-  <hr>
+  <hr style="opacity: 0; margin-top: calc(var(--gap) * 2); margin-bottom: calc(var(--gap) * 2);">
 
-  {% render "partials/section-stats.liquid" t: t, page: page %}
+  <h2 style="text-align: center">{{ t.post.footer.download_prompt }}</h2>
+  {% render "partials/downloads.liquid" page: page %}
 
   <hr style="opacity: 0;">
 </section>

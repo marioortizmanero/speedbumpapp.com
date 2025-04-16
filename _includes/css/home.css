@@ -815,3 +815,65 @@
   border-radius: var(--radius);
   border: 2px solid var(--foreground);
 }
+
+/* FACTS SECTION */
+
+.section-facts {
+  margin-bottom: calc(var(--gap) * 2);
+}
+.section-facts .description {
+  margin: 0 auto;
+  max-width: 70%;
+}
+.section-facts img {
+  float: right;
+  height: 30%;
+  width: 30%;
+  min-height: 80px;
+  min-width: 80px;
+  max-height: 200px;
+  max-width: 200px;
+
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: calc(var(--radius) * 4);
+  border: 2px solid black;
+}
+
+@media (max-width: 768px) {
+  .section-facts {
+    margin-bottom: 0;
+  }
+  .section-facts .description {
+    max-width: 100%;
+  }
+}
+
+.section-facts dl,
+.section-facts ol,
+.section-facts p,
+.section-facts figure,
+.section-facts ul,
+.section-facts blockquote {
+  margin-bottom: 20px;
+}
+.section-facts blockquote {
+  margin: 20px 0;
+  padding: 0 14px;
+  border-inline-start: 3px solid var(--foreground);
+}
+.section-facts ol,
+.section-facts ul {
+  padding-inline-start: 20px;
+}
+.section-facts li {
+  margin-top: 15px;
+}
+.section-facts li p {
+  margin-bottom: 0;
+}
+.section-facts li > p,
+.section-facts li > ul {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}

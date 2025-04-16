@@ -177,6 +177,7 @@ export default {
   },
   app_pages: {
     reasons_title: "Why %app% is so addictive",
+    facts_title: "Statistics about %app%",
   },
   // Keywords are given in order of importance (volume, KD%)
   apps: [
@@ -218,7 +219,7 @@ TikTok addiction happens when the app starts **replacing your normal activities*
       demo_title: "SpeedBump: the app to cure your TikTok addiction",
       // TODO: links
       demo_intro: `
-Although [TikTok has built-in features to control screen time](https://support.tiktok.com/en/account-and-privacy/account-information/screen-time), they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
+Although <a href="https://support.tiktok.com/en/account-and-privacy/account-information/screen-time" target="_blank">TikTok has built-in features to control screen time</a>, they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
 
 You can also use SpeedBump to restrict other addictive apps like [Instagram](/en/app/instagram-addiction/), YouTube, or Twitter. Here's how it works:
 `,
@@ -238,7 +239,11 @@ Gain control again now:
         // 🇨🇴: 38h 49m
         // 🇵🇪: 36h 42m
         // 🇪🇸 28h 56m
-        "The app with highest average time per user (34h 56m per month). 🇺🇸 43h 53m, 🇬🇧 42h 02m, 🇮🇪 40h 04m, 🇦🇺 38h 51m, 🇨🇦 37h 43m, 🇳🇿 21h 53m, 🇮🇳 5h 23m",
+        `
+🥇 App with highest **average monthly time** per user at 34 hours 56 minutes.
+
+*Per country: 🇺🇸 43h 53m, 🇬🇧 42h 02m, 🇮🇪 40h 04m, 🇦🇺 38h 51m, 🇨🇦 37h 43m, 🇳🇿 21h 53m, 🇮🇳 5h 23m*
+`,
         // 🇦🇹: 552.3
         // 🇩🇪 289.5
         // 🇨🇭 210.3
@@ -249,12 +254,15 @@ Gain control again now:
         // 🇦🇷 370.8
         // 🇵🇪 370.1
         // 🇪🇸 290.5
-        "The app with second highest number of times it's opened on average per month at 358.7, behind WhatsApp. 🇮🇪 421.6, 🇨🇦 313.5, 🇦🇺 304, 🇬🇧 286, 🇺🇸A 268.9, 🇳🇿 240.1, 🇮🇳 93",
-        "55.7% of its advertisement-eligible users are male, compared to 44.3% of females",
-        "The most followed account is Khabane Lame at 162.4 million",
+        `
+🥈 App with second highest **number of times it's opened** on average per month at 358.7, behind WhatsApp.
+
+*Per country: 🇮🇪 421.6, 🇨🇦 313.5, 🇦🇺 304, 🇬🇧 286, 🇺🇸 268.9, 🇳🇿 240.1, 🇮🇳 93*`,
+        "55.7% of its advertisement-eligible users are **male** ♂️, compared to 44.3% of **females** ♀️.",
+        "The most **followed account** is Khabane Lame at 162.4 million.",
       ],
       facts_source: `
-Source: [DataReportal - Digital 2025: Global Overview Report](https://datareportal.com/reports/digital-2025-global-overview-report).
+Source: <a href="https://datareportal.com/reports/digital-2025-global-overview-report" target="_blank">DataReportal - Digital 2025: Global Overview Report</a>.
 `,
     },
     {
@@ -294,7 +302,7 @@ Instagram addiction happens when the app starts **replacing your normal activiti
       ],
       demo_title: "SpeedBump: the app to cure your Instagram addiction",
       demo_intro: `
-Although [Instagram has built-in features to control screen time](https://help.instagram.com/2049425491975359), they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
+Although <a href="https://help.instagram.com/2049425491975359" target="_blank">Instagram has built-in features to control screen time</a>, they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
 
 You can also use SpeedBump to restrict other addictive apps like [TikTok](/en/app/tiktok-addiction/), YouTube, or Twitter. Here's how it works:
 `,
@@ -305,7 +313,7 @@ Gain control again now:
 `,
       facts: [
         // TODO: links
-        "The app with third highest monthly active users at 2 billion, behind YouTube and Facebook",
+        "🥉 App with third highest **monthly active users** at 2 billion, behind YouTube and Facebook.",
         // 🇩🇪: 10h 22m
         // 🇦🇹: 10h 14m
         // 🇨🇭: 9h
@@ -316,7 +324,11 @@ Gain control again now:
         // 🇲🇽: 11h 47m
         // 🇨🇴: 9h 59m
         // 🇵🇪: 8h 01m
-        "The app with fourth highest average time per user at 16h 13m, behind Facebook, YouTube, and TikTok. 🇮🇳: 20h 27m, 🇦🇺 12h 8m, 🇨🇦 12h 3m, 🇺🇸A 11h 2m, 🇳🇿 10h 59m, 🇮🇪 9h 51m, 🇬🇧 8h 56m",
+        `
+🏅 App with fourth highest **average monthly time** per user at 16 hours 13 minutes, behind Facebook, YouTube, and TikTok.
+
+*Per country: 🇮🇳 20h 27m, 🇦🇺 12h 8m, 🇨🇦 12h 3m, 🇺🇸A 11h 2m, 🇳🇿 10h 59m, 🇮🇪 9h 51m, 🇬🇧 8h 56m*
+`,
         // 🇦🇹: 265.5
         // 🇩🇪: 197.6
         // 🇨🇭: 187.6
@@ -327,12 +339,16 @@ Gain control again now:
         // 🇦🇷: 502.8
         // 🇨🇴: 276
         // 🇵🇪: 212.9
-        "The app with third highest number of times it's opened on average per month at 331.8, behind TikTok and WhatsApp. 🇮🇳 373.2, 🇮🇪 251.8, 🇳🇿 222, 🇨🇦 219.6, 🇦🇺 203.5, 🇺🇸 187.1, 🇬🇧 160",
-        "52.7% of its advertisement-eligible users are male, compared to 47.3% of females",
-        "The person with highest followers is Cristiano Ronaldo at 646.8 million"
+        `
+🥉 App with third highest **number of times it's opened** on average per month at 331.8, behind TikTok and WhatsApp.
+
+*Per country: 🇮🇳 373.2, 🇮🇪 251.8, 🇳🇿 222, 🇨🇦 219.6, 🇦🇺 203.5, 🇺🇸 187.1, 🇬🇧 160*
+`,
+        "52.7% of its advertisement-eligible users are **male** ♂️, compared to 47.3% of **females** ♀️.",
+        "The person with **highest followers** is Cristiano Ronaldo at 646.8 million."
       ],
       facts_source: `
-Source: [DataReportal - Digital 2025: Global Overview Report](https://datareportal.com/reports/digital-2025-global-overview-report).
+Source: <a href="https://datareportal.com/reports/digital-2025-global-overview-report" target="_blank">DataReportal - Digital 2025: Global Overview Report</a>.
 `,
     },
     //{
