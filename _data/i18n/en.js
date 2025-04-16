@@ -258,7 +258,7 @@ Gain control again now:
 🥈 App with second highest **number of times it's opened** on average per month at 358.7, behind WhatsApp.
 
 *Per country: 🇮🇪 421.6, 🇨🇦 313.5, 🇦🇺 304, 🇬🇧 286, 🇺🇸 268.9, 🇳🇿 240.1, 🇮🇳 93*`,
-        "55.7% of its (advertisement-eligible) users are **male** ♂️, compared to 44.3% of **females** ♀️.",
+        "55.7% of its (advertisement-eligible) users are **male**&nbsp;♂️, compared to 44.3% of **females**&nbsp;♀️.",
         "The most **followed account** is Khabane Lame at 162.4 million.",
       ],
       facts_source: `
@@ -343,7 +343,7 @@ Gain control again now:
 
 *Per country: 🇮🇳 373.2, 🇮🇪 251.8, 🇳🇿 222, 🇨🇦 219.6, 🇦🇺 203.5, 🇺🇸 187.1, 🇬🇧 160*
 `,
-        "52.7% of its advertisement-eligible users are **male** ♂️, compared to 47.3% of **females** ♀️.",
+        "52.7% of its advertisement-eligible users are **male**&nbsp;♂️, compared to 47.3% of **females**&nbsp;♀️.",
         "The person with **highest followers** is Cristiano Ronaldo at 646.8 million."
       ],
       facts_source: `

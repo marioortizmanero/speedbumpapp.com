@@ -169,7 +169,7 @@ export default {
     option_anxiety: "Me siento ansioso cuando no lo estoy usando",
     option_time_loss: "Pierdo horas en la aplicación sin darme cuenta",
     option_interference: "Interfiere con mi vida diaria de manera negativa",
-    button_submit: "Verificar mi uso",
+    button_submit: "Comprobar mi uso",
     warning_title: "😓 Podrías ser adicto a %app%",
     warning_text: "Los signos que has seleccionado indican que tu relación con esta aplicación podría ser poco saludable. Estás en el camino correcto – ¡sigue informándote!",
     healthy_title: "😊 ¡Buenas noticias!",
@@ -222,7 +222,7 @@ Aunque <a href="https://support.tiktok.com/es/account-and-privacy/account-inform
 También puedes usar SpeedBump para restringir otras apps adictivas como Instagram, YouTube o Twitter. Así es como funciona:
 `,
       demo_outro: `
-Crear hábitos puede llevar semanas. SpeedBump te ayudará a **darte cuenta cuando has pasado demasiado tiempo** en TikTok, y a **confirmar que eres tú quien quiere abrirlo y **no tu memoria muscular**.
+Crear hábitos puede llevar semanas. SpeedBump te ayudará a **darte cuenta cuando has pasado demasiado tiempo** en TikTok, y a confirmar que eres tú quien quiere abrirlo y **no tu memoria muscular**.
 
 Recupera el control ahora:
 `,
@@ -236,7 +236,7 @@ Recupera el control ahora:
 🥈 App con el segundo mayor **número de veces que se abre** en promedio por mes con 358.7, después de WhatsApp.
 
 *Por país: 🇨🇱 458.3, 🇨🇴 416.9, 🇲🇽 410.5, 🇦🇷 370.8, 🇵🇪 370.1, 🇪🇸 290.5*`,
-        "El 55.7% de sus usuarios (elegibles para publicidad) son **hombres** ♂️, comparado con el 44.3% de **mujeres** ♀️.",
+        "El 55.7% de sus usuarios (aptos para publicidad) son **hombres**&nbsp;♂️, comparado con el 44.3% de **mujeres**&nbsp;♀️.",
         "La **cuenta más seguida** es Khabane Lame con 162.4 millones.",
       ],
       facts_source: `
@@ -246,9 +246,9 @@ Fuente: <a href="https://datareportal.com/reports/digital-2025-global-overview-r
     {
       name: "Instagram",
       keywords: [
-        "Adicción a", // 190 + 70
-        "Adicto a", // 90
-        "Adicción al", // 40 + 10
+        "Adicción a Instagram", // 190 + 70
+        "Adicto a Instagram", // 90
+        "Adicción al Instagram", // 40 + 10
       ],
       description: "Descubre qué causa la adicción a Instagram, reconoce las señales de alerta con nuestro test y aprende a superar las estadísticas con la app SpeedBump",
       intro: `
@@ -301,7 +301,7 @@ Recupera el control ahora:
 
 *Por país: 🇦🇷 502,8, 🇨🇱 554, 🇪🇸 345,6, 🇲🇽 340,3, 🇨🇴 276, 🇵🇪 212,9*
 `,
-        "El 52,7% de sus usuarios aptos para publicidad son **hombres** ♂️, comparado con el 47,3% de **mujeres** ♀️.",
+        "El 52,7% de sus usuarios (aptos para publicidad) son **hombres**&nbsp;♂️, comparado con el 47,3% de **mujeres**&nbsp;♀️.",
         "La persona con **más seguidores** es Cristiano Ronaldo con 646,8 millones."
       ],
       facts_source: `
@@ -311,56 +311,56 @@ Fuente: <a href="https://datareportal.com/reports/digital-2025-global-overview-r
     //{
     //  name: "Tinder",
     //  keywords: [
-    //    "Adicción a", // 30 + 0
-    //    "Adicto a", // 10
+    //    "Adicción a Tinder", // 30 + 0
+    //    "Adicto a Tinder", // 10
     //  ],
     //},
     //{
     //  name: "YouTube",
     //  keywords: [
-    //    "Adicción a", // 150 + 90
-    //    "Adicto a", // 100
+    //    "Adicción a YouTube", // 150 + 90
+    //    "Adicto a YouTube", // 100
     //  ],
     //},
     //{
     //  name: "Netflix",
     //  keywords: [
-    //    "Adicción a", // 80 + 0
-    //    "Adicto a", // 60
+    //    "Adicción a Netflix", // 80 + 0
+    //    "Adicto a Netflix", // 60
     //  ],
     //},
     //{
     //  name: "Facebook",
     //  keywords: [
-    //    "Adicción al", // 440 + 50
-    //    "Adicción a", // 30 + 110
-    //    "Adicto a", // 110
+    //    "Adicción al Facebook", // 440 + 50
+    //    "Adicción a Facebook", // 30 + 110
+    //    "Adicto a Facebook", // 110
     //  ],
     //},
     //{
     //  name: "Roblox",
     //  keywords: [
-    //    "Adicción a", // 150 + 0
+    //    "Adicción a Roblox", // 150 + 0
     //  ],
     //},
     //{
     //  name: "Twitter",
     //  keywords: [
-    //    "Adicción a", // 70 + 20
-    //    "Adicto a", // 10
+    //    "Adicción a Twitter", // 70 + 20
+    //    "Adicto a Twitter", // 10
     //  ],
     //},
     //{
     //  name: "Candy Crush",
     //  keywords: [
-    //    "Adicción a", // 30 + 0
-    //    "Adicto a", // 20
+    //    "Adicción a Candy Crush", // 30 + 0
+    //    "Adicto a Candy Crush", // 20
     //  ],
     //},
     //{
     //  name: "Temu",
     //  keywords: [
-    //    "Adicción a", // 10 + 0
+    //    "Adicción a Candy Crush", // 10 + 0
     //  ],
     //},
   ]

@@ -169,7 +169,7 @@ export default {
     option_anxiety: "Ich fühle mich ängstlich, wenn ich es nicht benutze",
     option_time_loss: "Ich verliere Stunden in der App, ohne es zu merken",
     option_interference: "Es beeinträchtigt mein tägliches Leben auf negative Weise",
-    button_submit: "Meine Nutzung prüfen",
+    button_submit: "Meine Nutzung checken",
     warning_title: "😓 Du bist möglicherweise süchtig nach %app%",
     warning_text: "Die von dir ausgewählten Anzeichen deuten darauf hin, dass deine Beziehung zu dieser App möglicherweise ungesund ist. Du bist auf dem richtigen Weg – informiere dich weiterhin!",
     healthy_title: "😊 Gute Nachrichten!",
@@ -235,7 +235,7 @@ Gewinne jetzt wieder die Kontrolle:
 🥈 App mit der zweithöchsten **Anzahl an Öffnungen** im Durchschnitt pro Monat mit 358.7, hinter WhatsApp.
 
 *Pro Land: 🇦🇹 552.3, 🇩🇪 289.5, 🇨🇭 210.3*`,
-        "55.7% der (werbefähigen) Nutzer sind **männlich** ♂️, verglichen mit 44.3% **weiblichen** ♀️.",
+        "55.7% der (werbefähigen) Nutzer sind **männlich**&nbsp;♂️, verglichen mit 44.3% **weiblichen**&nbsp;♀️.",
         "Der **meistgefolgte Account** ist Khabane Lame mit 162.4 Millionen.",
       ],
       facts_source: `
@@ -300,7 +300,7 @@ Gewinne jetzt wieder die Kontrolle:
 
 *Pro Land: 🇦🇹 265,5, 🇩🇪 197,6, 🇨🇭 187,6*
 `,
-        "52,7% der werberelevanten Nutzer sind **männlich** ♂️, verglichen mit 47,3% **weiblichen** ♀️ Nutzern.",
+        "52,7% der (werbefähigen) Nutzer sind **männlich**&nbsp;♂️, verglichen mit 47,3% **weiblichen**&nbsp;♀️ Nutzern.",
         "Die Person mit den **meisten Followern** ist Cristiano Ronaldo mit 646,8 Millionen."
       ],
       facts_source: `
