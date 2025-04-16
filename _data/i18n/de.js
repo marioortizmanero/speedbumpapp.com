@@ -188,7 +188,7 @@ export default {
       ],
       description: "Entdecke, was TikTok Sucht verursacht, erkenne die Warnzeichen und lerne, wie du den Kreislauf mit der App SpeedBump effektiv durchbrechen kannst.",
       intro: `
-Mit [über 1 Milliarde Nutzern weltweit](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/) ist TikTok wahrscheinlich die süchtig machendste App auf deinem Handy.
+Mit [über 1,5 Milliarde Nutzern weltweit](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/) ist TikTok wahrscheinlich die süchtig machendste App auf deinem Handy.
 
 TikTok-Sucht entsteht, wenn die App beginnt, **deine normalen Aktivitäten zu ersetzen**, wie Zeit mit Freunden verbringen oder Hobbys genießen. Es ist nicht schwarz-weiß; du könntest leicht, mäßig oder stark abhängig sein.
 `,

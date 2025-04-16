@@ -189,7 +189,7 @@ export default {
       ],
       description: "Descubre qué causa la adicción a TikTok, reconoce las señales de alerta y aprende cómo romper el ciclo de manera efectiva con la app SpeedBump.",
       intro: `
-Con [más de 1.000 millones de usuarios en todo el mundo](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), TikTok es probablemente la app más adictiva de tu móvil.
+Con [más de 1.500 millones de usuarios en todo el mundo](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), TikTok es probablemente la app más adictiva de tu móvil.
 
 La adicción a TikTok ocurre cuando la app comienza a **reemplazar tus actividades normales** como salir con amigos o disfrutar de tus hobbies. No es blanco o negro; podrías estar enganchado de forma leve, moderada o severa.
 `,
