@@ -188,16 +188,16 @@ export default {
         "Addicted to TikTok", // 430, 40%
         "Addiction to TikTok", // 350, 35%
       ],
-      description: "Discover what causes TikTok addiction, recognize the warning signs, and learn how to effectively break the cycle with the app SpeedBump.",
+      description: "Discover what causes TikTok addiction, recognize the warning signs with our quiz, and learn how to beat the statistics with the app SpeedBump.",
       intro: `
-With [over 1.5 billion users worldwide](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), TikTok is likely the most addictive app on your phone.
+With <a href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/" target="_blank">over 1.5 billion users worldwide</a>, TikTok is likely the most addictive app on your phone.
 
 TikTok addiction happens when the app starts **replacing your normal activities** like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
 `,
       reasons: [
         {
           title: "🤖 Algorithm Personalization",
-          description: "The company behind TikTok [employs over 110,000](https://www.linkedin.com/company/bytedance) people dedicated to keeping you hooked. They track what holds your attention longest to serve you similar content.",
+          description: `The company behind TikTok <a href="https://www.linkedin.com/company/bytedance" target="_blank">employs over 110,000</a> people dedicated to keeping you hooked. They track what holds your attention longest to serve you similar content.`,
         },
         {
           title: "⏰ Designed for endless scrolling",
@@ -205,11 +205,11 @@ TikTok addiction happens when the app starts **replacing your normal activities*
         },
         {
           title: "🚬 Dopamine hits",
-          description: "Fast-paced content is the norm -- [50% of users find it stressful to watch a video longer than a minute, and 33% watch videos at double speed](https://www.wired.com/story/tiktok-wants-longer-videos-like-not/).",
+          description: `Fast-paced content is the norm -- <a href="https://www.wired.com/story/tiktok-wants-longer-videos-like-not/" target="_blank">50% of users find it stressful to watch a video longer than a minute, and 33% watch videos at double speed</a>.`,
         },
         {
           title: "🎮 Gamification",
-          description: "Tiktok runs creator challenges to stimulate new content, while [encouraging viewers to purchase coins for their favorite streamers](https://www.tiktok.com/coin).",
+          description: `Tiktok runs creator challenges to stimulate new content, while <a href="https://www.tiktok.com/coin" target="_blank">encouraging viewers to purchase coins for their favorite streamers</a>.`,
         },
         {
           title: "😈 Dark patterns",
@@ -217,7 +217,7 @@ TikTok addiction happens when the app starts **replacing your normal activities*
         },
       ],
       demo_title: "SpeedBump: the app to cure your TikTok addiction",
-      // TODO: links
+      // NOTE: links to new app pages should be added in this part
       demo_intro: `
 Although <a href="https://support.tiktok.com/en/account-and-privacy/account-information/screen-time" target="_blank">TikTok has built-in features to control screen time</a>, they aren't the most effective. Instead, try out the app SpeedBump. It has **no conflicts of interest** and makes it possible to **quit progressively**, as going cold turkey can increase withdrawal symptoms.
 
@@ -272,7 +272,7 @@ Source: <a href="https://datareportal.com/reports/digital-2025-global-overview-r
         "Addicted to Instagram", // 310, 22%
         "Addiction to Instagram", // 300, 29%
       ],
-      description: "TODO",
+      description: "Discover what causes Instagram addiction, recognize the warning signs with our quiz, and learn how to beat the statistics with the app SpeedBump",
       intro: `
 With [2 billion users worldwide](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), Instagram is particularly easy to get addicted to. This app can be essential to keep up with your friends and family, but it's too easy to lose track of time.
 
@@ -312,7 +312,6 @@ You can also use SpeedBump to restrict other addictive apps like [TikTok](/en/ap
 Gain control again now:
 `,
       facts: [
-        // TODO: links
         "🥉 App with third highest **monthly active users** at 2 billion, behind YouTube and Facebook.",
         // 🇩🇪: 10h 22m
         // 🇦🇹: 10h 14m
