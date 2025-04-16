@@ -228,28 +228,28 @@ You can also use SpeedBump to restrict other addictive apps like Instagram, YouT
 Gain control again now:
 `,
       facts: [
-        // Austria: 43h 55m
-        // Germany 34h 51m
-        // Switzerland 20h 41m
+        // 🇦🇹: 43h 55m
+        // 🇩🇪 34h 51m
+        // 🇨🇭 20h 41m
 
-        // Chile: 45h 30m
-        // Mexico: 45h 25m
-        // Argentina 38h 52m
-        // Colombia: 38h 49m
-        // Peru: 36h 42m
-        // Spain 28h 56m
-        "The app with highest average time per user (34h 56m per month). US 43h 53m, UK 42h 02m, Ireland 40h 04m, Australia 38h 51m, Canada 37h 43m, New Zealand 21h 53m, India 5h 23m",
-        // Austria: 552.3
-        // Germany 289.5
-        // Switzerland 210.3
+        // 🇨🇱: 45h 30m
+        // 🇲🇽: 45h 25m
+        // 🇦🇷 38h 52m
+        // 🇨🇴: 38h 49m
+        // 🇵🇪: 36h 42m
+        // 🇪🇸 28h 56m
+        "The app with highest average time per user (34h 56m per month). 🇺🇸 43h 53m, 🇬🇧 42h 02m, 🇮🇪 40h 04m, 🇦🇺 38h 51m, 🇨🇦 37h 43m, 🇳🇿 21h 53m, 🇮🇳 5h 23m",
+        // 🇦🇹: 552.3
+        // 🇩🇪 289.5
+        // 🇨🇭 210.3
 
-        // Chile 458.3
-        // Colombia 416.9
-        // Mexico 410.5
-        // Argentina 370.8
-        // Peru 370.1
-        // Spain 290.5
-        "The app with second highest number of times it's opened on average per month at 358.7, behind WhatsApp. Ireland 421.6, Canada 313.5, Australia 304, UK 286, USA 268.9, New Zealand 240.1, India 93",
+        // 🇨🇱 458.3
+        // 🇨🇴 416.9
+        // 🇲🇽 410.5
+        // 🇦🇷 370.8
+        // 🇵🇪 370.1
+        // 🇪🇸 290.5
+        "The app with second highest number of times it's opened on average per month at 358.7, behind WhatsApp. 🇮🇪 421.6, 🇨🇦 313.5, 🇦🇺 304, 🇬🇧 286, 🇺🇸A 268.9, 🇳🇿 240.1, 🇮🇳 93",
         "55.7% of its advertisement-eligible users are male, compared to 44.3% of females",
         "The most followed account is Khabane Lame at 162.4 million",
       ],
@@ -306,28 +306,28 @@ Gain control again now:
       facts: [
         // TODO: links
         "The app with third highest monthly active users at 2 billion, behind YouTube and Facebook",
-        // Germany: 10h 22m
-        // Austria: 10h 14m
-        // Switzerland: 9h
+        // 🇩🇪: 10h 22m
+        // 🇦🇹: 10h 14m
+        // 🇨🇭: 9h
 
-        // Argentina: 20h 46
-        // Chile: 20h 33m
-        // Spain: 14h 17m
-        // Mexico: 11h 47m
-        // Colombia: 9h 59m
-        // Peru: 8h 01m
-        "The app with fourth highest average time per user at 16h 13m, behind Facebook, YouTube, and TikTok. India: 20h 27m, Australia 12h 8m, Canada 12h 3m, USA 11h 2m, New Zealand 10h 59m, Ireland 9h 51m, UK 8h 56m",
-        // Austria: 265.5
-        // Germany: 197.6
-        // Switzerland: 187.6
+        // 🇦🇷: 20h 46
+        // 🇨🇱: 20h 33m
+        // 🇪🇸: 14h 17m
+        // 🇲🇽: 11h 47m
+        // 🇨🇴: 9h 59m
+        // 🇵🇪: 8h 01m
+        "The app with fourth highest average time per user at 16h 13m, behind Facebook, YouTube, and TikTok. 🇮🇳: 20h 27m, 🇦🇺 12h 8m, 🇨🇦 12h 3m, 🇺🇸A 11h 2m, 🇳🇿 10h 59m, 🇮🇪 9h 51m, 🇬🇧 8h 56m",
+        // 🇦🇹: 265.5
+        // 🇩🇪: 197.6
+        // 🇨🇭: 187.6
 
-        // Spain: 345.6
-        // Chile: 554
-        // Mexico: 340.3
-        // Argentina: 502.8
-        // Colombia: 276
-        // Peru: 212.9
-        "The app with third highest number of times it's opened on average per month at 331.8, behind TikTok and WhatsApp. India 373.2, Ireland 251.8, New Zealand 222, Canada 219.6, Australia 203.5, US 187.1, UK 160",
+        // 🇪🇸: 345.6
+        // 🇨🇱: 554
+        // 🇲🇽: 340.3
+        // 🇦🇷: 502.8
+        // 🇨🇴: 276
+        // 🇵🇪: 212.9
+        "The app with third highest number of times it's opened on average per month at 331.8, behind TikTok and WhatsApp. 🇮🇳 373.2, 🇮🇪 251.8, 🇳🇿 222, 🇨🇦 219.6, 🇦🇺 203.5, 🇺🇸 187.1, 🇬🇧 160",
         "52.7% of its advertisement-eligible users are male, compared to 47.3% of females",
         "The person with highest followers is Cristiano Ronaldo at 646.8 million"
       ],
@@ -358,28 +358,28 @@ Source: [DataReportal - Digital 2025: Global Overview Report](https://datareport
     //    "Addiction to Snapchat", // 60
     //  ],
     //  facts: [
-    //    // Austria 6h 25m
-    //    // Germany 5h 27m
-    //    // Switzerland 5h 12m
+    //    // 🇦🇹 6h 25m
+    //    // 🇩🇪 5h 27m
+    //    // 🇨🇭 5h 12m
     //
-    //    // Spain 1h 14m
-    //    // Argentina 1h 10m
-    //    // Chile 55m
-    //    // Colombia 54m
-    //    // Mexico 43m
-    //    // Peru 17m
-    //    "An average time per user of 3h 20m per month. Australia 16h 26m, Ireland 14h 1m, Canada 12h 55m, UK 11h 59m, US 7h 22m, New Zealand 4h 6m, India 2h 30m"
-    //    // Austria 409.6
-    //    // Germany 274.9
-    //    // Switzerland 274.3
+    //    // 🇪🇸 1h 14m
+    //    // 🇦🇷 1h 10m
+    //    // 🇨🇱 55m
+    //    // 🇨🇴 54m
+    //    // 🇲🇽 43m
+    //    // 🇵🇪 17m
+    //    "An average time per user of 3h 20m per month. 🇦🇺 16h 26m, 🇮🇪 14h 1m, 🇨🇦 12h 55m, 🇬🇧 11h 59m, 🇺🇸 7h 22m, 🇳🇿 4h 6m, 🇮🇳 2h 30m"
+    //    // 🇦🇹 409.6
+    //    // 🇩🇪 274.9
+    //    // 🇨🇭 274.3
     //
-    //    // Argentina 60.4
-    //    // Spain 45.2
-    //    // Colombia 32.1
-    //    // Mexico 31.9
-    //    // Chile 27.5
-    //    // Peru 12.4
-    //    "On average, users open the app 136 times per month. Canada 550.7, Australia 490.2, Ireland 453.2, UK 424.5, US 259.9, New Zealand 212.4, India 110.2"
+    //    // 🇦🇷 60.4
+    //    // 🇪🇸 45.2
+    //    // 🇨🇴 32.1
+    //    // 🇲🇽 31.9
+    //    // 🇨🇱 27.5
+    //    // 🇵🇪 12.4
+    //    "On average, users open the app 136 times per month. 🇨🇦 550.7, 🇦🇺 490.2, 🇮🇪 453.2, 🇬🇧 424.5, 🇺🇸 259.9, 🇳🇿 212.4, 🇮🇳 110.2"
     //    "50.7% of its advertisement-eligible users are male, compared to 48.4% of females",
     //  ]
     //},
@@ -392,28 +392,28 @@ Source: [DataReportal - Digital 2025: Global Overview Report](https://datareport
     //  ],
     //  facts: [
     //    "The app with second highest active monthly users at 2.5 billion",
-    //    // Germany: 14h 59m
-    //    // Austria: 17h 37m
-    //    // Switzerland: 9h 07m
+    //    // 🇩🇪: 14h 59m
+    //    // 🇦🇹: 17h 37m
+    //    // 🇨🇭: 9h 07m
     //
-    //    // Spain: 17h 29m
-    //    // Mexico: 19h 17m
-    //    // Chile: 23h 16m
-    //    // Argentina: 22h 04m
-    //    // Peru: 20h 42m
-    //    // Colombia: 19h 05m
-    //    "The app with second highest average time per user at 27h 10m per month worldwide. Users in the US 42h 43m, in the UK at 19h, Canada 19h 40m, Ireland at over 20h 12m, India at 29h 37m, Australia 21h 58m, New Zealand 13h 39m",
-    //    // Germany: 123.8
-    //    // Austria: 125.1
-    //    // Switzerland: 71.3
+    //    // 🇪🇸: 17h 29m
+    //    // 🇲🇽: 19h 17m
+    //    // 🇨🇱: 23h 16m
+    //    // 🇦🇷: 22h 04m
+    //    // 🇵🇪: 20h 42m
+    //    // 🇨🇴: 19h 05m
+    //    "The app with second highest average time per user at 27h 10m per month worldwide. Users in the 🇺🇸 42h 43m, in the 🇬🇧 at 19h, 🇨🇦 19h 40m, 🇮🇪 at over 20h 12m, 🇮🇳 at 29h 37m, 🇦🇺 21h 58m, 🇳🇿 13h 39m",
+    //    // 🇩🇪: 123.8
+    //    // 🇦🇹: 125.1
+    //    // 🇨🇭: 71.3
     //
-    //    // Spain: 143.5
-    //    // Peru: 175.5
-    //    // Argentina: 172.2
-    //    // Mexico: 166.1
-    //    // Colombia: 150.9
-    //    // Chile: 181.6
-    //    "On average, users open the app 212.1 times per month. Users in the US are 218.7, UK users are 158.4, Canada 172, Ireland 150.4, India 251.9, Australia 172.3",
+    //    // 🇪🇸: 143.5
+    //    // 🇵🇪: 175.5
+    //    // 🇦🇷: 172.2
+    //    // 🇲🇽: 166.1
+    //    // 🇨🇴: 150.9
+    //    // 🇨🇱: 181.6
+    //    "On average, users open the app 212.1 times per month. Users in the 🇺🇸 are 218.7, 🇬🇧 users are 158.4, 🇨🇦 172, 🇮🇪 150.4, 🇮🇳 251.9, 🇦🇺 172.3",
     //    "54% of its advertisement-eligible users are male, compared to 46% of females",
     //    "MrBeast ranks first as channel with highest subscribers with 341 million",
     //  ]
@@ -435,28 +435,28 @@ Source: [DataReportal - Digital 2025: Global Overview Report](https://datareport
     //  ],
     //  facts: [
     //    "The app with highest active monthly users at 3 billion",
-    //    // Germany: 11h 06m
-    //    // Austria: 10h 01m
-    //    // Switzerland: 9h 28m
+    //    // 🇩🇪: 11h 06m
+    //    // 🇦🇹: 10h 01m
+    //    // 🇨🇭: 9h 28m
     //
-    //    // Spain: 11h 23m
-    //    // Mexico: 17h 55m
-    //    // Peru: 18h 11m
-    //    // Mexico: 17h 55m
-    //    // Argentina: 13h 44m
-    //    // Chile: 12h 16m
-    //    "The app with third highest average time per user at 17h 17m per month. In the US 16h 24m, New Zealand 17h 49m, India 20h 42m, Australia 17h 30m, Canada 15h 49m, UK 15h 38, Ireland 13h 13m",
-    //    // Austria: 230.8
-    //    // Germany: 164.3
-    //    // Switzerland: 160.9
+    //    // 🇪🇸: 11h 23m
+    //    // 🇲🇽: 17h 55m
+    //    // 🇵🇪: 18h 11m
+    //    // 🇲🇽: 17h 55m
+    //    // 🇦🇷: 13h 44m
+    //    // 🇨🇱: 12h 16m
+    //    "The app with third highest average time per user at 17h 17m per month. In the 🇺🇸 16h 24m, 🇳🇿 17h 49m, 🇮🇳 20h 42m, 🇦🇺 17h 30m, 🇨🇦 15h 49m, 🇬🇧 15h 38, 🇮🇪 13h 13m",
+    //    // 🇦🇹: 230.8
+    //    // 🇩🇪: 164.3
+    //    // 🇨🇭: 160.9
     //
-    //    // Peru: 323.6
-    //    // Mexico: 319.4
-    //    // Colombia: 314.4
-    //    // Argentina: 240.9
+    //    // 🇵🇪: 323.6
+    //    // 🇲🇽: 319.4
+    //    // 🇨🇴: 314.4
+    //    // 🇦🇷: 240.9
     //    // chile: 204.5
-    //    // Spain: 163.9
-    //    "On average, users open the app 280.2 times per month. India 305.6, New Zealand 279.6, Ireland 259.4, Canada 214.6, UK 211.6, US 201.8, Australia: 199.0",
+    //    // 🇪🇸: 163.9
+    //    "On average, users open the app 280.2 times per month. 🇮🇳 305.6, 🇳🇿 279.6, 🇮🇪 259.4, 🇨🇦 214.6, 🇬🇧 211.6, 🇺🇸 201.8, 🇦🇺: 199.0",
     //    "56.7% of its advertisement-eligible users are male, compared to 43.3% of females",
     //    "The most followed page is Christiano Ronaldo's, at 170 million",
     //  ]
@@ -478,27 +478,27 @@ Source: [DataReportal - Digital 2025: Global Overview Report](https://datareport
     //    "Addiction to Twitter", // 150
     //  ],
     //  facts: [
-    //    // Germany: 3h 17m
-    //    // Austria: 2h 38m
-    //    // Switzerland: 2h 36m
+    //    // 🇩🇪: 3h 17m
+    //    // 🇦🇹: 2h 38m
+    //    // 🇨🇭: 2h 36m
     //
-    //    // Argentina: 6h 38m
-    //    // Spain: 4h 10m
-    //    // Peru: 3h 27m
-    //    // Chile 3h 22m
-    //    // Mexico 3h 21m
-    //    "An average time per user of 4h 57m per month. Ireland 5h 51m, India 4h 45m, Canada 4h 37m, New Zealand 4h 2m, US 3h 56m, UK 3h 30m, Australia 2h 44m",
-    //    // Germany 77.6
-    //    // Austria 76
-    //    // Switzerland 75.5
+    //    // 🇦🇷: 6h 38m
+    //    // 🇪🇸: 4h 10m
+    //    // 🇵🇪: 3h 27m
+    //    // 🇨🇱 3h 22m
+    //    // 🇲🇽 3h 21m
+    //    "An average time per user of 4h 57m per month. 🇮🇪 5h 51m, 🇮🇳 4h 45m, 🇨🇦 4h 37m, 🇳🇿 4h 2m, 🇺🇸 3h 56m, 🇬🇧 3h 30m, 🇦🇺 2h 44m",
+    //    // 🇩🇪 77.6
+    //    // 🇦🇹 76
+    //    // 🇨🇭 75.5
     //
-    //    // Argentina: 143.3
-    //    // Spain: 104.9
-    //    // Colombia: 78.7
-    //    // Chile: 78.5
-    //    // Peru 77.2
-    //    // Mexico 75.9
-    //    "On average, users open the app 120.4 times per month. Ireland 157.9, India 110.7, Canada 109.5, US 92.5, UK 85.5, New Zealand 69.3, Australia 67.8",
+    //    // 🇦🇷: 143.3
+    //    // 🇪🇸: 104.9
+    //    // 🇨🇴: 78.7
+    //    // 🇨🇱: 78.5
+    //    // 🇵🇪 77.2
+    //    // 🇲🇽 75.9
+    //    "On average, users open the app 120.4 times per month. 🇮🇪 157.9, 🇮🇳 110.7, 🇨🇦 109.5, 🇺🇸 92.5, 🇬🇧 85.5, 🇳🇿 69.3, 🇦🇺 67.8",
     //    "63.7% of its advertisement-eligible users are male, compared to 36.3% of females",
     //    "The most followed person is Elon Musk at over 210 million."
     //  ]
@@ -523,28 +523,28 @@ Source: [DataReportal - Digital 2025: Global Overview Report](https://datareport
     //    "Addiction to Reddit", // 90
     //  ],
     //  facts: [
-    //    // Switzerland 4h 44m
-    //    // Austria 3h 23m
-    //    // Germany 1h 58m
+    //    // 🇨🇭 4h 44m
+    //    // 🇦🇹 3h 23m
+    //    // 🇩🇪 1h 58m
     //
-    //    // Argentina 1h 52m
-    //    // Spain 1h 29m
-    //    // Colombia 1h 18m
-    //    // Mexico 1h 17m
-    //    // Chile 1h 12m
-    //    // Peru 1h
-    //    "An average time per user of 2h 59m per month. New Zealand 5h 39m, Canada 4h 52m, India 4h 12m, US 4h 9m, UK 3h 30m, Australia 3h 6m, Ireland 2h 55m",
-    //    // Switzerland 116.1
-    //    // Austria 81.2
-    //    // Germany 52.8
+    //    // 🇦🇷 1h 52m
+    //    // 🇪🇸 1h 29m
+    //    // 🇨🇴 1h 18m
+    //    // 🇲🇽 1h 17m
+    //    // 🇨🇱 1h 12m
+    //    // 🇵🇪 1h
+    //    "An average time per user of 2h 59m per month. 🇳🇿 5h 39m, 🇨🇦 4h 52m, 🇮🇳 4h 12m, 🇺🇸 4h 9m, 🇬🇧 3h 30m, 🇦🇺 3h 6m, 🇮🇪 2h 55m",
+    //    // 🇨🇭 116.1
+    //    // 🇦🇹 81.2
+    //    // 🇩🇪 52.8
     //
-    //    // Spain 52
-    //    // Argentina 43.6
-    //    // Mexico 34.3
-    //    // Colombia 33.6
-    //    // Chile 31.9
-    //    // Peru 25.4
-    //    "On average, users open the app 70.4 times per month. New Zealand 115.9, India 107.5, Canada 105.9, US 89, Ireland 78.9, UK 70, Australia 67.2",
+    //    // 🇪🇸 52
+    //    // 🇦🇷 43.6
+    //    // 🇲🇽 34.3
+    //    // 🇨🇴 33.6
+    //    // 🇨🇱 31.9
+    //    // 🇵🇪 25.4
+    //    "On average, users open the app 70.4 times per month. 🇳🇿 115.9, 🇮🇳 107.5, 🇨🇦 105.9, 🇺🇸 89, 🇮🇪 78.9, 🇬🇧 70, 🇦🇺 67.2",
     //    "59.8% of its users are male, compared to 39.1% of females",
     //    "The largest community is r/funny, with 66 million members"
     //  ]
@@ -556,28 +556,28 @@ Source: [DataReportal - Digital 2025: Global Overview Report](https://datareport
     //    "Addicted to LinkedIn", // 140
     //  ],
     //  facts: [
-    //    // Austria 1h 36
-    //    // Switzerland 56m
-    //    // Germany 37m
+    //    // 🇦🇹 1h 36
+    //    // 🇨🇭 56m
+    //    // 🇩🇪 37m
     //
-    //    // Peru 1h 08
-    //    // Spain 39m
-    //    // Colombia 31m
-    //    // Argentina 29m
-    //    // Chile 29m
-    //    // Mexico 29m
-    //    "An average time per user of 48 minutes per month. Australia 1h 6m, UK 1h, India 57m, Canada 49m, US 44m, Ireland 35m, New Zealand 1h 8m",
-    //    // Austria 82
-    //    // Switzerland 37.3
-    //    // Germany 24
+    //    // 🇵🇪 1h 08
+    //    // 🇪🇸 39m
+    //    // 🇨🇴 31m
+    //    // 🇦🇷 29m
+    //    // 🇨🇱 29m
+    //    // 🇲🇽 29m
+    //    "An average time per user of 48 minutes per month. 🇦🇺 1h 6m, 🇬🇧 1h, 🇮🇳 57m, 🇨🇦 49m, 🇺🇸 44m, 🇮🇪 35m, 🇳🇿 1h 8m",
+    //    // 🇦🇹 82
+    //    // 🇨🇭 37.3
+    //    // 🇩🇪 24
     //
-    //    // Peru 65.7
-    //    // Spain 27.8
-    //    // Colombia 27.1
-    //    // Mexico 23.9
-    //    // Chile 22
-    //    // Argentina 19.6
-    //    "On average, users open the app 36.6 times per month. India 44.2, Australia 42.1, New Zealand 39.1, UK 39, Canada 33.9, USA 28.1, Ireland 24.7",
+    //    // 🇵🇪 65.7
+    //    // 🇪🇸 27.8
+    //    // 🇨🇴 27.1
+    //    // 🇲🇽 23.9
+    //    // 🇨🇱 22
+    //    // 🇦🇷 19.6
+    //    "On average, users open the app 36.6 times per month. 🇮🇳 44.2, 🇦🇺 42.1, 🇳🇿 39.1, 🇬🇧 39, 🇨🇦 33.9, 🇺🇸A 28.1, 🇮🇪 24.7",
     //    "56.9% of its advertisement-eligible users are male, compared to 43.1% of females",
     //    "The most followed company is Google with 35 million, and the most followed person is Bill Gates at almost 37 million",
     //  ]
@@ -654,28 +654,28 @@ Source: [DataReportal - Digital 2025: Global Overview Report](https://datareport
     //    "Addicted to Pinterest", // 130
     //  ],
     //  facts: [
-    //    // Austria 1h 29m
-    //    // Switzerland 1h 28m
-    //    // Germany 1h 10m
+    //    // 🇦🇹 1h 29m
+    //    // 🇨🇭 1h 28m
+    //    // 🇩🇪 1h 10m
     //
-    //    // Argentina 2h 7m
-    //    // Chile 1h 57m
-    //    // Colombia 1h 40m
-    //    // Mexico 1h 36m
-    //    // Spain 1h 16m
-    //    // Peru 59m
-    //    "An average time per user of 1h 31m per month. Ireland 2h 4m, Australia 1h 36m, US 1h 26m, Canada 1h 5m, UK 1h 4m, India 57m, New Zealand 57m",
-    //    // Austria 41.5
-    //    // Switzerland 48.4
-    //    // Germany 32.5
+    //    // 🇦🇷 2h 7m
+    //    // 🇨🇱 1h 57m
+    //    // 🇨🇴 1h 40m
+    //    // 🇲🇽 1h 36m
+    //    // 🇪🇸 1h 16m
+    //    // 🇵🇪 59m
+    //    "An average time per user of 1h 31m per month. 🇮🇪 2h 4m, 🇦🇺 1h 36m, 🇺🇸 1h 26m, 🇨🇦 1h 5m, 🇬🇧 1h 4m, 🇮🇳 57m, 🇳🇿 57m",
+    //    // 🇦🇹 41.5
+    //    // 🇨🇭 48.4
+    //    // 🇩🇪 32.5
     //
-    //    // Argentina 52.2
-    //    // Chile 52
-    //    // Colombia 44.7
-    //    // Mexico 43
-    //    // Spain 32.6
-    //    // Peru 27.5
-    //    "On average, users open the app 43.4 times per month. Ireland 54.2, Australia 36.8, US 32.5, Canada 31.2, India 29.8, New Zealand 29.8, UK 28.6",
+    //    // 🇦🇷 52.2
+    //    // 🇨🇱 52
+    //    // 🇨🇴 44.7
+    //    // 🇲🇽 43
+    //    // 🇪🇸 32.6
+    //    // 🇵🇪 27.5
+    //    "On average, users open the app 43.4 times per month. 🇮🇪 54.2, 🇦🇺 36.8, 🇺🇸 32.5, 🇨🇦 31.2, 🇮🇳 29.8, 🇳🇿 29.8, 🇬🇧 28.6",
     //    "22.4% of its advertisement-eligible users are male, compared to 70.3% of females",
     //    "The most followed account is Wattpad with over 32 million"
     //  ]
