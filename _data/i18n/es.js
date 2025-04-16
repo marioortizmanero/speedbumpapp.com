@@ -222,7 +222,7 @@ Aunque <a href="https://support.tiktok.com/es/account-and-privacy/account-inform
 También puedes usar SpeedBump para restringir otras apps adictivas como Instagram, YouTube o Twitter. Así es como funciona:
 `,
       demo_outro: `
-Crear hábitos puede llevar semanas. SpeedBump te ayudará a **darte cuenta cuando has pasado demasiado tiempo** en TikTok, y a confirmar que eres tú quien quiere abrirlo y **no tu memoria muscular**.
+**Crear hábitos** puede llevar semanas. SpeedBump te ayudará a darte cuenta cuando has pasado demasiado tiempo en TikTok, y a confirmar que eres tú quien quiere abrirlo y **no tu memoria muscular**.
 
 Recupera el control ahora:
 `,
@@ -360,7 +360,7 @@ Fuente: <a href="https://datareportal.com/reports/digital-2025-global-overview-r
     //{
     //  name: "Temu",
     //  keywords: [
-    //    "Adicción a Candy Crush", // 10 + 0
+    //    "Adicción a Temu", // 10 + 0
     //  ],
     //},
   ]

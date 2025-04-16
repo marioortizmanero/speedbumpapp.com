@@ -221,7 +221,7 @@ Obwohl <a href="https://support.tiktok.com/de/account-and-privacy/account-inform
 Du kannst SpeedBump auch nutzen, um andere süchtig machende Apps wie Instagram, YouTube oder Twitter einzuschränken. So funktioniert's:
 `,
       demo_outro: `
-Gewohnheiten zu ändern kann Wochen dauern. SpeedBump hilft dir zu erkennen, wenn du **zu lange auf TikTok warst**, und bestätigt, dass du es bewusst öffnen willst und **nicht aus reinem Muskelgedächtnis**.
+**Gewohnheiten** zu ändern kann Wochen dauern. SpeedBump hilft dir zu erkennen, wenn du zu lange auf TikTok warst, und bestätigt, dass du es bewusst öffnen willst und **nicht aus reinem Muskelgedächtnis**.
 
 Gewinne jetzt wieder die Kontrolle:
 `,
@@ -284,7 +284,7 @@ Obwohl <a href="https://help.instagram.com/2049425491975359" target="_blank">Ins
 Du kannst SpeedBump auch nutzen, um andere süchtig machende Apps wie [TikTok](/de/app/tiktok-addiction/), YouTube oder Twitter einzuschränken. So funktioniert's:
 `,
       demo_outro: `
-**Gewohnheiten aufzubauen** kann Wochen dauern. SpeedBump hilft dir zu erkennen, wann du zu lange auf Instagram warst, und bestätigt, dass du es bewusst öffnen willst und **nicht aus Muskelgedächtnis**.
+**Gewohnheiten** zu ändern kann Wochen dauern. SpeedBump hilft dir zu erkennen, wann du zu lange auf Instagram warst, und bestätigt, dass du es bewusst öffnen willst und **nicht aus Muskelgedächtnis**.
 
 Gewinne jetzt wieder die Kontrolle:
 `,

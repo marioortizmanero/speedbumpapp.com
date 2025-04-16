@@ -229,31 +229,11 @@ You can also use SpeedBump to restrict other addictive apps like [Instagram](/en
 Gain control again now:
 `,
       facts: [
-        // 🇦🇹: 43h 55m
-        // 🇩🇪 34h 51m
-        // 🇨🇭 20h 41m
-
-        // 🇨🇱: 45h 30m
-        // 🇲🇽: 45h 25m
-        // 🇦🇷 38h 52m
-        // 🇨🇴: 38h 49m
-        // 🇵🇪: 36h 42m
-        // 🇪🇸 28h 56m
         `
 🥇 App with highest **average monthly time** per user at 34 hours 56 minutes.
 
 *Per country: 🇺🇸 43h 53m, 🇬🇧 42h 02m, 🇮🇪 40h 04m, 🇦🇺 38h 51m, 🇨🇦 37h 43m, 🇳🇿 21h 53m, 🇮🇳 5h 23m*
 `,
-        // 🇦🇹: 552.3
-        // 🇩🇪 289.5
-        // 🇨🇭 210.3
-
-        // 🇨🇱 458.3
-        // 🇨🇴 416.9
-        // 🇲🇽 410.5
-        // 🇦🇷 370.8
-        // 🇵🇪 370.1
-        // 🇪🇸 290.5
         `
 🥈 App with second highest **number of times it's opened** on average per month at 358.7, behind WhatsApp.
 
@@ -313,31 +293,11 @@ Gain control again now:
 `,
       facts: [
         "🥉 App with third highest **monthly active users** at 2 billion, behind YouTube and Facebook.",
-        // 🇩🇪: 10h 22m
-        // 🇦🇹: 10h 14m
-        // 🇨🇭: 9h
-
-        // 🇦🇷: 20h 46
-        // 🇨🇱: 20h 33m
-        // 🇪🇸: 14h 17m
-        // 🇲🇽: 11h 47m
-        // 🇨🇴: 9h 59m
-        // 🇵🇪: 8h 01m
         `
 🏅 App with fourth highest **average monthly time** per user at 16 hours 13 minutes, behind Facebook, YouTube, and TikTok.
 
 *Per country: 🇮🇳 20h 27m, 🇦🇺 12h 8m, 🇨🇦 12h 3m, 🇺🇸A 11h 2m, 🇳🇿 10h 59m, 🇮🇪 9h 51m, 🇬🇧 8h 56m*
 `,
-        // 🇦🇹: 265.5
-        // 🇩🇪: 197.6
-        // 🇨🇭: 187.6
-
-        // 🇪🇸: 345.6
-        // 🇨🇱: 554
-        // 🇲🇽: 340.3
-        // 🇦🇷: 502.8
-        // 🇨🇴: 276
-        // 🇵🇪: 212.9
         `
 🥉 App with third highest **number of times it's opened** on average per month at 331.8, behind TikTok and WhatsApp.
 
