@@ -482,9 +482,19 @@ Gain control again now:
     //    // Chile 3h 22m
     //    // Mexico 3h 21m
     //    "An average time per user of 4h 57m per month. Ireland 5h 51m, India 4h 45m, Canada 4h 37m, New Zealand 4h 2m, US 3h 56m, UK 3h 30m, Australia 2h 44m",
+    //    // Germany 77.6
+    //    // Austria 76
+    //    // Switzerland 75.5
+    //
     //    // Argentina: 143.3
-    //    "On average, users open the app 120.4 times per month. Ireland 157.9, India 110.7, Canada 109.5, ",
-    //    "63.7% of its users are male, compared to 36.3% of females",
+    //    // Spain: 104.9
+    //    // Colombia: 78.7
+    //    // Chile: 78.5
+    //    // Peru 77.2
+    //    // Mexico 75.9
+    //    "On average, users open the app 120.4 times per month. Ireland 157.9, India 110.7, Canada 109.5, US 92.5, UK 85.5, New Zealand 69.3, Australia 67.8",
+    //    "63.7% of its advertisement-eligible users are male, compared to 36.3% of females",
+    //    "The most followed person is Elon Musk at over 210 million."
     //  ]
     //},
     //{
@@ -572,9 +582,11 @@ Gain control again now:
     //    "Discord Addiction", // 210
     //    "Addicted to Discord", // 170
     //  ],
+    //  // 150 million users
     //  facts: [
     //    "An average time per user of over 3h per month",
     //    "On average, users open the app 129.7 times per month",
+    //    "66.3% of its users are male, compared to 32.6% of females",
     //  ]
     //},
     //{
@@ -636,8 +648,30 @@ Gain control again now:
     //    "Addicted to Pinterest", // 130
     //  ],
     //  facts: [
-    //    "An average time per user of almost 1h per month",
-    //    "On average, users open the app 43.4 times per month",
+    //    // Austria 1h 29m
+    //    // Switzerland 1h 28m
+    //    // Germany 1h 10m
+    //
+    //    // Argentina 2h 7m
+    //    // Chile 1h 57m
+    //    // Colombia 1h 40m
+    //    // Mexico 1h 36m
+    //    // Spain 1h 16m
+    //    // Peru 59m
+    //    "An average time per user of 1h 31m per month. Ireland 2h 4m, Australia 1h 36m, US 1h 26m, Canada 1h 5m, UK 1h 4m, India 57m, New Zealand 57m",
+    //    // Austria 41.5
+    //    // Switzerland 48.4
+    //    // Germany 32.5
+    //
+    //    // Argentina 52.2
+    //    // Chile 52
+    //    // Colombia 44.7
+    //    // Mexico 43
+    //    // Spain 32.6
+    //    // Peru 27.5
+    //    "On average, users open the app 43.4 times per month. Ireland 54.2, Australia 36.8, US 32.5, Canada 31.2, India 29.8, New Zealand 29.8, UK 28.6",
+    //    "22.4% of its advertisement-eligible users are male, compared to 70.3% of females",
+    //    "The most followed account is Wattpad with over 32 million"
     //  ]
     //},
     // Skipping NSFW ones for now just to be safe
