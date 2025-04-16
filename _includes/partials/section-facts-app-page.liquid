@@ -1,0 +1,16 @@
+<div class="section-facts">
+  <div class="description">
+    <div class="section-facts-header">
+      <h2>{{ t.app_pages.facts_title | replace: '%app%', app.name }}</h2>
+    </div>
+
+    <ul>
+    {%- for fact in app.facts %}
+      <li>{{ fact | markdownBlock }}</li>
+    {%- endfor %}
+    </ul>
+
+    {{ app.facts_source | markdownBlock }}
+  </div>
+</div>
+
