@@ -1,7 +1,7 @@
 {% assign t = i18n[page.lang] %}
 <div class="app-addiction-calculator">
   <div class="app-addiction-container">
-    <h2>{{ t.addiction_quiz.title | replace: '%app%', app.name }}</h2>
+    <h2>{{ t.addiction_quiz.title | replace: '%app%', name }}</h2>
 
     <form id="addiction-quiz-form">
       <div class="quiz-options">
@@ -26,13 +26,13 @@
 
     <div class="quiz-result" style="display: none;">
       <div id="addiction-warning" style="display: none;">
-        <h3>{{ t.addiction_quiz.warning_title | replace: '%app%', app.name }}</h3>
+        <h3>{{ t.addiction_quiz.warning_title | replace: '%app%', name }}</h3>
         <p>{{ t.addiction_quiz.warning_text }}</p>
       </div>
 
       <div id="healthy-usage" style="display: none;">
         <h3>{{ t.addiction_quiz.healthy_title }}</h3>
-        <p>{{ t.addiction_quiz.healthy_text | replace: '%app%', app.name }}</p>
+        <p>{{ t.addiction_quiz.healthy_text | replace: '%app%', name }}</p>
       </div>
     </div>
   </div>

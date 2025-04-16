@@ -22,9 +22,9 @@ Other fixes include:
   </div>
 
   <div class="description">
-    <h2>{{ app.demo_title }}</h2>
+    <h2>{{ demo_title }}</h2>
 
-    {{ app.demo_intro | markdownBlock }}
+    {{ demo_intro | markdownBlock }}
 
     <div class="description-steps">
       <div class="description-step">
@@ -41,7 +41,7 @@ Other fixes include:
       </div>
     </div>
 
-    <p>{{ app.demo_outro | markdownBlock }}</p>
+    <p>{{ demo_outro | markdownBlock }}</p>
 
     {% render "partials/downloads.liquid" page: page %}
   </div>

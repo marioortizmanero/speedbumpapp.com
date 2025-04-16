@@ -14,17 +14,17 @@ layout: layouts/base.liquid
 <section id="content" class="content">
   <div class="section-app">
     <div class="description">
-      <img eleventy:widths="200" src="/assets/apps/{{ app.name | slugify }}.png" alt="{{ app.keywords[0] }}">
+      <img eleventy:widths="200" src="/assets/apps/{{ name | slugify }}.png" alt="{{ keywords[0] }}">
       <h1>{{ title }}</h1>
 
-      {{ app.intro | markdownBlock }}
-      {% render "partials/addiction-quiz.liquid" i18n: i18n, page: page, app: app %}
+      {{ intro | markdownBlock }}
+      {% render "partials/addiction-quiz.liquid" i18n: i18n, page: page, name: name %}
 
       <hr style="opacity: 0; margin-top: var(--gap); margin-bottom: var(--gap);">
 
-      <h2>{{ t.app_pages.reasons_title | replace: '%app%', app.name }}</h2>
+      <h2>{{ t.app_pages.reasons_title | replace: '%app%', name }}</h2>
       <div class="reasons">
-      {%- for reason in app.reasons %}
+      {%- for reason in reasons %}
         <div class="reason">
           <h3>{{ reason.title }}</h3>
           {{ reason.description | markdownify }}
@@ -36,17 +36,26 @@ layout: layouts/base.liquid
 
   <hr style="opacity: 0; margin-top: var(--gap); margin-bottom: var(--gap);">
 
-  {% render "partials/section-demo-app-page.liquid" page: page, t: t, app: app %}
+  {% render "partials/section-demo-app-page.liquid"
+    page: page,
+    t: t,
+    demo_title: demo_title,
+    demo_intro: demo_intro,
+    demo_outro: demo_outro %}
 
   <hr>
 
-  {% render "partials/section-facts-app-page.liquid" t: t, app: app %}
+  {% render "partials/section-facts-app-page.liquid"
+    t: t,
+    name: name,
+    facts: facts,
+    facts_source: facts_source %}
 
   <hr>
 
   {% render "partials/section-stats.liquid" t: t, page: page %}
 
-  <hr>
+  <hr style="opacity: 0;">
 
   {% render "partials/section-features.liquid" t: t %}
 
