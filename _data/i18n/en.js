@@ -253,6 +253,9 @@ Gain control again now:
         "55.7% of its advertisement-eligible users are male, compared to 44.3% of females",
         "The most followed account is Khabane Lame at 162.4 million",
       ],
+      facts_source: `
+Source: [DataReportal - Digital 2025: Global Overview Report](https://datareportal.com/reports/digital-2025-global-overview-report).
+`,
     },
     {
       name: "Instagram",
@@ -327,7 +330,10 @@ Gain control again now:
         "The app with third highest number of times it's opened on average per month at 331.8, behind TikTok and WhatsApp. India 373.2, Ireland 251.8, New Zealand 222, Canada 219.6, Australia 203.5, US 187.1, UK 160",
         "52.7% of its advertisement-eligible users are male, compared to 47.3% of females",
         "The person with highest followers is Cristiano Ronaldo at 646.8 million"
-      ]
+      ],
+      facts_source: `
+Source: [DataReportal - Digital 2025: Global Overview Report](https://datareportal.com/reports/digital-2025-global-overview-report).
+`,
     },
     //{
     //  name: "Tinder",
