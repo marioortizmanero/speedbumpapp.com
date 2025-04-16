@@ -1,4 +1,4 @@
-/* social-media-timer */
+/* social-media-timer, monetization */
 .third-party-apps {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -12,6 +12,7 @@
   flex-direction: column;
   height: 100%;
 }
+.third-party-apps .card h3,
 .third-party-apps .card h4 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;

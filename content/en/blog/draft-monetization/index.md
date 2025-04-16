@@ -8,6 +8,94 @@ keywords: ["TODO"]
 image: /assets/blog/marketing-learnings/preview.jpg
 imageAlt: "TODO"
 draft: true
+
+pricing_apps:
+  - title: Opal
+    lines:
+      - "<mark>💎 Free version with Pro subscription</mark>"
+      - |
+        🗓️ Monthly pricing:
+
+        * 40€ (paying weekly)
+        * 21€ (paying monthly)
+        * 8€ (paying yearly)
+      - "🧪 *1-week free trial*"
+  - title: One Sec
+    lines:
+      - "<mark>🔄 Requires subscription</mark>"
+      - |
+        🗓️ Monthly pricing:
+
+        * 2€ (family plan with up to 5 members, paying yearly)
+        * 1€ (paying yearly)
+      - "🧪 *1-week free trial*"
+  - title: Clearspace
+    lines:
+      - "<mark>🔄 Requires subscription</mark>"
+      - |
+        🗓️ Monthly pricing:
+
+        * 5€ (paying yearly)
+      - "🧪 *1-week free trial*"
+  - title: BePresent
+    lines:
+      - "<mark>🔄 Requires subscription</mark>"
+      - |
+        🗓️ Monthly pricing:
+
+        * 6€ (paying yearly)
+        * 18€ (paying monthly)
+      - "🧪 *1-week free trial*"
+  - title: ScreenZen
+    lines:
+      - "<mark>🙏 Donation-based</mark>"
+      - "Notes that it may change to a subscription in the future."
+      - "Donation options grant lifetime access: 6€, 10€, 22€."
+  - title: AppBlock
+    lines:
+      - "<mark>💎 Free version with Pro subscription</mark>"
+      - |
+        🗓️ Monthly pricing:
+
+        * 2€ (paying yearly)
+      - "🧪 *1-week free trial*"
+  - title: Forest
+    lines:
+      - "<mark>💰 5€ one-time purchase on iOS, free on Android.</mark>"
+      - "💎 Pro version on Android for one-time payment of 4.39€."
+      - "🎮 In-app purchases for gamification ranging from 2€ to 22€."
+      - "🎞️ Ad videos to redeem yourself from failure and in-game currency."
+  - title: Focus Plant
+    lines:
+      - "<mark>💎 Free with Pro subscription.</mark>"
+      - |
+        🗓️ Monthly pricing:
+
+        * 3€ (paying yearly)
+      - "🧪 *1-week free trial*"
+      - "🎞️ Ad videos to get free in-game currency"
+  - title: Cold Turkey
+    lines:
+      - "<mark>💰 Free with Pro one-time payment of 40€</mark>"
+      - "*(desktop program, not an app)*"
+  - title: Brick
+    lines:
+      - "<mark>💰One-time payment of 50€ per blocking device</mark>"
+      - "*(physical device, not just an app)*"
+  - title: UnPluq
+    lines:
+      - "<mark>🔄 70€ for one blocking device and 1 year subscription</mark>"
+      - |
+        🗓️ Monthly pricing:
+
+        * 6€ (paying for 6 months)
+        * 5€ (paying yearly)
+        * 4€ (paying for 3 years)
+      - "*(physical device, not just an app)*"
+  - title: Wellspent
+    lines:
+      - "<mark>💼 Opaque pricing</mark>"
+      - "They sell a screen time API to businesses instead of directly to the consumer."
 ---
 
 For 3 months, I've been building [SpeedBump](/), an app to get you off the phone.
@@ -33,38 +121,21 @@ Can we find a middle point between monetizing a product and being an ass?
 
 ## What the other guys are doing
 
-Not that *I* need to do the same, but it gives me a baseline for comparison[^rounding][^location][^discounts]:
+Not that *I* need to do the same, but it gives me a baseline for comparison[^rounding][^location][^discounts][^fake-free]:
 
-* **Opal**: free version with Pro subscription:
-  * Monthly pricing: 40€ (paying weekly), 21€ (paying monthly), 8€ (paying yearly).
-  * 1-week free trial, then switches to yearly version.
-* **One Sec**: paid[^fake-free]:
-  * Monthly pricing: 2€ (family plan with up to 5 members, paying yearly), 1€ (paying yearly).
-  * 1-week free trials. 50% off for students.
-* **Clearspace**: paid[^fake-free]:
-  * Monthly pricing: 5€ (paying yearly).
-  * 1-week free trial.
-* **BePresent**: paid[^fake-free]:
-  * Monthly pricing: 6€ (paying yearly), 18€ (paying monthly).
-  * 1-week free trial.
-* **ScreenZen**: donation-based, with a note that it may change to a subscription in the future.
-  * Donation options: 6€, 10€, 22€.
-* **Forest**: 5€ one-time purchase on iOS, free on Android.
-  * Pro version on Android for one-time payment of 4.39€.
-  * In-app purchases for gamification ranging from 2€ to 22€.
-  * Ad videos to redeem yourself from failure and in-game currency.
-* **Focus Plant**: free with Pro subscription.
-  * Monthly pricing: 3€ (paying yearly).
-  * 1-week free trial.
-  * Ad videos to get free in-game currency.
-* **Cold Turkey** (desktop): free with Pro one-time payment of 40€.
-* **AppBlock**: free version with Pro subscription.
-  * Monthly pricing: 2€ (paying yearly).
-  * 1-week free trial.
-* **Brick** (physical device): one-time payment of 50€ per blocking device.
-* **UnPluq** (physical device): 70€ for one blocking device and 1 year subscription.
-  * Monthly pricing: 6€ (paying for 6 months), 5€ (paying yearly), 4€ (paying for 3 years).
-* **Wellspent**: they sell a screen time API to businesses instead of directly to the consumer. Opaque pricing.
+<div class="third-party-apps">
+{%- for app in pricing_apps %}
+  <div class="card">
+    <img eleventy:widths="100" src="/assets/competitors/{{ app.title }}.webp" alt="{{ app.name }}'s logo">
+    <h3>{{ app.title }}</h3>
+    <div class="card-content">
+      {%- for line in app.lines %}
+      <p>{{ line | markdownify }}</p>
+      {%- endfor %}
+    </div>
+  </div>
+{%- endfor %}
+</div>
 
 TODO: look at reviews of other apps and see what people say about it being paid.
 
@@ -114,5 +185,5 @@ At the same time, I need money. Not just for myself, but also to grow the busine
 
 [^rounding]: Numbers are rounded for simplicity.
 [^location]: Prices may vary according to the country. This analysis was based in Germany.
-[^discounts]: No special discounts applied -- just the regular price on the app or website.
-[^fake-free]: Technically, there's a free version. But it's so limited that I consider it paid. For example, if blocking more than one app requires a subscription, it's not really free.
+[^discounts]: No special discounts applied -- just the regular price on the app or website. For example, One Sec has a 50% discount for students.
+[^fake-free]: Technically, some apps have a free version. But it's so limited that I consider it paid. For example, if blocking more than one app requires a subscription, it's not really free. This includes: One Sec, Clearspace, BePresent.
