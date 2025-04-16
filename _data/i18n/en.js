@@ -258,7 +258,7 @@ Gain control again now:
 🥈 App with second highest **number of times it's opened** on average per month at 358.7, behind WhatsApp.
 
 *Per country: 🇮🇪 421.6, 🇨🇦 313.5, 🇦🇺 304, 🇬🇧 286, 🇺🇸 268.9, 🇳🇿 240.1, 🇮🇳 93*`,
-        "55.7% of its advertisement-eligible users are **male** ♂️, compared to 44.3% of **females** ♀️.",
+        "55.7% of its (advertisement-eligible) users are **male** ♂️, compared to 44.3% of **females** ♀️.",
         "The most **followed account** is Khabane Lame at 162.4 million.",
       ],
       facts_source: `
@@ -274,7 +274,7 @@ Source: <a href="https://datareportal.com/reports/digital-2025-global-overview-r
       ],
       description: "Discover what causes Instagram addiction, recognize the warning signs with our quiz, and learn how to beat the statistics with the app SpeedBump",
       intro: `
-With [2 billion users worldwide](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/), Instagram is particularly easy to get addicted to. This app can be essential to keep up with your friends and family, but it's too easy to lose track of time.
+With <a href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/" target="_blank">2 billion users worldwide</a>, Instagram is particularly easy to get addicted to. This app can be essential to keep up with your friends and family, but it's too easy to lose track of time.
 
 Instagram addiction happens when the app starts **replacing your normal activities** like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
 `,
@@ -293,7 +293,7 @@ Instagram addiction happens when the app starts **replacing your normal activiti
         },
         {
           title: "😒 Social comparison",
-          description: "Instagram makes it [easy to compare yourself](https://about.fb.com/wp-content/uploads/2021/09/Instagram-Teen-Annotated-Research-Deck-1.pdf) with others in unhealthy ways, resulting in body image issues.",
+          description: `Instagram makes it <a href="https://about.fb.com/wp-content/uploads/2021/09/Instagram-Teen-Annotated-Research-Deck-1.pdf" target="_blank">easy to compare yourself</a> with others in unhealthy ways, resulting in body image issues.`,
         },
         {
           title: "😈 Dark patterns",
