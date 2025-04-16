@@ -21,7 +21,7 @@ permalink: "/de/app/tiktok-sucht/"
 intro: |
   Mit <a href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/" target="_blank">über 1,5 Milliarde Nutzern weltweit</a> ist TikTok wahrscheinlich die süchtig machendste App auf deinem Handy.
 
-  TikTok-Sucht entsteht, wenn die App beginnt, **deine normalen Aktivitäten zu ersetzen**, wie Zeit mit Freunden verbringen oder Hobbys genießen. Es ist nicht schwarz-weiß; du könntest leicht, mäßig oder stark abhängig sein.
+  TikTok Sucht entsteht, wenn die App beginnt, **deine normalen Aktivitäten zu ersetzen**, wie Zeit mit Freunden verbringen oder Hobbys genießen. Es ist nicht schwarz-weiß; du könntest leicht, mäßig oder stark abhängig sein.
 
 reasons:
   - title: "🤖 Algorithmus-Personalisierung"
@@ -38,7 +38,7 @@ reasons:
   - title: "😈 Dark Patterns"
     description: "Die App sendet strategisch getimte Benachrichtigungen, um dich zurück zum Scrollen zu locken."
 
-demo_title: "SpeedBump: die App gegen deine TikTok-Sucht"
+demo_title: "SpeedBump: die App gegen deine TikTok Sucht"
 demo_intro: |
   Obwohl <a href="https://support.tiktok.com/de/account-and-privacy/account-information/screen-time" target="_blank">TikTok eingebaute Funktionen zur Kontrolle der Bildschirmzeit hat</a>, sind diese nicht besonders effektiv. Probiere stattdessen die App SpeedBump aus. Sie hat **keine Interessenkonflikte** und macht es möglich, **schrittweise aufzuhören**, da ein kompletter Verzicht die Entzugserscheinungen verstärken kann.
 

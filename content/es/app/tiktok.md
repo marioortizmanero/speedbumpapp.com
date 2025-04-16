@@ -23,7 +23,7 @@ permalink: "/es/app/adiccion-a-tiktok/"
 intro: |
   Con <a href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/" target="_blank">más de 1.500 millones de usuarios en todo el mundo</a>, TikTok es probablemente la app más adictiva de tu móvil.
 
-  La adicción a TikTok ocurre cuando la app comienza a **reemplazar tus actividades normales** como salir con amigos o disfrutar de tus hobbies. No es blanco o negro; podrías estar enganchado de forma leve, moderada o severa.
+  La adicción al TikTok ocurre cuando la app comienza a **reemplazar tus actividades normales** como salir con amigos o disfrutar de tus hobbies. No es blanco o negro; podrías estar enganchado de forma leve, moderada o severa.
 
 reasons:
   - title: "🤖 Personalización del algoritmo"

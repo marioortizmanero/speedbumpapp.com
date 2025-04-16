@@ -21,7 +21,7 @@ permalink: "/en/app/tiktok-addiction/"
 intro: |
   With <a href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/" target="_blank">over 1.5 billion users worldwide</a>, TikTok is likely the most addictive app on your phone.
 
-  TikTok addiction happens when the app starts **replacing your normal activities** like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
+  Addiction to TikTok happens when the app starts **replacing your normal activities** like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
 
 reasons:
   - title: "🤖 Algorithm Personalization"

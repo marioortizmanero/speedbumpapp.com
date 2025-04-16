@@ -22,7 +22,7 @@ permalink: "/de/app/instagram-sucht/"
 intro: |
   Mit <a href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/" target="_blank">2 Milliarden Nutzern weltweit</a> ist es besonders leicht, süchtig nach Instagram zu werden. Diese App kann zwar wichtig sein, um mit Freunden und Familie in Kontakt zu bleiben, aber man verliert zu leicht den Überblick über die Zeit.
 
-  Instagram-Sucht entsteht, wenn die App beginnt, **normale Aktivitäten zu ersetzen** wie Zeit mit Freunden verbringen oder Hobbys genießen. Es ist nicht schwarz-weiß; du kannst leicht, mäßig oder stark abhängig sein.
+  Instagram Sucht entsteht, wenn die App beginnt, **normale Aktivitäten zu ersetzen** wie Zeit mit Freunden verbringen oder Hobbys genießen. Es ist nicht schwarz-weiß; du kannst leicht, mäßig oder stark abhängig sein.
 
 reasons:
   - title: "🫂 Soziale Kontakte + endloses Scrollen = gefährlich"
@@ -37,7 +37,7 @@ reasons:
   - title: "😈 Dark Patterns"
     description: "Die App sendet strategisch Benachrichtigungen, um dich zurück zum Scrollen zu holen. Aber wenn du sie deaktivierst, könntest du Nachrichten von Freunden verpassen."
 
-demo_title: "SpeedBump: die App zur Heilung deiner Instagram-Sucht"
+demo_title: "SpeedBump: die App zur Heilung deiner Instagram Sucht"
 demo_intro: |
   Obwohl <a href="https://help.instagram.com/2049425491975359" target="_blank">Instagram eingebaute Funktionen zur Kontrolle der Bildschirmzeit hat</a>, sind diese nicht besonders effektiv. Probiere stattdessen die App SpeedBump aus. Sie hat **keine Interessenkonflikte** und ermöglicht es dir, **progressiv aufzuhören**, da ein kalter Entzug die Entzugserscheinungen verstärken kann.
 

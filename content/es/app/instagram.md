@@ -20,9 +20,9 @@ permalink: "/es/app/adiccion-a-instagram/"
 
 # Original Content
 intro: |
-  Con <a href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/" target="_blank">2 mil millones de usuarios en todo el mundo</a>, es especialmente fácil engancharse a Instagram. Esta app puede ser esencial para mantenerte al día con amigos y familia, pero es demasiado fácil perder la noción del tiempo.
+  Con <a href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/" target="_blank">2 mil millones de usuarios en todo el mundo</a>, Instagram es especialmente fácil de usar excesivamente. Esta app puede ser esencial para mantenerte al día con amigos y familia, pero es demasiado fácil perder la noción del tiempo.
 
-  La adicción a Instagram ocurre cuando la app comienza a **reemplazar tus actividades normales** como salir con amigos o disfrutar de tus hobbies. No es blanco o negro; puedes estar enganchado de forma leve, moderada o severa.
+  La adicción al Instagram ocurre cuando la app comienza a **reemplazar tus actividades normales** como salir con amigos o disfrutar de tus hobbies. No es blanco o negro; puedes estar enganchado de forma leve, moderada o severa.
 
 reasons:
   - title: "🫂 Socializar + scroll infinito = peligroso"

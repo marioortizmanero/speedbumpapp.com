@@ -21,7 +21,7 @@ permalink: "/en/app/instagram-addiction/"
 intro: |
   With <a href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/" target="_blank">2 billion users worldwide</a>, Instagram is particularly easy to get addicted to. This app can be essential to keep up with your friends and family, but it's too easy to lose track of time.
 
-  Instagram addiction happens when the app starts **replacing your normal activities** like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
+  Addiction to Instagram happens when the app starts **replacing your normal activities** like hanging out with friends or enjoying hobbies. It's not black and white; you might be mildly, moderately, or severely hooked.
 
 reasons:
   - title: "🫂 Socializing + endless scrolling = dangerous"

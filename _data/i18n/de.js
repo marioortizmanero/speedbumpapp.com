@@ -165,7 +165,7 @@ export default {
     life_expectancy_note: "Angenommen, du hast eine Lebenserwartung von 75 Jahren und bist 16 Stunden am Tag wach.",
   },
   addiction_quiz: {
-    title: "Bist du süchtig nach %app%?",
+    title: "Bist du %app% süchtig?",
     option_anxiety: "Ich fühle mich ängstlich, wenn ich es nicht benutze",
     option_time_loss: "Ich verliere Stunden in der App, ohne es zu merken",
     option_interference: "Es beeinträchtigt mein tägliches Leben auf negative Weise",
