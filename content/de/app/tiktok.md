@@ -13,7 +13,7 @@ keywords:
 name: TikTok
 
 # These fields should include the first target keyword
-title: "TikTok Sucht: Was es ist was man dagegen tun kann"
+title: "TikTok Sucht: Was es ist und was man dagegen tun kann"
 description: "Finde heraus, was TikTok Sucht verursacht, erkenne die Warnsignale mit unserem Quiz und lerne, wie du mit der App SpeedBump die Statistiken schlagen kannst"
 permalink: "/de/app/tiktok-sucht/"
 

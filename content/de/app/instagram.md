@@ -13,7 +13,7 @@ keywords:
 name: Instagram
 
 # These fields should include the first target keyword
-title: "Instagram Sucht: Was es ist was man dagegen tun kann"
+title: "Instagram Sucht: Was es ist und was man dagegen tun kann"
 description: >
   Entdecke die Ursachen von Instagram Sucht, erkenne Warnsignale mit unserem Quiz und lerne, wie du mit der App SpeedBump die Statistiken überwinden kannst
 permalink: "/de/app/instagram-sucht/"
