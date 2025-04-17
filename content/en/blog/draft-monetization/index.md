@@ -157,8 +157,6 @@ Feel free to skip if it's too much info. You can come back to this section later
 {%- endfor %}
 </div>
 
-TODO: look at reviews of other apps and see what people say about it being paid.
-
 ## Relying on donations
 
 Did you know SpeedBump isn't the only meme-y app I've built?
@@ -168,19 +166,28 @@ Back in 2018, I released "Meme Stickers for WhatsApp" to the Play Store.
 <style>
 .screenshots {
   display: flex;
-  gap: 10px;
+  gap: var(--gap);
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   flex-wrap: wrap;
 }
 .screenshot {
-  display: block;
   max-width: 300px;
   min-width: 200px;
   width: 100%;
   height: auto;
+}
+.screenshots img {
+  display: block;
   object-fit: contain;
+}
+.screenshots p {
+  margin-top: calc(var(--gap) / 3);
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-size: 0.9rem;
+  text-align: center;
 }
 </style>
 
@@ -193,7 +200,7 @@ Back in 2018, I released "Meme Stickers for WhatsApp" to the Play Store.
 
 WhatsApp had just added support for stickers in the chat. With apps like mine, you could download pre-built packs of stickers.
 
-It was among the first of its kind and focused on a popular niche: memes. So its growth was *spectacular*. In exactly 13 days, it already had 1 million downloads! For comparison, SpeedBump has 300 downloads after 60 days.
+It was among the first of its kind and focused on a popular niche, memes. So its growth was *spectacular*. In exactly 13 days, it already had 1 million downloads! For comparison, SpeedBump has 0.0003 million downloads after 60 days -- and that's after [some marketing](/en/blog/mobile-app-promotion/).
 
 <p>
   <div class="screenshots">
@@ -208,13 +215,13 @@ As a monetization strategy, I had set up a Patreon to get donations.
 
 ![0 patrons - $0 per month; Donation ($3 or more per month); Hey there! GlowApps is an independent android developer created in 2018, from Spain. My first project has been Meme Stickers for Whatsapp, with many more apps to come in the future. For now, I'll focus on updating our first app and making it as big as possible. This Patreon is intended to be used as a blog for updates and to publish our Privacy Policy. For more information please check out out Twitter](stickers-patreon.png)
 
-Don't get me wrong -- this isn't a fair comparison with SpeedBump. The stickers app didn't provide so much value: you only had to open it once, add your stickers to WhatsApp, and then forget about it completely. This is also a nuanced story that I'll write more about in another post.
+Don't get me wrong -- this isn't a fair comparison with SpeedBump. The stickers app didn't provide so much value: you only had to open it once, add your stickers to WhatsApp, and then forget about it completely. It's also a nuanced story that I'll elaborate on in another post.
 
 But having worked in more projects that rely on donations (mainly open source ones), I'm well aware of the struggles. And I'd rather avoid that path.
 
-### The happy ending?
+### The happy ending for the sticker frenzy
 
-After all, there was a happy ending. I was extremely lucky to see this somewhat sketchy email in my inbox:
+I was extremely lucky to see this somewhat sketchy email in my inbox:
 
 ![Good Mornign \[sic\] Glow Apps Team, Would you like to sell your new Meme Stickers for WhatsApp App? (link to app) Best regards](stickers-email.jpg)
 
@@ -228,33 +235,39 @@ But who cares? It was a stickers app soon to be irrelevant. With SpeedBump, I'm 
 
 ScreenZen is known for being tip-only. It started as a side project, so the creator presumably didn't need too much money.
 
-[We only have revenue *estimations*](#what-the-other-guys-are-doing), but both Android and iOS apps indicate &lt;$5k per month. This could be anywhere from $0 to $5K -- it's too low for the platform to give an exact number.
+[We only have revenue *estimations*](#what-the-other-guys-are-doing), but both Android and iOS apps indicate &lt;$5k per month. It could be anywhere from $0 to $10K -- it's too low for the platform to give an exact number.
 
-ScreenZen notes that the pricing may change, but I suspect they'd have a hard time with the community.
+ScreenZen notes that the pricing may change, but that might give him a hard time with the community.
+
+TODO: screenshot of the note in the app.
 
 ## Subscriptions: the Bad Guys
 
 Everyone's tired of subscriptions -- they're everywhere. But that's for a reason: they kinda work.
 
+Note that I'm not considering putting SpeedBump behind a pay wall. The current features will always be free. My goal is to help as many people as possible, including those who aren't necessarily severly addicted.
+
 ### Maybe you should provide enough value
 
-Opal is both the biggest and *most expensive* screen time app. Yet it boasts a 4.8 rating. It has probably made healthy phone usage more accessible than anyone else:
+Opal is both the biggest and *most expensive* screen time app. Yet it boasts a 4.8 rating. They've probably made healthy phone usage more accessible than anyone else.
 
 ![Ratings and reviews: 4.8 out of 5, 41.6k ratings](opal-ratings.png)
 
-Some reviews complain about pricing, but I guess the majority is happy with it?
+Not many people would pay for a screen time app. But that's the point of a freemium model.
 
+Only TODO% of Spotify users pay. And that's after the company spent *millions* on optimizing it. But it's still enough for them to keep going.
 
 ### Hibernating subscriptions
 
-Automatic renewals give subscriptions a scammy look: you sign up for a free trial, forget about it, and get charged. This can be resolved through the app store's customer support, but it's a dark pattern.
+Automatic renewals give subscriptions a scammy look: you sign up for a free trial, forget about it, and get charged. You can resolve some cases through customer support, but it's a dark pattern.
 
-- Kagi does this
-- https://untested.sonnet.io/notes/auto-hibernate-subscriptions/
+What companies like Kagi do is [hibernating subscriptions](https://untested.sonnet.io/notes/auto-hibernate-subscriptions/). If you aren't using their services anymore, they will automatically put it on pause for you. TODO: put more details here (how long? is it a pause?)
+
+TODO: is this possible with the Play Store? Can I cancel a subscription automatically after the app is disabled for long enough?
 
 ### Community subscriptions
 
-- Finch does this
+Finch is a habit tracker that feels like a game. They've built an awesome community that they leverage for pricing. TODO: explain how it works.
 
 ### Lifetime payment
 
@@ -265,18 +278,54 @@ Let's take a look at One Sec. Its monthly subscription is among the cheapest at 
 
 ## Pay Once
 
-When the Play Store came out, this was the golden standard.
+When the Play Store came out, paying once was the golden standard. Many As the popularity of phones grew, most apps changed to subscriptions. TODO: maybe look up some statistics
 
-- Works for some features, but others have ongoing server costs.
+Business-wise, it makes sense. Server costs are ongoing, so recurring payments make sure the costs are always covered.
 
 ## Ads
 
-- When you open apps
-- When you want to unlock a new annoyance
+Advertisements only work if your users spend time in the app. Which is like, the complete opposite of what I'm trying to do.
+
+I've [asked users](/en/blog/v1/), and they rarely open the app -- awesome. And when they do, it's for something quick like updating the list of restricted apps.
+
+This leaves us with only two spots where ads make sense:
+
+<p>
+  <div class="screenshots">
+    <div class="screenshot">
+      <img eleventy:widths="400" src="speedbump-time-limit-shield.png" alt="TODO">
+      <p>The screen shown when you open restricted apps after having taken a break. It helps you be intentional and set a time limit.</p>
+    </div>
+    <div class="screenshot">
+      <img eleventy:widths="400" src="speedbump-annoyance.png" alt="TODO">
+      <p>The annoyances that appear when your chosen time is up. They're customizable: dancing cats, the screen time police, or rain in your phone.</p>
+    </div>
+  </div>
+</p>
+
+In one of my feedback forms, someone legit called me an idiot for not putting ads on the second one (TODO: what was the actual word??). That's what AppBlock does (TODO: fact-check as maybe it's both or only the first, also look for other examples, and take screenshot).
+
+Still, AppBlock probably makes most of its income from subscriptions. Just like Spotify, the ads on the free version are more of an incentive to get premium users than an income stream.
+
+TODO: picture of where Spotify gets the money from (comparing subscriptions vs. ads).
 
 ### Well-Integrated Ads
 
-- NordVPN logo with memes like dancing cats
+Two other issues with advertisement are:
+
+- **Privacy concerns**: personalized ads need to get the data from somewhere:
+  - "Why should this screen time app know that I'm into cycling?"
+  - "How can I be sure this screen time app is not sharing my usage with other apps?"
+- **Intrusiveness**: ads get in the way of the user, worsening their experience. They clutter the interface, moreso if they aren't personalized.
+  - "This ad banner is so annoying, and it's telling me to buy shampoo while I'm bald!"
+
+So my favorite way to approach ads is partnerships. Imagine if Duolingo and SpeedBump collaborated in showing you the green owl when your time is up in a restricted app. Or if Nike told you to go for a run.
+
+Sure, it's still an ad. But it respects your privacy, and can be integrated in a way that makes sense for SpeedBump. Similar to how there are cats dancing on your screen, it could be the green owl doing breakdance.
+
+TODO: picture or GIF of Duolingo owl doing something funny
+
+Unfortunately, these huge partnerships are only possible when SpeedBump has more users. And I'm not quite sure how much money they'd actually bring to the table. But it'd be super cool from my point of view (feel free to disagree!).
 
 ## Money for growth, not just making a living
 
@@ -289,6 +338,14 @@ If a tree falls in a forest and no one is around to hear it, does it make a soun
 This is particularly important in this space. People are increasingly aware of the problems caused by excessive social media usage. But not to a point where the majority does something about it.
 
 At the same time, I need money. Not just for myself, but also to grow the business. Promoting your app costs money, but making your app more known is precisely how you make it accessible. Building something and waiting for everyone isn't perfect -- it takes a very long time and hits limits.
+
+## Wrapping up
+
+Here are the monetization options for SpeedBump:
+
+- One time payment for Pro features
+- Hibernating subscriptions for Pro features
+- Advertisements through partnerships
 
 [^rounding]: Numbers are rounded for simplicity.
 [^location]: Prices may vary according to the country. This analysis was based in Germany.
