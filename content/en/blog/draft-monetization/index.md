@@ -241,6 +241,12 @@ ScreenZen notes that the pricing may change, but that might give him a hard time
 
 TODO: screenshot of the note in the app.
 
+## Pay Once
+
+When the Play Store came out, paying once was the golden standard. Many As the popularity of phones grew, most apps changed to subscriptions. TODO: maybe look up some statistics
+
+Business-wise, it makes sense. Server costs are ongoing, so recurring payments make sure the costs are always covered.
+
 ## Subscriptions: the Bad Guys
 
 Everyone's tired of subscriptions -- they're everywhere. But that's for a reason: they kinda work.
@@ -257,6 +263,8 @@ Not many people would pay for a screen time app. But that's the point of a freem
 
 Only TODO% of Spotify users pay. And that's after the company spent *millions* on optimizing it. But it's still enough for them to keep going.
 
+TODO: elaborate on pro features and how they bring even more value.
+
 ### Hibernating subscriptions
 
 Automatic renewals give subscriptions a scammy look: you sign up for a free trial, forget about it, and get charged. You can resolve some cases through customer support, but it's a dark pattern.
@@ -271,16 +279,20 @@ Finch is a habit tracker that feels like a game. They've built an awesome commun
 
 ### Lifetime payment
 
-Let's take a look at One Sec. Its monthly subscription is among the cheapest at 1-2€
+One Sec is one of the few apps with a lifetime option. In other words, paying a lump sum will grant you permanent access to the subscription benefits.
+
+In their case, instead of paying 1-2€ per month you can pay 100€ once.
+
+Usually, you do the math of how long an average subscription lasts. If that's 10 months for 2€ a month, the lifetime offer could be 20€. One Sec adds an extra margin, because one-time payments are riskier for the business than subscriptions.
+
+TODO: double check the lifetime price -- maybe it was for the family?
+
+Some users complain about this:
 
 ![1 star out of 5 review: I am over it 👎. I have loved this app since I began using it 6 months ago. It even inspired me to purchase my cousin an iPhone, knowing that I would be able to restrict their screen time and break the dopamine-induced doom scrolling that social media and games can oftentimes induce. When I was going to sign up for the family plan, I saw the price had increased from $25 to $40. For reference, the individual plan is $20. Honestly, if I only intended to add one additional user to the subscription, what incentive is there in not receiving a discount? Look at it this way: 2x individual plans = $40; 2x users on family plan = $40. What's the difference? This is really shortsighted and selfish of the developer, in my opinion, and it makes me want to not even renew the individual subscription. $40 is too much. The app is good and well thought out, but it isn't actually providing that grand of a solution to justify that price, even for multiple users. $25 actually motivated me to add users to the app, given it was only a $5 increase from what I was paying. Doubling the price only frustrates me and makes me want to protest the developer's greed, and it shows that their intent isn't to actually provide a solution and make that accessible to more people, but to squeeze every dollar from their user base. What a careless decision towards users. I'll be deleting the app.
 ](one-sec-review.png)
 
-## Pay Once
-
-When the Play Store came out, paying once was the golden standard. Many As the popularity of phones grew, most apps changed to subscriptions. TODO: maybe look up some statistics
-
-Business-wise, it makes sense. Server costs are ongoing, so recurring payments make sure the costs are always covered.
+TODO: maybe look for a better review or others.
 
 ## Ads
 
@@ -346,6 +358,10 @@ Here are the monetization options for SpeedBump:
 - One time payment for Pro features
 - Hibernating subscriptions for Pro features
 - Advertisements through partnerships
+
+It doesn't have to be just one, either.
+
+Monetizing isn't a priority, as I have savings for now. But I've been wanting to know if SpeedBump is the right thing to work on. And the answer is as simple as: if people are willing to pay for it, then yes.
 
 [^rounding]: Numbers are rounded for simplicity.
 [^location]: Prices may vary according to the country. This analysis was based in Germany.
