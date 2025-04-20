@@ -361,7 +361,7 @@ Here are the monetization options for SpeedBump:
 
 It doesn't have to be just one, either.
 
-Monetizing isn't a priority, as I have savings for now. But I've been wanting to know if SpeedBump is the right thing to work on. And the answer is as simple as: if people are willing to pay for it, then yes.
+I'm doing fine money-wise, so monetizing isn't a priority. But I've been wanting to know if SpeedBump is the right thing to work on. And the answer is as simple as: if people are willing to pay for it, then yes.
 
 [^rounding]: Numbers are rounded for simplicity.
 [^location]: Prices may vary according to the country. This analysis was based in Germany.

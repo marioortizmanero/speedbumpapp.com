@@ -1,5 +1,7 @@
 export default {
   reading_dir: "ltr",
+  play_store: "https://play.google.com/store/apps/details?id=com.capyapps.speedbump&utm_source=speedbumpapp.com&hl=en",
+  app_store: "https://docs.google.com/forms/d/e/1FAIpQLSdJ_iaoiGqyC7eUFR5hoR65C_QG5kKgkxwr99h1FkIf1U_sfA/viewform?usp=header",
   annoyances: {
     annoyance_1: "The Screen Time Police",
     annoyance_2: "Aggressive Cookie Banners",
