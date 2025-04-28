@@ -44,7 +44,7 @@ export default {
       },
       feature_3: {
         title: "Be intentional",
-        content: `<p>The more you want to use, the more you wait before opening. Doesn't get in your way but avoids compulsive behavior.</p>`,
+        content: `<p>The more you want to use, the more you wait before opening. This prevents compulsive behavior without getting in your way.</p>`,
         image_alt: "A person in the Lotus position"
       },
       feature_4: {

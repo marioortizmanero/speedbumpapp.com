@@ -31,26 +31,30 @@
   z-index: -1;
 }
 .hero .lines {
-  font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Overpass', sans-serif;
   letter-spacing: .08rem;
+  letter-spacing: -0.08rem;
 }
 .hero .lines .line1 {
   font-size: 4rem;
   line-height: 1.1;
   margin-bottom: 1rem;
   padding: 0 2rem;
+  font-weight: 600;
 }
 .hero .lines .line2 {
   font-size: 2rem;
   line-height: 1.1;
   padding: 0 2rem;
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 .hero .lines .line3 {
   font-size: 2rem;
   line-height: 1.4;
   padding: 0 2rem;
   margin-bottom: 3rem;
+  font-weight: 400;
 }
 
 .hero mark {

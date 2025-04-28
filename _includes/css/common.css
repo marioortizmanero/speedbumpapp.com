@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --accent: #f6fa41;
@@ -31,7 +31,7 @@ html {
 body {
   color: var(--foreground);
   line-height: 1.6;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-optical-sizing: auto;
 }
 body a {
@@ -55,12 +55,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Londrina Solid', sans-serif;
-  letter-spacing: .08rem;
+  font-family: 'Overpass', sans-serif;
 }
 
 .button-container {
-  font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Overpass', sans-serif;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -69,13 +69,14 @@ h6 {
 .button {
   background-color: var(--accent);
   color: black;
+  border: 2px solid black;
   padding: 1rem 2rem;
   border-radius: var(--radius);
+
   text-decoration: none;
-  font-weight: 300;
   text-transform: uppercase;
-  border: 2px solid black;
   font-size: 1.3rem;
+  letter-spacing: -0.03rem;
 
   display: flex;
   align-items: center;
