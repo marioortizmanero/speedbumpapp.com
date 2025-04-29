@@ -14,9 +14,9 @@ export default {
     annoyance_9: "Newsletter",
   },
   index: {
-    hero_1: "Kennst du Bremsschwellen",
-    hero_2: "Nervig, aber sie bremsen dich definitiv aus",
-    hero_3: "Entdecke die Bremsschwellen für <mark>Handysucht</mark>",
+    hero_1: "Genervt davon, dass dein Handy dich kontrolliert",
+    hero_2: "Du öffnest kurz Social Media und plötzlich ist eine Stunde weg...",
+    hero_3: "Mach Schluss damit mit der <mark>SpeedBump</mark> App.",
     section_demo: {
       title: "Die App, um Social Media Sucht zu bekämpfen",
       step_1: "Du legst ein Zeitlimit beim Öffnen süchtig machender Apps",

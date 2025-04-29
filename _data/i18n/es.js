@@ -14,13 +14,13 @@ export default {
     annoyance_9: "Boletines",
   },
   index: {
-    hero_1: "¿Conoces los badenes",
-    hero_2: "Molestos, pero sin duda te ralentizan",
-    hero_3: "Te presentamos el badén para <mark>las&nbsp;redes&nbsp;sociales</mark>",
+    hero_1: "¿Cansad@ de que tu teléfono te controle",
+    hero_2: "Abres redes sociales para un minutito y acaba siendo una hora...",
+    hero_3: "Ponle fin con la app <mark>SpeedBump</mark>.",
     section_demo: {
       title: "La app para curar tu adicción a redes sociales",
-      step_1: "Pon un tiempo límite al abrir apps adictivas",
-      step_2: "Te sacará de quicio cuando se acabe el tiempo",
+      step_1: "Al abrir apps adictivas, escoge un tiempo límite",
+      step_2: "Si excedes el tiempo, SpeedBump te molestará",
       step_3: "Toma un descanso de 15 minutos para seguir",
       description: "Porque los recordatorios ya no funcionan. Tampoco los temporizadores, frases motivacionales u otras técnicas de concentración. A veces, necesitas algo más... directo.",
       frame_alt: "El marco de un teléfono"
@@ -39,7 +39,7 @@ export default {
       },
       feature_2: {
         title: "Crea hábitos saludables",
-        content: `<p>¡Las redes sociales pueden ser útiles! Conecta con amigos sin pasar horas haciendo scroll.</p>`,
+        content: `<p>¡Las redes sociales pueden ser útiles! Conecta con amigos sin pasar horas perdiendo el tiempo.</p>`,
         image_alt: "Dos personas abrazándose",
       },
       feature_3: {
@@ -49,7 +49,7 @@ export default {
       },
       feature_4: {
         title: "Fácil de usar",
-        content: `<p>No le des muchas vueltas – probarlo lleva 5 minutos. Recuperarás <i>años</i> de vida.</p>`,
+        content: `<p>No le des más vueltas – probarlo lleva 5 minutos. Recuperarás <i>años</i> de vida.</p>`,
         image_alt: "Un dardo dando en el blanco",
       },
       feature_5: {
@@ -64,7 +64,7 @@ export default {
       }
     },
     section_carousel: {
-      title: "Somos los mejores para alejarte del móvil",
+      title: "Somos los mejores para alejarte del teléfono",
       content: "<p>9 molestias hasta ahora, ¡y vienen más!<br>Aparecen sobre apps adictivas al acabarse el tiempo elegido. Créeme, no querrás quedarte mucho más.</p>"
     },
     section_feelings: {
@@ -94,7 +94,7 @@ export default {
     section_stats: {
       title: "Recupera el control de tu tiempo",
       content: `
-      <p><b>5 horas</b> de tiempo de pantalla <b>a los 25</b> significa que pasarás <b>más de 15 años</b> de tu vida restante pegado a un móvil (<a href="/es/blog/addicion-al-movil/#screen-time-calculator">fuente</a>).</p>
+      <p><b>5 horas</b> de tiempo de pantalla <b>a los 25</b> significa que pasarás <b>más de 15 años</b> de tu vida restante pegado a un teléfono (<a href="/es/blog/addicion-al-movil/#screen-time-calculator">fuente</a>).</p>
 
       <p>Las consecuencias incluyen una peor <b>salud mental</b> y la <b>capacidad de atención</b> de un pez 🐟.</p>
 

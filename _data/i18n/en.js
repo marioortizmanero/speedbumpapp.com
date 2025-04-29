@@ -19,8 +19,8 @@ export default {
     hero_3: "Meet the speed bump for <mark>social&nbsp;media&nbsp;apps</mark>",
     section_demo: {
       title: "The app to finally stop doomscrolling",
-      step_1: "Set a time limit when opening addictive apps",
-      step_2: "Get annoyed out of them when time's up",
+      step_1: "When opening addictive apps, set a time limit",
+      step_2: "If time's up, SpeedBump will annoy you",
       step_3: "Take a 15-minute break before next use",
       description: "Because gentle reminders don't work anymore. Neither do fixed timers or motivation quotes. Sometimes, you need something more… direct.",
       frame_alt: "The frame of a phone"
