@@ -10,6 +10,8 @@ imageAlt: "TODO"
 draft: true
 ---
 
+I'm building an app to [curb doomscrolling](/en/).
+
 ## Opal
 
 [Terms and Privacy](https://www.opal.so/terms), [FAQ](https://www.opal.so/help/what-do-you-do-with-my-data), and [manifesto](https://www.opal.so/blog/manifesto)
