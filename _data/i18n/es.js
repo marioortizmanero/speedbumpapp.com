@@ -2,6 +2,14 @@ export default {
   reading_dir: "ltr",
   play_store: "https://play.google.com/store/apps/details?id=com.capyapps.speedbump&utm_source=speedbumpapp.com&hl=es",
   app_store: "https://docs.google.com/forms/d/e/1FAIpQLSfih9FjFRguM4i7EDSZSIdh46bsLfoA7aJldZ57-JDhw5TYQQ/viewform?usp=header",
+  socials: {
+    tiktok: "https://www.tiktok.com/@sandra.speedbump",
+    instagram: "https://www.instagram.com/speedbumpapp_es/",
+    x: "https://x.com/null_deref",
+    linkedin: "https://www.linkedin.com/in/marioortizmanero/",
+    mstdn: "https://mstdn.social/@nullderef",
+    subscribe: "https://nullderef.com/subscribe",
+  },
   annoyances: {
     annoyance_1: "La Policía de la Pantallita",
     annoyance_2: "Banners Agresivos de Cookies",
