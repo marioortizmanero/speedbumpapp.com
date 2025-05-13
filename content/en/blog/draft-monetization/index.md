@@ -117,6 +117,7 @@ pricing_apps:
     lines:
       - "<mark>💼 Opaque pricing</mark>"
       - "They sell a screen time API to businesses instead of directly to the consumer."
+# AppBlock also prompts subscription during onboarding
 ---
 
 For 3 months, I've been building [SpeedBump](/), an app to get you off the phone.
