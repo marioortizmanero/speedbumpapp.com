@@ -10,6 +10,7 @@ imageAlt: "TODO"
 draft: true
 
 pricing_apps:
+# Prompts subscription at the end of onboarding with free trial.
   - title: Opal
     lines:
       - "<mark>💎 Free version with Pro subscription</mark>"
@@ -32,6 +33,7 @@ pricing_apps:
       - "🧪 *1-week free trial*"
       - |
         📈 Net revenue: $200K/mo
+# Prompts subscription during onboarding.
   - title: One Sec
     lines:
       - "<mark>🔄 Requires subscription</mark>"
@@ -66,6 +68,7 @@ pricing_apps:
       - "🧪 *1-week free trial*"
       - |
         📈 Net revenue: $45K/mo
+# Prompts payment during onboarding.
   - title: ScreenZen
     lines:
       - "<mark>🙏 Donation-based</mark>"
