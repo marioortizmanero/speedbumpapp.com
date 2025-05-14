@@ -1,7 +1,7 @@
 ---
 lang: en
 # TODO: generic title: how to choose a privacy policy
-title: "Screen Time Apps and Privacy: Bad Combination?"
+title: "A Look at the Privacy of Screen Time Apps"
 permalink: /en/blog/privacy/
 date: 2025-04-08
 description: "TODO"
@@ -44,12 +44,17 @@ Privacy-wary users are a loud minority. It depends on the industry, but TODO stu
 
 ## Privacy policies of other screen time apps
 
+* TODO: reach out to those with red flags to ask them.
+  * clearspace about F. section with personal data
+  * clearspace about "Mobile Device Access" -- does camera/microphone info get stored somewhere
+* TODO: remove this: The apps could clarify ambiguous statements as a response to this post -- I don't mean to shame anyone.
+
 As research, I read the privacy policy of the 6 most popular screen time apps. I promise I didn't just feed it to an LLM; this was a pain.
 
 No apps state that they sell your data, but it could still end up in the hands of others:
 
 * Through **business transfers**: if [Meta buys Opal](/en/blog/opal-bought-by-meta/), then Meta owns its data.
-* Within **associates**: Clearspace had a broad definition for with whom they may share data:
+* Within **associates**: Clearspace has a broad definition for whom they may share data with:
 
   ![Affiliates. We may share your information with our affiliates, in which case we will require those affiliates to honor this privacy notice. Affiliates include our parent company and any subsidiaries, joint venture partners or other companies that we control or that are under common control with us.](clearspace-affiliates.png)
 
@@ -57,20 +62,55 @@ No apps state that they sell your data, but it could still end up in the hands o
 
   ![Please do not disclose your Account password to unauthorized people. No method of transmission over the Internet, or method of electronic storage, is 100% secure, however](opal-security.png)
 
-Given how complex and ambiguous the policies are, instead of saying "app X is bad", I can:
+* To comply with the **law**: every company must disclose information with authorities in case of investigations.
 
-* Point out red flags 🚩. The apps could clarify ambiguous statements as a response to this post -- I don't mean to shame anyone.
-* List what data the company collects, which would be at risk in the cases above.
+### Red flags
 
-### Data collected
+It's hard to say "app X is bad" given how complex and ambiguous privacy policies are. Instead, I can point out red flags 🚩.
 
-TODO: table with kind of data collected, with the apps as columns and the data types as rows. The data types are emojis and there's a legend.
+[The annex at the end](#app-usage) lists what data each app collects.
 
-### User interface
+<a name="app-usage"></a>
+## Annex: Data collected by apps
+
+| **App**    | 👤 | 💵 | 🔧 | 🧪 | 📱 | *️⃣ |
+|------------|---|---|---|---|---|---|
+| [Opal](https://www.opal.so/terms)                                                               | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [ScreenZen](https://www.screenzen.co/privacy)                                                   | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [One Sec](https://one-sec.app/privacy/)                                                         | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
+| [Clearspace](https://getclearspace.notion.site/Privacy-Policy-1d2959a3b6a14791aff5874704623820) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [AppBlock](https://appblock.app/privacy-policy-google-play/)                                    | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [BePresent](https://www.bepresentapp.com/privacy-policy)                                        | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+
+#### Legend for the kinds of data collected
+
+* 👤 **Personal**: may include contact information, email, phone number
+  * *Only collected after logging in*
+* 💵 **Payment**: may include personal data, location, date of birth
+  * *Only collected after paying, often by a third-party service*
+* 🧪 **Behavioral**: may include screens visited, actions performed
+  * *Refers to behaviors in the app blocker itself (like Opal)*
+  * *Usually anonymized*
+* 🔧 **Technical**: may include device information, logs, crash reports, IP address
+  * *Sometimes anonymized (crash reports may ask for contact info so that they get back to you)*
+* <mark>📱 **Usage**: may include what apps you use, how often, and usage patterns</mark>
+  * *TODO: anonymized??*
+* <mark>*️⃣  Other</mark>
+  * **Opal**: social media usernames (if user chooses to connect their accounts)
+  * **One Sec**: sleeping activity
+  * **Clearspace**: user-to-user communication through the app, camera and microphone (presumably the "pushups to earn screen time" feature)
+
+### Reasons for data collection
+
+* All of them
+
+### Consent
 
 TODO: table with opt-in/opt-out, assuming, etc.
 
 ### Opal
+
+![(g) Statistical Information. We may collect information about an individual’s online and offline preferences, habits, movements, trends, decisions, associations, memberships, finances, purchases and other information for statistical purposes;](opal-usage-data.png)
 
 The biggest player in screen time apps.
 
@@ -121,6 +161,8 @@ In the app:
 
 ## Clearspace
 
+![F. Internet or other similar network activity - Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements.](clearspace-usage-data.png)
+
 [Privacy Policy](https://getclearspace.notion.site/Privacy-Policy-1d2959a3b6a14791aff5874704623820) (tough-ish read)
 
 * Personal information:
@@ -157,6 +199,8 @@ In the app:
 ## BePresent
 
 [Privacy Policy](https://www.bepresentapp.com/privacy-policy) (tough-ish reads)
+
+![Mobile Device Access. We may request access or permission to certain features from your mobile device, including your mobile device's screen time, and other features. If you wish to change our access or permissions, you may do so in your device's settings. This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes.](bepresent-usage-data.png)
 
 * Personal data: names, email addresses, usernames, location, device information, **app usage information**
 * Used for: payment, account
