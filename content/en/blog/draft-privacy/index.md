@@ -68,21 +68,55 @@ No apps state that they sell your data, but it could still end up in the hands o
 
 It's hard to say "app X is bad" given how complex and ambiguous privacy policies are. Instead, I can point out red flags 🚩.
 
-[The annex at the end](#app-usage) lists what data each app collects.
+[Annex&nbsp;I](#app-usage) lists what data each app collects. It's an easy read, but before jumping to conclusions we should clarify a few things.
+
+### Usage data
+
+In theory, screen time apps on iOS don't have access to data about the apps you use. When you start blocking an app, Apple gives developers an encrypted token, which they can use to set up limits. But at no point do they know *what* app you're blocking.
+
+TODO: image
+
+Clearspace works around this limitation by simply asking the user what app they just blocked. I'm not sure why they do this or if it's allowed, though.
+
+### Tracking across apps
+
+TODO: the popup content may differ per app? Take screenshots of the others, too
+
+![Allow "Opal" to track activity across other companies' apps and websites? By allowing access to this data you enable Opal to: (1) Measure how efective our ad campaigns are (2) Create similar ad campaigns for similar-situated users (3) Power informed decision making across product design.](ios-track-across.png)
+
+#### Opal
+
+![(g) Statistical Information. We may collect information about an individual’s online and offline preferences, habits, movements, trends, decisions, associations, memberships, finances, purchases and other information for statistical purposes;](opal-usage-data.png)
+
+#### Clearspace
+
+![F. Internet or other similar network activity - Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements.](clearspace-usage-data.png)
+
+They have a feature to compete against friends
+
+![Other Users. When you share personal information (for example, by posting comments, contributions or other content to the App) or otherwise interact with public areas of the App, such personal information may be viewed by all users and may be publicly made available outside the App in perpetuity. If you interact with other users of our App and register for our App through a social network (such as Facebook), your contacts on the social network will see your name, profile photo, and descriptions of your activity. Similarly, other users will be able to view descriptions of your activity, communicate with you within our App, and view your profile.](clearspace-other-users.png)
+
+#### BePresent
+
+![Mobile Device Access. We may request access or permission to certain features from your mobile device, including your mobile device's screen time, and other features. If you wish to change our access or permissions, you may do so in your device's settings. This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes.](bepresent-usage-data.png)
+
+### Tracking across devices
+
+---
 
 <a name="app-usage"></a>
-## Annex: Data collected by apps
+## Annex I: Data collected by apps
 
 | **App**    | 👤 | 💵 | 🔧 | 🧪 | 📱 | *️⃣ |
 |------------|---|---|---|---|---|---|
 | [Opal](https://www.opal.so/terms)                                                               | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [ScreenZen](https://www.screenzen.co/privacy)                                                   | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [ScreenZen](https://www.screenzen.co/privacy)                                                   | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
 | [One Sec](https://one-sec.app/privacy/)                                                         | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
 | [Clearspace](https://getclearspace.notion.site/Privacy-Policy-1d2959a3b6a14791aff5874704623820) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [AppBlock](https://appblock.app/privacy-policy-google-play/)                                    | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [AppBlock](https://appblock.app/privacy-policy-google-play/)                                    | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
 | [BePresent](https://www.bepresentapp.com/privacy-policy)                                        | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 
-#### Legend for the kinds of data collected
+### Legend for the kinds of data collected
 
 * 👤 **Personal**: may include contact information, email, phone number
   * *Only collected after logging in*
@@ -97,112 +131,27 @@ It's hard to say "app X is bad" given how complex and ambiguous privacy policies
   * *TODO: anonymized??*
 * <mark>*️⃣  Other</mark>
   * **Opal**: social media usernames (if user chooses to connect their accounts)
+  * **ScreenZen**: screen recordings (when the user reports a bug)
   * **One Sec**: sleeping activity
   * **Clearspace**: user-to-user communication through the app, camera and microphone (presumably the "pushups to earn screen time" feature)
+  * **AppBlock**: app configuration (if backups are enabled)
 
-### Reasons for data collection
+<a name="app-consent"></a>
+## Annex II: Privacy consent in apps
 
-* All of them
+| **App**    | Assumed | Opt out | iOS pop-up | *️⃣ |
+|------------|:-------:|:-------:|:----------:|---|
+| Opal       |    ✅    |    ❌    |      ✅     | ❌ |
+| ScreenZen  |    ✅    |    ❌    |      ❌     | ❌ |
+| One Sec    |    ✅    |    ❌    |      ❌     | ❌ |
+| Clearspace |    ✅    |    ❌    |      ✅     | ❌ |
+| AppBlock   |    ✅    |    ❌    |      ✅     | ✅ |
+| BePresent  |    ✅    |    ❌    |      ❌     | ❌ |
 
-### Consent
+### Legend for the kinds of consent
 
-TODO: table with opt-in/opt-out, assuming, etc.
-
-### Opal
-
-![(g) Statistical Information. We may collect information about an individual’s online and offline preferences, habits, movements, trends, decisions, associations, memberships, finances, purchases and other information for statistical purposes;](opal-usage-data.png)
-
-The biggest player in screen time apps.
-
-[Terms and Privacy](https://www.opal.so/terms) (easy read), [FAQ](https://www.opal.so/help/what-do-you-do-with-my-data), and [manifesto](https://www.opal.so/blog/manifesto)
-
-* Data to improve products and services
-* Not sold to third parties
-* Targeting >13 year olds (separate app for children)
-
-* Non-anonymous data: contact info, phone number, location, payment info
-  * Used for sharing an account across platforms, payments, and bug reports.
-* Anonymous data: **including** crash reports, most commonly used Opal features, when Opal was installed, how many times Opal is opened
-  * Used to improve the app
-  * "we often conduct research on user demographics, interests, and behavior"
-  * "we may collect information about an individual’s online and offline preferences, habits, movements, trends, decisions, associations, memberships, finances, purchases and other information for statistical purposes"
-
-In the app:
-
-* Consent is assumed
-* No way to opt out
-* Pop up to track activity across other companies' apps and websites
-
-## ScreenZen
-
-[Privacy Policy](https://www.screenzen.co/privacy) (easy read)
-
-* Only anonymous data with third-party software (UXCam, BugLife, Mixpanel):
-  * Used to improve the app.
-  * Screens visited, actions performed, device details. If the user reports a bug, they'll be asked to record their screen.
-
-In the app:
-
-* Consent is assumed
-* No way to opt out
-
-## One Sec
-
-[Privacy Policy](https://one-sec.app/privacy/) (generated with [iubenda](https://www.iubenda.com/en/privacy-and-cookie-policy-generator), typical read)
-
-* device logs; device information; sleeping activity; Usage Data; Calendar permission; Reminders permission; Photo Library permission; email address; User ID; payment info; purchase history; Trackers; first name; last name.
-  * Used for enforcement requests, to improve the app, detect fraudulent activity, payments, technical reasons
-  * Third-party software: TelemetryDeck, Make (Celonis), Paddle, Hetzner, Sendgrid, Typeform
-
-In the app:
-
-* Content is assumed
-* No way to opt out
-
-## Clearspace
-
-![F. Internet or other similar network activity - Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements.](clearspace-usage-data.png)
-
-[Privacy Policy](https://getclearspace.notion.site/Privacy-Policy-1d2959a3b6a14791aff5874704623820) (tough-ish read)
-
-* Personal information:
-  * names, email addresses, device information, location, actions performed
-  * used for testimonials, improving the app, user-to-user communication, enforcement requests,
-
-In the app:
-
-* Consent is assumed
-* No way to opt out
-* Pop up to track activity across other companies' apps and websites
-
-In theory, screen time apps on iOS don't have access to data about the apps you use. When you start blocking an app, Apple gives developers an encrypted token, which they can use to set up limits. But at no point do they know *what* app you're blocking.
-
-TODO: image
-
-Clearspace works around this limitation by simply asking the user what app they just blocked. I'm not sure why they do this or if it's allowed, though.
-
-## AppBlock
-
-[Privacy Policy - Play Store](https://appblock.app/privacy-policy-google-play/), [Privacy Policy - App Store](https://appblock.app/privacy-policy-app-store/) (tough-ish reads)
-
-In the app:
-
-* Consent is assumed (but has a link to the privacy policy)
-* No way to opt out
-* Pop up to track activity across other companies' apps and websites
-
-* Personal data: e-mail, password, app configuration, location, device information
-* Anonymized information: actions performed
-* Third party services: AdMob, Firebase Analytics, Firebase Crashlytics, Facebook, RevenueCat, Singular
-* Used for: enforcement requests, communicating with the user (e.g., bug reports)
-
-## BePresent
-
-[Privacy Policy](https://www.bepresentapp.com/privacy-policy) (tough-ish reads)
-
-![Mobile Device Access. We may request access or permission to certain features from your mobile device, including your mobile device's screen time, and other features. If you wish to change our access or permissions, you may do so in your device's settings. This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes.](bepresent-usage-data.png)
-
-* Personal data: names, email addresses, usernames, location, device information, **app usage information**
-* Used for: payment, account
-
-* improve the app, communicate with you, fraud prevention, enforcement requests
+* **Assumed**: onboarding doesn't include a step to explicitly accept the privacy policy.
+* **Opt out**: the app has a section in settings to opt out of anonymized data collection (🔧&nbsp;and&nbsp;🧪 in [Annex&nbsp;I](#app-usage)).
+* **iOS pop-up**: the app shows the iOS popup "Allow App to track your activity across other companies' apps and websites?".
+* *️⃣  Other:
+  * **AppBlock**: has a link to the privacy policy during onboarding
