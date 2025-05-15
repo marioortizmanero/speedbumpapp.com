@@ -13,6 +13,8 @@ draft: true
 
 I'm building SpeedBump, an [intentionally annoying app to break doomscrolling](/en/). Such apps need access to the apps you open and use at all times, so I've been wary about privacy. Thus, SpeedBump doesn't collect **any** data other than crash reports.
 
+As the app grows, how can I use data to genuinely improve the app while respecting my users?
+
 ## Prototypes don't need to collect data
 
 Collecting data (_quantitative_) is actually discouraged for prototypes. New products should focus on asking people through surveys, calls, and conversations (_qualitative_).
@@ -22,15 +24,30 @@ For example, I'd rather hear from a user that the app is too annoying than to fi
 1. Prototypes don't have many users. Analyzing data based on a user base of 30 is not a good idea.
 2. People's stories are anecdotal, but they give you more information. When I talk with people, they share their opinion on phone addiction in general, what methods they tried, what worked and what didn't, and much more.
 
-Thanks to qualitative data, [I discovered that my app sucked](/en/blog/v1/) at first. No code needed, just a survey and some chats.
+Thanks to qualitative data, [I discovered that my app sucked](/en/blog/v1/) at first. No code needed, just a survey and some chats. This is what I've focused on so far.
+
+![Have you uninstalled the app, disabled it completely, or disabled one of your configured apps? If yes, what caused you to take this decision? Disabled it. Scrolling Twitter was too addictive.](survey.png)
 
 ## Collecting data actually helps improve the app
 
-However, as your user count grows, anonymized data can be genuinely helpful.
+However, as your user count increases, anonymized data can be genuinely helpful:
 
-With just qualitative data, you're limited to being reactive rather than proactive. You can detect bugs instead of waiting for someone to complain. And users rarely complain because they have other things to do -- they'll just uninstall.
+* **Behavioral data**, such as what features are used the most, or what screens in my app are opened.
 
-This data also enables you to optimize the app. How should I know if people use their phones less when I force them to take a 10-minute break versus a 15-minute one? You try both versions on randomized groups of users and look at their average screen time -- an A/B test.
+  Without it, developers are limited to being reactive rather than proactive. They can detect bugs instead of waiting for someone to complain. If no users are accessing the settings tab, maybe they forgot to add it! And users rarely complain because they have other things to do -- they'll just uninstall.
+* **Sensitive data**, such as what their screen time is, or what apps are most commonly restricted.
+
+  This enables you to optimize the app. How should I know if people use their phones less when I force them to take a 10-minute break versus a 15-minute one? You try both versions on randomized groups of users and look at their average screen time -- an A/B test.
+
+This data is anonymized because developers only look at it in an aggregated way. It can't be linked to your account, similar to a graph with this week's traffic:
+
+![Traffic statistics for the website nullderef.com, averaging 10-20 visits per day](nullderef-traffic.png)
+
+There are caveats, though -- aggregated information can still be linked to you. Especially if you combine
+
+In some cases, aggregated information can still be linked to you,
+
+Companies have to be careful with the amount of data they collect, and possibly use techniques like [differential privacy](https://en.wikipedia.org/wiki/Differential_privacy).
 
 ## What kind of data collection is intrusive?
 

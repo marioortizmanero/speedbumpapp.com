@@ -1,0 +1,575 @@
+---
+layout:
+lang: en
+date: 2025-01-16
+title: Short-Form Content Simulator
+keywords: []
+description: Used to display it on random devices in order to film videos
+eleventyExcludeFromCollections: true
+image: /en/assets/banner.jpg
+imageAlt: The background is a rainbow, with 'Make social media annoying' in the middle using the font Comic Sans, and a badly drawn cat in the top right corner. It references the internet meme 'graphic design is my passion'.
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short-Form Content Simulator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            overflow: hidden;
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* Top navigation bar */
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            padding: 0 16px;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-tab {
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 500;
+            font-size: 17px;
+            padding: 8px 4px;
+            cursor: pointer;
+        }
+
+        .nav-tab.active {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 16px;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+        }
+
+        /* Video container */
+        .video-feed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 50px;
+            overflow: hidden;
+        }
+
+        .video-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: #000;
+            transition: transform 0.3s ease;
+        }
+
+        .video-wrapper {
+            position: relative;
+            max-width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        video {
+            height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        /* Content overlay */
+        .video-content {
+            position: absolute;
+            bottom: 80px;
+            left: 12px;
+            right: 80px;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            pointer-events: none;
+        }
+
+        .video-author {
+            font-size: 17px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .video-description {
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+
+        .video-music {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+
+        /* Right sidebar */
+        .right-sidebar {
+            position: absolute;
+            right: 12px;
+            bottom: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .sidebar-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .icon-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-bottom: 4px;
+        }
+
+        .icon-text {
+            color: #fff;
+            font-size: 12px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Bottom navigation */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            background-color: #000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .bottom-tab {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 10px;
+            cursor: pointer;
+        }
+
+        .bottom-tab.active {
+            color: #fff;
+        }
+
+        .bottom-icon {
+            width: 24px;
+            height: 24px;
+            margin-bottom: 2px;
+        }
+
+        /* Center button */
+        .center-button {
+            width: 44px;
+            height: 30px;
+            background-color: transparent;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Black bars for tablet */
+        @media (min-width: 768px) {
+            .video-feed {
+                max-width: 500px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            body::before, body::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: calc(50% - 250px);
+                background-color: #000;
+                z-index: 50;
+            }
+
+            body::before {
+                left: 0;
+            }
+
+            body::after {
+                right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navigation -->
+    <div class="top-nav">
+        <div class="nav-tabs">
+            <div class="nav-tab">Following</div>
+            <div class="nav-tab active">For You</div>
+        </div>
+        <div class="search-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+        </div>
+    </div>
+
+    <!-- Video Feed -->
+    <div class="video-feed">
+        <!-- Videos will be inserted here by JavaScript -->
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <div class="bottom-tab active">
+            <div class="bottom-icon">
+                <!-- Home Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                </svg>
+            </div>
+            <span>Home</span>
+        </div>
+        <div class="bottom-tab">
+            <div class="bottom-icon">
+                <!-- Shop Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20 7H4L5 19H19L20 7Z"></path>
+                    <path d="M16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7"></path>
+                </svg>
+            </div>
+            <span>Shop</span>
+        </div>
+        <div class="center-button">
+            <!-- Plus Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="30" viewBox="0 0 44 30">
+                <rect x="0" y="0" width="44" height="30" rx="8" fill="#25F4EE"></rect>
+                <rect x="3" y="1" width="43" height="29" rx="8" fill="#FE2C55"></rect>
+                <circle cx="22" cy="15" r="10" fill="white"></circle>
+                <path d="M18 15H26M22 11V19" stroke="black" stroke-width="2"></path>
+            </svg>
+        </div>
+        <div class="bottom-tab">
+            <div class="bottom-icon">
+                <!-- Inbox Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+            </div>
+            <span>Inbox</span>
+        </div>
+        <div class="bottom-tab">
+            <div class="bottom-icon">
+                <!-- Profile Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </div>
+            <span>Profile</span>
+        </div>
+    </div>
+
+    <script>
+        // Video data with the provided array
+        const videos = [
+            {
+                src: "/assets/short-form-content-examples/video1.mp4",
+                author: "esli !",
+                description: "how life feels when the one person finally shuts up",
+                music: "ns: Lost Your Faith - Ava",
+                likes: "157.5K",
+                comments: "1,764",
+                bookmarks: "17.4K",
+                shares: "4,603"
+            },
+            {
+                src: "/assets/short-form-content-examples/video2.mp4",
+                author: "cooluser",
+                description: "Check out this cool trick #viral #trending",
+                music: "Original Sound - cooluser",
+                likes: "92.1K",
+                comments: "843",
+                bookmarks: "12.3K",
+                shares: "2,145"
+            },
+            {
+                src: "/assets/short-form-content-examples/video3.mp4",
+                author: "traveler",
+                description: "Beautiful sunset in Bali #travel #wanderlust",
+                music: "Island Vibes - DJ Summer",
+                likes: "203.7K",
+                comments: "2,432",
+                bookmarks: "25.6K",
+                shares: "6,789"
+            },
+            {
+                src: "/assets/short-form-content-examples/video4.mp4",
+                author: "dance_king",
+                description: "New dance trend! Try it if you can #dancechallenge",
+                music: "Beats & Moves - DJ Rhythm",
+                likes: "346.2K",
+                comments: "5,127",
+                bookmarks: "42.8K",
+                shares: "9,345"
+            },
+            {
+                src: "/assets/short-form-content-examples/video5.mp4",
+                author: "chef_amanda",
+                description: "5-minute pasta recipe that will change your life #foodtok",
+                music: "Cooking Vibes - Kitchen Sounds",
+                likes: "78.3K",
+                comments: "1,023",
+                bookmarks: "15.7K",
+                shares: "3,492"
+            },
+            {
+                src: "/assets/short-form-content-examples/video6.mp4",
+                author: "fitness_pro",
+                description: "Quick workout you can do anywhere! No equipment needed #fitness",
+                music: "Workout Mix - Power Tunes",
+                likes: "112.6K",
+                comments: "876",
+                bookmarks: "31.2K",
+                shares: "2,745"
+            },
+            {
+                src: "/assets/short-form-content-examples/video7.mp4",
+                author: "pet_lover",
+                description: "My dog's reaction when I come home after 5 minutes #dogs",
+                music: "Happy Pup - Animal Sounds",
+                likes: "521.9K",
+                comments: "8,324",
+                bookmarks: "76.1K",
+                shares: "14,325"
+            },
+            {
+                src: "/assets/short-form-content-examples/video8.mp4",
+                author: "life_hacker",
+                description: "This phone trick will save you hours every week #techlife #protip",
+                music: "Tech Beats - Digital",
+                likes: "67.4K",
+                comments: "1,432",
+                bookmarks: "22.8K",
+                shares: "5,214"
+            },
+            {
+                src: "/assets/short-form-content-examples/video9.mp4",
+                author: "comedy_central",
+                description: "POV: When you try to explain this to your grandparents #comedy",
+                music: "Laugh Track - Funny Moments",
+                likes: "427.1K",
+                comments: "3,987",
+                bookmarks: "51.3K",
+                shares: "18,762"
+            },
+            {
+                src: "/assets/short-form-content-examples/video10.mp4",
+                author: "plant_dad",
+                description: "How I turned my apartment into an urban jungle #plants #homedecor",
+                music: "Nature Sounds - Forest Vibes",
+                likes: "89.5K",
+                comments: "1,267",
+                bookmarks: "27.9K",
+                shares: "3,851"
+            }
+        ];
+
+        // Clone the first few videos to create the illusion of endless scrolling
+        const videoBuffer = 3; // Number of videos to duplicate for buffer
+        const allVideos = [...videos];
+        for (let i = 0; i < videoBuffer; i++) {
+            allVideos.push({...videos[i]});
+        }
+
+        const videoFeed = document.querySelector('.video-feed');
+        let currentVideoIndex = 0;
+        let isScrolling = false;
+        let videosCreated = false;
+
+        // Create and add video elements to the feed
+        function createVideoElements() {
+            if (videosCreated) return;
+
+            videosCreated = true;
+            allVideos.forEach((video, index) => {
+                const videoContainer = document.createElement('div');
+                videoContainer.className = 'video-container';
+                videoContainer.style.transform = `translateY(${100 * (index - currentVideoIndex)}%)`;
+
+                const videoWrapper = document.createElement('div');
+                videoWrapper.className = 'video-wrapper';
+
+                const videoElement = document.createElement('video');
+                videoElement.src = video.src;
+                videoElement.loop = true;
+                videoElement.muted = true; // Set to false in production if you want sound enabled by default
+                videoElement.playsInline = true;
+                videoElement.setAttribute('data-index', index);
+
+                // Video content (left bottom)
+                const videoContent = document.createElement('div');
+                videoContent.className = 'video-content';
+                videoContent.innerHTML = `
+                    <div class="video-author">@${video.author}</div>
+                    <div class="video-description">${video.description}</div>
+                    <div class="video-music">
+                        <span>♪ ${video.music}</span>
+                    </div>
+                `;
+
+                // Right sidebar with icons
+                const rightSidebar = document.createElement('div');
+                rightSidebar.className = 'right-sidebar';
+                rightSidebar.innerHTML = `
+                    <div class="sidebar-icon">
+                        <img class="icon-img" src="/assets/logo_small.png"></img>
+                        <span class="icon-text"></span>
+                    </div>
+                    <div class="sidebar-icon">
+<svg class="icon-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Z"/></svg>
+                        <span class="icon-text">${video.likes}</span>
+                    </div>
+                    <div class="sidebar-icon">
+<svg class="icon-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm160-320h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80Z"/></svg>
+                        <span class="icon-text">${video.comments}</span>
+                    </div>
+                    <div class="sidebar-icon">
+<svg class="icon-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Z"/></svg>
+                        <span class="icon-text">${video.bookmarks}</span>
+                    </div>
+                    <div class="sidebar-icon">
+<svg class="icon-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-160v-240l320-80-320-80v-240l760 320-760 320Z"/></svg>
+                        <span class="icon-text">${video.shares}</span>
+                    </div>
+                    <div class="sidebar-icon">
+                        <img class="icon-img" src="/assets/logo_small.png"></img>
+                        <span class="icon-text"></span>
+                    </div>
+                `;
+
+                videoWrapper.appendChild(videoElement);
+                videoContainer.appendChild(videoWrapper);
+                videoContainer.appendChild(videoContent);
+                videoContainer.appendChild(rightSidebar);
+                videoFeed.appendChild(videoContainer);
+            });
+        }
+
+        // Initialize videos
+        createVideoElements();
+
+        // Handle video playback
+        function playCurrentVideo() {
+            const videos = document.querySelectorAll('video');
+            videos.forEach((video, index) => {
+                if (index === currentVideoIndex) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        }
+
+        // Initialize first video
+        playCurrentVideo();
+
+        // Advance to next video with proper endless looping
+        function showNextVideo() {
+            if (isScrolling) return;
+            isScrolling = true;
+
+            // Move to next video
+            currentVideoIndex++;
+
+            // Handle looping with buffer
+            if (currentVideoIndex >= videos.length) {
+                // When we reach the original length, silently reset
+                // We still have buffer videos to show while we reset
+                setTimeout(() => {
+                    // Remove transition temporarily
+                    const videoContainers = document.querySelectorAll('.video-container');
+                    videoContainers.forEach(container => {
+                        container.style.transition = 'none';
+                    });
+
+                    // Reset index to show the first video again
+                    currentVideoIndex = currentVideoIndex % videos.length;
+
+                    // Update positions silently
+                    updateVideoPositions();
+
+                    // Force reflow
+                    videoFeed.offsetHeight;
+
+                    // Restore transitions
+                    videoContainers.forEach(container => {
+                        container.style.transition = 'transform 0.3s ease';
+                    });
+                }, 300);
+            }
+
+            // Update visible positions with animation
+            updateVideoPositions();
+
+            // Play current video after transition
+            setTimeout(() => {
+                playCurrentVideo();
+                isScrolling = false;
+            }, 300);
+        }
+
+        function updateVideoPositions() {
+            const videoContainers = document.querySelectorAll('.video-container');
+            videoContainers.forEach((container, index) => {
+                container.style.transform = `translateY(${100 * (index - currentVideoIndex)}%)`;
+            });
+        }
+
+        // Any tap anywhere advances to the next video
+        videoFeed.addEventListener('click', () => {
+            if (!isScrolling) {
+                showNextVideo();
+            }
+        });
+    </script>
+</body>
+</html>
