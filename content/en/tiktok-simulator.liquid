@@ -63,6 +63,7 @@ imageAlt: The background is a rainbow, with 'Make social media annoying' in the 
         .nav-tab.active {
             color: #fff;
             font-weight: 600;
+            text-decoration: underline;
         }
 
         .search-icon {
@@ -309,6 +310,22 @@ imageAlt: The background is a rainbow, with 'Make social media annoying' in the 
     </div>
 
     <script>
+        function shuffle(array) {
+          let currentIndex = array.length;
+
+          // While there remain elements to shuffle...
+          while (currentIndex != 0) {
+
+            // Pick a remaining element...
+            let randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+
+            // And swap it with the current element.
+            [array[currentIndex], array[randomIndex]] = [
+              array[randomIndex], array[currentIndex]];
+          }
+        }
+
         // Video data with the provided array
         const videos = [
             {
@@ -412,6 +429,7 @@ imageAlt: The background is a rainbow, with 'Make social media annoying' in the 
                 shares: "3,851"
             }
         ];
+        shuffle(videos);
 
         // Clone the first few videos to create the illusion of endless scrolling
         const videoBuffer = 3; // Number of videos to duplicate for buffer
@@ -570,6 +588,125 @@ imageAlt: The background is a rainbow, with 'Make social media annoying' in the 
                 showNextVideo();
             }
         });
+        videoFeed.addEventListener('touchstart', () => {
+            if (!isScrolling) {
+                showNextVideo();
+            }
+        });
+
+
+// Add this function to your existing code
+function showEndScreen() {
+    // Create the overlay container
+    const overlay = document.createElement('div');
+    overlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fcf9f0;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    `;
+
+    // Add the main image and text
+    const centerContent = document.createElement('div');
+    centerContent.style.cssText = `
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        z-index: 1001;
+    `;
+
+    const mainImage = document.createElement('img');
+    mainImage.src = '/web-app-manifest-192x192.png';
+    mainImage.style.cssText = `
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    `;
+
+    const endText = document.createElement('h2');
+    endText.textContent = 'Se acabó la pantallita';
+    endText.style.cssText = `
+        font-size: 40px;
+        font-weight: bold;
+        color: #000;
+    `;
+
+    centerContent.appendChild(mainImage);
+    centerContent.appendChild(endText);
+
+    // Add the corner animated images
+    const positions = [
+        'top: 0; left: 0;',                   // Top left
+        'top: 0; right: 0;',                  // Top right
+        'bottom: 0; left: 0;',                // Bottom left
+        'bottom: 0; right: 0;'                // Bottom right
+    ];
+
+    for (let i = 0; i < 4; i++) {
+        const corner = document.createElement('div');
+        corner.style.cssText = `
+            position: absolute;
+            ${positions[i]}
+            width: 50%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        `;
+
+        const cornerImg = document.createElement('img');
+        // Converted with:
+        //
+        // $ convert overlay_surprised_cat.webp   -coalesce -resize 180x -layers optimize -delay 20 -loop 0 -dither None -colors 16 -fuzz 15% -deconstruct -limit time 5 -strip cat1.gif
+        cornerImg.src = `/assets/short-form-content-examples/annoyances/cat${i+1}.gif`;  // Use GIFs for animation
+
+        cornerImg.style.cssText = `
+            width: 75%;
+            height: 75%;
+            object-fit: contain;
+        `;
+
+        // Add simple CSS animation
+        cornerImg.animate([
+            { transform: 'scale(0.9)' },
+            { transform: 'scale(1.1)' },
+            { transform: 'scale(0.9)' }
+        ], {
+            duration: 2000,
+            iterations: Infinity
+        });
+
+        corner.appendChild(cornerImg);
+        overlay.appendChild(corner);
+    }
+
+    overlay.appendChild(centerContent);
+    document.body.appendChild(overlay);
+
+}
+
+const imagesToPreload = [
+  '/assets/short-form-content-examples/logo.png',
+  '/assets/short-form-content-examples/annoyances/cat1.gif',
+  '/assets/short-form-content-examples/annoyances/cat2.gif',
+  '/assets/short-form-content-examples/annoyances/cat3.gif',
+  '/assets/short-form-content-examples/annoyances/cat4.gif'
+];
+imagesToPreload.forEach(src => {
+  const img = new Image();
+  img.src = src;
+});
+
+// Set timeout to show the end screen after 15 seconds
+setTimeout(showEndScreen, 15000);
     </script>
 </body>
 </html>
